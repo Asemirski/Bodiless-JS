@@ -3,6 +3,7 @@ env:
   CI: true
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 on: workflow_dispatch
+permissions: write-all
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -19,12 +20,32 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
+      - name: Disable branch protection
+        continue-on-error: true
+        uses: octokit/request-action@v2.x
+        with:
+          route: DELETE /repos/${{ github.repository }}/branches/main/protection
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Release
         run: |
           npx lerna version --conventional-commits --conventional-graduate --include-merged-tags --yes
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Unset Git User
         run: |
           git config --unset user.name
           git config --unset user.email
+      - name: Enable branch protection
+        uses: octokit/request-action@v2.x
+        with:
+          route: PUT /repos/${{ github.repository }}/branches/main/protection
+          required_pull_request_reviews: |
+            dismiss_stale_reviews: true
+            required_approving_review_count: 2
+          required_status_checks: |
+            strict: true
+            checks:
+              - context: 'Setup, Build, Lint and Test'
+          enforce_admins: true
+          restrictions: 'null'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
