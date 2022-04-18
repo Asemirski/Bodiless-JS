@@ -1,6 +1,6 @@
 {
   "name": "@sites/test-site",
-  "version": "1.0.0-beta.5",
+  "version": "1.0.0-beta.6",
   "description": "This is a working site for the bodiless project",
   "author": "e2thex <esummerfield@phase2technology.com>",
   "homepage": "",
@@ -40,7 +40,7 @@
     "@bodiless/navigation": "^1.0.0-beta.5",
     "@bodiless/oidc": "^1.0.0-beta.5",
     "@bodiless/organisms": "^1.0.0-beta.5",
-    "@bodiless/psh": "^1.0.0-beta.5",
+    "@bodiless/psh": "^1.0.0-beta.6",
     "@bodiless/richtext": "^1.0.0-beta.5",
     "@bodiless/richtext-ui": "^1.0.0-beta.5",
     "@bodiless/search": "^1.0.0-beta.5",
