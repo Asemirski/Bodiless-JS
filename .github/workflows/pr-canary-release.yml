@@ -21,9 +21,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16.13'
-      - name: Build
-        run: npm run setup
-      - name: Publish Canary Release
-        run: |
-          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
-          npx lerna publish --canary --exact --preid=canary-$PR_NUMBER-$BUILD_NUMBER --dist-tag=canary-$PR_NUMBER --include-merged-tags --yes
+      #- name: Build
+      #  run: npm run setup
+      #- name: Publish Canary Release
+      #  run: |
+      #    echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
+      #    npx lerna publish --canary --exact --preid=canary-$PR_NUMBER-$BUILD_NUMBER --dist-tag=canary-$PR_NUMBER --include-merged-tags --yes
