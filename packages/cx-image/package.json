@@ -1,7 +1,7 @@
 {
   "name": "@asemirsk/cx-image",
   "sideEffects": false,
-  "version": "1.0.0-beta.6",
+  "version": "2.0.5-beta.0",
   "description": "Clean, designable Image components for CanvasX based projects",
   "author": "Marco Pagliarulo <mpaglia1@its.jnj.com>",
   "license": "UNLICENSED",
@@ -33,15 +33,15 @@
   },
   "dependencies": {
     "@asemirsk/cli": "^1.0.0-beta.6",
-    "@asemirsk/components": "^1.0.0-beta.6",
-    "@asemirsk/components-ui": "^1.0.0-beta.6",
-    "@asemirsk/core": "^1.0.0-beta.6",
-    "@asemirsk/cx-elements": "^1.0.0-beta.6",
-    "@asemirsk/fclasses": "^1.0.0-beta.6",
-    "@asemirsk/gatsby-theme-bodiless": "^1.0.0-beta.6",
-    "@asemirsk/hydration": "^1.0.0-beta.6",
-    "@asemirsk/layouts": "^1.0.0-beta.6",
-    "@asemirsk/layouts-ui": "^1.0.0-beta.6",
+    "@asemirsk/components": "^2.0.5-beta.0",
+    "@asemirsk/components-ui": "^2.0.5-beta.0",
+    "@asemirsk/core": "^2.0.5-beta.0",
+    "@asemirsk/cx-elements": "^2.0.5-beta.0",
+    "@asemirsk/fclasses": "^2.0.5-beta.0",
+    "@asemirsk/gatsby-theme-bodiless": "^2.0.5-beta.0",
+    "@asemirsk/hydration": "^2.0.5-beta.0",
+    "@asemirsk/layouts": "^2.0.5-beta.0",
+    "@asemirsk/layouts-ui": "^2.0.5-beta.0",
     "lodash": "^4.17.19"
   }
 }

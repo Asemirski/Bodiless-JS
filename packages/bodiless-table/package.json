@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/table",
-  "version": "1.0.0-beta.6",
+  "version": "2.0.5-beta.0",
   "description": "Provide a Bodiless table component and HOC to make it editable",
   "author": "Erik Summerfield <esummer3@its.jnj.com>",
   "license": "Apache-2.0",
@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "@asemirsk/cli": "^1.0.0-beta.6",
-    "@asemirsk/core": "^1.0.0-beta.6",
-    "@asemirsk/fclasses": "^1.0.0-beta.6",
+    "@asemirsk/core": "^2.0.5-beta.0",
+    "@asemirsk/fclasses": "^2.0.5-beta.0",
     "lodash": "^4.17.19",
     "uuid": "^3.3.2"
   },

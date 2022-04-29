@@ -1,7 +1,7 @@
 {
   "name": "@asemirsk/cx-templates",
   "sideEffects": false,
-  "version": "1.0.0-beta.6",
+  "version": "2.0.5-beta.0",
   "description": "Provides designable templates for the CanvasX Design System",
   "author": "Andrei Beliayeu <abeliaye@its.jnj.com>",
   "license": "Apache-2.0",
@@ -35,15 +35,15 @@
   },
   "dependencies": {
     "@asemirsk/cli": "^1.0.0-beta.6",
-    "@asemirsk/components": "^1.0.0-beta.6",
-    "@asemirsk/core": "^1.0.0-beta.6",
-    "@asemirsk/cx-editors": "^1.0.0-beta.6",
-    "@asemirsk/cx-elements": "^1.0.0-beta.6",
-    "@asemirsk/cx-flowcontainer": "^1.0.0-beta.6",
-    "@asemirsk/cx-image": "^1.0.0-beta.6",
-    "@asemirsk/cx-layout": "^1.0.0-beta.6",
-    "@asemirsk/fclasses": "^1.0.0-beta.6",
-    "@asemirsk/gatsby-theme-bodiless": "^1.0.0-beta.6",
+    "@asemirsk/components": "^2.0.5-beta.0",
+    "@asemirsk/core": "^2.0.5-beta.0",
+    "@asemirsk/cx-editors": "^2.0.5-beta.0",
+    "@asemirsk/cx-elements": "^2.0.5-beta.0",
+    "@asemirsk/cx-flowcontainer": "^2.0.5-beta.0",
+    "@asemirsk/cx-image": "^2.0.5-beta.0",
+    "@asemirsk/cx-layout": "^2.0.5-beta.0",
+    "@asemirsk/fclasses": "^2.0.5-beta.0",
+    "@asemirsk/gatsby-theme-bodiless": "^2.0.5-beta.0",
     "lodash": "^4.17.19"
   }
 }
