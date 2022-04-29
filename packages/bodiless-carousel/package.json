@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/carousel",
-  "version": "1.0.0-beta.6",
+  "version": "2.0.3-beta.0",
   "description": "Provides responsive and aria compliant carousel.",
   "author": "Andrei Beliayeu <abeliaye@its.jnj.com>",
   "homepage": "",
@@ -33,9 +33,9 @@
   },
   "dependencies": {
     "@asemirsk/cli": "^1.0.0-beta.6",
-    "@asemirsk/components": "^1.0.0-beta.6",
-    "@asemirsk/core": "^1.0.0-beta.6",
-    "@asemirsk/fclasses": "^1.0.0-beta.6",
+    "@asemirsk/components": "^2.0.3-beta.0",
+    "@asemirsk/core": "^2.0.3-beta.0",
+    "@asemirsk/fclasses": "^2.0.3-beta.0",
     "lodash": "^4.17.19",
     "pure-react-carousel": "^1.27.6"
   },

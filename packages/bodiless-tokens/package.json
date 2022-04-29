@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/tokens",
-  "version": "1.0.0-beta.6",
+  "version": "2.0.3-beta.0",
   "description": "Utilities for browsing and organizing tokens.",
   "author": "Chris Oden <coden@its.jnj.com>",
   "homepage": "",
@@ -32,10 +32,10 @@
     "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
   },
   "dependencies": {
-    "@asemirsk/core": "^1.0.0-beta.6",
-    "@asemirsk/fclasses": "^1.0.0-beta.6",
-    "@asemirsk/layouts": "^1.0.0-beta.6",
-    "@asemirsk/layouts-ui": "^1.0.0-beta.6",
+    "@asemirsk/core": "^2.0.3-beta.0",
+    "@asemirsk/fclasses": "^2.0.3-beta.0",
+    "@asemirsk/layouts": "^2.0.3-beta.0",
+    "@asemirsk/layouts-ui": "^2.0.3-beta.0",
     "informed": "^3.34.0",
     "lodash": "^4.17.19",
     "md5-hex": "^4.0.0",

@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/cx-elements",
-  "version": "1.0.0-beta.6",
+  "version": "2.0.3-beta.0",
   "description": "Layout components for the bodiless cx design system",
   "author": "Chris Odem <coden@its.jnj.com>",
   "license": "Apache-2.0",
@@ -31,10 +31,10 @@
   },
   "dependencies": {
     "@asemirsk/cli": "^1.0.0-beta.6",
-    "@asemirsk/components": "^1.0.0-beta.6",
-    "@asemirsk/core": "^1.0.0-beta.6",
-    "@asemirsk/fclasses": "^1.0.0-beta.6",
-    "@asemirsk/hydration": "^1.0.0-beta.6",
+    "@asemirsk/components": "^2.0.3-beta.0",
+    "@asemirsk/core": "^2.0.3-beta.0",
+    "@asemirsk/fclasses": "^2.0.3-beta.0",
+    "@asemirsk/hydration": "^2.0.3-beta.0",
     "@types/webpack": "^5.0.0",
     "lodash": "^4.17.19",
     "mobx": "^6.0.0",
