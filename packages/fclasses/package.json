@@ -30,7 +30,8 @@
     "build": "tsc --version && tsc -p ./tsconfig.json && npm run build:api-doc",
     "build:watch": "npm run build -- --watch",
     "build:api-doc": "typedoc --out doc/api src",
-    "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
+    "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\"",
+    "change": "change"
   },
   "dependencies": {
     "@asemirsk/cli": "^1.0.0-beta.6",
