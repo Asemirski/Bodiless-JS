@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/cx-editors",
-  "version": "1.0.0-beta.5",
+  "version": "1.0.0-beta.6",
   "description": "Editor components for the bodiless cx design system",
   "author": "Chris Odem <coden@its.jnj.com>",
   "license": "Apache-2.0",
@@ -32,19 +32,19 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0-beta.5",
-    "@asemirsk/components": "^1.0.0-beta.5",
-    "@asemirsk/components-ui": "^1.0.0-beta.5",
-    "@asemirsk/core": "^1.0.0-beta.5",
-    "@asemirsk/cx-elements": "^1.0.0-beta.5",
-    "@asemirsk/cx-link": "^1.0.0-beta.5",
-    "@asemirsk/fclasses": "^1.0.0-beta.5",
-    "@asemirsk/hydration": "^1.0.0-beta.5",
-    "@asemirsk/layouts": "^1.0.0-beta.5",
-    "@asemirsk/layouts-ui": "^1.0.0-beta.5",
-    "@asemirsk/richtext": "^1.0.0-beta.5",
-    "@asemirsk/richtext-ui": "^1.0.0-beta.5",
-    "@asemirsk/tokens": "^1.0.0-beta.5",
+    "@asemirsk/cli": "^1.0.0-beta.6",
+    "@asemirsk/components": "^1.0.0-beta.6",
+    "@asemirsk/components-ui": "^1.0.0-beta.6",
+    "@asemirsk/core": "^1.0.0-beta.6",
+    "@asemirsk/cx-elements": "^1.0.0-beta.6",
+    "@asemirsk/cx-link": "^1.0.0-beta.6",
+    "@asemirsk/fclasses": "^1.0.0-beta.6",
+    "@asemirsk/hydration": "^1.0.0-beta.6",
+    "@asemirsk/layouts": "^1.0.0-beta.6",
+    "@asemirsk/layouts-ui": "^1.0.0-beta.6",
+    "@asemirsk/richtext": "^1.0.0-beta.6",
+    "@asemirsk/richtext-ui": "^1.0.0-beta.6",
+    "@asemirsk/tokens": "^1.0.0-beta.6",
     "lodash": "^4.17.19"
   }
 }
