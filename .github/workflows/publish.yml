@@ -21,8 +21,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16.9
-      - name: Build
-        run: npm run setup
+      #- name: Build
+      #  run: npm run setup
       - name: Publish npm packages
         run: |
           echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
