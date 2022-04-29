@@ -1,5 +1,5 @@
 {
-  "name": "@bodiless/backend",
+  "name": "@asemirsk/backend",
   "version": "1.0.0-beta.5",
   "description": "",
   "main": "",
@@ -12,7 +12,7 @@
     "bodiless-backend": "./bin/bodiless-backend"
   },
   "dependencies": {
-    "@bodiless/cli": "^1.0.0-beta.5",
+    "@asemirsk/cli": "^1.0.0-beta.5",
     "body-parser": "^1.18.3",
     "copyfiles": "^2.1.1",
     "dotenv": "^8.2.0",
