@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/richtext",
-  "version": "1.0.0-beta.6",
+  "version": "1.0.1-beta.0",
   "description": "Provide Rich Text Component",
   "author": "Erik Summerfield <esummer3@its.jnj.com>",
   "license": "Apache-2.0",
@@ -32,9 +32,9 @@
   },
   "dependencies": {
     "@asemirsk/cli": "^1.0.0-beta.6",
-    "@asemirsk/core": "^1.0.0-beta.6",
-    "@asemirsk/fclasses": "^1.0.0-beta.6",
-    "@asemirsk/hydration": "^1.0.0-beta.6",
+    "@asemirsk/core": "^1.0.1-beta.0",
+    "@asemirsk/fclasses": "^1.0.1-beta.0",
+    "@asemirsk/hydration": "^1.0.1-beta.0",
     "@emotion/core": "^10.0.14",
     "@emotion/css": "^10.0.14",
     "@emotion/styled": "^10.0.14",
