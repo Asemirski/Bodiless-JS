@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/hydration",
-  "version": "1.0.0-beta.6",
+  "version": "3.0.0",
   "description": "Tools to manage how React hydrates your components",
   "author": "Lucas Varela <lvarelab@its.jnj.com>",
   "license": "Apache-2.0",
@@ -25,8 +25,8 @@
     "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
   },
   "dependencies": {
-    "@asemirsk/core": "^1.0.0-beta.6",
-    "@asemirsk/fclasses": "^1.0.0-beta.6"
+    "@asemirsk/core": "^3.0.0",
+    "@asemirsk/fclasses": "^3.0.0"
   },
   "devDependencies": {
     "cheerio": "1.0.0-rc.3",
