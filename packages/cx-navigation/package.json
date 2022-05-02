@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/cx-navigation",
-  "version": "1.0.0-beta.6",
+  "version": "2.0.6-beta.0",
   "description": "Navigation components for the bodiless cx design system",
   "author": "Chris Odem <coden@its.jnj.com>",
   "license": "Apache-2.0",
@@ -30,14 +30,14 @@
   },
   "dependencies": {
     "@asemirsk/cli": "^1.0.0-beta.6",
-    "@asemirsk/components": "^1.0.0-beta.6",
-    "@asemirsk/components-ui": "^1.0.0-beta.6",
-    "@asemirsk/core": "^1.0.0-beta.6",
-    "@asemirsk/cx-editors": "^1.0.0-beta.6",
-    "@asemirsk/cx-elements": "^1.0.0-beta.6",
-    "@asemirsk/cx-link": "^1.0.0-beta.6",
-    "@asemirsk/fclasses": "^1.0.0-beta.6",
-    "@asemirsk/navigation": "^1.0.0-beta.6",
+    "@asemirsk/components": "^2.0.6-beta.0",
+    "@asemirsk/components-ui": "^2.0.6-beta.0",
+    "@asemirsk/core": "^2.0.6-beta.0",
+    "@asemirsk/cx-editors": "^2.0.6-beta.0",
+    "@asemirsk/cx-elements": "^2.0.6-beta.0",
+    "@asemirsk/cx-link": "^2.0.6-beta.0",
+    "@asemirsk/fclasses": "^2.0.6-beta.0",
+    "@asemirsk/navigation": "^2.0.6-beta.0",
     "lodash": "^4.17.19"
   },
   "peerDependencies": {
