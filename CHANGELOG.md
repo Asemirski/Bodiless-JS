@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0]
+
+Release
+
 # [1.0.0-beta.6](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2022-04-29)
 
 
