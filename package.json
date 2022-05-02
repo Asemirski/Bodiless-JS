@@ -52,7 +52,8 @@
     "test": "jest",
     "test:ci": "WAIT_ON_TIMEOUT=600000 start-server-and-test sites:launch-test http://localhost:8005 cy:run",
     "test:monorepo": "WAIT_ON_TIMEOUT=600000 start-server-and-test sites:launch-monorepo http://localhost:8005 cy:run",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:test": "jest --watch"
   },
   "husky": {
     "hooks": {
