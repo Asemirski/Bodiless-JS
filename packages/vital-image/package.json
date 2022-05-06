@@ -1,7 +1,7 @@
 {
   "name": "@asemirsk/vital-image",
   "sideEffects": false,
-  "version": "1.0.0-beta.16",
+  "version": "1.0.0-beta.17",
   "description": "Clean, designable Image components for Vital Design System based projects",
   "author": "Marco Pagliarulo <mpaglia1@its.jnj.com>",
   "license": "UNLICENSED",
@@ -37,7 +37,7 @@
     "@asemirsk/components-ui": "^1.0.0-beta.16",
     "@asemirsk/core": "^1.0.0-beta.16",
     "@asemirsk/fclasses": "^1.0.0-beta.16",
-    "@asemirsk/gatsby-theme-bodiless": "^1.0.0-beta.16",
+    "@asemirsk/gatsby-theme-bodiless": "^1.0.0-beta.17",
     "@asemirsk/hydration": "^1.0.0-beta.16",
     "@asemirsk/layouts": "^1.0.0-beta.16",
     "@asemirsk/layouts-ui": "^1.0.0-beta.16",
