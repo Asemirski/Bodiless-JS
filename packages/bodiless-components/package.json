@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/components",
-  "version": "1.0.0-beta.16",
+  "version": "1.0.0-beta.18",
   "description": "Reusable compoments",
   "author": "Heidi Vanyo <hvanyo@its.jnj.com>",
   "license": "Apache-2.0",
@@ -32,11 +32,11 @@
     "copy": "copyfiles -u 1 \"./src/**/*.{css,png}\" \"./lib/\""
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0-beta.15",
-    "@asemirsk/core": "^1.0.0-beta.16",
-    "@asemirsk/fclasses": "^1.0.0-beta.16",
-    "@asemirsk/layouts": "^1.0.0-beta.16",
-    "@asemirsk/ui": "^1.0.0-beta.16",
+    "@asemirsk/cli": "^1.0.0-beta.18",
+    "@asemirsk/core": "^1.0.0-beta.18",
+    "@asemirsk/fclasses": "^1.0.0-beta.18",
+    "@asemirsk/layouts": "^1.0.0-beta.18",
+    "@asemirsk/ui": "^1.0.0-beta.18",
     "axios": "^0.21.0",
     "common-tags": "^1.8.0",
     "copyfiles": "^2.1.1",

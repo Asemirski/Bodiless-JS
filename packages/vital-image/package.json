@@ -1,7 +1,7 @@
 {
   "name": "@asemirsk/vital-image",
   "sideEffects": false,
-  "version": "1.0.0-beta.17",
+  "version": "1.0.0-beta.18",
   "description": "Clean, designable Image components for Vital Design System based projects",
   "author": "Marco Pagliarulo <mpaglia1@its.jnj.com>",
   "license": "UNLICENSED",
@@ -32,16 +32,16 @@
     "react": "^17.0.2"
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0-beta.15",
-    "@asemirsk/components": "^1.0.0-beta.16",
-    "@asemirsk/components-ui": "^1.0.0-beta.16",
-    "@asemirsk/core": "^1.0.0-beta.16",
-    "@asemirsk/fclasses": "^1.0.0-beta.16",
-    "@asemirsk/gatsby-theme-bodiless": "^1.0.0-beta.17",
-    "@asemirsk/hydration": "^1.0.0-beta.16",
-    "@asemirsk/layouts": "^1.0.0-beta.16",
-    "@asemirsk/layouts-ui": "^1.0.0-beta.16",
-    "@asemirsk/vital-elements": "^1.0.0-beta.16",
+    "@asemirsk/cli": "^1.0.0-beta.18",
+    "@asemirsk/components": "^1.0.0-beta.18",
+    "@asemirsk/components-ui": "^1.0.0-beta.18",
+    "@asemirsk/core": "^1.0.0-beta.18",
+    "@asemirsk/fclasses": "^1.0.0-beta.18",
+    "@asemirsk/gatsby-theme-bodiless": "^1.0.0-beta.18",
+    "@asemirsk/hydration": "^1.0.0-beta.18",
+    "@asemirsk/layouts": "^1.0.0-beta.18",
+    "@asemirsk/layouts-ui": "^1.0.0-beta.18",
+    "@asemirsk/vital-elements": "^1.0.0-beta.18",
     "lodash": "^4.17.19"
   }
 }

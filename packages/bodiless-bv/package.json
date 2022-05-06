@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/bv",
-  "version": "1.0.0-beta.16",
+  "version": "1.0.0-beta.18",
   "description": "Provides bazaarvoice components.",
   "author": "Andrei Beliayeu <abeliaye@its.jnj.com>",
   "license": "Apache-2.0",
@@ -28,10 +28,10 @@
     "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0-beta.15",
-    "@asemirsk/components": "^1.0.0-beta.16",
-    "@asemirsk/core": "^1.0.0-beta.16",
-    "@asemirsk/fclasses": "^1.0.0-beta.16",
+    "@asemirsk/cli": "^1.0.0-beta.18",
+    "@asemirsk/components": "^1.0.0-beta.18",
+    "@asemirsk/core": "^1.0.0-beta.18",
+    "@asemirsk/fclasses": "^1.0.0-beta.18",
     "lodash": "^4.17.19"
   },
   "peerDependencies": {
