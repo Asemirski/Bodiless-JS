@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/richtext-ui",
-  "version": "1.0.0-beta.18",
+  "version": "1.0.0-beta.19",
   "description": "Default UI for Bodiless richtext components",
   "author": "Ivan Rudiuk <IRudiuk@its.jnj.com>",
   "license": "Apache-2.0",
@@ -26,9 +26,9 @@
     "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
   },
   "dependencies": {
-    "@asemirsk/fclasses": "^1.0.0-beta.18",
-    "@asemirsk/richtext": "^1.0.0-beta.18",
-    "@asemirsk/ui": "^1.0.0-beta.18",
+    "@asemirsk/fclasses": "^1.0.0-beta.19",
+    "@asemirsk/richtext": "^1.0.0-beta.19",
+    "@asemirsk/ui": "^1.0.0-beta.19",
     "lodash": "^4.17.19"
   },
   "peerDependencies": {
