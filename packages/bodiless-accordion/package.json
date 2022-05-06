@@ -23,7 +23,8 @@
     "build:watch": "npm run build -- --watch",
     "build:api-doc": "typedoc --out doc/api src",
     "lint": "tslint ./src/**/*.ts?x",
-    "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
+    "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\"",
+    "test": "npm -v"
   },
   "dependencies": {
     "@asemirsk/cli": "^1.0.0-beta.15",
