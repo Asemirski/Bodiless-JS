@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-beta.16](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2022-05-06)
+
+
+### Features
+
+* added test script ([5f58507](https://github.com/johnsonandjohnson/bodiless-js/commit/5f58507eb777d7f4139b7ca0528b0974f5caa4d0))
+
+
+
+
+
 # [1.0.0-beta.15](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.5...v1.0.0-beta.15) (2022-05-06)
 
 
