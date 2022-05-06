@@ -33,7 +33,7 @@ jobs:
       #    GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Prerelease
         run: |
-          npx lerna version --conventional-commits --conventional-prerelease --preid=beta --include-merged-tags --yes
+          npx lerna version --conventional-commits --conventional-prerelease --preid=beta --include-merged-tags --force-publish --yes
       #- name: Enable branch protection
       #  uses: octokit/request-action@v2.x
       #  with:
