@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/backend",
-  "version": "1.0.0",
+  "version": "1.1.0-beta.0",
   "description": "",
   "main": "",
   "files": [
@@ -12,7 +12,7 @@
     "bodiless-backend": "./bin/bodiless-backend"
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0",
+    "@asemirsk/cli": "^1.1.0-beta.0",
     "body-parser": "^1.18.3",
     "copyfiles": "^2.1.1",
     "dotenv": "^8.2.0",

@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/vital-navigation",
-  "version": "1.0.0",
+  "version": "1.1.0-beta.0",
   "description": "Navigation components for the bodiless vital design system",
   "author": "Chris Odem <coden@its.jnj.com>",
   "license": "Apache-2.0",
@@ -29,15 +29,15 @@
     "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0",
-    "@asemirsk/components": "^1.0.0",
-    "@asemirsk/components-ui": "^1.0.0",
-    "@asemirsk/core": "^1.0.0",
-    "@asemirsk/fclasses": "^1.0.0",
-    "@asemirsk/navigation": "^1.0.0",
-    "@asemirsk/vital-editors": "^1.0.0",
-    "@asemirsk/vital-elements": "^1.0.0",
-    "@asemirsk/vital-link": "^1.0.0",
+    "@asemirsk/cli": "^1.1.0-beta.0",
+    "@asemirsk/components": "^1.1.0-beta.0",
+    "@asemirsk/components-ui": "^1.1.0-beta.0",
+    "@asemirsk/core": "^1.1.0-beta.0",
+    "@asemirsk/fclasses": "^1.1.0-beta.0",
+    "@asemirsk/navigation": "^1.1.0-beta.0",
+    "@asemirsk/vital-editors": "^1.1.0-beta.0",
+    "@asemirsk/vital-elements": "^1.1.0-beta.0",
+    "@asemirsk/vital-link": "^1.1.0-beta.0",
     "lodash": "^4.17.19"
   },
   "peerDependencies": {

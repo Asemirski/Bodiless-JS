@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-beta.0](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0...v1.1.0-beta.0) (2022-05-06)
+
+
+### Features
+
+* testing force pulbish ([2e5a3ff](https://github.com/johnsonandjohnson/bodiless-js/commit/2e5a3fff4707a0d93d9381118369f6aa74374c69))
+
+
+
+
+
 # [1.0.0](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.19...v1.0.0) (2022-05-06)
 
 **Note:** Version bump only for package bodiless-js
