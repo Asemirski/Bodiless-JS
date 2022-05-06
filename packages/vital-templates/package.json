@@ -1,7 +1,7 @@
 {
   "name": "@asemirsk/vital-templates",
   "sideEffects": false,
-  "version": "1.0.0-beta.14",
+  "version": "1.0.0-beta.15",
   "description": "Provides designable templates for the VitalDS Design System",
   "author": "Andrei Beliayeu <abeliaye@its.jnj.com>",
   "license": "Apache-2.0",
@@ -34,16 +34,16 @@
     "react-helmet": "^6.1.0"
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0-beta.12",
-    "@asemirsk/components": "^1.0.0-beta.14",
-    "@asemirsk/core": "^1.0.0-beta.12",
-    "@asemirsk/fclasses": "^1.0.0-beta.12",
-    "@asemirsk/gatsby-theme-bodiless": "^1.0.0-beta.14",
-    "@asemirsk/vital-editors": "^1.0.0-beta.14",
-    "@asemirsk/vital-elements": "^1.0.0-beta.14",
-    "@asemirsk/vital-flowcontainer": "^1.0.0-beta.14",
-    "@asemirsk/vital-image": "^1.0.0-beta.14",
-    "@asemirsk/vital-layout": "^1.0.0-beta.14",
+    "@asemirsk/cli": "^1.0.0-beta.15",
+    "@asemirsk/components": "^1.0.0-beta.15",
+    "@asemirsk/core": "^1.0.0-beta.15",
+    "@asemirsk/fclasses": "^1.0.0-beta.15",
+    "@asemirsk/gatsby-theme-bodiless": "^1.0.0-beta.15",
+    "@asemirsk/vital-editors": "^1.0.0-beta.15",
+    "@asemirsk/vital-elements": "^1.0.0-beta.15",
+    "@asemirsk/vital-flowcontainer": "^1.0.0-beta.15",
+    "@asemirsk/vital-image": "^1.0.0-beta.15",
+    "@asemirsk/vital-layout": "^1.0.0-beta.15",
     "lodash": "^4.17.19"
   }
 }

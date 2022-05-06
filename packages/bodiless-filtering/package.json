@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/filtering",
-  "version": "1.0.0-beta.14",
+  "version": "1.0.0-beta.15",
   "description": "Provides a control to filter content by group/tag.",
   "author": "Andrei Beliayeu <abeliaye@its.jnj.com>",
   "homepage": "",
@@ -32,12 +32,12 @@
     "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
   },
   "dependencies": {
-    "@asemirsk/accordion": "^1.0.0-beta.14",
-    "@asemirsk/cli": "^1.0.0-beta.12",
-    "@asemirsk/components": "^1.0.0-beta.14",
-    "@asemirsk/core": "^1.0.0-beta.12",
-    "@asemirsk/fclasses": "^1.0.0-beta.12",
-    "@asemirsk/organisms": "^1.0.0-beta.14",
+    "@asemirsk/accordion": "^1.0.0-beta.15",
+    "@asemirsk/cli": "^1.0.0-beta.15",
+    "@asemirsk/components": "^1.0.0-beta.15",
+    "@asemirsk/core": "^1.0.0-beta.15",
+    "@asemirsk/fclasses": "^1.0.0-beta.15",
+    "@asemirsk/organisms": "^1.0.0-beta.15",
     "informed": "^3.34.0",
     "lodash": "^4.17.19",
     "uuid": "^3.3.2"

@@ -1,6 +1,6 @@
 {
   "name": "@asemirsk/accordion",
-  "version": "1.0.0-beta.14",
+  "version": "1.0.0-beta.15",
   "description": "Basic accordion component.",
   "author": "Guilherme Zeni <gzeni@its.jnj.com>",
   "license": "Apache-2.0",
@@ -26,10 +26,10 @@
     "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0-beta.12",
-    "@asemirsk/components": "^1.0.0-beta.14",
-    "@asemirsk/core": "^1.0.0-beta.12",
-    "@asemirsk/fclasses": "^1.0.0-beta.12",
+    "@asemirsk/cli": "^1.0.0-beta.15",
+    "@asemirsk/components": "^1.0.0-beta.15",
+    "@asemirsk/core": "^1.0.0-beta.15",
+    "@asemirsk/fclasses": "^1.0.0-beta.15",
     "lodash": "^4.17.19",
     "react-contenteditable": "^3.2.6",
     "react-dropzone": "^10.1.5",
