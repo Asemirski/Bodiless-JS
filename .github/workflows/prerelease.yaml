@@ -58,14 +58,11 @@ jobs:
         run: |
           git config --unset user.name
           git config --unset user.email
-<<<<<<< HEAD
 
 
 ##no release test
 ##
-=======
 ##
 ##
 
 ####
->>>>>>> 9e9f8fc2 (more tests)
