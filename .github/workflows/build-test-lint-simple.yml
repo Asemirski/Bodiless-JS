@@ -30,8 +30,8 @@ jobs:
       #    git log  --pretty=oneline | head -n 10
       #    git config --get user.name
       #    git config --get user.email
-      - name: Build
-        run: npm run setup
+      #- name: Build
+      #  run: npm run setup
       #- name: Lint
       #  run: npm run lint
       #- name: Check
@@ -45,6 +45,7 @@ jobs:
       - name: Install Playwright
         run: npx playwright install --with-deps
       - name: Run Playwright Tests
+        id: run_playwright
         run: |
           npm run test:monorepo-pw
       - name: Upload Tests Artifact
@@ -54,14 +55,11 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
-  # Generate event file for Attach Unit Test Results helper workflow
-  event_file:
-    name: "Event File"
-    if: always()
-    runs-on: ubuntu-latest
-    steps:
-    - name: Upload
-      uses: actions/upload-artifact@v2
-      with:
-        name: Event File
-        path: ${{ github.event_path }}
+      # Generate event file for Attach Unit Test Results helper workflow
+      - name: Upload Event File
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: Event File
+          path: ${{ github.event_path }}
+

@@ -38,3 +38,18 @@ jobs:
           event_file: artifacts/Event File/event.json
           event_name: ${{ github.event.workflow_run.event }}
           files: "artifacts/**/*.xml"
+      - name: Report Check Run ID
+        if: always()
+        id: checkRunId
+        run: |
+          URI="https://api.github.com"
+          API_HEADER="Accept: application/vnd.github.v3+json"
+          AUTH_HEADER="Authorization: token ${{ secrets.GITHUB_TOKEN }}"
+          body=$(curl -sSL -H "${AUTH_HEADER}" -H "$API_HEADER" "$URI/repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/jobs")
+          echo ${GITHUB_RUN_ID}
+          echo ${GITHUB_REPOSITORY}
+          id=$(echo "$body" | jq .jobs | jq .[-1] | jq .id)
+          echo ::set-output name=checkid::$id
+      - name: Echo Run ID
+        run: |
+          echo ${{ steps.checkRunId.outputs.checkid }}
