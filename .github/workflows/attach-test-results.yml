@@ -38,6 +38,20 @@ jobs:
           event_file: artifacts/Event File/event.json
           event_name: ${{ github.event.workflow_run.event }}
           files: "artifacts/**/*.xml"
+      - name: Additional output
+        if: always()
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/${{ github.repository }}/check-runs
+          name: 'Test Check'
+          head_sha: ${{ github.event.workflow_run.head_sha }}
+          status: 'completed'
+          conclusion: 'success'
+          output: |
+            title: 'Get Results Here'
+            summary: 'Tests can be found here'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Report Check Run ID
         if: always()
         id: checkRunId
