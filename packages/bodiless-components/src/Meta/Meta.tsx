@@ -15,12 +15,12 @@
 import React, { ComponentType as CT, PropsWithChildren } from 'react';
 import { HelmetProps } from 'react-helmet';
 import { FieldProps } from 'informed';
-import { withoutProps } from '@bodiless/fclasses';
+import { withoutProps } from '@asemirsk/fclasses';
 import {
   useNode, withNodeKey, withNode, withSidecarNodes, withNodeDataHandlers,
   withData, ifEditable, asReadOnly, useGitContext,
-} from '@bodiless/core';
-import type { WithNodeKeyProps } from '@bodiless/core';
+} from '@asemirsk/core';
+import type { WithNodeKeyProps } from '@asemirsk/core';
 import flowRight from 'lodash/flowRight';
 import { withMetaSnippet } from './withMetaForm';
 

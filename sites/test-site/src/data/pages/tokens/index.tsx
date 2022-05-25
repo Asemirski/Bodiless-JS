@@ -13,27 +13,27 @@
  */
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import {
   H1, addProps, withDesign, replaceWith, H3, H2, addClasses, flowHoc, HOC, ComponentWithMeta,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   CardClean,
-} from '@bodiless/card';
+} from '@asemirsk/card';
 import {
   asAccordionBody, asAccordionTitle, asAccordionWrapper,
-} from '@bodiless/accordion';
+} from '@asemirsk/accordion';
 import {
   withActivateOnEffect, withNodeKey, withNode,
   withNodeDataHandlers, useNode, WithNodeProps,
   withReactivateOnRemount,
-} from '@bodiless/core';
-import { FlowContainer } from '@bodiless/layouts-ui';
-import { withTitle, withDesc } from '@bodiless/layouts';
+} from '@asemirsk/core';
+import { FlowContainer } from '@asemirsk/layouts-ui';
+import { withTitle, withDesc } from '@asemirsk/layouts';
 import {
   TokenLibrary, withTokenNamesFromData, withTokensFromProps, TokenPrinter,
   withTokenPrinterKeys, TokenPanel as TokenPanelClean, withTokenPanelPane,
-} from '@bodiless/tokens';
+} from '@asemirsk/tokens';
 import Layout from '../../../components/Layout';
 import {
   asHeader1, asPrimaryColorBackground, asHeader3, asHeader2, asBold,

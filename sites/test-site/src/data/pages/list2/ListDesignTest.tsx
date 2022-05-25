@@ -15,11 +15,11 @@
 import React from 'react';
 import {
   withDesign, addProps, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asSubList, asBodilessList, withSubLists,
-} from '@bodiless/components';
-// import { withDefaultContent } from '@bodiless/core';
+} from '@asemirsk/components';
+// import { withDefaultContent } from '@asemirsk/core';
 
 const withItemTitle = (title: string) => withDesign({
   Title: flowHoc(

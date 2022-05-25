@@ -16,8 +16,8 @@ import React, { ComponentType as CT, PropsWithChildren } from 'react';
 import { stripIndent } from 'common-tags';
 import { HelmetProps } from 'react-helmet';
 import set from 'lodash/set';
-import { WithNodeKeyProps } from '@bodiless/core';
-import { withHeadElement, HeadBaseOptions as BaseOptions } from '@bodiless/components';
+import { WithNodeKeyProps } from '@asemirsk/core';
+import { withHeadElement, HeadBaseOptions as BaseOptions } from '@asemirsk/components';
 
 type BaseProps = PropsWithChildren<HelmetProps>;
 type Data = {

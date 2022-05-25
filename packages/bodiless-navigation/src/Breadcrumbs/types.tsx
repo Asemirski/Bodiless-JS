@@ -13,8 +13,8 @@
  */
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import type { WithNodeProps } from '@bodiless/core';
-import type { DesignableComponentsProps, ComponentOrTag } from '@bodiless/fclasses';
+import type { WithNodeProps } from '@asemirsk/core';
+import type { DesignableComponentsProps, ComponentOrTag } from '@asemirsk/fclasses';
 import type { BreadcrumbItemType as BreadcrumbStoreItemType } from './BreadcrumbStore';
 
 type BreadcrumbsComponents = {

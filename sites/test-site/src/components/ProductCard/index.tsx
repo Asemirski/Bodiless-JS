@@ -12,13 +12,13 @@
  * limitations under the License.
  */
 
-import { withSidecarNodes } from '@bodiless/core';
+import { withSidecarNodes } from '@asemirsk/core';
 import {
   withDesign, startWith, flowHoc,
-} from '@bodiless/fclasses';
-import { ProductClean } from '@bodiless/organisms';
-import { BVInlineRatings } from '@bodiless/bv';
-import { GatsbyLink } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/fclasses';
+import { ProductClean } from '@asemirsk/organisms';
+import { BVInlineRatings } from '@asemirsk/bv';
+import { GatsbyLink } from '@asemirsk/gatsby-theme-bodiless';
 import { withEditorBasic, withEditorSimple } from '../Editors';
 import {
   asEditableLink,

@@ -20,14 +20,14 @@ import {
   replaceWith,
   addPropsIf,
   withoutProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asAccordionWrapper,
   asAccordionBody,
   asAccordionTitle,
   useAccordionContext,
-} from '@bodiless/accordion';
-import { BreakpointsType, withResponsiveVariants } from '@bodiless/components';
+} from '@asemirsk/accordion';
+import { BreakpointsType, withResponsiveVariants } from '@asemirsk/components';
 import {
   withAnyTag, withoutAnyTag,
 } from './Filter.token';

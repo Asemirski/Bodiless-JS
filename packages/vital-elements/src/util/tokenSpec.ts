@@ -17,11 +17,11 @@ import type {
   TokenMeta,
   Token,
   TokenSpec,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   extendMeta,
   asTokenSpec,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 const defaultDomains = {
   Core: {},

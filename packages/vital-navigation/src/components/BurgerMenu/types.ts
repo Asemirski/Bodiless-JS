@@ -13,7 +13,7 @@
  */
 
 import { HTMLProps } from 'react';
-import { ComponentOrTag, DesignableComponentsProps } from '@bodiless/fclasses';
+import { ComponentOrTag, DesignableComponentsProps } from '@asemirsk/fclasses';
 
 type BurgerMenuComponents = {
   Wrapper: ComponentOrTag<any>,

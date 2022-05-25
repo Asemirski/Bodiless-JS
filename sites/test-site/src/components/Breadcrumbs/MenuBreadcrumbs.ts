@@ -12,15 +12,15 @@
  * limitations under the License.
  */
 
-import { asReadOnly } from '@bodiless/core';
+import { asReadOnly } from '@asemirsk/core';
 import {
   BreadcrumbsClean,
   asBreadcrumbs,
   withEditableStartingTrail,
   withEditableFinalTrail,
   withMenuTitleEditors,
-} from '@bodiless/navigation';
-import { flowHoc } from '@bodiless/fclasses';
+} from '@asemirsk/navigation';
+import { flowHoc } from '@asemirsk/fclasses';
 
 import {
   $withBreadcrumbStyles,

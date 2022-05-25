@@ -15,8 +15,8 @@
 import React from 'react';
 import {
   ContextMenuFormProps, ContextMenuForm, withMenuOptions, TMenuOptionGetter,
-} from '@bodiless/core';
-import { Design, withDesign } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { Design, withDesign } from '@asemirsk/fclasses';
 import TokenPanelClean, { TokenPanelComponents } from './TokenPanel';
 
 export type TokenPanelButtonDefinition = {

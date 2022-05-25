@@ -14,8 +14,8 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { withSearchResult } from '@bodiless/search';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { withSearchResult } from '@asemirsk/search';
 import Layout from '../../../components/Layout';
 import { InlineSearchBox, SimpleSearchResult } from '../../../components/Search';
 

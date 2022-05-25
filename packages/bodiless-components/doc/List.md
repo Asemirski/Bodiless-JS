@@ -60,8 +60,8 @@ configured via the Design API.
 At its simplest, a list needs a `Title` to render for each item:
 
 ```ts
-import { withDesign, replaceWIth } from '@bodiless/fclasses';
-import { asEditable, asBodilessList } from '@bodiless/components';
+import { withDesign, replaceWIth } from '@asemirsk/fclasses';
+import { asEditable, asBodilessList } from '@asemirsk/components';
 import flow from 'lodash/flow';
 
 const withSimpleTitle = withDesign({
@@ -96,7 +96,7 @@ Now let's create a basic 2-level compound list (one in which each item has a
 pair of nested sublists). To do this, we use the design API again to convert
 each item to a sublist, via the `asSubList` HOC:
 ```ts
-import { asSubList } from '@bodiless/components';
+import { asSubList } from '@asemirsk/components';
 
 const withSubLists = withDesign({
   Item: flow(
@@ -127,7 +127,7 @@ could be done with almost any CSS-in-JS library which uses higher order
 components for styling.
 
 ```ts
-import { addClasses, stylable } from '@bodiless/fclasses';
+import { addClasses, stylable } from '@asemirsk/fclasses';
 
 const withItemMargin = withDesign({
   Item: flow(stylable, addClasses('ml-5')),
@@ -160,7 +160,7 @@ The above example is a bit verbose - we've had to repeat the list structure for 
 enhancement.  Let's simplify using the `withSimpleSubListDesign` utility:
 
 ```ts
-import { withSimpleSubListDesign } from '@bodiless/components';
+import { withSimpleSubListDesign } from '@asemirsk/components';
 
 const BasicCompoundList = flow(
   asBodilessList(),
@@ -184,7 +184,7 @@ item will have a sublist. Tp do so, we leverage the bodiless
 [`Chameleon` component](..).
 
 ```ts
-import { withDeleteNodeOnUnwrap, withSubLists, withSubListDesign } from '@bodiless/components';
+import { withDeleteNodeOnUnwrap, withSubLists, withSubListDesign } from '@asemirsk/components';
 
 const asToggledSubList = flow(
   asSubList(),
@@ -220,7 +220,7 @@ enhancement) to all levels of sublists. To target a specific level, you need to
 understand the structure:
 
 ```ts
-import { removeClasses } from '@bodiless/fclasses';
+import { removeClasses } from '@asemirsk/fclasses';
 
 const withLessItemMargin = withDesign({
   Item: flow(removeClasses('ml-5'), addClasses('ml-2')),
@@ -373,4 +373,4 @@ const asNestedMenu = flow(
 
 ## Architectural Details
 
-For architectural details for different list types please see [List source folder](https://github.com/johnsonandjohnson/Bodiless-JS/tree/main/packages/bodiless-components/src/List) in @bodiless-components. 
+For architectural details for different list types please see [List source folder](https://github.com/johnsonandjohnson/Bodiless-JS/tree/main/packages/bodiless-components/src/List) in @asemirsk-components. 

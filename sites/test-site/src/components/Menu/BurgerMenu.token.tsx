@@ -14,14 +14,14 @@
 
 import {
   ifToggledOff, ifToggledOn, withAppendChild, withChild
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   Div, flowHoc, replaceWith, startWith, withDesign, addClasses, withoutProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asBurgerMenu, withMenuDesign, BurgerMenuDefaultToggler, asSlideLeft, useIsBurgerMenuVisible,
-} from '@bodiless/navigation';
-import { asAccordionIconSvg } from '@bodiless/accordion';
+} from '@asemirsk/navigation';
+import { asAccordionIconSvg } from '@asemirsk/accordion';
 
 import { $withTitleEditors } from './Menu.token';
 import Logo from '../Layout/logo';

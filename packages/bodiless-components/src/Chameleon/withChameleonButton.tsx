@@ -16,17 +16,17 @@ import React, { ComponentType } from 'react';
 import pick from 'lodash/pick';
 import { v1 } from 'uuid';
 // @todo We should not depend on a ui package (bu we already do for withImageLibary)
-import { componentSelectorForm } from '@bodiless/layouts';
+import { componentSelectorForm } from '@asemirsk/layouts';
 import {
   withMenuOptions, useContextMenuForm, useMenuOptionUI, withContextActivator, withLocalContextMenu,
   TMenuOption, EditButtonProps, UseBodilessOverrides, createMenuOptionGroup,
   MenuOptionsDefinition, useEditContext,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   flowIf, flowHoc, DesignableComponents, withoutProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
-import type { ComponentSelectorFormProps } from '@bodiless/layouts';
+import type { ComponentSelectorFormProps } from '@asemirsk/layouts';
 import type { ChameleonButtonProps, ChameleonData } from './types';
 import { useChameleonContext, DEFAULT_KEY } from './withChameleonContext';
 

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { addClasses } from '@bodiless/fclasses';
+import { addClasses } from '@asemirsk/fclasses';
 
 export const asFlex = addClasses('flex');
 export const asRelative = addClasses('relative');

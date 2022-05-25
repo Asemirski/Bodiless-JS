@@ -14,13 +14,13 @@
 
 import {
   addClasses, withDesign, HOC, replaceWith, stylable, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asBodilessList,
   withSubListDesign, withSubLists, asBodilessChameleon, asEditable,
-} from '@bodiless/components';
-import { withNode } from '@bodiless/core';
-import { GatsbyLink } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/components';
+import { withNode } from '@asemirsk/core';
+import { GatsbyLink } from '@asemirsk/gatsby-theme-bodiless';
 import { asLink, asEditableLink } from '../../../components/Elements.token';
 import { asToggledSubList } from './ListDemo';
 import { withItemMargin } from './SimpleListDemo';

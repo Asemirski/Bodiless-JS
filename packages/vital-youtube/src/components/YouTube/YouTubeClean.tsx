@@ -12,12 +12,12 @@
  * limitations under the License.
  */
 
-import { withNode } from '@bodiless/core';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import { flowHoc, Iframe } from '@bodiless/fclasses';
-import { Embed } from '@bodiless/organisms';
-import { asBodilessYouTube } from '@bodiless/youtube';
-import { withoutHydration } from '@bodiless/hydration';
+import { withNode } from '@asemirsk/core';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import { flowHoc, Iframe } from '@asemirsk/fclasses';
+import { Embed } from '@asemirsk/organisms';
+import { asBodilessYouTube } from '@asemirsk/youtube';
+import { withoutHydration } from '@asemirsk/hydration';
 import type { YouTubeComponents } from './types';
 
 const YouTubeClean: any = flowHoc(

@@ -17,7 +17,7 @@ import ReactDOMServer from 'react-dom/server';
 import flow from 'lodash/flow';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import cheerio from 'cheerio';
-import { replaceWith, withDesign, Enhancer } from '@bodiless/fclasses';
+import { replaceWith, withDesign, Enhancer } from '@asemirsk/fclasses';
 // eslint-disable-next-line import/order
 import { mount } from 'enzyme';
 import { identity } from 'lodash';

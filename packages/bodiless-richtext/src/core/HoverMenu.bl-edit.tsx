@@ -20,7 +20,7 @@ import React,
 import ReactDOM from 'react-dom';
 import { Range, Editor } from 'slate';
 import { ReactEditor, useSlate } from 'slate-react';
-import { useEditContext } from '@bodiless/core';
+import { useEditContext } from '@asemirsk/core';
 import { getReturnFocusItem } from '../withReturnFocusBack';
 
 const defaultUI = {

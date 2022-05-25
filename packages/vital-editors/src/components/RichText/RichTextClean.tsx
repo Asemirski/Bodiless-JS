@@ -13,10 +13,10 @@
  */
 
 import React from 'react';
-import { RichText } from '@bodiless/richtext-ui';
-import { stylable } from '@bodiless/fclasses';
-import { useNode, NodeProvider } from '@bodiless/core';
-import { withoutHydration } from '@bodiless/hydration';
+import { RichText } from '@asemirsk/richtext-ui';
+import { stylable } from '@asemirsk/fclasses';
+import { useNode, NodeProvider } from '@asemirsk/core';
+import { withoutHydration } from '@asemirsk/hydration';
 
 /**
  * @private

@@ -24,7 +24,7 @@ Developers
 01. Get data:
 
     ```tsx
-    import { asSchemaSource } from '@bodiless/schema-org';
+    import { asSchemaSource } from '@asemirsk/schema-org';
 
       SEO: {
         Item: asSchemaSource('youtube-iframe'),
@@ -34,7 +34,7 @@ Developers
 01. Return data:
 
     ```tsx
-    import { WithVideoSchema } from '@bodiless/schema-org';
+    import { WithVideoSchema } from '@asemirsk/schema-org';
 
       SEO: {
         Wrapper: WithVideoSchema,
@@ -44,7 +44,7 @@ Developers
 01. Set provider in page component:
 
     ```tsx
-    import { StructuredDataProvider } from '@bodiless/schema-org';
+    import { StructuredDataProvider } from '@asemirsk/schema-org';
 
         <StructuredDataProvider>
           <Layout>

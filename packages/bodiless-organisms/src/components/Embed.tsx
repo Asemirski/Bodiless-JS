@@ -13,14 +13,14 @@
  */
 
 import React, { ComponentType, HTMLProps } from 'react';
-import { withNode } from '@bodiless/core';
+import { withNode } from '@asemirsk/core';
 import {
   designable,
   DesignableComponentsProps,
   Div,
   Embed as BaseEmbed,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 type EmbedDesignableComponents = {
   Wrapper: ComponentType<HTMLProps<HTMLDivElement>>,

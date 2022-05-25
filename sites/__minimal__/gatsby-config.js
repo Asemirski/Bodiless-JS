@@ -4,9 +4,9 @@ const { execSync } = require('child_process');
 // const {
 //   createDefaultContentPlugins,
 //   getSampleDefaultContentConfig,
-// } = require('@bodiless/gatsby-theme-bodiless/dist/DefaultContent');
-const { getDisabledPages } = require('@bodiless/components/node-api');
-// const getSSIEntities = require('@bodiless/gatsby-plugin-ssi/read-ssi-entities');
+// } = require('@asemirsk/gatsby-theme-bodiless/dist/DefaultContent');
+const { getDisabledPages } = require('@asemirsk/components/node-api');
+// const getSSIEntities = require('@asemirsk/gatsby-plugin-ssi/read-ssi-entities');
 // const {
 //   getConfig: getSiteDefaultContentConfig,
 // } = require('./src/components/Contentful');
@@ -29,7 +29,7 @@ const SITEURL = process.env.SITE_URL;
 // Gatsby plugins list.
 const plugins = [
   {
-    resolve: '@bodiless/gatsby-theme-bodiless',
+    resolve: '@asemirsk/gatsby-theme-bodiless',
     options: {
       gatsbyImage: {
         sharpArgs: {
@@ -62,7 +62,7 @@ const plugins = [
     },
   },
   // {
-  //   resolve: '@bodiless/gatsby-plugin-ssi',
+  //   resolve: '@asemirsk/gatsby-plugin-ssi',
   //   options: {
   //     ssiEntities: getSSIEntities('ssi/ssi_conf.json'),
   //   }

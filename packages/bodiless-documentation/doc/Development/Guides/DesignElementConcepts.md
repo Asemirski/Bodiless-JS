@@ -46,16 +46,16 @@ the following lines there:
 import {
   addClasses,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import type {
   TokenDef
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import type {
   WithNodeKeyProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   asBodilessLink,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 
 export const asElementToken = (...attributes: string[]) => (...defs: TokenDef<any>[]) => flowHoc(
   ...defs,
@@ -361,7 +361,7 @@ to make it more flexible and reusable.
     
    * Then we define what to render by default for each component; we use the
      stylable versions of basic HTML elements exported by
-     [`@bodiless/fclasses`](https://github.com/johnsonandjohnson/Bodiless-JS/blob/main/packages/fclasses/src/StyledHTML.tsx).
+     [`@asemirsk/fclasses`](https://github.com/johnsonandjohnson/Bodiless-JS/blob/main/packages/fclasses/src/StyledHTML.tsx).
      ```ts
      const captionedImageComponents:CaptionedImageComponents = {
        Wrapper: Section,
@@ -525,14 +525,14 @@ to make it more flexible and reusable.
    work!
     ```ts
     import React, { FC, ComponentType } from 'react';
-    import { asBodilessImage } from '@bodiless/components-ui';
-    import { withNode } from '@bodiless/core';
+    import { asBodilessImage } from '@asemirsk/components-ui';
+    import { withNode } from '@asemirsk/core';
     import {
       Img, Section, Div, addClasses, designable, flowHoc, withDesign, HOC
-    } from '@bodiless/fclasses';
+    } from '@asemirsk/fclasses';
     import type {
       StylableProps, DesignableComponentsProps, TokenDef
-    } from '@bodiless/fclasses';
+    } from '@asemirsk/fclasses';
     import flow from 'lodash/flow';
     import { withSimpleEditor, asElementToken } from '../Element';
     ```
@@ -659,7 +659,7 @@ our design calls for a page header block with image and a header text.
        the editor applied by the original token and add your own:
   
        ```ts
-       import { withTokenFilter } from '@bodiless/fclasses';
+       import { withTokenFilter } from '@asemirsk/fclasses';
 
        const asPageHeader = withDesign({
          Body: flowHoc(
@@ -725,7 +725,7 @@ this can easily be achieved.
       withDesign,
       addClasses,
       flowHoc,
-    } from '@bodiless/fclasses';
+    } from '@asemirsk/fclasses';
   
     export const withGalleryDesign = (...attributes: string[]) => (design: Design<GalleryComponents>) => flowHoc(
       withDesign(design),
@@ -785,10 +785,10 @@ Design API as well, using the same method we just did.
       withDesign,
       varyDesign,
       replaceWith,
-    } from '@bodiless/fclasses';
-    import { withNode } from '@bodiless/core';
-    import { withTitle, withFacet } from '@bodiless/layouts';
-    import { FlowContainer } from '@bodiless/layouts-ui';
+    } from '@asemirsk/fclasses';
+    import { withNode } from '@asemirsk/core';
+    import { withTitle, withFacet } from '@asemirsk/layouts';
+    import { FlowContainer } from '@asemirsk/layouts-ui';
     import { withSimpleEditor } from './Element';
     import CaptionedImage from './CaptionedImage';
     import {

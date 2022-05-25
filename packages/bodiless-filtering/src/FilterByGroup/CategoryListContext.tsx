@@ -16,9 +16,9 @@ import React, {
   createContext,
   useContext,
 } from 'react';
-import { useNode } from '@bodiless/core';
-import { useListContext } from '@bodiless/components';
-import type { ComponentOrTag } from '@bodiless/fclasses';
+import { useNode } from '@asemirsk/core';
+import { useListContext } from '@asemirsk/components';
+import type { ComponentOrTag } from '@asemirsk/fclasses';
 
 type CategoryListContextType = {
   categoryId?: string,

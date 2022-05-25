@@ -19,10 +19,10 @@ import { mount, ReactWrapper } from 'enzyme';
 import cheerio from 'cheerio';
 import {
   withDefaultContent, ifToggledOn, asReadOnly, withNodeKey,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   replaceWith, withDesign, addProps, flowHoc
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import flow from 'lodash/flow';
 import flowRight from 'lodash/flowRight';
 
@@ -32,7 +32,7 @@ import {
 } from '../src';
 import type { BreadcrumbStoreItemsReducer } from '../src/Breadcrumbs/types';
 
-const { DefaultContentNode } = require('@bodiless/core');
+const { DefaultContentNode } = require('@asemirsk/core');
 
 const Breadcrumbs = flow(
   asBreadcrumbs,

@@ -14,12 +14,12 @@
 
 import {
   withMeta, withTitle, withMetaStatic, asBodilessHelmet,
-} from '@bodiless/components';
-import { useMenuOptionUI } from '@bodiless/core';
-import { asElementToken } from '@bodiless/vital-elements';
+} from '@asemirsk/components';
+import { useMenuOptionUI } from '@asemirsk/core';
+import { asElementToken } from '@asemirsk/vital-elements';
 import {
   flowIf, HOC, Token, as
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import {
   withSeoMetaForm, withShareMetaForm, withMetaHtmlAttributes, useIsHomePage,

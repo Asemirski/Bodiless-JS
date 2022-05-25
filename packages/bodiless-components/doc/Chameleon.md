@@ -14,8 +14,8 @@ the user to choose among the designs which were provided.  Here is a
 simple example (using the [FClasses API](..) and TailwindCSS for styling):
 
 ```js
-import { addClasses, withDesign, Div } from '@bodiless/fclasses';
-import { asBodilessChameleon } from '@bodiless/components';
+import { addClasses, withDesign, Div } from '@asemirsk/fclasses';
+import { asBodilessChameleon } from '@asemirsk/components';
 
 const BaseComponent = addClasses('border-8 py-5 text-center')(Div);
 
@@ -56,7 +56,7 @@ just a Chameleon with only two possible states. Let's give a content editor the
 ability to turn on and off the availability notice in the above component.
 
 ```js
-import { addProps } from '@bodiless/fclasses';
+import { addProps } from '@asemirsk/fclasses';
 
 const BaseAvailability = ({ isAvailable, ...rest }) => (
   <Div {...rest}>
@@ -122,7 +122,7 @@ particular, you can instruct the Chameleon to use a component selector (exactly
 as is used for the flow container):
 
 ```ts
-import { useChameleonSelectorForm } from '@bodiless/components-ui';
+import { useChameleonSelectorForm } from '@asemirsk/components-ui';
 
 const BasicChameleonWithComponentSelector = flowHoc(
   asBodilessChameleon('selector-chameleon', undefined, useChameleonSelectorForm),
@@ -162,8 +162,8 @@ this problem, we make use of a lower level Chameleon API to attach the menu
 button to an enclosing component:
 
 ```jsx
-import { removeClasses } from '@bodiless/fclasses';
-import { applyChameleon, withChameleonButton, withChameleonContext } from '@bodiless/organisms';
+import { removeClasses } from '@asemirsk/fclasses';
+import { applyChameleon, withChameleonButton, withChameleonContext } from '@asemirsk/organisms';
 
 const toggleVisibilityDesign = {
   Available: removeClasses('invisible'),
@@ -267,7 +267,7 @@ that state ourselves, in a way that does not cause the child-tree to be
 recreated:
 
 ```js
-import { useChameleonContext } from '@bodiless/components';
+import { useChameleonContext } from '@asemirsk/components';
 
 const withChameleonAvailability = Component => props => (
   <Component {...props} isAvailable={useChameleonContext().isOn} />
@@ -303,7 +303,7 @@ wire that to the Bodiless edit system:
 
 ```js
 import { useCallback } from 'react';
-import { useMenuOptionUI, useEditContext } from '@bodiless/core';
+import { useMenuOptionUI, useEditContext } from '@asemirsk/core';
 
 const AddToCartBase = observer(({ productId, ...rest }) => {
   const { isEdit } = useEditContext();
@@ -364,7 +364,7 @@ to switch between "Call for Availability" and our new "Add-to-cart"
 button:
 
 ```js
-import { replaceWith } from '@bodiless/fclasses';
+import { replaceWith } from '@asemirsk/fclasses';
 
 const toggleCartDesign = {
   Available: replaceWith(AddToCartBase),

@@ -68,7 +68,7 @@ interface, and allow the `src`, `alt`, and `title` values to be editable. The Ed
 supports image upload.
 
 ```jsx
-import Image from '@bodiless/components';
+import Image from '@asemirsk/components';
 
 <Image nodeKey="imageit" />
 ```
@@ -79,7 +79,7 @@ underlying component must accept the same props as an `img` tag. Simply pass the
 
 ```jsx
 import { CustomImage } from 'my-library';
-import { asBodilessImage } from '@bodiless/components';
+import { asBodilessImage } from '@asemirsk/components';
 
 const Image = asBodilessImage('linkit')(CustomImage);
 
@@ -92,7 +92,7 @@ enhancement should be injected as a `ui` prop to the Image element. To customize
 element:
 
 ```jsx
-import { Image } from '@bodiless/components';
+import { Image } from '@asemirsk/components';
 
 const UploadArea = () => <div>Some custom text that guide users how to upload image</div>;
 const ui = { UploadArea };
@@ -101,4 +101,4 @@ const ui = { UploadArea };
 ```
 
 To find a complete example of how to build a custom UI for the Image picker, see
-[`@bodiless/components-ui`](https://github.com/johnsonandjohnson/Bodiless-JS/tree/main/packages/bodiless-components-ui).
+[`@asemirsk/components-ui`](https://github.com/johnsonandjohnson/Bodiless-JS/tree/main/packages/bodiless-components-ui).

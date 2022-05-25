@@ -21,10 +21,10 @@ import {
   Img,
   designable,
   ComponentOrTag,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asVitalTokenSpec,
-} from '@bodiless/vital-elements';
+} from '@asemirsk/vital-elements';
 
 export type LogoComponents = {
   Wrapper: ComponentOrTag<any>,

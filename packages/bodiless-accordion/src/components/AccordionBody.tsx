@@ -18,7 +18,7 @@ import {
   Div,
   HOC,
   DesignableComponentsProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { asAccordionBodyWrapper, asAccordionBodyContent } from './Accordion.tokens';
 import { useAccordionContext } from './AccordionContext';
 import { AccordionBodyComponents, AccordionBodyProps } from './types';

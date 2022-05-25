@@ -22,11 +22,11 @@ import {
   withFilterSelection,
   asResponsiveFilterByGroup,
   // withMultipleAllowedTags,
-} from '@bodiless/filtering';
+} from '@asemirsk/filtering';
 import {
   addProps, flowHoc, withDesign, Fragment, replaceWith,
-} from '@bodiless/fclasses';
-import { withNodeKey } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { withNodeKey } from '@asemirsk/core';
 import { asFilterByGroupResponsive, asFilterByGroupDefaultStyle } from './token';
 import { breakpoints as allBreakpoints } from '../Page';
 

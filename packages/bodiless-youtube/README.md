@@ -39,7 +39,7 @@ Interface.
 Component to work.
 
 ```jsx
-import { YouTube } from '@bodiless/youtube';
+import { YouTube } from '@asemirsk/youtube';
 
 <YouTube nodeKey="youtube" />
 ```
@@ -50,7 +50,7 @@ underlining component must accept the same props as an `iframe` tag. Simply pass
 
 ```jsx
 import { CustomYouTube } from 'my-library';
-import { asBodilessYouTube } from '@bodiless/youtube';
+import { asBodilessYouTube } from '@asemirsk/youtube';
 
 const YouTube = asBodilessYouTube('customYouTube')(CustomYouTube);
 
@@ -61,7 +61,7 @@ You can configure YouTube player settings leveraging the `withYouTubePlayerSetti
 example, to configure AutoPlay for the YouTube component:
 
 ```jsx
-import { YouTube } from '@bodiless/youtube';
+import { YouTube } from '@asemirsk/youtube';
 
 const AutoPlayYouTube = withYouTubePlayerSettings({
   autoplay: true,

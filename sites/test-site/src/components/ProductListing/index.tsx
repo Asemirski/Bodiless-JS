@@ -17,7 +17,7 @@ import {
   addClasses,
   flowHoc,
   HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { withEditorSimple } from '../Editors';
 import { asLandscapeImage } from '../Image';
 import {

@@ -29,7 +29,7 @@ const files: { [source: string]: string } = {
   'edit.platform.app.yaml': '.platform.app.yaml',
 };
 
-const sourceDir = './node_modules/@bodiless/psh/resources/edit';
+const sourceDir = './node_modules/@asemirsk/psh/resources/edit';
 const targetDir = './edit';
 
 Object.keys(files).forEach(file => {

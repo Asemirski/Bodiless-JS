@@ -1,7 +1,7 @@
 # Social Share
 
 ## Overview
-  Bodiless Social Share component provides sharing feature for social networks during site build. The SocialShare base component and SocialShareProvider type are defined in @bodiless/organisms package. In order to add the social share feature to the site, site builder needs to create social share provider components and pass to styled SocialShare base component.
+  Bodiless Social Share component provides sharing feature for social networks during site build. The SocialShare base component and SocialShareProvider type are defined in @asemirsk/organisms package. In order to add the social share feature to the site, site builder needs to create social share provider components and pass to styled SocialShare base component.
 
 
 ## Usage
@@ -11,8 +11,8 @@
 Import SocialShare base component and providers type from Bodiless package
 
 ```
-import { SocialShare } from '@bodiless/organisms';
-import type { SocialShareProvider } from '@bodiless/organisms';
+import { SocialShare } from '@asemirsk/organisms';
+import type { SocialShareProvider } from '@asemirsk/organisms';
 ```
 
 Create Social Share providers, i.e. FaceBook, Twitter, etc

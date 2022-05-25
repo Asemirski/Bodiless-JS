@@ -14,11 +14,11 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { FlowContainer } from '@bodiless/layouts-ui';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { FlowContainer } from '@asemirsk/layouts-ui';
 import {
   Section, addClasses, H1, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import Layout from '../../../components/Layout';
 import withCardDemoVariation from '../../../components/Card/withCardDemoVariation';
 import { asHeader1 } from '../../../components/Elements.token';

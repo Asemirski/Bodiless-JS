@@ -14,7 +14,7 @@
 
 import React, { ComponentType } from 'react';
 import { observer } from 'mobx-react';
-import { withNode, useNodeDataHandlers } from '@bodiless/core';
+import { withNode, useNodeDataHandlers } from '@asemirsk/core';
 
 const NodeViewer: ComponentType<any> = withNode(
   observer(() => {

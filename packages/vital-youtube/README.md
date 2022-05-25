@@ -1,4 +1,4 @@
-# `@bodiless/vital-youtube`
+# `@asemirsk/vital-youtube`
 
 Clean, designable YouTube components for projects using the Vital Design System.
 

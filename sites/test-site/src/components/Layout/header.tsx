@@ -19,8 +19,8 @@ import {
   withDesign,
   Div,
   flowHoc,
-} from '@bodiless/fclasses';
-import { withNodeKey } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { withNodeKey } from '@asemirsk/core';
 import ResponsiveMenu, { BurgerMenuToggler } from '../Menu';
 import { ResponsiveSearchBox } from '../Search';
 import Logo from './logo';

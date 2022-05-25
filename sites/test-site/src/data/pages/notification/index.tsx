@@ -20,8 +20,8 @@ import {
   useNotifications,
   useNotify,
   useNode,
-} from '@bodiless/core';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/core';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import { flowRight } from 'lodash';
 import { observer } from 'mobx-react';
 // eslint-disable-next-line import/no-extraneous-dependencies

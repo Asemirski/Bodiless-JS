@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { useNode } from '@bodiless/core';
+import { useNode } from '@asemirsk/core';
 import type { LinkData, Props } from './types';
 
 /**

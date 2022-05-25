@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { withFacet } from '@bodiless/layouts';
+import { withFacet } from '@asemirsk/layouts';
 
 const withType = withFacet('Type');
 const withStyle = withFacet('Style');

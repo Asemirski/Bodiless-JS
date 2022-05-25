@@ -14,13 +14,13 @@
 
 import React, { HTMLProps } from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 
 import {
   asReadOnly,
-} from '@bodiless/core';
-import type { StylableProps } from '@bodiless/fclasses';
-import { flowHoc } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import type { StylableProps } from '@asemirsk/fclasses';
+import { flowHoc } from '@asemirsk/fclasses';
 import Tooltip from 'rc-tooltip';
 import Layout from '../../../components/Layout';
 import { withEditorSimple } from '../../../components/Editors';

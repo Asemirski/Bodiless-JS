@@ -15,13 +15,13 @@
 import React, { ComponentType, FC, HTMLProps } from 'react';
 import {
   useEditContext,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import flow from 'lodash/flow';
 import { observer } from 'mobx-react';
 import {
   DesignableComponentsProps, designable, StylableProps, Div,
-} from '@bodiless/fclasses';
-import { TMenuOption } from '@bodiless/core/src';
+} from '@asemirsk/fclasses';
+import { TMenuOption } from '@asemirsk/core/src';
 import type { TokenPanelPaneProps } from './TokenPanelPane';
 import TokenPanelPane, { TOKEN_PANEL_CONTEXT_TYPE } from './TokenPanelPane';
 

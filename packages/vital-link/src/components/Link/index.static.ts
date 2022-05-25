@@ -17,4 +17,4 @@
 export {
   staticTokenCollection as vitalLinkStatic,
   StaticInline as LinkStatic,
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';

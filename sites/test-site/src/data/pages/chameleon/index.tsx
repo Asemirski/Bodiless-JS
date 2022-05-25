@@ -16,7 +16,7 @@ import React, {
   FC, useState, useCallback, createContext, useContext, ComponentType, ReactNode,
 } from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import {
   addClasses, H1 as H1$, H2 as H2$, withDesign,
   addProps, Div, removeClasses, replaceWith, withoutProps,
@@ -25,7 +25,7 @@ import {
   HOC,
   extendDesign,
   varyDesigns,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { observer } from 'mobx-react';
 
 import {
@@ -33,15 +33,15 @@ import {
   applyChameleon,
   useChameleonContext,
   withChameleonComponentFormControls,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 import {
   useChameleonSelectorForm,
-} from '@bodiless/components-ui';
-import { withAllTitlesFromTerms, ComponentSelectorScale } from '@bodiless/layouts';
+} from '@asemirsk/components-ui';
+import { withAllTitlesFromTerms, ComponentSelectorScale } from '@asemirsk/layouts';
 
 import {
   useMenuOptionUI, asBodilessComponent,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { asHeader1, asHeader2 } from '../../../components/Elements.token';
 import Layout from '../../../components/Layout';
 

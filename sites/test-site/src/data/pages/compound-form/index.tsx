@@ -15,14 +15,14 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { flowRight } from 'lodash';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import {
   useMenuOptionUI, withCompoundForm,
   withNodeDataHandlers,
   withNodeKey, withNode, withEditFormSnippet,
   WithNodeKeyProps, withData,
-} from '@bodiless/core';
-import { Div, withoutProps } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { Div, withoutProps } from '@asemirsk/fclasses';
 import Layout from '../../../components/Layout';
 
 const useMenuOptions = () => [{

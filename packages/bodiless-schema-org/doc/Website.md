@@ -23,7 +23,7 @@ For more information regarding the definition of the WebSite data type, see the
 01. Return data:
 
     ```tsx
-    import { WithWebSchema } from '@bodiless/schema-org';
+    import { WithWebSchema } from '@asemirsk/schema-org';
 
     SEO: {
       SiteHeader: WithWebSchema,
@@ -33,7 +33,7 @@ For more information regarding the definition of the WebSite data type, see the
 01. Set provider:
 
     ```tsx
-    import { withStructuredDataProvider } from '@bodiless/schema-org';
+    import { withStructuredDataProvider } from '@asemirsk/schema-org';
 
     SEO: {
       _: withStructuredDataProvider as Token,

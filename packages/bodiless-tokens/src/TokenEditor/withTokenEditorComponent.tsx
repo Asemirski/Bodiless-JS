@@ -16,11 +16,11 @@ import { createHash } from 'crypto';
 import {
   addClasses, withDesign, HOC,
   addProps, flowHoc, startWith, Design,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   withDefaultContent, useNode, withContextActivator, withActivatorWrapper,
-} from '@bodiless/core';
-import { ifComponentSelector } from '@bodiless/layouts';
+} from '@asemirsk/core';
+import { ifComponentSelector } from '@asemirsk/layouts';
 import withTokensFromProps from '../withTokensFromProps';
 import { withTokenPanelPane } from '../TokenPanelPane';
 import withTokenPanelButton from '../withTokenPanelButton';

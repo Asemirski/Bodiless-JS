@@ -1,4 +1,4 @@
-# `@bodiless/vital-image`
+# `@asemirsk/vital-image`
 
 For documentation on the Vital Image package, please see:
 

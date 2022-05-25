@@ -14,8 +14,8 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { withSingleAllowedTag, FilterByGroupClean } from '@bodiless/filtering';
-import { flowHoc } from '@bodiless/fclasses';
+import { withSingleAllowedTag, FilterByGroupClean } from '@asemirsk/filtering';
+import { flowHoc } from '@asemirsk/fclasses';
 import Page from '../../../components/Page';
 import Layout from '../../../components/Layout';
 import FilterByGroup, { ContextLogger, asFilterByGroup } from '../../../components/FilterByGroup';

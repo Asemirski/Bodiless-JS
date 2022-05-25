@@ -16,7 +16,7 @@ import {
   vitalColor,
   vitalFontSize,
   vitalTextDecoration,
-} from '@bodiless/vital-elements';
+} from '@asemirsk/vital-elements';
 import {
   addProps,
   as,
@@ -25,8 +25,8 @@ import {
   removeClassesIf,
   replaceWith,
   withDesign,
-} from '@bodiless/fclasses';
-import { useIsSubmenuExpanded } from '@bodiless/navigation';
+} from '@asemirsk/fclasses';
+import { useIsSubmenuExpanded } from '@asemirsk/navigation';
 import { withAnalyticsAttr } from '../../../util';
 import { vitalMenuTitle, MenuTitleClean } from '../../MenuTitle';
 import { asSubMenuToken } from '../SubMenuClean';

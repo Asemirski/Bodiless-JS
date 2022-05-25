@@ -16,7 +16,7 @@ _search_, _product filters_, etc.).
 Both supported use-cases are implemented by performing the following steps:
 
 01. Add the Bodiless static file replacement plugin to your webpack configuration using the
-    `addStaticReplacementPlugin` function from `@bodiless/webpack`:
+    `addStaticReplacementPlugin` function from `@asemirsk/webpack`:
 
     ```js
     const newConfig = addStaticReplacementPlugin(existingConfig);
@@ -41,7 +41,7 @@ with the name of your brand or design system.)_
   In your `MyComponentClean.tsx`:
 
   ```js
-  import { withoutHydration } from '@bodiless/hydration';
+  import { withoutHydration } from '@asemirsk/hydration';
   // Define your base clean component as usual.
   const MyComponentClean$ = ...;
   // Wrap in `withoutHydration`.
@@ -61,7 +61,7 @@ with the name of your brand or design system.)_
   In your `index.static.ts`:
 
   ```js
-  export { StaticBlock as MyComponentClean } from '@bodiless/hydration';
+  export { StaticBlock as MyComponentClean } from '@asemirsk/hydration';
   export { staticTokenCollection as mybrandMyComponent } from './tokens';
   // Be sure to include any other exports which should not be removed in static mode.
   export { asComponentToken, ... } from './ComponentClean';

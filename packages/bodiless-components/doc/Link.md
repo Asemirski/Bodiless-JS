@@ -69,7 +69,7 @@ Card):
 ### Usage
 
 ```jsx
-import { withLinkToggle, Editable, Link } from '@bodiless/components';
+import { withLinkToggle, Editable, Link } from '@asemirsk/components';
 
 const LinkToggle = withLinkToggle(Link);
 
@@ -86,7 +86,7 @@ You can use this to place a link (usually an `a` tag), on the page, that uses th
 system and allows the `href` attribute to be editable.
 
   ```jsx
-  import { asBodilessLink } from '@bodiless/components';
+  import { asBodilessLink } from '@asemirsk/components';
   const Link = asBodilessLink('link')('a');
 
   <Link>This is an editable Nodelink.</Link> 

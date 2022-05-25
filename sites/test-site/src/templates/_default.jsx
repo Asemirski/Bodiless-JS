@@ -15,8 +15,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { withMetaSiteInfo } from '@bodiless/components';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { withMetaSiteInfo } from '@asemirsk/components';
 import Layout from '../components/Layout';
 import { FlowContainerDefault } from '../components/FlowContainer';
 import { withGlobalGTMForm, withDataLayerPageType } from '../components/GTM';

@@ -22,7 +22,7 @@ import React, {
 } from 'react';
 import flowRight from 'lodash/flowRight';
 import pick from 'lodash/pick';
-import { HOC, Injector } from '@bodiless/fclasses';
+import { HOC, Injector } from '@asemirsk/fclasses';
 import { useContextActivator, useExtendHandler, useClickOutside } from './hooks';
 import { useNodeDataHandlers, NodeDataHandlers } from './NodeProvider';
 import withNode from './withNode';

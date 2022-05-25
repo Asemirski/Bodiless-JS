@@ -15,7 +15,7 @@
 import React, { ComponentType } from 'react';
 import mergeWith from 'lodash/mergeWith';
 import isArray from 'lodash/isArray';
-import { ComponentOrTag } from '@bodiless/fclasses';
+import { ComponentOrTag } from '@asemirsk/fclasses';
 import {
   RichTextItemType,
 } from './Type';

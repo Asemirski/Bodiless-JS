@@ -31,8 +31,8 @@ const packageMap = fs.readdirSync(packagesDir).reduce(
       try {
         const packageJson = fs.readFileSync(`${dir}/package.json`);
         const packageJsonData = JSON.parse(packageJson);
-        const tarballName = packageJsonData.name.replace('@bodiless/', 'bodiless-');
-        if (packageJsonData.name.match(/^@bodiless\//)) {
+        const tarballName = packageJsonData.name.replace('@asemirsk/', 'bodiless-');
+        if (packageJsonData.name.match(/^@asemirsk\//)) {
           const tarball = `${dir}/${tarballName}-${packageJsonData.version}.tgz`;
           if (fs.existsSync(tarball)) {
             return { ...map, [packageJsonData.name]: tarball };
@@ -52,7 +52,7 @@ const packageJson = fs.readFileSync('./package.json');
 const packageJsonData = JSON.parse(packageJson);
 const { dependencies, devDependencies } = packageJsonData;
 const bodilessDependencies = Object.keys({ ...dependencies, ...devDependencies })
-  .filter(package => package.includes('@bodiless'))
+  .filter(package => package.includes('@asemirsk'))
   // Map them to the tarball files, warning if one is not found.
   .map(package => {
     if (packageMap[package]) return packageMap[package];

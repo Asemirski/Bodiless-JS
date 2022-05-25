@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { as } from '@bodiless/fclasses';
+import { as } from '@asemirsk/fclasses';
 import { asElementToken } from '../../../util';
 import { vitalColor } from '../../Color';
 import { vitalFontSize } from '../../FontSize';

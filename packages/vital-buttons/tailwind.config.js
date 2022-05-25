@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { getPackageTailwindConfig } from '@bodiless/fclasses';
+import { getPackageTailwindConfig } from '@asemirsk/fclasses';
 
 const plugin = require('tailwindcss/plugin');
 
@@ -40,7 +40,7 @@ const twConfig = {
           fontFamily: 'buttonicons',
           fontWeight: 400,
           fontStyle: 'normal',
-          src: 'url(\'@bodiless/vital-buttons/assets/font/buttonicons.woff2\')',
+          src: 'url(\'@asemirsk/vital-buttons/assets/font/buttonicons.woff2\')',
         },
       });
     }),

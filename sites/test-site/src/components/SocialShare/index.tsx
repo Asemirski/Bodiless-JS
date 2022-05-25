@@ -14,7 +14,7 @@
 import React, { FunctionComponent as FC, MouseEvent } from 'react';
 import Helmet from 'react-helmet';
 import flowRight from 'lodash/flowRight';
-import { useMenuOptionUI } from '@bodiless/core';
+import { useMenuOptionUI } from '@asemirsk/core';
 import {
   withMeta,
   asBodilessHelmet,
@@ -22,10 +22,10 @@ import {
   withMetaStatic,
   ImageDropZone,
   TImagePickerUI,
-} from '@bodiless/components';
-import { flowHoc } from '@bodiless/fclasses';
-import { SocialShare as SocialShareClean } from '@bodiless/organisms';
-import type { SocialShareProvider } from '@bodiless/organisms';
+} from '@asemirsk/components';
+import { flowHoc } from '@asemirsk/fclasses';
+import { SocialShare as SocialShareClean } from '@asemirsk/organisms';
+import type { SocialShareProvider } from '@asemirsk/organisms';
 import { useFieldApi } from 'informed';
 import asSimpleSocialShare, {
   asOrangeSocialShare,

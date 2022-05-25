@@ -14,10 +14,10 @@
 
 import React, { ComponentType } from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import {
   flowHoc, addClasses, H1 as H1$, Div, Button as ButtonBase,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   User,
   useBodilessOidc,
@@ -25,7 +25,7 @@ import {
   withSignOutOnClick,
   withSignInPopupOnClick,
   withSignOutRedirectOnClick,
-} from '@bodiless/oidc';
+} from '@asemirsk/oidc';
 
 import Layout from '../../../components/Layout';
 import { asHeader1 } from '../../../components/Elements.token';

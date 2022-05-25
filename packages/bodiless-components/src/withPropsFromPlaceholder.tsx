@@ -14,7 +14,7 @@
 
 import React from 'react';
 import pick from 'lodash/pick';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 
 // eslint-disable-next-line max-len
 const withPropsFromPlaceholder = (keys: string[]) => (placeholder: any): HOC => Component => {

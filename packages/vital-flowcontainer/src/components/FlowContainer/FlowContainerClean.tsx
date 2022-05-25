@@ -15,10 +15,10 @@
 import React from 'react';
 // @todo add after static-replacement merges.
 // import { withoutHydration } from '@bodiess/hydration';
-import { FlowContainer } from '@bodiless/layouts-ui';
-import { withoutHydration } from '@bodiless/hydration';
+import { FlowContainer } from '@asemirsk/layouts-ui';
+import { withoutHydration } from '@asemirsk/hydration';
 
-export type { FlowContainerComponents } from '@bodiless/layouts';
+export type { FlowContainerComponents } from '@asemirsk/layouts';
 
 /**
  * This is the base component for flow containers.

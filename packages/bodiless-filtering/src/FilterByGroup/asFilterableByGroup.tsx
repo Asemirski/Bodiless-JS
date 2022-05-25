@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { withSidecarNodes } from '@bodiless/core';
-import { flowHoc } from '@bodiless/fclasses';
+import { withSidecarNodes } from '@asemirsk/core';
+import { flowHoc } from '@asemirsk/fclasses';
 import { withTagProps } from './FilterByGroupContext';
 import withFilterByTags from './withFilterByTags';
 import { asTaggableItem } from '../Taggable/asTaggableItem';

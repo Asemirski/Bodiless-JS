@@ -16,20 +16,20 @@ import flowRight from 'lodash/flowRight';
 import {
   asBodilessComponent,
   ifEditable,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   withDesign,
   addClasses,
   replaceWith,
   Div,
   Iframe,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   withoutPointerEvents,
   useIframeBodilessOptions,
   withIframeFormHeader,
   withIframeFormSrcSnippet,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 
 const ActivatorWrapper = addClasses('absolute w-full h-full inset-0')(Div);
 const asBodilessIframe = asBodilessComponent({

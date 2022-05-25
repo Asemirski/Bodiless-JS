@@ -13,8 +13,8 @@
  */
 
 /* eslint-disable no-underscore-dangle */
-import { applyDesign, Fragment } from '@bodiless/fclasses';
-import type { Design, ComponentOrTag, DesignableComponents } from '@bodiless/fclasses';
+import { applyDesign, Fragment } from '@asemirsk/fclasses';
+import type { Design, ComponentOrTag, DesignableComponents } from '@asemirsk/fclasses';
 import pick from 'lodash/pick';
 import { useRef } from 'react';
 

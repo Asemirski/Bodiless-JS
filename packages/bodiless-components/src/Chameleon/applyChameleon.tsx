@@ -13,7 +13,7 @@
  */
 
 import React, { FC, ComponentType } from 'react';
-import { withoutProps, flowHoc, HOC } from '@bodiless/fclasses';
+import { withoutProps, flowHoc, HOC } from '@asemirsk/fclasses';
 import { useChameleonContext } from './withChameleonContext';
 
 /**

@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { asElementToken, vitalTypographyBase } from '@bodiless/vital-elements';
-import { addProps } from '@bodiless/fclasses';
+import { asElementToken, vitalTypographyBase } from '@asemirsk/vital-elements';
+import { addProps } from '@asemirsk/fclasses';
 
 export default {
   ...vitalTypographyBase,

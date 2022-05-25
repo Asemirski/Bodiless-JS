@@ -14,7 +14,7 @@
 
 import React, { FC } from 'react';
 import CleanReresizable, { ResizableProps } from 're-resizable';
-import { useLibraryItemContext } from '@bodiless/layouts';
+import { useLibraryItemContext } from '@asemirsk/layouts';
 
 const Reresizable: FC<ResizableProps & { isEnabled?: boolean }> = ({ isEnabled, ...rest }) => {
   const { isLibraryItem } = useLibraryItemContext();

@@ -1,12 +1,12 @@
 # Bodiless Navigation Upgrade Guide
 
 This documentation is applicable only if you have used older versions of `Menu`/`BurgerMenu` from
-`@bodiless/organisms` and Breadcrumbs from `@bodiless/components`. The examples provided for the
+`@asemirsk/organisms` and Breadcrumbs from `@asemirsk/components`. The examples provided for the
 **new** state are applicable.
 
 ## Updating Menu
 
-There is no need to separate between a `SimpleMenu` and a `MegaMenu`. We can import `asBodilessMenu()` from `@bodiless/navigation`. It may be extended with any type of submenus and comes with no submenus configured by default.
+There is no need to separate between a `SimpleMenu` and a `MegaMenu`. We can import `asBodilessMenu()` from `@asemirsk/navigation`. It may be extended with any type of submenus and comes with no submenus configured by default.
 
 Here is an **old** example of the menu:
 ```js
@@ -34,7 +34,7 @@ const $asMenuBase = flowHoc(
 );
 
 // Then we provide menu Title Editors and menu styles:
-const $withTitleEditors = withMenuTitleEditors(); // Use default Title editors from `@bodiless/navigation`
+const $withTitleEditors = withMenuTitleEditors(); // Use default Title editors from `@asemirsk/navigation`
 
 const $withMenuStyles = flowHoc(
   // Replacement for `asSimpleMenuTopNav` and `asMegaMenuTopNav`
@@ -100,7 +100,7 @@ const MegaBurgerMenuBody = flow(
 const MegaBurgerMenu = flow(
   // `Body` design key has been replaced with the `Menu` design key.
   // While you can still use withDesign to provide `Menu` body, it is better
-  // to use `withBurgerMenuWrapper` HOC that is exported by `@bodiless/navigation` package.
+  // to use `withBurgerMenuWrapper` HOC that is exported by `@asemirsk/navigation` package.
   withDesign({
     Body: replaceWith(MegaBurgerMenuBody),
   }),
@@ -124,12 +124,12 @@ const BurgerMenu = flow(
 
 ### Burger Menu Context
 
-The new Burger menu API does not rely on 3rd party library to toggle burger menu visibility. Instead there is a `BurgerMenuContext` that handles toggle. It is **important to note** that for the burger menu to behave correct it has to be inside a `BurgerMenuContext`. There is a `withBurgerMenuProvider` HOC exported from the `@bodiless/navigation` package that can be use to wrap element in `BurgerMenuContext`. Usually it is applied to the top-level container ( `layout` ).
+The new Burger menu API does not rely on 3rd party library to toggle burger menu visibility. Instead there is a `BurgerMenuContext` that handles toggle. It is **important to note** that for the burger menu to behave correct it has to be inside a `BurgerMenuContext`. There is a `withBurgerMenuProvider` HOC exported from the `@asemirsk/navigation` package that can be use to wrap element in `BurgerMenuContext`. Usually it is applied to the top-level container ( `layout` ).
 
 Here is an example:
 ```js
-import { Fragment } from '@bodiless/fclasses';
-import { withBurgerMenuProvider } from '@bodiless/navigation';
+import { Fragment } from '@asemirsk/fclasses';
+import { withBurgerMenuProvider } from '@asemirsk/navigation';
 
 const BurgerMenuProvider = withBurgerMenuProvider(Fragment);
 
@@ -149,10 +149,10 @@ const BaseLayout = ({ children, components }) => {
 
 ### Burger Menu Toggler
 
-The button that toggles burger menu visibility is now a standalone element and can be placed anywhere on the page within the `BurgerMenuContext`. There is a `BurgerMenuDefaultToggler` component exported by the `@bodiless/navigation`. It is a stylable component that toggles the burger menu visibility and its icon from `menu` when the burger menu is hidden to `close` when burger menu is visible.
+The button that toggles burger menu visibility is now a standalone element and can be placed anywhere on the page within the `BurgerMenuContext`. There is a `BurgerMenuDefaultToggler` component exported by the `@asemirsk/navigation`. It is a stylable component that toggles the burger menu visibility and its icon from `menu` when the burger menu is hidden to `close` when burger menu is visible.
 ```js
-import { flowHoc, withDesign, addClasses } from '@bodiless/fclasses';
-import { BurgerMenuDefaultToggler } from '@bodiless/navigation';
+import { flowHoc, withDesign, addClasses } from '@asemirsk/fclasses';
+import { BurgerMenuDefaultToggler } from '@asemirsk/navigation';
 
 export const BurgerMenuToggler = flowHoc(
   withDesign({
@@ -164,7 +164,7 @@ export const BurgerMenuToggler = flowHoc(
 
 ### Overview Link Changes
 
-There is a `withOverviewLink` helper exported from `@bodiless/navigation` that makes it easier to work with overview links. 
+There is a `withOverviewLink` helper exported from `@asemirsk/navigation` that makes it easier to work with overview links. 
 
 Let's take a look at the **old overview link** example:
 ```js

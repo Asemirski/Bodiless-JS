@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { RichText } from '@bodiless/richtext-ui';
+import { RichText } from '@asemirsk/richtext-ui';
 import {
   Strong,
   addClasses,
@@ -20,10 +20,10 @@ import {
   flowHoc,
   Design,
   startWith,
-} from '@bodiless/fclasses';
-import { withPlaceholder } from '@bodiless/components';
-import { asBodilessLink } from '@bodiless/components-ui';
-import { withNodeKey, withChild } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { withPlaceholder } from '@asemirsk/components';
+import { asBodilessLink } from '@asemirsk/components-ui';
+import { withNodeKey, withChild } from '@asemirsk/core';
 
 const asBold = startWith(Strong);
 const asItalic = addClasses('');

@@ -14,7 +14,7 @@
 
 import React, { FC, HTMLProps } from 'react';
 import nextId from 'react-id-generator';
-import { designable, Div } from '@bodiless/fclasses';
+import { designable, Div } from '@asemirsk/fclasses';
 import AccordionTitleClean from './AccordionTitle';
 import AccordionBodyClean from './AccordionBody';
 import { AccordionProvider } from './AccordionContext';

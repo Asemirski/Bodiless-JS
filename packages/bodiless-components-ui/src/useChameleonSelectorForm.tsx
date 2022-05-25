@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { componentSelectorUi as ui } from '@bodiless/layouts-ui';
-import { useChameleonSelectorForm as useChameleonSelectorFormBase } from '@bodiless/components';
-import { ComponentSelectorFormProps } from '@bodiless/layouts';
+import { componentSelectorUi as ui } from '@asemirsk/layouts-ui';
+import { useChameleonSelectorForm as useChameleonSelectorFormBase } from '@asemirsk/components';
+import { ComponentSelectorFormProps } from '@asemirsk/layouts';
 
 /**
  * Bodiless `useOverrides` hook which forces a chameleon buton to use the component selector

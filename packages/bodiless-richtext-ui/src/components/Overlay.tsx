@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { Div } from '@bodiless/ui';
-import { addClasses } from '@bodiless/fclasses';
+import { Div } from '@asemirsk/ui';
+import { addClasses } from '@asemirsk/fclasses';
 
 const Overlay = addClasses('bl-p-4')(Div);
 

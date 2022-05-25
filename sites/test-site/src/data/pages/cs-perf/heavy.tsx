@@ -15,12 +15,12 @@
 import React from 'react';
 import {
   flowHoc, addClasses, Div, addProps, startWith, varyDesigns, HOC, withDesign
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import type { FC, ReactNode } from 'react';
 import pick from 'lodash/pick';
-import { FlowContainer } from '@bodiless/layouts-ui';
-import { asBodilessChameleon } from '@bodiless/components';
-import { withNodeKey, withParent } from '@bodiless/core';
+import { FlowContainer } from '@asemirsk/layouts-ui';
+import { asBodilessChameleon } from '@asemirsk/components';
+import { withNodeKey, withParent } from '@asemirsk/core';
 
 const colors = ['red', 'blue', 'teal', 'green', 'yellow', 'purple', 'orange'];
 const createColorDesign = (prefix: string) => colors.reduce(

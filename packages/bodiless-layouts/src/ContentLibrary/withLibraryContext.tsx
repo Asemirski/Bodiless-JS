@@ -15,7 +15,7 @@
 import React, {
   FC, useState, createContext, useContext,
 } from 'react';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 
 import type { FlowContainerItem } from '../FlowContainer/types';
 

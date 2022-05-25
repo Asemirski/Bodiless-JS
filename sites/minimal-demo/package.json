@@ -52,7 +52,7 @@
     "clean": "gatsby clean",
     "dev-backend": "bodiless-backend",
     "dev-frontend": "gatsby develop",
-    "prepare": "node ../../scripts/set-missing-symlinks.js @bodiless",
+    "prepare": "node ../../scripts/set-missing-symlinks.js @asemirsk",
     "prestart": "run-s build:env-vars build:docs",
     "serve": "gatsby serve",
     "serve:docs": "docsify serve ./doc",

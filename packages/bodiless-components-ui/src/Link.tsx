@@ -13,9 +13,9 @@
  */
 
 import flowRight from 'lodash/flowRight';
-import { asBodilessLink as asBaseBodilessLink } from '@bodiless/components';
-import type { AsBodilessLink } from '@bodiless/components';
-import { addClasses, withoutProps } from '@bodiless/fclasses';
+import { asBodilessLink as asBaseBodilessLink } from '@asemirsk/components';
+import type { AsBodilessLink } from '@asemirsk/components';
+import { addClasses, withoutProps } from '@asemirsk/fclasses';
 import { fileUploadUI as baseFileUploadUi, withUI } from './FileUpload';
 
 /* eslint-disable import/prefer-default-export */

@@ -24,8 +24,8 @@ that you provide an `aria-label`, making the accessibility tree consistent betwe
 ### Usage
 
 ```jsx
-import { withNodeKey } from '@bodiless/core';
-import { ButtonClean, vitalButtons } from '@bodiless/vital-buttons';
+import { withNodeKey } from '@asemirsk/core';
+import { ButtonClean, vitalButtons } from '@asemirsk/vital-buttons';
 
 const DefaultButton = as(
   vitalButtons.Default,

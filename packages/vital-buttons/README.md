@@ -1,4 +1,4 @@
-# `@bodiless/vital-button`
+# `@asemirsk/vital-button`
 
 For documentation on the Vital Button package, please see:
 

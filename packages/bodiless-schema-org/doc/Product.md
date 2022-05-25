@@ -8,7 +8,7 @@ JSON-LD following the Product schema is automatically generated for Product Page
     product name:
 
     ```tsx
-    import { asSchemaSource } from '@bodiless/schema-org';
+    import { asSchemaSource } from '@asemirsk/schema-org';
 
       SEO: {
         TitleRow: withDesign({
@@ -22,7 +22,7 @@ JSON-LD following the Product schema is automatically generated for Product Page
 01. Return data; you should set the schema component in your page:
 
     ```tsx
-    import { WithProductSchema } from '@bodiless/schema-org';
+    import { WithProductSchema } from '@asemirsk/schema-org';
 
       SEO: {
         PageWrapper: WithProductSchema,
@@ -32,7 +32,7 @@ JSON-LD following the Product schema is automatically generated for Product Page
 01. Set provider; you should define the schema provider in your page structure template:
 
     ```tsx
-    import { withStructuredDataProvider } from '@bodiless/schema-org';
+    import { withStructuredDataProvider } from '@asemirsk/schema-org';
 
       SEO: {
         _: withStructuredDataProvider as Token,

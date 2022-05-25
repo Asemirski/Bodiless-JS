@@ -17,8 +17,8 @@ import {
   replaceWith,
   startWith,
   withProps,
-} from '@bodiless/fclasses';
-import { vitalColor, vitalTextDecoration, } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { vitalColor, vitalTextDecoration, } from '@asemirsk/vital-elements';
 import { asButtonToken } from '../ButtonClean';
 import { CartIcon } from '../assets/CartIcon';
 

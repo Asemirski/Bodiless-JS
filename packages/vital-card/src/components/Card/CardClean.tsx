@@ -24,11 +24,11 @@ import {
   DesignableProps,
   Fragment,
   as,
-} from '@bodiless/fclasses';
-import { withNode } from '@bodiless/core';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import { LinkClean } from '@bodiless/vital-link';
-import { withoutHydration } from '@bodiless/hydration';
+} from '@asemirsk/fclasses';
+import { withNode } from '@asemirsk/core';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import { LinkClean } from '@asemirsk/vital-link';
+import { withoutHydration } from '@asemirsk/hydration';
 
 export type CardComponents = {
   Wrapper: ComponentType<StylableProps>,

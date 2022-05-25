@@ -26,7 +26,7 @@ const mockCuratorContext = (isLoaded: boolean) => {
 };
 
 const mockBodilessCore = (isEdit: boolean) => {
-  jest.doMock('@bodiless/core', () => ({
+  jest.doMock('@asemirsk/core', () => ({
     useEditContext: () => ({
       isEdit,
     })

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { vitalLayout, asLayoutToken } from '@bodiless/vital-layout';
+import { vitalLayout, asLayoutToken } from '@asemirsk/vital-layout';
 import { __vital__Footer } from '../../Footer';
 import { __vital__Header } from '../../Header';
 

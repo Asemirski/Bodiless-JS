@@ -13,7 +13,7 @@
  */
 
 import React, { ComponentType } from 'react';
-import { ReactTagsField as ReactTagsFieldClean, ReactTagsFieldProps } from '@bodiless/core';
+import { ReactTagsField as ReactTagsFieldClean, ReactTagsFieldProps } from '@asemirsk/core';
 
 const ReactTagsField: ComponentType<ReactTagsFieldProps> = props => {
   const classes = {

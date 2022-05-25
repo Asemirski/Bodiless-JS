@@ -14,7 +14,7 @@
 
 import { ComponentType } from 'react';
 import flow from 'lodash/flow';
-import { DesignableComponents } from '@bodiless/fclasses';
+import { DesignableComponents } from '@asemirsk/fclasses';
 import { withId, asMark } from './RichTextItemSetters.bl-edit';
 import {
   RichTextComponents, RichTextComponent,

@@ -13,10 +13,10 @@
  */
 
 import React, { FC } from 'react';
-import { Div, designable, Footer } from '@bodiless/fclasses';
-import { RichTextClean } from '@bodiless/vital-editors';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import { MenuClean } from '@bodiless/vital-navigation';
+import { Div, designable, Footer } from '@asemirsk/fclasses';
+import { RichTextClean } from '@asemirsk/vital-editors';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import { MenuClean } from '@asemirsk/vital-navigation';
 import { RewardsClean } from './Rewards';
 import { SocialLinksClean } from './SocialLinks';
 import type { FooterComponents, FooterProps } from './types';

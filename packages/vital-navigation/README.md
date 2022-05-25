@@ -1,4 +1,4 @@
-# `@bodiless/vital-navigation`
+# `@asemirsk/vital-navigation`
 
 For documentation on the Vital Navigation package, please see:
 

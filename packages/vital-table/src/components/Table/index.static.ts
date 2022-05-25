@@ -17,4 +17,4 @@
 export {
   staticTokenCollection as vitalTableStatic,
   StaticBlock as TableStatic,
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';

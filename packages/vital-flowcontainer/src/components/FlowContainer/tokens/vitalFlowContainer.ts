@@ -15,21 +15,21 @@
 import omit from 'lodash/omit';
 import {
   addProps, replaceWith, as, on, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   withMandatoryCategories,
   withAllTitlesFromTerms,
   ifComponentSelector,
   withLibraryComponents,
-} from '@bodiless/layouts';
-import { asFluidToken, vitalSpacing } from '@bodiless/vital-elements';
-import { vitalImageFlowContainer } from '@bodiless/vital-image';
-import { vitalEditorsFlowContainer } from '@bodiless/vital-editors';
-import { vitalYouTubeFlowContainer } from '@bodiless/vital-youtube';
-import { vitalListFlowContainer } from '@bodiless/vital-list';
-import { vitalCardFlowContainer } from '@bodiless/vital-card';
-import { vitalTableFlowContainer } from '@bodiless/vital-table';
-import { vitalButtonFlowContainer } from '@bodiless/vital-buttons';
+} from '@asemirsk/layouts';
+import { asFluidToken, vitalSpacing } from '@asemirsk/vital-elements';
+import { vitalImageFlowContainer } from '@asemirsk/vital-image';
+import { vitalEditorsFlowContainer } from '@asemirsk/vital-editors';
+import { vitalYouTubeFlowContainer } from '@asemirsk/vital-youtube';
+import { vitalListFlowContainer } from '@asemirsk/vital-list';
+import { vitalCardFlowContainer } from '@asemirsk/vital-card';
+import { vitalTableFlowContainer } from '@asemirsk/vital-table';
+import { vitalButtonFlowContainer } from '@asemirsk/vital-buttons';
 
 import FlowContainerClean, { FlowContainerPreview } from '../FlowContainerClean';
 
@@ -196,7 +196,7 @@ export interface VitalFlowContainer {
    *
    * @example Add a component
    * ```js
-   * import { vitalFlowContainerBase } from '@bodiless/vital-flowcontainer';
+   * import { vitalFlowContainerBase } from '@asemirsk/vital-flowcontainer';
    *
    * const Default = asFluidToken(vitalFlowContainerBase.Default, {
    *   Components: {

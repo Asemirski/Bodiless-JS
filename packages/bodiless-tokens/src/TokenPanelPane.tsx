@@ -15,14 +15,14 @@
 import {
   ContentNode, WithNodeKeyProps, withNodeKey, withNode, withNodeDataHandlers,
   withMenuOptions, withContextActivator, useNode,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import React, {
   ComponentType, HTMLProps, FC, useCallback,
 } from 'react';
 import {
   DesignableComponentsProps, designable, Div, H4, H5,
   Label as StylableLabel, Input, withoutProps, DesignableProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import flow from 'lodash/flow';
 import flowRight from 'lodash/flowRight';
 import { observer } from 'mobx-react';

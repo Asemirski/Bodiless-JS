@@ -23,12 +23,12 @@ import {
   P,
   as,
   replaceWith,
-} from '@bodiless/fclasses';
-import { withEditorPlain } from '@bodiless/vital-editors';
-import { vitalTypography } from '@bodiless/vital-elements';
-import { LinkClean, vitalLink } from '@bodiless/vital-link';
-import { withNodeKey } from '@bodiless/core';
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
+} from '@asemirsk/fclasses';
+import { withEditorPlain } from '@asemirsk/vital-editors';
+import { vitalTypography } from '@asemirsk/vital-elements';
+import { LinkClean, vitalLink } from '@asemirsk/vital-link';
+import { withNodeKey } from '@asemirsk/core';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
 
 const H1Title = flowHoc(
   withEditorPlain('title', 'Page Title'),

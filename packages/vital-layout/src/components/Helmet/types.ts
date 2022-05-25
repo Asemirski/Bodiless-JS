@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { ComponentOrTag, DesignableComponentsProps } from '@bodiless/fclasses';
+import { ComponentOrTag, DesignableComponentsProps } from '@asemirsk/fclasses';
 
 /**
  * Type of the design element in the VitalDS `Helmet` component.

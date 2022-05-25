@@ -16,13 +16,13 @@ import flowRight from 'lodash/flowRight';
 import {
   asBodilessImage as asBaseBodilessImage,
   withImageLibrary as withImageLibraryBase,
-} from '@bodiless/components';
-import type { AsBodilessImage } from '@bodiless/components';
+} from '@asemirsk/components';
+import type { AsBodilessImage } from '@asemirsk/components';
 import {
   Img,
   withoutProps,
-} from '@bodiless/fclasses';
-import { ComponentSelector } from '@bodiless/layouts-ui';
+} from '@asemirsk/fclasses';
+import { ComponentSelector } from '@asemirsk/layouts-ui';
 import { fileUploadUI, withUI } from './FileUpload';
 
 const asBodilessImage:AsBodilessImage = (nodeKey, defaultData, useOverrides) => flowRight(

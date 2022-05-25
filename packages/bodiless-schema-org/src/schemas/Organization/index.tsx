@@ -15,8 +15,8 @@
 import React, {
   ComponentType, useEffect,
 } from 'react';
-import { useNode } from '@bodiless/core';
-import { HOC } from '@bodiless/fclasses';
+import { useNode } from '@asemirsk/core';
+import { HOC } from '@asemirsk/fclasses';
 import { useStructuredData } from '../../StructureDataProvider';
 import { useIsHomePage } from '../../util';
 import { PageTypeNodeData } from '../../types';

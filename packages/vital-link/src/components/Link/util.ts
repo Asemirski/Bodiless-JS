@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { asBodilessLink } from '@bodiless/components-ui';
-import type { AsBodilessLink } from '@bodiless/components';
+import { asBodilessLink } from '@asemirsk/components-ui';
+import type { AsBodilessLink } from '@asemirsk/components';
 
 /**
  * Produces an HOC which creates an editable link.

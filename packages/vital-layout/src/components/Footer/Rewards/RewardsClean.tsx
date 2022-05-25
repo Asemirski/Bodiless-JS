@@ -13,13 +13,13 @@
  */
 
 import React, { FC } from 'react';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 import {
   Button,
   Div,
   Input,
   designable,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import type { RewardsComponents, RewardsProps } from './types';
 
 const rewardsComponents: RewardsComponents = {

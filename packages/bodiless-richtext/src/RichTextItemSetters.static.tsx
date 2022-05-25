@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { staticHOC } from '@bodiless/hydration';
+import { staticHOC } from '@asemirsk/hydration';
 
 const withComponent = (C: any) => staticHOC(C);
 const asBlock = staticHOC;

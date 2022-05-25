@@ -17,7 +17,7 @@ import {
   HOCDef,
   flowHoc,
   HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 const withSecondLevelDesign = (keys: string[]) => keys.reduce((result, item) => {
   result.push(['Item', item]);

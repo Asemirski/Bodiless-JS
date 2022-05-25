@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { CuratorClean, asCurator } from '@bodiless/curator';
-import { flowHoc, replaceWith, withDesign } from '@bodiless/fclasses';
-import { withDesc } from '@bodiless/layouts';
+import { CuratorClean, asCurator } from '@asemirsk/curator';
+import { flowHoc, replaceWith, withDesign } from '@asemirsk/fclasses';
+import { withDesc } from '@asemirsk/layouts';
 import { withType } from './Categories';
 
 const curatorVariation = {

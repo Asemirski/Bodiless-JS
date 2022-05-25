@@ -28,7 +28,7 @@ import {
   useNode,
   ContextMenuFormProps,
   getUI,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   flowHoc,
   withDesign,
@@ -36,7 +36,7 @@ import {
   addProps,
   ComponentOrTag,
   flowIf,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { useFilterByGroupContext } from './FilterByGroupContext';
 import type { NodeTagType, FilterTagType } from './types';
 

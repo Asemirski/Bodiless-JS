@@ -17,7 +17,7 @@ import {
   Div,
   startWith,
   withProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { asRewardsToken } from '../RewardsClean';
 
 /*

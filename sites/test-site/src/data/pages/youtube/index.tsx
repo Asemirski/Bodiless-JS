@@ -14,13 +14,13 @@
 
 import React, { useEffect } from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import {
   withYouTubePlayerSettings,
   ifNotYouTubePlayerAPILoaded,
   useYouTubePlayerAPI,
   YouTubePlayerAPIProvider,
-} from '@bodiless/youtube';
+} from '@asemirsk/youtube';
 import {
   withDesign,
   A,
@@ -30,7 +30,7 @@ import {
   addProps,
   flowIf,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { flowRight } from 'lodash';
 import Layout from '../../../components/Layout';
 import {

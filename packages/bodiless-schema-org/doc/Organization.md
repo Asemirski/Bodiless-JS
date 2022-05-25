@@ -60,7 +60,7 @@ Organization metadata can be entered using the Editor Interface on your site's h
 01. Get data:
 
     ```tsx
-    import { asSchemaSource } from '@bodiless/schema-org';
+    import { asSchemaSource } from '@asemirsk/schema-org';
 
     SEO: {
       Image: asSchemaSource('organization-logo'),
@@ -70,7 +70,7 @@ Organization metadata can be entered using the Editor Interface on your site's h
 01. Return data:
 
     ```tsx
-    import { WithOrganizationSchema } from '@bodiless/schema-org';
+    import { WithOrganizationSchema } from '@asemirsk/schema-org';
 
     SEO: {
       SiteHeader: WithOrganizationSchema,
@@ -80,7 +80,7 @@ Organization metadata can be entered using the Editor Interface on your site's h
 01. Set provider:
 
     ```tsx
-    import { withStructuredDataProvider } from '@bodiless/schema-org';
+    import { withStructuredDataProvider } from '@asemirsk/schema-org';
 
     SEO: {
       _: withStructuredDataProvider as Token,
@@ -92,7 +92,7 @@ Organization metadata can be entered using the Editor Interface on your site's h
 01. Get data image logo (the other fields are automatically added or provided):
 
     ```tsx
-    import { asSchemaSource } from '@bodiless/schema-org';
+    import { asSchemaSource } from '@asemirsk/schema-org';
 
     const asLogoSchema = asImageToken({
       SEO: {

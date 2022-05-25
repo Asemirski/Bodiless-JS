@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 import React, { ComponentProps } from 'react';
-import { asBodilessComponent, useMenuOptionUI } from '@bodiless/core';
+import { asBodilessComponent, useMenuOptionUI } from '@asemirsk/core';
 
 import ReactMarkdown from 'react-markdown';
 import MarkdownField from './InformedMarkdown';

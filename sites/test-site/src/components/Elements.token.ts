@@ -12,20 +12,20 @@
  * limitations under the License.
  */
 
-import { WithNodeKeyProps } from '@bodiless/core';
+import { WithNodeKeyProps } from '@asemirsk/core';
 import {
   addClasses, removeClasses, flowHoc, HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asEditable as asEditableCore,
-} from '@bodiless/components';
-import { asBodilessLink } from '@bodiless/components-ui';
+} from '@asemirsk/components';
+import { asBodilessLink } from '@asemirsk/components-ui';
 import {
   asResponsive21By9Embed,
   asResponsive16By9Embed,
   asResponsive4By3Embed,
   asResponsive1By1Embed,
-} from '@bodiless/organisms';
+} from '@asemirsk/organisms';
 import {
   asAlignCenter,
   asAlignRight,

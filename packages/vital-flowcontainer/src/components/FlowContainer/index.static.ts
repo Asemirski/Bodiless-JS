@@ -15,6 +15,6 @@
 import {
   StaticBlock as FlowContainerStatic,
   staticTokenCollection as vitalFlowContainerStatic,
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';
 
 export { vitalFlowContainerStatic, FlowContainerStatic };

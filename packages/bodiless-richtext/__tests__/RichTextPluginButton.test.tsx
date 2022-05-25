@@ -15,11 +15,11 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { mount } from 'enzyme';
-import { PageEditContext } from '@bodiless/core';
+import { PageEditContext } from '@asemirsk/core';
 import {
   withDesign,
-} from '@bodiless/fclasses';
-import type { HOC } from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
+import type { HOC } from '@asemirsk/fclasses';
 import flow from 'lodash/flow';
 import {
   asMark,

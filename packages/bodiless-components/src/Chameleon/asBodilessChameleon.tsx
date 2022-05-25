@@ -17,14 +17,14 @@ import {
   ifEditable,
   useNode,
   ifReadOnly,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import type {
   WithNodeKeyProps, UseBodilessOverrides,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   HOC, flowHoc, Enhancer,
-} from '@bodiless/fclasses';
-import { ComponentSelectorOptions } from '@bodiless/layouts';
+} from '@asemirsk/fclasses';
+import { ComponentSelectorOptions } from '@asemirsk/layouts';
 import { ChameleonData } from './types';
 import withChameleonButton, { withoutChameleonButtonProps } from './withChameleonButton';
 import applyChameleon from './applyChameleon';

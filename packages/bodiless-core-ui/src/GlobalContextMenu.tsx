@@ -17,10 +17,10 @@ import ReactTooltip from 'rc-tooltip';
 import flow from 'lodash/flow';
 import {
   addClasses, removeClasses, addProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   ContextMenu, ContextMenuUI, ContextMenuProps, TooltipProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   ComponentFormTitle, ComponentFormCloseButton, ComponentFormLabel, ComponentFormText,
   ComponentFormButton, ToolbarIcon, Div, Hr, ToolbarButton, ComponentFormUnwrapButton,
@@ -29,7 +29,7 @@ import {
   ComponentFormFieldTitle, ComponentFormCheckBox, ComponentFormRadio, ComponentFormRadioGroup,
   ComponentFormSelect, ComponentFormOption, ComponentFormTextArea, ContextSubMenu,
   ToolbarButtonLabel, HorizontalToolbarButton, ComponentFormSpinner,
-} from '@bodiless/ui';
+} from '@asemirsk/ui';
 import ReactTagsField from './ReactTags';
 
 const Toolbar = flow(

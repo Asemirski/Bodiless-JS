@@ -14,8 +14,8 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { flowHoc } from '@bodiless/fclasses';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { flowHoc } from '@asemirsk/fclasses';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import Layout from '../../../components/Layout';
 import {
   asTableCenterText,

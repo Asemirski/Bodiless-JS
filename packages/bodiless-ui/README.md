@@ -1,4 +1,4 @@
-# `@bodiless/ui`
+# `@asemirsk/ui`
 
 This package contains shared UI elements for the default Bodiless edit
 interface. UI elements which are used by more than one Bodiless package should
@@ -56,7 +56,7 @@ with a version which provides styled UI elements (the following example uses the
 library to style using tailwind classes):
 
 ```
-import { stylable, addClasses } from '@bodiless/fclasses';
+import { stylable, addClasses } from '@asemirsk/fclasses';
 import { MessageBox as CleanMessageBox, Props } from 'messagebox';
 
 const Div = stylable<HTMLProps<HTMLDivElement>>('div');
@@ -97,7 +97,7 @@ You can also override the width and height if you want a bigger or smaller spinn
 *Usage:*
 
 ```tsx
-import { Spinner } from '@bodiless/ui';
+import { Spinner } from '@asemirsk/ui';
 import React, { Component } from 'react';
 
 export default class Example extends Component {

@@ -13,12 +13,12 @@
  */
 
 import React from 'react';
-import { useNode } from '@bodiless/core';
+import { useNode } from '@asemirsk/core';
 import identity from 'lodash/identity';
-import type { WithNodeKeyProps } from '@bodiless/core';
-import type { ListData } from '@bodiless/components';
+import type { WithNodeKeyProps } from '@asemirsk/core';
+import type { ListData } from '@asemirsk/components';
 import { observer } from 'mobx-react';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 
 const withTotalSlides = (nodeKeys?: WithNodeKeyProps): HOC => Component => {
   if (nodeKeys === undefined) return identity;

@@ -14,7 +14,7 @@
 
 import omit from 'lodash/omit';
 import React, { ComponentType, PropsWithChildren } from 'react';
-import { HOC, DesignableComponentsProps, extendDesignable } from '@bodiless/fclasses';
+import { HOC, DesignableComponentsProps, extendDesignable } from '@asemirsk/fclasses';
 
 /**
  * Utility function to add a Parent component to the given Child component

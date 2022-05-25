@@ -14,17 +14,17 @@
 
 import React, { FC } from 'react';
 import { graphql } from 'gatsby';
-import { Page as BasePage } from '@bodiless/gatsby-theme-bodiless';
+import { Page as BasePage } from '@asemirsk/gatsby-theme-bodiless';
 import {
   H1, H2, addClasses, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   withNavigationButtons,
   withCarouselDots,
   withAutoPlayInterval,
   withAutoPlayButton,
   withInfinitiveLoop,
-} from '@bodiless/carousel';
+} from '@asemirsk/carousel';
 import Layout from '../../../components/Layout';
 import {
   withNavButtonsStyles,

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { addClasses, withDesign, addProps } from '@bodiless/fclasses';
+import { addClasses, withDesign, addProps } from '@asemirsk/fclasses';
 
 const withImageRoundedCorners = addClasses('rounded-2xl');
 

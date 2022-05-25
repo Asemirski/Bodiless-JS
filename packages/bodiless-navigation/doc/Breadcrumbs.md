@@ -19,15 +19,15 @@
 ### Breadcrumbs Structure
 We can leverage `BreadcrumbsClean` component to build Breadcrumbs. Here is an example:
 ```js
-import { asReadOnly } from '@bodiless/core';
+import { asReadOnly } from '@asemirsk/core';
 import {
   BreadcrumbsClean,
   asBreadcrumbs,
   withEditableStartingTrail,
   withEditableFinalTrail,
   withMenuTitleEditors,
-} from '@bodiless/navigation';
-import { flowHoc } from '@bodiless/fclasses';
+} from '@asemirsk/navigation';
+import { flowHoc } from '@asemirsk/fclasses';
 
 import { $withBreadcrumbStyles } from './MenuBreadcrumbs.token';
 
@@ -59,11 +59,11 @@ export default Breadcrumbs;
 ```
 
 #### Breadcrumbs Context Provider and Store
-For breadcrumbs to work right, we need a place where Breadcrumb Items will be stored. There is a `withBreadcrumbStore` HOC exported from the `@bodiless/navigation` that may be used to add a `BreadcrumbStore` to the component. Usually it is registered on the top-level container so that the rest of the components on the page have an access to it.
+For breadcrumbs to work right, we need a place where Breadcrumb Items will be stored. There is a `withBreadcrumbStore` HOC exported from the `@asemirsk/navigation` that may be used to add a `BreadcrumbStore` to the component. Usually it is registered on the top-level container so that the rest of the components on the page have an access to it.
 
 ```js
-import { Fragment } from '@bodiless/fclasses';
-import { withBreadcrumbStore } from '@bodiless/navigation';
+import { Fragment } from '@asemirsk/fclasses';
+import { withBreadcrumbStore } from '@asemirsk/navigation';
 
 const BreadcrumbsProvider = withBreadcrumbStore(Fragment);
 
@@ -132,15 +132,15 @@ const $withBreadcrumbStyles = withDesign({
 
 ### Complete Breadcrumbs Example
 ```js
-import { asReadOnly } from '@bodiless/core';
+import { asReadOnly } from '@asemirsk/core';
 import {
   BreadcrumbsClean,
   asBreadcrumbs,
   withEditableStartingTrail,
   withEditableFinalTrail,
   withMenuTitleEditors,
-} from '@bodiless/navigation';
-import { flowHoc } from '@bodiless/fclasses';
+} from '@asemirsk/navigation';
+import { flowHoc } from '@asemirsk/fclasses';
 
 import { $withBreadcrumbStyles } from './MenuBreadcrumbs.token';
 

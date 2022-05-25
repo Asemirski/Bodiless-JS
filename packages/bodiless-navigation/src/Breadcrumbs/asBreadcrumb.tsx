@@ -15,10 +15,10 @@
 import React, {
   createContext, useContext, FC, useLayoutEffect,
 } from 'react';
-import { useNode, useEditContext } from '@bodiless/core';
-import type { LinkData } from '@bodiless/components';
+import { useNode, useEditContext } from '@asemirsk/core';
+import type { LinkData } from '@asemirsk/components';
 import { observer } from 'mobx-react';
-import type { HOC } from '@bodiless/fclasses';
+import type { HOC } from '@asemirsk/fclasses';
 import { BreadcrumbItem } from './BreadcrumbStore';
 import type { BreadcrumbItemType } from './BreadcrumbStore';
 import { useBreadcrumbStore, asHiddenBreadcrumbSource } from './BreadcrumbStoreProvider';

@@ -17,10 +17,10 @@ import differenceWith from 'lodash/differenceWith';
 import isEmpty from 'lodash/isEmpty';
 import omit from 'lodash/omit';
 import negate from 'lodash/negate';
-import { useNode } from '@bodiless/core';
+import { useNode } from '@asemirsk/core';
 import {
   Enhancer, flowIf,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import type { WithFilterByTagsProps } from './types';
 import { useFilterByGroupContext, useRegisterItem } from './FilterByGroupContext';

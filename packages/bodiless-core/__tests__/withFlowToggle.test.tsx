@@ -14,7 +14,7 @@
 
 import { mount } from 'enzyme';
 import React from 'react';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 import { ifToggledOff, ifToggledOn, withFlowToggle } from '../src/withFlowToggle';
 
 describe('withFlowToggle', () => {

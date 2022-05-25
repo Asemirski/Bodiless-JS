@@ -18,15 +18,15 @@ import {
   withMenuOptions,
   withResetButton,
   withSidecarNodes,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   CardClean,
   asTestableCard,
-} from '@bodiless/card';
+} from '@asemirsk/card';
 import {
   withDesign, startWith, flowHoc,
-} from '@bodiless/fclasses';
-import { GatsbyLink } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/fclasses';
+import { GatsbyLink } from '@asemirsk/gatsby-theme-bodiless';
 import {
   asEditable,
   asEditableLink,

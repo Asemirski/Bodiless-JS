@@ -1,5 +1,5 @@
 ### Environment Variables
-All environment variables are managed by an optional `bodiless.env.config` file in the root of each package that needs to set or update environment variables. Default env variables can be found in `dist/generate-env-vars/getDefaults` in `@bodiless/gatsby-theme-bodiless` package and all env variables may be overwritten by setting them in `.env.site` in the root directory of the site.
+All environment variables are managed by an optional `bodiless.env.config` file in the root of each package that needs to set or update environment variables. Default env variables can be found in `dist/generate-env-vars/getDefaults` in `@asemirsk/gatsby-theme-bodiless` package and all env variables may be overwritten by setting them in `.env.site` in the root directory of the site.
 
 #### About `bodiless.env.config` file
 There is an optional `bodiless.env.config` file in a package root directory that is used to configure `.env` variables by extending passed env configuration during the site build. In order for it to work it must export an `async` `configure(defaultConfig, appEnv)` function. This function accepts 2 params:
@@ -55,6 +55,6 @@ The `bodiless.env.config` file is not limited to the plain objects and may execu
 
 #### Dealing with precedence
 Basically, there are 3 pieces of the `.env` configuration system:
-* A default `getDefaults.ts` file with default env variables for bodiless sites defined in `@bodiless/gatsby-theme-bodiless`. 
+* A default `getDefaults.ts` file with default env variables for bodiless sites defined in `@asemirsk/gatsby-theme-bodiless`. 
 * Optional `bodiless.env.config` files in the root of bodiless packages. These files take precedence over the default configuration. It may either extend the default configuration or overwrite certain variables. Note that there may be an `bodiless.env.config` in the site root folder which will take precedence over any other `.env` configurations.
-* Site level `.env.site` file. This file is designed to take precedence over both: `getDefaults.ts` in `@bodiless/gatsby-theme-bodiless` and `bodiless.env.config` files. Also, there might be a need to dynamically set site-level env variables. You can do that by creating an `bodiless.env.config` file in the root folder of a site. This file will take precedence over any other env configuration.
+* Site level `.env.site` file. This file is designed to take precedence over both: `getDefaults.ts` in `@asemirsk/gatsby-theme-bodiless` and `bodiless.env.config` files. Also, there might be a need to dynamically set site-level env variables. You can do that by creating an `bodiless.env.config` file in the root folder of a site. This file will take precedence over any other env configuration.

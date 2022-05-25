@@ -15,7 +15,7 @@
 import {
   BodilessBackendClient,
   withMenuOptions,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   menuFormPageMove,
   menuFormPageClone,

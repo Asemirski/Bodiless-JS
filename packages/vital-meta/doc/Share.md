@@ -139,4 +139,4 @@ described below.
 
 Define a Shadowing token collection as defined in [Shadow](../VitalElements/Shadow).
 
-File to shadow: `packages/{my-package}/src/shadow/@bodiless/vital-meta/MetaHelmet.ts`
+File to shadow: `packages/{my-package}/src/shadow/@asemirsk/vital-meta/MetaHelmet.ts`

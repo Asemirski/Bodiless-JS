@@ -14,13 +14,13 @@
 
 import { ComponentType as CT } from 'react';
 import flow from 'lodash/flow';
-import { withChild, withNodeKey, WithNodeKeyProps } from '@bodiless/core';
-import { UseEditableOverrides, withPlaceholder } from '@bodiless/components';
+import { withChild, withNodeKey, WithNodeKeyProps } from '@asemirsk/core';
+import { UseEditableOverrides, withPlaceholder } from '@asemirsk/components';
 import {
   as,
   addPropsIf,
   HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { vitalEditorPlain, EditorPlainClean } from '../components/EditorPlain';
 import { RichTextClean, vitalRichText } from '../components/RichText';
 

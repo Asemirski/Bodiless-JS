@@ -2,11 +2,11 @@
 
 ## Usage
 ```sh-session
-$ npm install -g @bodiless/cli
+$ npm install -g @asemirsk/cli
 $ bodiless COMMAND
 running command...
 $ bodiless (-v|--version|version)
-@bodiless/cli/0.0.52 darwin-x64 node-v16.9.1
+@asemirsk/cli/0.0.52 darwin-x64 node-v16.9.1
 $ bodiless --help [COMMAND]
 USAGE
   $ bodiless COMMAND

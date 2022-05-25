@@ -20,9 +20,9 @@ import React, {
   useContext,
 } from 'react';
 import flowRight from 'lodash/flowRight';
-import { useMenuOptionUI } from '@bodiless/core';
-import type { AsBodiless } from '@bodiless/core';
-import { addProps } from '@bodiless/fclasses';
+import { useMenuOptionUI } from '@asemirsk/core';
+import type { AsBodiless } from '@asemirsk/core';
+import { addProps } from '@asemirsk/fclasses';
 import withFormHeader from './withFormHeader';
 import withFormSnippet from './withFormSnippet';
 import { asBaseBodilessIframe } from './Iframe';

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { TagType } from '@bodiless/core';
+import { TagType } from '@asemirsk/core';
 
 export type TagsNodeType = {
   tags: TagType[],

@@ -23,7 +23,7 @@ import {
   useActivateOnEffectActivator,
   withContextActivator,
   withLocalContextMenu,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { observer } from 'mobx-react';
 import flow from 'lodash/flow';
 import CleanWrapper, { Props as WrapperProps } from './SortableResizableWrapper';

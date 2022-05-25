@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { flowHoc, HOC } from '@bodiless/fclasses';
+import { flowHoc, HOC } from '@asemirsk/fclasses';
 import {
   withContextActivator,
   withLocalContextMenu,

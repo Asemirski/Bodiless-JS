@@ -11,9 +11,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { vitalColor, vitalTextDecoration } from '@bodiless/vital-elements';
-import { vitalMetaHelmet } from '@bodiless/vital-meta';
-import { as } from '@bodiless/fclasses';
+import { vitalColor, vitalTextDecoration } from '@asemirsk/vital-elements';
+import { vitalMetaHelmet } from '@asemirsk/vital-meta';
+import { as } from '@asemirsk/fclasses';
 import { asHelmetToken } from '../HelmetClean';
 
 const Default = asHelmetToken({

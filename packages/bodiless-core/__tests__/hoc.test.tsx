@@ -15,7 +15,7 @@
 import React, { FC } from 'react';
 import { shallow, mount } from 'enzyme';
 import { observable } from 'mobx';
-import type { Tag } from '@bodiless/fclasses';
+import type { Tag } from '@asemirsk/fclasses';
 import {
   withContextActivator, withLocalContextMenu, withNodeDataHandlers, withOnlyProps,
 } from '../src/hoc';

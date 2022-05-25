@@ -65,7 +65,7 @@ One can use this component in order to add baazarvoice reviews widget to the pag
 You need to import the component
 
 ``` js
-import { BVReviewsV1 } from '@bodiless/bv';
+import { BVReviewsV1 } from '@asemirsk/bv';
 ```
 
 And then you can place the component on a page
@@ -83,7 +83,7 @@ One can use this component in order to add baazarvoice inline ratings widget to 
 You need to import the component
 
 ``` js
-import { BVInlineRatingsV1 } from '@bodiless/bv';
+import { BVInlineRatingsV1 } from '@asemirsk/bv';
 ```
 
 And then you can place the component on a page
@@ -101,7 +101,7 @@ One can use this component in order to add baazarvoice ratings summary widget to
 You need to import the component
 
 ``` js
-import { BVRatingsSummaryV1 } from '@bodiless/bv';
+import { BVRatingsSummaryV1 } from '@asemirsk/bv';
 ```
 
 And then you can place the component on a page
@@ -119,7 +119,7 @@ One can use this component as base component in order to compose his/her custom 
 You need to import the base component and the list of HOCs to compose your custom BV component
 
 ``` js
-import { BVInlineRatingsBaseV1, withBVLoader, asBodilessBV } from '@bodiless/bv';
+import { BVInlineRatingsBaseV1, withBVLoader, asBodilessBV } from '@asemirsk/bv';
 import flowRight from 'lodash/flowRight';
 ```
 
@@ -148,7 +148,7 @@ One can use this component as base component in order to compose his/her custom 
 You need to import the base component and the list of HOCs to compose your custom BV component
 
 ``` js
-import { BVReviewsBaseV1, withBVLoader, asBodilessBV } from '@bodiless/bv';
+import { BVReviewsBaseV1, withBVLoader, asBodilessBV } from '@asemirsk/bv';
 import flowRight from 'lodash/flowRight';
 ```
 
@@ -176,7 +176,7 @@ One can use this component as base component in order to compose his/her custom 
 You need to import the base component and the list of HOCs to compose your custom BV component
 
 ``` js
-import { BVInlineRatingsBaseV1, withBVLoader, asBodilessBV } from '@bodiless/bv';
+import { BVInlineRatingsBaseV1, withBVLoader, asBodilessBV } from '@asemirsk/bv';
 import flowRight from 'lodash/flowRight';
 ```
 
@@ -204,7 +204,7 @@ One can use this component as base component in order to compose his/her custom 
 You need to import the base component and the list of HOCs to compose your custom BV component
 
 ``` js
-import { BVRatingsSummaryBaseV1, withBVLoader, asBodilessBV } from '@bodiless/bv';
+import { BVRatingsSummaryBaseV1, withBVLoader, asBodilessBV } from '@asemirsk/bv';
 import flowRight from 'lodash/flowRight';
 ```
 
@@ -236,7 +236,7 @@ One can use this component in order to add baazarvoice reviews widget to the pag
 You need to import the component
 
 ``` js
-import { BVReviews } from '@bodiless/bv';
+import { BVReviews } from '@asemirsk/bv';
 ```
 
 And then you can place the component on a page
@@ -280,7 +280,7 @@ One can use this component in order to add baazarvoice inline ratings widget to 
 You need to import the component
 
 ``` js
-import { BVInlineRatings } from '@bodiless/bv';
+import { BVInlineRatings } from '@asemirsk/bv';
 ```
 
 And then you can place the component on a page
@@ -326,7 +326,7 @@ One can use this component in order to add baazarvoice ratings summary widget to
 You need to import the component
 
 ``` js
-import { BVRatingsSummary } from '@bodiless/bv';
+import { BVRatingsSummary } from '@asemirsk/bv';
 ```
 
 And then you can place the component on a page
@@ -370,7 +370,7 @@ One can use this component as base component in order to compose his/her custom 
 You need to import the base component and the list of HOCs to compose your custom BV component
 
 ``` js
-import { BVReviewsBase, withBVLoader, asBodilessBV } from '@bodiless/bv';
+import { BVReviewsBase, withBVLoader, asBodilessBV } from '@asemirsk/bv';
 import flowRight from 'lodash/flowRight';
 ```
 
@@ -398,7 +398,7 @@ One can use this component as base component in order to compose his/her custom 
 You need to import the base component and the list of HOCs to compose your custom BV component
 
 ``` js
-import { BVInlineRatingsBase, withBVLoader, asBodilessBV } from '@bodiless/bv';
+import { BVInlineRatingsBase, withBVLoader, asBodilessBV } from '@asemirsk/bv';
 import flowRight from 'lodash/flowRight';
 ```
 
@@ -426,7 +426,7 @@ One can use this component as base component in order to compose his/her custom 
 You need to import the base component and the list of HOCs to compose your custom BV component
 
 ``` js
-import { BVRatingsSummaryBase, withBVLoader, asBodilessBV } from '@bodiless/bv';
+import { BVRatingsSummaryBase, withBVLoader, asBodilessBV } from '@asemirsk/bv';
 import flowRight from 'lodash/flowRight';
 ```
 
@@ -456,7 +456,7 @@ One can use this HOC in order to enhance his/her base BV component with Bodiless
 You need to import the HOC and compose your component
 
 ``` js
-import { asBodilessBV, BVRatingsSummaryBase } from '@bodiless/bv';
+import { asBodilessBV, BVRatingsSummaryBase } from '@asemirsk/bv';
 const MyBVComponent = asBodilessBV(BVRatingsSummaryBase);
 ```
 
@@ -475,7 +475,7 @@ One can use this HOC in order to compose his/her own BV component. asBodilessBV 
 You need to import the HOC and compose your component
 
 ``` js
-import { asBVComponent } from '@bodiless/bv';
+import { asBVComponent } from '@asemirsk/bv';
 
 const MyBVContainer = props => <div id="BVContainer" {...props}></div>;
 const MyBVComponent = asBVComponent('BV Ratings Summary', () => $BV.ui('rr', 'show_reviews', {productId: 'product_id'}))(MyBVContainer);
@@ -497,7 +497,7 @@ One can use this HOC in order to compose his/her own BV component. asDesignableB
 You need to import the HOC and compose your component
 
 ``` js
-import { asDesignableBVComponent } from '@bodiless/bv';
+import { asDesignableBVComponent } from '@asemirsk/bv';
 
 const MyBVContainer = props => <div id="BVContainer" {...props}></div>;
 const MyBVComponent = asDesignableBVComponent('BV Ratings Summary', () => $BV.ui('rr', 'show_reviews', {productId: 'product_id'}))(MyBVContainer);
@@ -519,7 +519,7 @@ One can use this HOC in order to enhance his/her base BV component with bodiless
 You need to import the HOC and compose your component
 
 ``` js
-import { asEditableBV, BVRatingsSummaryBase } from '@bodiless/bv';
+import { asEditableBV, BVRatingsSummaryBase } from '@asemirsk/bv';
 const MyBVComponent = asEditableBV(BVRatingsSummaryBase);
 ```
 
@@ -538,7 +538,7 @@ One can use this HOC in order to enhance his/her custom BV component with loadin
 You need to import the HOC and compose your component
 
 ``` js
-import { withBVLoader } from '@bodiless/bv';
+import { withBVLoader } from '@asemirsk/bv';
 const BVComponentWithLoader = withBVLoader(YourCustomBVComponent);
 ```
 
@@ -557,7 +557,7 @@ One can use this component in order to add main Baazarvoice script to the page h
 First, you need to compose your custom BV components.
 
 ``` js
-import { BVRatingsSummaryBase, BVReviewsBase, asBodilessBV } from '@bodiless/bv';
+import { BVRatingsSummaryBase, BVReviewsBase, asBodilessBV } from '@asemirsk/bv';
 
 const CustomBVRatingsSummary = asBodilessBV(BVRatingsSummaryBase);
 const CustomBVReviews = asBodilessBV(BVReviewsBase);
@@ -566,7 +566,7 @@ const CustomBVReviews = asBodilessBV(BVReviewsBase);
 Then, you should ensure BVLoaderProvider is imported on our page
 
 ``` js
-import { BVLoaderProvider } from '@bodiless/bv';
+import { BVLoaderProvider } from '@asemirsk/bv';
 ```
 
 Then, you can add BVLoaderProvider and our custom components on a page

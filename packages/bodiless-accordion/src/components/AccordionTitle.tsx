@@ -19,7 +19,7 @@ import {
   Span,
   HOC,
   DesignableComponentsProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { AddIcon, RemoveIcon } from '../icons';
 import {
   asAccordionIcon,

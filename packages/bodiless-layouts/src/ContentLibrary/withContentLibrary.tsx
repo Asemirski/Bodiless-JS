@@ -16,9 +16,9 @@ import React, { ComponentType } from 'react';
 import {
   useNode, ContentNode, useContextMenuForm,
   createMenuOptionGroup, withMenuOptions, NodeProvider,
-} from '@bodiless/core';
-import type { OptionGroupDefinition } from '@bodiless/core';
-import type { ComponentOrTag } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import type { OptionGroupDefinition } from '@asemirsk/core';
+import type { ComponentOrTag } from '@asemirsk/fclasses';
 import { observer } from 'mobx-react';
 import flow from 'lodash/flow';
 import ComponentSelector from '../ComponentSelector';

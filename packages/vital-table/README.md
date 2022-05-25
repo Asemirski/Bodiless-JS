@@ -1,4 +1,4 @@
-# `@bodiless/vital-table`
+# `@asemirsk/vital-table`
 
 For documentation on the Vital Table package, please see:
 

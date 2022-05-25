@@ -16,14 +16,14 @@ import {
   withTitle,
   withDesc,
   ifComponentSelector,
-} from '@bodiless/layouts';
+} from '@asemirsk/layouts';
 import {
   varyDesign,
   replaceWith,
   withDesign,
   flowHoc,
-} from '@bodiless/fclasses';
-import { asPreview } from '@bodiless/richtext';
+} from '@asemirsk/fclasses';
+import { asPreview } from '@asemirsk/richtext';
 
 import {
   EditorBasic,

@@ -44,7 +44,7 @@ To compose a base BodilessJS iframe component.
 
   ``` js
   import React from 'react';
-  import { asBodilessIframe } from '@bodiless/components';
+  import { asBodilessIframe } from '@asemirsk/components';
 
   const Iframe = asBodilessIframe()('iframe');
   ```
@@ -60,7 +60,7 @@ You may pass other html element iframe props to the component.
 
 By default, src and height fields are editable. You can compose your own 
 BodilessJS iframe component defining custom editable fields. For example, 
-you can make src and width editable. Import src snippet from @bodiless/components, 
+you can make src and width editable. Import src snippet from @asemirsk/components, 
 compose width snippet and compose the custom `EditableWidthIframe` component.
 
   ``` js
@@ -72,8 +72,8 @@ compose width snippet and compose the custom `EditableWidthIframe` component.
     withoutProps,
     withData,
     useMenuOptionUI,
-  } from '@bodiless/core';
-  import { asBaseBodilessIframe, withIframeFormSrcSnippet, } from '@bodiless/components';
+  } from '@asemirsk/core';
+  import { asBaseBodilessIframe, withIframeFormSrcSnippet, } from '@asemirsk/components';
   import flowRight from 'lodash/flowRight';
 
   const withIframeWidthSnippet = flowRight(

@@ -36,7 +36,7 @@ remain available and usable even without a network connection.
 Install the Bodiless Search package:
 
 ```shell-session
-npm install @bodiless/search
+npm install @asemirsk/search
 ```
 
 ### 2. Configure Search
@@ -118,7 +118,7 @@ styling.
 import flow from 'lodash/flow';
 import {
   SearchBox as SearchBoxClean, SearchResult as SearchResultClean,
-} from '@bodiless/search';
+} from '@asemirsk/search';
 import {
   asSimpleSearchResult, asInlineSearch, asSimpleSearch,
 } from './token';

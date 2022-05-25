@@ -237,7 +237,7 @@ implemented in the appropriate `token.tsx` file by adding the necessary Tailwind
 Here is an example demonstrating all possible design components:
 
 ```js
-import { withDesign, addClasses } from '@bodiless/fclasses';
+import { withDesign, addClasses } from '@asemirsk/fclasses';
 
 const asTableExampleStyle = withDesign({
   Wrapper: addClasses('p-3'),
@@ -254,8 +254,8 @@ are several helper functions for this; or you can provide a custom function with
 well as table data.
 
 ```js
-import { withDesign, addClasses, addClassesIf, and, not } from '@bodiless/fclasses';
-import { useIsFirstColumn, useIsOddColumnn } from '@bodiless/organisms';
+import { withDesign, addClasses, addClassesIf, and, not } from '@asemirsk/fclasses';
+import { useIsFirstColumn, useIsOddColumnn } from '@asemirsk/organisms';
 
 const asTableExampleStyle = withDesign({
   Cell: asToken(

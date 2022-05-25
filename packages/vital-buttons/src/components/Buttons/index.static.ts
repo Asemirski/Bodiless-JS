@@ -17,4 +17,4 @@
 export {
   staticTokenCollection as vitalButtonStatic,
   StaticInline as ButtonStatic,
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';

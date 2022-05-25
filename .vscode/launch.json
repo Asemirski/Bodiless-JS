@@ -33,7 +33,7 @@
                 "pack",
                 "-s ..",
                 "--force",
-                "-p @bodiless/core",
+                "-p @asemirsk/core",
                 "--skip-install",
             ]
         },

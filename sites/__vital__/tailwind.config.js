@@ -20,7 +20,7 @@ const content = glob.sync(
 );
 
 const { buildTailwindConfig } = requireEsm(
-  '@bodiless/fclasses'
+  '@asemirsk/fclasses'
 );
 
 const twConfig = {
@@ -36,8 +36,8 @@ const twConfig = {
 //   pkgJson,
 //   twConfig,
 //   resolver,
-//   prefer: ['@bodiless/test-site', '@bodiless/some-package-name'],
-//   exclude: ['@bodiless/organisms', '@bodiless/accordion'],
+//   prefer: ['@asemirsk/test-site', '@asemirsk/some-package-name'],
+//   exclude: ['@asemirsk/organisms', '@asemirsk/accordion'],
 // });
 
 module.exports = buildTailwindConfig({

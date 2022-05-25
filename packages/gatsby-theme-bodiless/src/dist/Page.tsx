@@ -23,14 +23,14 @@ import {
   useGitButtons,
   GitContextProvider,
   GitContextProviderProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   Fragment,
   withShowDesignKeys,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { observer } from 'mobx-react';
-import { ContextWrapper, PageEditor } from '@bodiless/core-ui';
-import { withPageDisableButton } from '@bodiless/components';
+import { ContextWrapper, PageEditor } from '@asemirsk/core-ui';
+import { withPageDisableButton } from '@asemirsk/components';
 import {
   PageDataProvider,
   PageDataContextProviderProps,
@@ -39,7 +39,7 @@ import {
   withMovePageButton,
   withNewPageButton,
   withRedirectAliasButton,
-} from '@bodiless/page';
+} from '@asemirsk/page';
 import GatsbyNodeProvider from './GatsbyNodeProvider';
 
 type FinalUI = {

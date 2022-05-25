@@ -19,7 +19,7 @@ import {
   addProps,
   replaceWith,
   withoutProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { getUI } from './RichTextContext';
 import withDefaults from './withDefaults';
 import PluginButton from './components/PluginButton';

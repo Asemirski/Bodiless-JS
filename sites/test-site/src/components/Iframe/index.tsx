@@ -13,21 +13,21 @@
  */
 
 import { flowRight } from 'lodash';
-import { asBodilessIframe } from '@bodiless/components';
+import { asBodilessIframe } from '@asemirsk/components';
 import {
   Embed,
   asResponsiveIframe as asBaseResponsiveIframe,
-} from '@bodiless/organisms';
+} from '@asemirsk/organisms';
 import {
   Iframe,
   withDesign,
   addClasses,
   addProps,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import { ComponentType } from 'react';
-import { WithNodeProps } from '@bodiless/core';
+import { WithNodeProps } from '@asemirsk/core';
 import {
   asResponsive21By9Embed,
   asResponsive16By9Embed,

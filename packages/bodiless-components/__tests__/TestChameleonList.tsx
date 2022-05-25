@@ -16,10 +16,10 @@ import React, { ComponentType } from 'react';
 import flow from 'lodash/flow';
 import {
   withDesign, addProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   WithNodeKeyProps, withDefaultContent,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import asBodilessList, {
   asSubList,
 } from '../src/List/asBodilessList';

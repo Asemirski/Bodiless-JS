@@ -229,7 +229,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.4](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.3...v0.3.4) (2021-12-16)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 
@@ -237,7 +237,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.3](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.2...v0.3.3) (2021-12-15)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 
@@ -323,7 +323,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.7](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.6...v0.2.7) (2021-07-20)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 
@@ -331,7 +331,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.6](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.5...v0.2.6) (2021-07-20)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 
@@ -367,7 +367,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.3](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.2...v0.2.3) (2021-06-14)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 
@@ -436,15 +436,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* **navigation, organisms, components:**  - There is now a new `@bodiless/navigation` package for the new menu API.
- - All menu-related code is removed from `@bodiless/organisms`.
- - `withSimpleMenuDesign` and `withMegaMenuDesign` were deprecated. Use `withMenuDesign` from `@bodiless/organisms`  instead.
- - `asSimpleMenuTopNav` and `asMegaMenuTopNav` were depricated. Use `asTopNav()` from `@bodiless/organisms` instead.
+* **navigation, organisms, components:**  - There is now a new `@asemirsk/navigation` package for the new menu API.
+ - All menu-related code is removed from `@asemirsk/organisms`.
+ - `withSimpleMenuDesign` and `withMegaMenuDesign` were deprecated. Use `withMenuDesign` from `@asemirsk/organisms`  instead.
+ - `asSimpleMenuTopNav` and `asMegaMenuTopNav` were depricated. Use `asTopNav()` from `@asemirsk/organisms` instead.
  - Breadcrumbs are now configured by default for each menu item. No need for `asBreadcrumbSource`.
  - List and Menu design keys have changed. Removed extra `Wrapper` component from submenus.
  - Breadcrumb design keys have changed. Breadcrumb `Title` is now the same component as `MenuTitle` by default. The `BreadcrumbLink` design key has been deprecated. `Link` is available in `MenuTitle`. Renamed `BreadcrumbWrapper` and `BreadcrumbItem` to `Wrapper` and `Item` respectively.
-- Please refer to the Upgrade Guide in `@bodiless/organisms` readme file.
-* **components, youtube:** YouTube and ResponsiveYouTube components were moved to the `@bodiless/YouTube`
+- Please refer to the Upgrade Guide in `@asemirsk/organisms` readme file.
+* **components, youtube:** YouTube and ResponsiveYouTube components were moved to the `@asemirsk/YouTube`
 
 
 
@@ -559,7 +559,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.65](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.64...v0.0.65) (2020-12-23)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 
@@ -578,7 +578,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.63](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.62...v0.0.63) (2020-12-08)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 
@@ -837,7 +837,7 @@ flow(
 
 ### BREAKING CHANGES
 
-* **components, components-ui:** * Styles of @bodiless/components image picker changed. Functionality of image picker is not impacted, just visual appearance changed. If a site uses Image or asBodilessImage from @bodiless/components, then the site is impacted. The recommended migration path is to change Image and asBodilessImage import from "@bodiless/components" into "@bodiless/components-ui". Example of the migration can be found in test site.
+* **components, components-ui:** * Styles of @asemirsk/components image picker changed. Functionality of image picker is not impacted, just visual appearance changed. If a site uses Image or asBodilessImage from @asemirsk/components, then the site is impacted. The recommended migration path is to change Image and asBodilessImage import from "@asemirsk/components" into "@asemirsk/components-ui". Example of the migration can be found in test site.
 
 
 
@@ -857,7 +857,7 @@ flow(
 
 ## [0.0.46](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.45...v0.0.46) (2020-04-08)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 
@@ -898,13 +898,13 @@ flow(
 
 ## [0.0.43](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.42...v0.0.43) (2020-03-11)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 
 ## [0.0.42](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.41...v0.0.42) (2020-02-28)
 
-**Note:** Version bump only for package @bodiless/test-site
+**Note:** Version bump only for package @asemirsk/test-site
 
 
 

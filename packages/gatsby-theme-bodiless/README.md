@@ -1,11 +1,11 @@
-# `@bodiless/gatsby-theme-bodiless`
+# `@asemirsk/gatsby-theme-bodiless`
 
 > TODO: description
 
 ## Usage
 
 ```
-const gatsbyThemeBodiless = require('@bodiless/gatsby-theme-bodiless');
+const gatsbyThemeBodiless = require('@asemirsk/gatsby-theme-bodiless');
 
 // TODO: DEMONSTRATE API
 ```
@@ -20,7 +20,7 @@ To override default image processing arguments, use `gatsbyImage.sharpArgs` opti
 
 ```js
   {
-    resolve: '@bodiless/gatsby-theme-bodiless',
+    resolve: '@asemirsk/gatsby-theme-bodiless',
     options: {
       gatsbyImage: {
         sharpArgs: {
@@ -75,7 +75,7 @@ See [gatsby-plugin-sharp](https://www.gatsbyjs.com/plugins/gatsby-plugin-sharp/)
 
     const {
       createDefaultContentPlugins,
-    } = require('@bodiless/gatsby-theme-bodiless/dist/DefaultContent');
+    } = require('@asemirsk/gatsby-theme-bodiless/dist/DefaultContent');
 
     module.exports = {
       plugins: {
@@ -104,13 +104,13 @@ See [gatsby-plugin-sharp](https://www.gatsbyjs.com/plugins/gatsby-plugin-sharp/)
 1. Use helpers to compose Gatsby Image components
 
 ```js
-import { useContentFrom } from '@bodiless/core';
-import { asBodilessImage } from '@bodiless/components-ui';
-import { withDefaultImageContent } from '@bodiless/components';
+import { useContentFrom } from '@asemirsk/core';
+import { asBodilessImage } from '@asemirsk/components-ui';
+import { withDefaultImageContent } from '@asemirsk/components';
 import {
   GatsbyImagePresets,
   withGatsbyImagePreset,
-} from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/gatsby-theme-bodiless';
 
 const asEditableImage = withGatsbyImagePreset(GatsbyImagePresets.FluidWithWebp)(asBodilessImage);
 const useDefaultImageNode = useContentFrom(['DefaultContent', 'contentful1']);
@@ -121,7 +121,7 @@ const Image = withDefaultImageContent(asEditableImage)(useDefaultImageNode)('ima
 ```
 
 #### Omit Gatsby Plugin Image for static Image
-When using Gatsby Image with withoutHydration from @bodiless/hydration and providing a static version, gatsby-plugin-image is not required anymore on front-end the code can be removed from the final bundle through the
+When using Gatsby Image with withoutHydration from @asemirsk/hydration and providing a static version, gatsby-plugin-image is not required anymore on front-end the code can be removed from the final bundle through the
 environment variable BODILESS_GATSBY_PLUGIN_IMAGE_OMIT set to 1.
 
 ### Plugins

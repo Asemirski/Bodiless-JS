@@ -15,15 +15,15 @@
 import React, { ComponentType } from 'react';
 import type { FC } from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { withNode } from '@bodiless/core';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { withNode } from '@asemirsk/core';
 
-import { ComponentSelector, ComponentDisplayMode } from '@bodiless/layouts';
-import { componentSelectorUi } from '@bodiless/layouts-ui';
+import { ComponentSelector, ComponentDisplayMode } from '@asemirsk/layouts';
+import { componentSelectorUi } from '@asemirsk/layouts-ui';
 import {
   designable, flowHoc, addProps, DesignableComponentsProps, removeClasses, HOC,
-} from '@bodiless/fclasses';
-import type { ComponentSelectorProps, ComponentWithMeta } from '@bodiless/layouts';
+} from '@asemirsk/fclasses';
+import type { ComponentSelectorProps, ComponentWithMeta } from '@asemirsk/layouts';
 import Layout from '../../../components/Layout';
 import withDefaultVariations from '../../../components/FlowContainer/withDefaultVariations';
 

@@ -1,6 +1,6 @@
 # Vital Navigation Components
 
-The Vital Navigation (`@bodiless/vital-navigation`) package is composed of the following components:
+The Vital Navigation (`@asemirsk/vital-navigation`) package is composed of the following components:
 
 - [Burger Menu](./BurgerMenu)
 - [Menu](./Menu)

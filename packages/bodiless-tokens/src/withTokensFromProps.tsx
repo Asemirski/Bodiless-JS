@@ -16,7 +16,7 @@ import React, { ComponentType } from 'react';
 
 import {
   ComponentOrTag, HOC, flowHoc, Enhancer,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 export type Tokens = { [key: string]: HOC };
 export type TokensProps = { tokens: HOC[] };

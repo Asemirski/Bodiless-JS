@@ -13,11 +13,11 @@
  */
 
 import React, { FC } from 'react';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 import {
   Div, Fragment, A, designable,
-} from '@bodiless/fclasses';
-import { ButtonClean } from '@bodiless/vital-buttons';
+} from '@asemirsk/fclasses';
+import { ButtonClean } from '@asemirsk/vital-buttons';
 import { MenuClean } from '../Menu';
 import type { BurgerMenuComponents, BurgerMenuProps } from './types';
 

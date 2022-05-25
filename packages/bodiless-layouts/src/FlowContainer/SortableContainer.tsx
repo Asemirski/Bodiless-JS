@@ -17,9 +17,9 @@ import { observer } from 'mobx-react';
 import { SortableContainer, SortEndHandler } from 'react-sortable-hoc';
 import {
   useContextActivator, withLocalContextMenu, withContextActivator,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import omit from 'lodash/omit';
-import { flowHoc } from '@bodiless/fclasses';
+import { flowHoc } from '@asemirsk/fclasses';
 
 type FinalUI = {
   FlowContainerEmptyWrapper: ComponentType<HTMLProps<HTMLDivElement>> | string,

@@ -15,10 +15,10 @@
 import flowRight from 'lodash/flowRight';
 import {
   ifEditable, withNode, ifReadOnly, withOnlyProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   replaceWith, addProps, stylable,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { Fragment } from 'react';
 import asBodilessLink from './Link/asBodilessLink';
 import { withToggleTo, withWrapOnSubmit } from './Toggle';

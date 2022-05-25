@@ -16,7 +16,7 @@
 import React, {
   FC, createContext, useContext, ReactNode,
 } from 'react';
-import { addProps, Div } from '@bodiless/fclasses';
+import { addProps, Div } from '@asemirsk/fclasses';
 import ContextMenuItem from '../components/ContextMenuItem';
 import { ContextMenuBase } from '../components/ContextMenu';
 import { useMenuOptionUI } from '../components/ContextMenuContext';

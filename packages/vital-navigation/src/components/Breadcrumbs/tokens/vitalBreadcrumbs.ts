@@ -12,21 +12,21 @@
  * limitations under the License.
  */
 
-import { asReadOnly, withNodeKey } from '@bodiless/core';
-import { withoutLinkWhenLinkDataEmpty } from '@bodiless/components';
+import { asReadOnly, withNodeKey } from '@asemirsk/core';
+import { withoutLinkWhenLinkDataEmpty } from '@asemirsk/components';
 import {
   withDesign,
   addProps,
   stylable,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asBreadcrumbs,
   withEditableStartingTrail,
   withEditableFinalTrail,
   withMenuTitleEditors,
-} from '@bodiless/navigation';
-import { vitalColor } from '@bodiless/vital-elements';
+} from '@asemirsk/navigation';
+import { vitalColor } from '@asemirsk/vital-elements';
 import { asBreadcrumbsToken } from '../BreadcrumbsClean';
 
 /**

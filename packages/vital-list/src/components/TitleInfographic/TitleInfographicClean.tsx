@@ -13,16 +13,16 @@
  */
 
 import React from 'react';
-import type { ComponentOrTag } from '@bodiless/fclasses';
+import type { ComponentOrTag } from '@asemirsk/fclasses';
 import {
   designable,
   Div,
   Img,
   DesignableComponentsProps,
-} from '@bodiless/fclasses';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import { RichTextClean } from '@bodiless/vital-editors';
-import { withoutHydration } from '@bodiless/hydration';
+} from '@asemirsk/fclasses';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import { RichTextClean } from '@asemirsk/vital-editors';
+import { withoutHydration } from '@asemirsk/hydration';
 
 export type TitleInfographicComponents = {
   Wrapper: ComponentOrTag<any>,

@@ -13,19 +13,19 @@
  */
 
 import flowRight from 'lodash/flowRight';
-import { ifReadOnly } from '@bodiless/core';
+import { ifReadOnly } from '@asemirsk/core';
 import {
   withYouTubePlayerSettings,
   asResponsiveYouTube as asBaseResponsiveYouTube,
   withFullScreenEnabled,
-} from '@bodiless/youtube';
-import type { YouTubePlayerSettings } from '@bodiless/youtube';
-import { Embed } from '@bodiless/organisms';
+} from '@asemirsk/youtube';
+import type { YouTubePlayerSettings } from '@asemirsk/youtube';
+import { Embed } from '@asemirsk/organisms';
 import {
   addProps,
   withDesign,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import { asResponsive16By9Embed } from '../Elements.token';
 

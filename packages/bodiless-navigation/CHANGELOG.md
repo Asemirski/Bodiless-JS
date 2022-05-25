@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-rc.1](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.18...v1.0.0-rc.1) (2022-05-20)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.18](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.17...v1.0.0-beta.18) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.17](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -29,7 +29,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.16](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -37,7 +37,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.15](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2022-05-10)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -45,7 +45,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.14](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2022-05-05)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -53,7 +53,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.13](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2022-05-05)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -61,7 +61,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.12](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2022-05-02)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -69,7 +69,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.11](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-04-28)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -77,7 +77,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.10](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2022-04-26)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -96,7 +96,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.7](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.5...v1.0.0-beta.7) (2022-04-13)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -104,7 +104,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.5](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-04-13)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -145,7 +145,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.1](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.7...v1.0.0-beta.1) (2022-03-14)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -164,7 +164,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.6](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.5...v0.3.6) (2022-01-24)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -172,7 +172,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.5](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.4...v0.3.5) (2021-12-29)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -180,7 +180,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.4](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.3...v0.3.4) (2021-12-16)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -188,7 +188,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.3](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.2...v0.3.3) (2021-12-15)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -218,7 +218,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.3.0](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.10...v0.3.0) (2021-11-01)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -237,7 +237,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.9](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.8...v0.2.9) (2021-08-20)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -256,7 +256,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.7](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.6...v0.2.7) (2021-07-20)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -264,7 +264,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.6](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.5...v0.2.6) (2021-07-20)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -272,7 +272,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.5](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.4...v0.2.5) (2021-07-16)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -296,7 +296,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.3](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.2...v0.2.3) (2021-06-14)
 
-**Note:** Version bump only for package @bodiless/navigation
+**Note:** Version bump only for package @asemirsk/navigation
 
 
 
@@ -350,11 +350,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* **navigation, organisms, components:**  - There is now a new `@bodiless/navigation` package for the new menu API.
- - All menu-related code is removed from `@bodiless/organisms`.
- - `withSimpleMenuDesign` and `withMegaMenuDesign` were deprecated. Use `withMenuDesign` from `@bodiless/organisms`  instead.
- - `asSimpleMenuTopNav` and `asMegaMenuTopNav` were depricated. Use `asTopNav()` from `@bodiless/organisms` instead.
+* **navigation, organisms, components:**  - There is now a new `@asemirsk/navigation` package for the new menu API.
+ - All menu-related code is removed from `@asemirsk/organisms`.
+ - `withSimpleMenuDesign` and `withMegaMenuDesign` were deprecated. Use `withMenuDesign` from `@asemirsk/organisms`  instead.
+ - `asSimpleMenuTopNav` and `asMegaMenuTopNav` were depricated. Use `asTopNav()` from `@asemirsk/organisms` instead.
  - Breadcrumbs are now configured by default for each menu item. No need for `asBreadcrumbSource`.
  - List and Menu design keys have changed. Removed extra `Wrapper` component from submenus.
  - Breadcrumb design keys have changed. Breadcrumb `Title` is now the same component as `MenuTitle` by default. The `BreadcrumbLink` design key has been deprecated. `Link` is available in `MenuTitle`. Renamed `BreadcrumbWrapper` and `BreadcrumbItem` to `Wrapper` and `Item` respectively.
-- Please refer to the Upgrade Guide in `@bodiless/organisms` readme file.
+- Please refer to the Upgrade Guide in `@asemirsk/organisms` readme file.

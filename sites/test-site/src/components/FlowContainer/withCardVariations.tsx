@@ -15,14 +15,14 @@
 import {
   withFacet,
   withDesc,
-} from '@bodiless/layouts';
+} from '@asemirsk/layouts';
 import {
   extendDesign,
   replaceWith,
   withDesign,
   flowHoc,
   varyDesigns,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import Card from '../Card';
 import {
   asCardHorizontal,

@@ -20,13 +20,13 @@ import {
   as,
   replaceWith,
   addProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asBodilessTable, useIsFirstColumn, useIsInBody, useIsOddRow,
-} from '@bodiless/table';
-import { vitalRichText, RichTextClean } from '@bodiless/vital-editors';
-import { vitalColor } from '@bodiless/vital-elements';
-import { ifComponentSelector } from '@bodiless/layouts';
+} from '@asemirsk/table';
+import { vitalRichText, RichTextClean } from '@asemirsk/vital-editors';
+import { vitalColor } from '@asemirsk/vital-elements';
+import { ifComponentSelector } from '@asemirsk/layouts';
 import { asTableToken, TableCellPreview } from '../TableClean';
 
 const WithFlowContainerPreview = asTableToken({

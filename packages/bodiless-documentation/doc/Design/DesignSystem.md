@@ -214,7 +214,7 @@ That's it: no additional styling or functionality is part of the component.
 To make an editable version of the card, we apply a behavioral component token:
 
 ``` js  
-import { CardClean } from '@bodiless/card';
+import { CardClean } from '@asemirsk/card';
 
 const asEditableCard = flow(
   withDesign({

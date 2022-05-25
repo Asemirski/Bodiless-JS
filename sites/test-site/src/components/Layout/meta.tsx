@@ -21,10 +21,10 @@ import {
   withMetaHtml,
   asBodilessHelmet,
   withMetaForm,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 import {
   useMenuOptionUI,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 
 const withMetaPageTitle = withTitle({
   name: 'title',

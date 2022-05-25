@@ -18,8 +18,8 @@ import {
   SortableResizableWrapper as CleanWrapper,
   SortableResizableUI,
   SortableResizableProps,
-} from '@bodiless/layouts';
-import { ResizeHandle, ResizeHandleRTL } from '@bodiless/ui';
+} from '@asemirsk/layouts';
+import { ResizeHandle, ResizeHandleRTL } from '@asemirsk/ui';
 import Reresizable from './Reresizable';
 import DragHandle from './DragHandle';
 

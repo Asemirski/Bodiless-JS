@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-const { defaultToc } = require('@bodiless/documentation');
+const { defaultToc } = require('@asemirsk/documentation');
 
 const settings = () => ({
   toc: defaultToc(),

@@ -13,7 +13,7 @@
  */
 
 import { v4 } from 'uuid';
-import { useNode } from '@bodiless/core';
+import { useNode } from '@asemirsk/core';
 import { ListData, ListBaseProps } from './types';
 
 /**

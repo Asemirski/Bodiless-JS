@@ -4,7 +4,7 @@ Provides ability to add SSI elements to head of your gatsby site.
 
 ## Install
 
-`npm install --save @bodiless/gatsby-plugin-ssi`
+`npm install --save @asemirsk/gatsby-plugin-ssi`
 
 ## How to use
 
@@ -12,7 +12,7 @@ Provides ability to add SSI elements to head of your gatsby site.
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `@bodiless/gatsby-plugin-ssi`,
+    resolve: `@asemirsk/gatsby-plugin-ssi`,
     options: {
       // path to your json file that contains SSI configs.
       // default value is ssi/ssi_conf.json relative to your gatsby site.

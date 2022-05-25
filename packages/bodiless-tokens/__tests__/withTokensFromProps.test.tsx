@@ -19,7 +19,7 @@ import type { HTMLProps } from 'react';
 import { v4 } from 'uuid';
 import {
   ComponentOrTag, HOC, flowHoc, Tag,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { withTokensFromProps } from '../src';
 
 const withRandomKey = <P extends object>(Component: ComponentOrTag<P>) => {

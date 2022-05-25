@@ -15,7 +15,7 @@
 import React, { FC } from 'react';
 import {
   designable, Div, Button, withoutProps, H3, DesignableComponentsProps, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import FilterClean from './Filter';
 import { useFilterByGroupContext, withFilterByGroupContext } from './FilterByGroupContext';
 import { FilterByGroupComponents, FilterByGroupProps } from './types';

@@ -28,7 +28,7 @@ that you provide an `aria-label`, making the accessibility tree consistent betwe
 import flow from 'lodash/flow';
 import {
   Link as LinkBase,
-} from '@bodiless/vital-link';
+} from '@asemirsk/vital-link';
 
 const asLink = addClasses('underlined text-blue');
 

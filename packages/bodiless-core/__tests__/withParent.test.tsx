@@ -23,7 +23,7 @@ import {
   withoutProps,
   addClasses,
   DesignableComponentsProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import withParent from '../src/withParent';
 
 describe('withParent', () => {

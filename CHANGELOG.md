@@ -1064,7 +1064,7 @@ flow(
 
 ### BREAKING CHANGES
 
-* **components, components-ui:** * Styles of @bodiless/components image picker changed. Functionality of image picker is not impacted, just visual appearance changed. If a site uses Image or asBodilessImage from @bodiless/components, then the site is impacted. The recommended migration path is to change Image and asBodilessImage import from "@bodiless/components" into "@bodiless/components-ui". Example of the migration can be found in test site.
+* **components, components-ui:** * Styles of @asemirsk/components image picker changed. Functionality of image picker is not impacted, just visual appearance changed. If a site uses Image or asBodilessImage from @asemirsk/components, then the site is impacted. The recommended migration path is to change Image and asBodilessImage import from "@asemirsk/components" into "@asemirsk/components-ui". Example of the migration can be found in test site.
 
 
 
@@ -1117,7 +1117,7 @@ flow(
 
 ### BREAKING CHANGES
 
-* **psh:** - Instead of just copying `*.platform.app.yaml` files it will merge existing local versions with a default version from `@bodiless/psh` with local versions taking precedence. Only keys from `/bodiless-psh/resources/.platform/platform.whitelist.yaml` will be merged
+* **psh:** - Instead of just copying `*.platform.app.yaml` files it will merge existing local versions with a default version from `@asemirsk/psh` with local versions taking precedence. Only keys from `/bodiless-psh/resources/.platform/platform.whitelist.yaml` will be merged
 
 
 
@@ -1128,7 +1128,7 @@ flow(
 
 ### Bug Fixes
 
-* **@bodiless/migration-tool:** scrape video file injected using video html element ([#210](https://github.com/johnsonandjohnson/bodiless-js/issues/210)) ([d8c7d9c](https://github.com/johnsonandjohnson/bodiless-js/commit/d8c7d9c7a1337eec25d740dda05895aeba7326d2))
+* **@asemirsk/migration-tool:** scrape video file injected using video html element ([#210](https://github.com/johnsonandjohnson/bodiless-js/issues/210)) ([d8c7d9c](https://github.com/johnsonandjohnson/bodiless-js/commit/d8c7d9c7a1337eec25d740dda05895aeba7326d2))
 
 
 ### Features
@@ -1271,10 +1271,10 @@ flow(
 
 ### Features
 
-* **@bodiless/core:** Initial Commit. ([097812f](https://github.com/johnsonandjohnson/bodiless-js/commit/097812f0db2f501306fa25aa9b1612528c5cd6aa))
-* **@bodiless/fclasses:** Initial Commit. ([fa9ac2a](https://github.com/johnsonandjohnson/bodiless-js/commit/fa9ac2a55d0517340ca7b5c6837255d0bc704c3c))
-* **@bodiless/gatsby-theme-bodiless:** Initial Commit. ([33ab746](https://github.com/johnsonandjohnson/bodiless-js/commit/33ab746af5044c963d2a1d8a2da5e799db006626))
-* **@bodiless/psh:** Initial commit. ([c475668](https://github.com/johnsonandjohnson/bodiless-js/commit/c4756681b7fd49bdfa3aab6929401feac3a70fbf))
+* **@asemirsk/core:** Initial Commit. ([097812f](https://github.com/johnsonandjohnson/bodiless-js/commit/097812f0db2f501306fa25aa9b1612528c5cd6aa))
+* **@asemirsk/fclasses:** Initial Commit. ([fa9ac2a](https://github.com/johnsonandjohnson/bodiless-js/commit/fa9ac2a55d0517340ca7b5c6837255d0bc704c3c))
+* **@asemirsk/gatsby-theme-bodiless:** Initial Commit. ([33ab746](https://github.com/johnsonandjohnson/bodiless-js/commit/33ab746af5044c963d2a1d8a2da5e799db006626))
+* **@asemirsk/psh:** Initial commit. ([c475668](https://github.com/johnsonandjohnson/bodiless-js/commit/c4756681b7fd49bdfa3aab6929401feac3a70fbf))
 * Host docs on GitHub Pages ([#6](https://github.com/johnsonandjohnson/bodiless-js/issues/6)) ([a26c386](https://github.com/johnsonandjohnson/bodiless-js/commit/a26c38637260bff013470c169c90d832c1b203fe)), closes [#5](https://github.com/johnsonandjohnson/bodiless-js/issues/5)
 * **bodiless-js:** Initial Commit. ([d3cc4a2](https://github.com/johnsonandjohnson/bodiless-js/commit/d3cc4a29c985165bf864233cc4569fd48c6999fd))
 * **core-ui, layouts, layouts-ui, ui:** Update Flexbox Fly-Out Panel UI ([#55](https://github.com/johnsonandjohnson/bodiless-js/issues/55)) ([ef21da6](https://github.com/johnsonandjohnson/bodiless-js/commit/ef21da62ccc29e7b07bf767a420dae5997f86346))

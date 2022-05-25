@@ -13,11 +13,11 @@
  */
 
 import React, { FC } from 'react';
-import { withoutHydrationInline } from '@bodiless/hydration';
+import { withoutHydrationInline } from '@asemirsk/hydration';
 import {
   A, Span, Fragment, designable,
-} from '@bodiless/fclasses';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 import { LinkComponents, LinkBaseProps } from './types';
 
 const linkComponents: LinkComponents = {

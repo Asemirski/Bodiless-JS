@@ -16,17 +16,17 @@ import {
   addProps,
   as,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asResponsive16By9Embed as asBodilessResponsive16By9Embed,
-} from '@bodiless/organisms';
-import { asSchemaSource, WithVideoSchema } from '@bodiless/schema-org';
+} from '@asemirsk/organisms';
+import { asSchemaSource, WithVideoSchema } from '@asemirsk/schema-org';
 import {
   asResponsiveYouTube as asBodilessResponsiveYouTube,
   withFullScreenEnabled as withBodilessFullScreenEnabled,
   withYouTubePlayerSettings,
-} from '@bodiless/youtube';
-import { withNodeKey } from '@bodiless/core';
+} from '@asemirsk/youtube';
+import { withNodeKey } from '@asemirsk/core';
 import { asYouTubeToken } from '../YouTubeClean';
 import { defaultPlayerSettings } from '../util';
 

@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-import { withNode } from '@bodiless/core';
-import type { WithNodeKeyProps } from '@bodiless/core';
-import { asBodilessList } from '@bodiless/components';
-import { withDesign, replaceWith, flowHoc } from '@bodiless/fclasses';
+import { withNode } from '@asemirsk/core';
+import type { WithNodeKeyProps } from '@asemirsk/core';
+import { asBodilessList } from '@asemirsk/components';
+import { withDesign, replaceWith, flowHoc } from '@asemirsk/fclasses';
 import { Slide } from 'pure-react-carousel';
 import withTotalSlides from './withTotalSlides';
 import { withIntrinsicHeight, withNoDragIfEditable, withNoAutoPlayIfEditable } from './token';

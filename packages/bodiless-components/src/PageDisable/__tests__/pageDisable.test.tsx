@@ -14,8 +14,8 @@
 
 import React from 'react';
 import { render, mount } from 'enzyme';
-import { PageEditContext } from '@bodiless/core';
-import { flowHoc, A, HOC } from '@bodiless/fclasses';
+import { PageEditContext } from '@asemirsk/core';
+import { flowHoc, A, HOC } from '@asemirsk/fclasses';
 import { asBodilessLink } from '../../Link';
 import { withMockNode } from '../../../__tests__/helpers/MockContentNode';
 import { PageDisabledDataItems } from '../types';

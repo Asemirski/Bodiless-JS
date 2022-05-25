@@ -58,8 +58,8 @@ player, and automatically adds related structured data (JSON-LD) into the page.
 Example usage:
 
 ```jsx
-import { YouTubeClean, vitalYouTube } from '@bodiless/vital-youtube';
-import { as } from '@bodiless/fclasses';
+import { YouTubeClean, vitalYouTube } from '@asemirsk/vital-youtube';
+import { as } from '@asemirsk/fclasses';
 
 const VideoHero = as(vitalYouTube.Hero)(YouTubeClean);
 

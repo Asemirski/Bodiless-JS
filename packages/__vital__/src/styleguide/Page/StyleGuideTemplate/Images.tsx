@@ -13,17 +13,17 @@
  */
 
 import React from 'react';
-import { withNodeKey } from '@bodiless/core';
+import { withNodeKey } from '@asemirsk/core';
 import {
   flowHoc,
   as,
   replaceWith,
   Img,
   H3,
-} from '@bodiless/fclasses';
-import { vitalImage } from '@bodiless/vital-image';
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
-import { vitalTypography } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { vitalImage } from '@asemirsk/vital-image';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
+import { vitalTypography } from '@asemirsk/vital-elements';
 
 const C = {
   H3: as(vitalTypography.H3)(H3),

@@ -22,8 +22,8 @@ What's shown in the following example can be applied to any Slot.
 There are other available Editor Tokens, see next section.
 
 ```js
-import { vitalRichText, RichTextClean } from '@bodiless/vital-editors';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+import { vitalRichText, RichTextClean } from '@asemirsk/vital-editors';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 
 const WithRichTextEditor = asVitalTokenSpec({
   Editors: {
@@ -55,7 +55,7 @@ There are some Editor Tokens available on cxRichText.
 
 Define a Shadowing token collection as defined in [Shadow](../VitalElements/Shadow).
 
-File to shadow: `packages/{my-package}/src/shadow/@bodiless/vital-editors/RichText.ts`
+File to shadow: `packages/{my-package}/src/shadow/@asemirsk/vital-editors/RichText.ts`
 
 #### Via Overriding Specific Existing Styles Using Vital Rich Text Editor
 
@@ -70,8 +70,8 @@ design requirements, and provide additional Rich Text functionality (typically, 
     specific tokens for each. (`import` and `export` as needed.)
 
     ```js
-    import { asBlock, withButton, } from '@bodiless/richtext';
-    import { asVitalTokenSpec } from '@bodiless/vital-elements';
+    import { asBlock, withButton, } from '@asemirsk/richtext';
+    import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 
     const withQuoteBlockMeta = flowHoc(
       asBlock,
@@ -103,8 +103,8 @@ design requirements, and provide additional Rich Text functionality (typically, 
         <summary>Click here for example...</summary>
 
         ```js
-        import { asBlock, withButton, } from '@bodiless/richtext';
-        import { asTokenSpec, Blockquote, replaceWith, flowHoc } from '@bodiless/fclasses';
+        import { asBlock, withButton, } from '@asemirsk/richtext';
+        import { asTokenSpec, Blockquote, replaceWith, flowHoc } from '@asemirsk/fclasses';
 
         const withQuoteBlockMeta = flowHoc(
           asBlock,

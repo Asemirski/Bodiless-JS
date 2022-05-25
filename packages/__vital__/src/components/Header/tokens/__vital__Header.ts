@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { vitalHeader, asHeaderToken } from '@bodiless/vital-layout';
+import { vitalHeader, asHeaderToken } from '@asemirsk/vital-layout';
 
 const Default = asHeaderToken({
   ...vitalHeader.Default,

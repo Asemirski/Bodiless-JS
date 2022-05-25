@@ -13,9 +13,9 @@
  */
 
 import React from 'react';
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
-import { flowHoc, on, replaceWith } from '@bodiless/fclasses';
-import { vitalHeader, HeaderClean } from '@bodiless/vital-layout';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
+import { flowHoc, on, replaceWith } from '@asemirsk/fclasses';
+import { vitalHeader, HeaderClean } from '@asemirsk/vital-layout';
 
 export const Header = asStyleGuideTemplateToken(vitalStyleGuideTemplate.NoLayout, {
   Meta: flowHoc.meta.term('Token')('Header'),

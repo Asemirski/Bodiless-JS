@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { DesignableComponentsProps, StylableProps } from '@bodiless/fclasses';
+import { DesignableComponentsProps, StylableProps } from '@asemirsk/fclasses';
 import { ComponentType, HTMLProps } from 'react';
 
 enum Section {

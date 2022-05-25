@@ -207,7 +207,7 @@ To remove a Preset Filter:
 ### Usage
 
 ```jsx
-import { FilterByGroupClean as FilterByGroup } from '@bodiless/filtering';
+import { FilterByGroupClean as FilterByGroup } from '@asemirsk/filtering';
 
 const suggestions = [
   { id: '1', name: 'Tag 1' },
@@ -226,8 +226,8 @@ const suggestions = [
 
 ```js
 import flow from 'lodash/flow';
-import { FilterByGroupClean } from '@bodiless/filtering';
-import { withDesign, addClasses, addProps } from '@bodiless/fclasses';
+import { FilterByGroupClean } from '@asemirsk/filtering';
+import { withDesign, addClasses, addProps } from '@asemirsk/fclasses';
 import { asTextColorPrimary } from '../Elements.token';
 
 const withTagListStyles = withDesign({
@@ -275,7 +275,7 @@ export default FilterByGroup;
 Every component placed inside of `FilterByGroup` will have access to `FilterByGroupContext`:
 
 ```js
-import { useFilterByGroupContext } from '@bodiless/filtering';
+import { useFilterByGroupContext } from '@asemirsk/filtering';
 
 const InsideFilterByGroup = (props) => {
   const {

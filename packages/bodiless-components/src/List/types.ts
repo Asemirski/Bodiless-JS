@@ -13,8 +13,8 @@
  */
 
 import type { HTMLProps } from 'react';
-import type { DesignableComponentsProps, DesignableProps, ComponentOrTag } from '@bodiless/fclasses';
-import type { WithNodeProps, EditButtonOptions } from '@bodiless/core';
+import type { DesignableComponentsProps, DesignableProps, ComponentOrTag } from '@asemirsk/fclasses';
+import type { WithNodeProps, EditButtonOptions } from '@asemirsk/core';
 
 export type ListComponents = {
   Wrapper: ComponentOrTag<any>,

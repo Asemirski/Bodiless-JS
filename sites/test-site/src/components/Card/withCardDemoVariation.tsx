@@ -12,13 +12,13 @@
  * limitations under the License.
  */
 
-import { withTokenEditorFlowContainerItem } from '@bodiless/tokens';
-import type { TokenEditorComponentDef } from '@bodiless/tokens';
+import { withTokenEditorFlowContainerItem } from '@asemirsk/tokens';
+import type { TokenEditorComponentDef } from '@asemirsk/tokens';
 
 import {
   withDesign, addProps, HOC, flowHoc,
-} from '@bodiless/fclasses';
-import { CardComponents, CardClean } from '@bodiless/card';
+} from '@asemirsk/fclasses';
+import { CardComponents, CardClean } from '@asemirsk/card';
 import { asEditableCard } from '.';
 import * as styleTokens from './token';
 

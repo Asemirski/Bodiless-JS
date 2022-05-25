@@ -14,8 +14,8 @@
 
 import React, { ComponentType } from 'react';
 import ReactDOMServer from 'react-dom/server';
-import { useNode, NodeProvider } from '@bodiless/core';
-import { HOC } from '@bodiless/fclasses';
+import { useNode, NodeProvider } from '@asemirsk/core';
+import { HOC } from '@asemirsk/fclasses';
 import type { BreadcrumbStoreType } from './BreadcrumbStore';
 
 const BreadcrumbsStoreContext = React.createContext<BreadcrumbStoreType | undefined>(undefined);

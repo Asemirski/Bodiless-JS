@@ -16,9 +16,9 @@ import {
   asTestableAccordion,
   AccordionClean,
   withDisableExpandOnClick,
-} from '@bodiless/accordion';
-import { withNode } from '@bodiless/core';
-import { withDesign, flowHoc } from '@bodiless/fclasses';
+} from '@asemirsk/accordion';
+import { withNode } from '@asemirsk/core';
+import { withDesign, flowHoc } from '@asemirsk/fclasses';
 import {
   asSingleAccordionDefaultStyle,
   asAccordionTitleBordered,

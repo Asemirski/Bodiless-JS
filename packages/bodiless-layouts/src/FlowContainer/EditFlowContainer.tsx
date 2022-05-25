@@ -20,10 +20,10 @@ import flowRight from 'lodash/flowRight';
 
 import {
   withNode, withMenuOptions, withResizeDetector, withActivateOnEffect,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   stylable, ComponentOrTag,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import SortableChild from './SortableChild';
 import SortableContainer, { SortableListProps } from './SortableContainer';
 import { useItemHandlers, useFlowContainerDataHandlers } from './model';

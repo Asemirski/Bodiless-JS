@@ -1,4 +1,4 @@
-# `@bodiless/accessibility`
+# `@asemirsk/accessibility`
 
 For documentation on the Bodiless Accessibility package, please see:
 

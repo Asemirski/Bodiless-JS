@@ -12,14 +12,14 @@
  * limitations under the License.
  */
 
-import { useIsBurgerMenuHidden, withBurgerMenuProvider, withBreadcrumbStore } from '@bodiless/vital-navigation';
+import { useIsBurgerMenuHidden, withBurgerMenuProvider, withBreadcrumbStore } from '@asemirsk/vital-navigation';
 import {
   addProps,
   as,
   flowIf,
   not,
-} from '@bodiless/fclasses';
-import { WithStructuredDataProvider } from '@bodiless/schema-org';
+} from '@asemirsk/fclasses';
+import { WithStructuredDataProvider } from '@asemirsk/schema-org';
 import { asLayoutToken } from '../LayoutClean';
 import { vitalFooter } from '../../Footer';
 import { vitalHeader } from '../../Header';

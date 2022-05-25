@@ -19,8 +19,8 @@ import identity from 'lodash/identity';
 import flowRight from 'lodash/flowRight';
 import type {
   Enhancer, HOC, ComponentOrTag, HOCWithMeta
-} from '@bodiless/fclasses';
-import { withoutProps } from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
+import { withoutProps } from '@asemirsk/fclasses';
 import withNode, { withNodeKey } from './withNode';
 import {
   withNodeDataHandlers, withContextActivator, withLocalContextMenu,

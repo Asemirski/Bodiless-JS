@@ -17,7 +17,7 @@ import {
   withDesign,
   HOC,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import flatten from 'lodash/flatten';
 import React from 'react';
 import {

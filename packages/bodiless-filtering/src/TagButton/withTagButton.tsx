@@ -21,9 +21,9 @@ import {
   useEditContext,
   TagType,
   useNodeDataHandlers,
-} from '@bodiless/core';
-import { flowHoc } from '@bodiless/fclasses';
-import type { HOC } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { flowHoc } from '@asemirsk/fclasses';
+import type { HOC } from '@asemirsk/fclasses';
 import { TagButtonProps, TagsNodeType, WithRegisterSuggestionsType } from './types';
 
 export type UseTagButtonOverrides<P = any> = (props: P) => Partial<EditButtonOptions<P, any>>;

@@ -13,7 +13,7 @@
  */
 
 import { ComponentType } from 'react';
-import { HOC, DesignableComponentsProps } from '@bodiless/fclasses';
+import { HOC, DesignableComponentsProps } from '@asemirsk/fclasses';
 
 /**
  * Defines a component which can be added to a HOC Editor

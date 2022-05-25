@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import type { YouTubePlayerSettings } from '@bodiless/youtube';
+import type { YouTubePlayerSettings } from '@asemirsk/youtube';
 
 /**
  * Gets site URL from env variables on current running project.

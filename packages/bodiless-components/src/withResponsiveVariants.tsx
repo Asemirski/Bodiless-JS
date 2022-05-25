@@ -18,7 +18,7 @@ import React, {
 import {
   Design, DesignableComponents, DesignableComponentsProps,
   designable, DesignableProps, Enhancer, as,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import flow from 'lodash/flow';
 import { withPageDimensionsContext, PageDimensionsProviderProps, usePageDimensionsContext } from './PageDimensionsProvider';
 

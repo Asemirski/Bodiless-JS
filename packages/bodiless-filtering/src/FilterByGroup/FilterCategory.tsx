@@ -14,7 +14,7 @@
 
 import {
   H3, StylableProps, DesignableComponentsProps, designable, HOC
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import React, {
   ComponentType, FC, HTMLProps,
 } from 'react';

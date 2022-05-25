@@ -14,10 +14,10 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import { flow } from 'lodash';
-import { asBodilessImage } from '@bodiless/components-ui';
-import { Img, withDesign, replaceWith } from '@bodiless/fclasses';
+import { asBodilessImage } from '@asemirsk/components-ui';
+import { Img, withDesign, replaceWith } from '@asemirsk/fclasses';
 import Layout from '../../../components/Layout';
 import Card, { asTestableCard } from '../../../components/Card';
 import {

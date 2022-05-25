@@ -12,13 +12,13 @@
  * limitations under the License.
  */
 
-import { addClasses, withDesign, addProps } from '@bodiless/fclasses';
+import { addClasses, withDesign, addProps } from '@asemirsk/fclasses';
 import {
   withDirection, DIRECTIONS, getSnapFrom, withTailwindClasses, FlowContainerProps,
-} from '@bodiless/layouts';
+} from '@asemirsk/layouts';
 // @ts-ignore Could not find a declaration file
 import resolvedConfigs from
-  '@bodiless/fclasses/src/tailwindcss/resolveConfig';
+  '@asemirsk/fclasses/src/tailwindcss/resolveConfig';
 // @ts-ignore Could not find a declaration file
 
 const asFlowContainerWithMargins = withDesign({

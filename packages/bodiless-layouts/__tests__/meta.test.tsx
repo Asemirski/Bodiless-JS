@@ -13,7 +13,7 @@
  */
 
 import React from 'react';
-import type { HOC } from '@bodiless/fclasses';
+import type { HOC } from '@asemirsk/fclasses';
 import {
   withTitle,
   withAppendTitle,

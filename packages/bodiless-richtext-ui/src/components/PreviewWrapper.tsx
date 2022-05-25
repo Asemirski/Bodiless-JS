@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { Div, addClasses } from '@bodiless/fclasses';
+import { Div, addClasses } from '@asemirsk/fclasses';
 
 const PreviewWrapper = addClasses('bl-block bl-bg-gray-900')(Div);
 

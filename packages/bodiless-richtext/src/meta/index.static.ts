@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { staticHOC } from '@bodiless/hydration';
+import { staticHOC } from '@asemirsk/hydration';
 
 export const withBoldMeta = staticHOC;
 export const withSuperScriptMeta = staticHOC;

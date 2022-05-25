@@ -16,8 +16,8 @@ import React, { ComponentType } from 'react';
 import mergeWith from 'lodash/mergeWith';
 import isArray from 'lodash/isArray';
 import flow from 'lodash/flow';
-import { flowHoc, ComponentWithMeta } from '@bodiless/fclasses';
-import type { HOC } from '@bodiless/fclasses';
+import { flowHoc, ComponentWithMeta } from '@asemirsk/fclasses';
+import type { HOC } from '@asemirsk/fclasses';
 
 type CTWM = ComponentWithMeta;
 

@@ -18,15 +18,15 @@ import {
   flowHoc,
   flowIf,
   on,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asBurgerMenu,
   withMenuDesign,
   withListSubMenu,
   asTopNav,
-} from '@bodiless/navigation';
-import { withNodeKey } from '@bodiless/core';
-import { vitalColor, vitalFontSize, vitalTextDecoration } from '@bodiless/vital-elements';
+} from '@asemirsk/navigation';
+import { withNodeKey } from '@asemirsk/core';
+import { vitalColor, vitalFontSize, vitalTextDecoration } from '@asemirsk/vital-elements';
 import {
   useHasSubMenu,
   useIsFirstMenuItem,

@@ -1,4 +1,4 @@
-import { getPackageTailwindConfig } from '@bodiless/fclasses';
+import { getPackageTailwindConfig } from '@asemirsk/fclasses';
 
 const resolver = (pkgName) => require.resolve(pkgName);
 

@@ -14,7 +14,7 @@
 
 import { extname } from 'path';
 import { AxiosResponse } from 'axios';
-import { ContentNode } from '@bodiless/core';
+import { ContentNode } from '@asemirsk/core';
 import BackendClient from './BackendClient';
 
 const imageExtensions = [
@@ -155,7 +155,7 @@ export const copyNode = (
 /**
  * Get child key of given node.
  *
- * Might refactor to @bodiless/core
+ * Might refactor to @asemirsk/core
  * https://github.com/johnsonandjohnson/Bodiless-JS/issues/1160
  *
  * @param node ContentNode

@@ -38,7 +38,7 @@ import {
   designable,
   DesignableProps,
   Span,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { useSearchResultContext } from './SearchContextProvider';
 import { TSearchResult, Suggestion } from '../types';
 import { Suggestions as BaseSuggestions } from './Suggestions';

@@ -21,7 +21,7 @@ import {
   NodeProvider,
   PageEditContext,
   useEditContext,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { withMeta, withTitle, withMetaHtml } from '../src/Meta/Meta';
 
 const getMockNode = (data: string) => {

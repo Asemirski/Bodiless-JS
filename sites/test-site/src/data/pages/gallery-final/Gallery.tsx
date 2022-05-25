@@ -21,10 +21,10 @@ import {
   varyDesign,
   replaceWith,
   flowHoc,
-} from '@bodiless/fclasses';
-import { withNode } from '@bodiless/core';
-import { withTitle, withFacet } from '@bodiless/layouts';
-import { FlowContainer } from '@bodiless/layouts-ui';
+} from '@asemirsk/fclasses';
+import { withNode } from '@asemirsk/core';
+import { withTitle, withFacet } from '@asemirsk/layouts';
+import { FlowContainer } from '@asemirsk/layouts-ui';
 
 import CaptionedImage from './CaptionedImage';
 

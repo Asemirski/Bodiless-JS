@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-import { flowHoc, HOC } from '@bodiless/fclasses';
-import type { TokenMeta } from '@bodiless/fclasses';
-import { withNodeKey } from '@bodiless/core';
-import type { AsBodilessImage } from '@bodiless/components';
+import { flowHoc, HOC } from '@asemirsk/fclasses';
+import type { TokenMeta } from '@asemirsk/fclasses';
+import { withNodeKey } from '@asemirsk/core';
+import type { AsBodilessImage } from '@asemirsk/components';
 import asGatsbyImage from './asGatsbyImage';
 import withGatsbyImageLogger from './withGatsbyImageLogger';
 import withGatsbyImageNode from './withGatsbyImageNode';

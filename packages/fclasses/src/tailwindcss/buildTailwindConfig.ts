@@ -23,7 +23,7 @@ import type { GetTwConfigProps } from './getPackageTailwindConfig';
  * at package level are included in your site tailwind configuration, and that
  * any classes used at pacakge level are not purged.
  *
- * > Note: Modules are exported from `@bodiless/fclasses` using ES module syntax,
+ * > Note: Modules are exported from `@asemirsk/fclasses` using ES module syntax,
  * > but must be required by tailwind config using CommonJS. You can use a library
  * > like [esm](https://www.npmjs.com/package/esm) to import this utility.
  *
@@ -35,7 +35,7 @@ import type { GetTwConfigProps } from './getPackageTailwindConfig';
  * ```js
  * const requireEsm = require('esm')(module);
  *
- * const { buildTailwindConfig } = requireEsm('@bodiless/fclasses');
+ * const { buildTailwindConfig } = requireEsm('@asemirsk/fclasses');
  *
  * const twConfig = {
  *  // ...include your own tailwind configuration here.

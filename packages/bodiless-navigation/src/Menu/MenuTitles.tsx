@@ -15,14 +15,14 @@
 import React, { ComponentType, FC } from 'react';
 import {
   withSidecarNodes, withNode, withNodeKey,
-} from '@bodiless/core';
-import { asEditable, withBodilessLinkToggle } from '@bodiless/components';
-import { asBodilessLink } from '@bodiless/components-ui';
-import { CardClean } from '@bodiless/card';
+} from '@asemirsk/core';
+import { asEditable, withBodilessLinkToggle } from '@asemirsk/components';
+import { asBodilessLink } from '@asemirsk/components-ui';
+import { CardClean } from '@asemirsk/card';
 import {
   A, HOC, flowHoc, Fragment, designable, HOCDef,
   withDesign, startWith, DesignableComponentsProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 export type MenuTitleComponents = {
   Link: ComponentType<any>,

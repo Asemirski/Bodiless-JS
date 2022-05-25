@@ -13,7 +13,7 @@
  */
 
 import { ComponentType, HTMLProps } from 'react';
-import { StylableProps, DesignableComponentsProps, DesignableProps } from '@bodiless/fclasses';
+import { StylableProps, DesignableComponentsProps, DesignableProps } from '@asemirsk/fclasses';
 
 export type AccordionMeta = {
   accordionId: string,

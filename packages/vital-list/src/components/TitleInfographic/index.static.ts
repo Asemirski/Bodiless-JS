@@ -15,4 +15,4 @@
 export {
   staticTokenCollection as vitalTitleInfographic,
   StaticBlock as TitleInfographicClean,
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';

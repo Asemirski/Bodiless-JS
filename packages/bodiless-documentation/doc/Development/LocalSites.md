@@ -50,7 +50,7 @@ Now install the local packages into the site. Note that this will modify the
 `package.json` and `package-lock.json` of your site. **These changes should not
 be committed**. From outside your downloaded site directory:
 ```
-npx @bodiless/cli pack -s {path/to/your/site} -r {path/to/bodiless/repo}
+npx @asemirsk/cli pack -s {path/to/your/site} -r {path/to/bodiless/repo}
 ```
 
 Finally, run scripts from your site normally:

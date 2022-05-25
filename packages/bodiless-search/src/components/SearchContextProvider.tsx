@@ -16,7 +16,7 @@ import React, {
   useContext, useState, FC, useRef, useEffect, useCallback, useMemo,
 } from 'react';
 import querystring from 'query-string';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 import SearchClient from '../SearchClient';
 import { TSearchResults, Suggestion } from '../types';
 // import getSearchPagePath from './getSearchPagePath';

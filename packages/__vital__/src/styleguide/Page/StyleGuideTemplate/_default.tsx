@@ -12,11 +12,11 @@
  * limitations under the License.
  */
 
-import { vitalTypography } from '@bodiless/vital-elements';
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
+import { vitalTypography } from '@asemirsk/vital-elements';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
 import {
   flowHoc, H2, replaceWith, as, P, Ul,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import React from 'react';
 
 const Subtitle = as(vitalTypography.H2, 'pt-8')(H2);

@@ -13,10 +13,10 @@
  */
 
 import { ComponentType } from 'react';
-import { withChild, withNodeKey } from '@bodiless/core';
+import { withChild, withNodeKey } from '@asemirsk/core';
 import {
   addClasses, withoutProps, flowHoc, addProps, HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 const withPlaceholder = (
   placeholder?: string,

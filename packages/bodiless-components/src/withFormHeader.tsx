@@ -17,9 +17,9 @@ import { v1 } from 'uuid';
 import {
   useMenuOptionUI,
   useRegisterSnippet,
-} from '@bodiless/core';
-import type { FormSnippet } from '@bodiless/core';
-import { Div } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import type { FormSnippet } from '@asemirsk/core';
+import { Div } from '@asemirsk/fclasses';
 
 export type HeaderProps = {
   title: string,

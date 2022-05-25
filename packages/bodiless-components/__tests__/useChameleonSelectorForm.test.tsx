@@ -13,10 +13,10 @@
  */
 
 import { Fragment } from 'react';
-import { componentSelectorForm } from '@bodiless/layouts';
+import { componentSelectorForm } from '@asemirsk/layouts';
 import { useChameleonSelectorForm } from '../src';
 
-jest.mock('@bodiless/layouts');
+jest.mock('@asemirsk/layouts');
 
 const contextValue = {
   isOn: true,

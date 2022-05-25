@@ -27,4 +27,4 @@ export {
 
 export * from './index.bl-edit';
 
-export type { TableComponents } from '@bodiless/table';
+export type { TableComponents } from '@asemirsk/table';

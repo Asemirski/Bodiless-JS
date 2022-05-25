@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { ListComponents } from '@bodiless/components';
-import { ComponentOrTag } from '@bodiless/fclasses';
+import { ListComponents } from '@asemirsk/components';
+import { ComponentOrTag } from '@asemirsk/fclasses';
 
 export type MenuComponents = ListComponents & {
   Nav: ComponentOrTag<any>,

@@ -13,16 +13,16 @@
  */
 
 import React from 'react';
-import { withNodeKey } from '@bodiless/core';
+import { withNodeKey } from '@asemirsk/core';
 import {
   flowHoc,
   as,
   replaceWith,
   H3,
-} from '@bodiless/fclasses';
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
-import { YouTubeClean, vitalYouTube } from '@bodiless/vital-youtube';
-import { vitalTypography } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
+import { YouTubeClean, vitalYouTube } from '@asemirsk/vital-youtube';
+import { vitalTypography } from '@asemirsk/vital-elements';
 
 const C = {
   H3: as(vitalTypography.H3)(H3),

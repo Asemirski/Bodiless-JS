@@ -16,14 +16,14 @@ import React from 'react';
 import flow from 'lodash/flow';
 import {
   withDesign, flowHoc, varyDesigns, Div, addProps, HOC, startWith, addClasses,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   withAllTitlesFromTerms, ifComponentSelector, withTailwindWidthConstraints,
-} from '@bodiless/layouts';
+} from '@asemirsk/layouts';
 import pick from 'lodash/pick';
 // @ts-ignore
 import resolvedConfigs from
-  '@bodiless/fclasses/src/tailwindcss/resolveConfig';
+  '@asemirsk/fclasses/src/tailwindcss/resolveConfig';
 
 // @ts-ignore
 import {

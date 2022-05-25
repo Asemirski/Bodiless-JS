@@ -13,9 +13,9 @@
  */
 import React, { HTMLProps } from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { flowHoc, ComponentOrTag } from '@bodiless/fclasses';
-import { asEditable } from '@bodiless/components';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { flowHoc, ComponentOrTag } from '@asemirsk/fclasses';
+import { asEditable } from '@asemirsk/components';
 import ReactMarkdown from 'react-markdown';
 
 import Layout from '../../../components/Layout';

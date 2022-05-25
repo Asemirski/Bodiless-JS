@@ -14,7 +14,7 @@
 
 import {
   WithNodeKeyProps, withNodeKey, useNode, NodeProvider, withOnlyProps, useEditContext,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import React, {
   ComponentType, PropsWithChildren, FC,
 } from 'react';
@@ -23,7 +23,7 @@ import identity from 'lodash/identity';
 import {
   replaceWith, withDesign, DesignableComponentsProps, designable,
   withoutProps, stylable, Design, flowHoc, Enhancer, HOC, Fragment, as, ComponentOrTag,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import { useGetLinkHref } from '../Link';
 import { useGetDisabledPages } from '../PageDisable';

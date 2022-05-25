@@ -13,15 +13,15 @@
  */
 
 import React from 'react';
-import { withNodeKey } from '@bodiless/core';
+import { withNodeKey } from '@asemirsk/core';
 import {
   flowHoc,
   as,
   replaceWith,
-} from '@bodiless/fclasses';
-import { vitalFlowContainer, FlowContainerClean } from '@bodiless/vital-flowcontainer';
+} from '@asemirsk/fclasses';
+import { vitalFlowContainer, FlowContainerClean } from '@asemirsk/vital-flowcontainer';
 
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
 
 const DefaultFlowContainer = as(
   vitalFlowContainer.Default,

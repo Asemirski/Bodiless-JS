@@ -22,13 +22,13 @@ import {
   removeClasses,
   removeClassesIf,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   ifEditable,
   withExtendHandler,
   withChild,
   ifToggledOn,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   isAccordionExpanded,
   isAccordionContracted,

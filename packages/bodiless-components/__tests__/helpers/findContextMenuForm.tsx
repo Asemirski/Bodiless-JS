@@ -14,7 +14,7 @@
 
 import React from 'react';
 import { mount, ReactWrapper } from 'enzyme';
-import { PageContextProvider } from '@bodiless/core';
+import { PageContextProvider } from '@asemirsk/core';
 
 /**
  * Finds and renders the context menu form for the first menu option provided by

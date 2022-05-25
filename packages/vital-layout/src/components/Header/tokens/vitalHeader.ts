@@ -16,13 +16,13 @@ import {
   withChild,
   withNode,
   withNodeKey,
-} from '@bodiless/core';
-import { vitalColor, vitalSpacing } from '@bodiless/vital-elements';
+} from '@asemirsk/core';
+import { vitalColor, vitalSpacing } from '@asemirsk/vital-elements';
 import {
   vitalBurgerMenu,
   vitalMenu,
   asBurgerMenuToggler,
-} from '@bodiless/vital-navigation';
+} from '@asemirsk/vital-navigation';
 import {
   Span,
   as,
@@ -30,8 +30,8 @@ import {
   replaceWith,
   withDesign,
   withProps,
-} from '@bodiless/fclasses';
-import { vitalButtons } from '@bodiless/vital-buttons';
+} from '@asemirsk/fclasses';
+import { vitalButtons } from '@asemirsk/vital-buttons';
 import { vitalLogo } from '../../Logo';
 import { vitalDesktopSearch, vitalSearchToggler } from '../../Search';
 import { asHeaderToken } from '../HeaderClean';

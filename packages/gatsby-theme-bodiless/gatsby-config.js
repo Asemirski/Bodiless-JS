@@ -15,7 +15,7 @@
 const path = require('path');
 const fg = require('fast-glob');
 const fs = require('fs');
-const { getDisabledPages } = require('@bodiless/components/node-api');
+const { getDisabledPages } = require('@asemirsk/components/node-api');
 const { createDefaultContentPlugins } = require('./cjs/dist/DefaultContent');
 
 require('dotenv').config({
@@ -150,7 +150,7 @@ const discoverDefaultContent = (depth = 1) => {
         fileContent = JSON.parse(fs.readFileSync(file));
       } catch (e) {
         // eslint-disable-next-line no-console
-        console.error(`@bodiless/gatsby-theme-bodiless: error on reading file: ${file}. Error: ${e}.`);
+        console.error(`@asemirsk/gatsby-theme-bodiless: error on reading file: ${file}. Error: ${e}.`);
       }
       defaultContentPaths = [
         ...defaultContentPaths,

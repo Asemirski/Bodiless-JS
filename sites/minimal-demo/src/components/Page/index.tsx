@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
-import { Page as BodilessPage } from '@bodiless/gatsby-theme-bodiless';
-import { asBodilessLink, asBodilessImage } from '@bodiless/components-ui';
-import { asEditable, withPlaceholder } from '@bodiless/components';
-import { RichText } from '@bodiless/richtext-ui';
+import { Page as BodilessPage } from '@asemirsk/gatsby-theme-bodiless';
+import { asBodilessLink, asBodilessImage } from '@asemirsk/components-ui';
+import { asEditable, withPlaceholder } from '@asemirsk/components';
+import { RichText } from '@asemirsk/richtext-ui';
 import {
   Img, replaceWith, withDesign, H1, as,
-} from '@bodiless/fclasses';
-import { FlowContainer } from '@bodiless/layouts-ui';
+} from '@asemirsk/fclasses';
+import { FlowContainer } from '@asemirsk/layouts-ui';
 
 // ---------- Page Title
 const Title = as(

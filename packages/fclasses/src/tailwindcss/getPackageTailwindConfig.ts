@@ -119,7 +119,7 @@ const applyExtraOptions: ApplyExtraOptions = (configs, options) => {
  *
  * @example ** Package level tailwind config **
  * ```
- * import { getPackageTailwindConfig } from '@bodiless/fclasses';
+ * import { getPackageTailwindConfig } from '@asemirsk/fclasses';
  *
  * const resolver = (pkgName) => require.resolve(pkgName);
  *

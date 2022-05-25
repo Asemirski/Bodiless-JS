@@ -14,11 +14,11 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { asBodilessList, asEditable, useListContext } from '@bodiless/components';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { asBodilessList, asEditable, useListContext } from '@asemirsk/components';
 import {
   withDesign, replaceWith, Div, addClasses, H1, H3, flowIf, addProps, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import Layout from '../../../components/Layout';
 // import { OuterList, OuterLinkList } from './OldListDemo';
 import ChameleonListDemo from './ChameleonListDemo';

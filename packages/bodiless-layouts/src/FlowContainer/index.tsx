@@ -18,12 +18,12 @@ import flow from 'lodash/flow';
 import {
   withNode,
   useEditContext,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   withDesign,
   addClasses,
   addProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import EditFlowContainer from './EditFlowContainer';
 import StaticFlowContainer from './StaticFlowContainer';
 import { EditFlowContainerProps, FlowContainerProps } from './types';

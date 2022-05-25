@@ -13,7 +13,7 @@
  */
 
 import isEmpty from 'lodash/isEmpty';
-import { useNode } from '@bodiless/core';
+import { useNode } from '@asemirsk/core';
 import { TagsNodeType } from './types';
 
 const useTagsAccessors = () => {

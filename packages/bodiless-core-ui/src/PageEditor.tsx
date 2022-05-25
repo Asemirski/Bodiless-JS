@@ -13,7 +13,7 @@
  */
 
 import React, { FC } from 'react';
-import { PageEditor as PlainPageEditor } from '@bodiless/core';
+import { PageEditor as PlainPageEditor } from '@asemirsk/core';
 import GlobalContextMenu from './GlobalContextMenu';
 import LocalContextMenu from './LocalContextMenu';
 import PageOverlay from './PageOverlay';

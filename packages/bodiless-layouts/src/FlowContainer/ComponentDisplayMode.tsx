@@ -13,7 +13,7 @@
  */
 
 import React, { useContext, ComponentType } from 'react';
-import { flowIf } from '@bodiless/fclasses';
+import { flowIf } from '@asemirsk/fclasses';
 import negate from 'lodash/negate';
 
 enum ComponentDisplayMode {

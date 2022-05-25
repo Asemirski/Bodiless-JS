@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 
 type WithoutHydrationOptions = {
   onUpdate?: (props: Record<string, any>, element: HTMLElement | null) => void

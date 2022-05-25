@@ -14,9 +14,9 @@
  */
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { H2 } from '@bodiless/fclasses';
-import { Tag, FilterTagType } from '@bodiless/filtering';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { H2 } from '@asemirsk/fclasses';
+import { Tag, FilterTagType } from '@asemirsk/filtering';
 import Layout from '../../../components/Layout';
 import TaggableFilterableItem, { TagButton } from '../../../components/Filter';
 

@@ -40,17 +40,17 @@ default_finalize_build () {
   export PSH_URL_REPLACER_SRC_FILE=$PLATFORM_DOCUMENT_ROOT/robots.txt
   export PSH_URL_REPLACER_TMP_FILE=$PLATFORM_DOCUMENT_ROOT/../static/robots_pshtmp.txt
   export PSH_URL_REPLACER_TARGET_FILE=$APP_VOLUME/robots.txt
-  node $PLATFORM_APP_DIR/node_modules/@bodiless/psh/lib/psh-url-replacer.js build
+  node $PLATFORM_APP_DIR/node_modules/@asemirsk/psh/lib/psh-url-replacer.js build
   #sitemap.xml preparation
   export PSH_URL_REPLACER_SRC_FILE=$PLATFORM_DOCUMENT_ROOT/sitemap.xml
   export PSH_URL_REPLACER_TMP_FILE=$PLATFORM_DOCUMENT_ROOT/../static/sitemap_pshtmp.xml
   export PSH_URL_REPLACER_TARGET_FILE=$APP_VOLUME/sitemap.xml
-  node $PLATFORM_APP_DIR/node_modules/@bodiless/psh/lib/psh-url-replacer.js build
+  node $PLATFORM_APP_DIR/node_modules/@asemirsk/psh/lib/psh-url-replacer.js build
   # ssi preparation
   export SSI_CONF_PATH=ssi/ssi_conf.json
   export DOCUMENT_ROOT=$PLATFORM_DOCUMENT_ROOT
   export VOLUME_DIR=$APP_VOLUME
-  node $PLATFORM_APP_DIR/node_modules/@bodiless/psh/lib/generate-ssi-files.js build
+  node $PLATFORM_APP_DIR/node_modules/@asemirsk/psh/lib/generate-ssi-files.js build
 }
 
 default_deploy () {
@@ -63,18 +63,18 @@ default_deploy () {
   export PSH_URL_REPLACER_SRC_URL=$APP_PROD_URL
   export PSH_URL_REPLACER_TARGET_URL=$APP_SITE_URL
   export PSH_URL_REPLACER_PROD_ENV=$APP_PROD_ENV
-  node $PLATFORM_APP_DIR/node_modules/@bodiless/psh/lib/psh-url-replacer.js deploy
+  node $PLATFORM_APP_DIR/node_modules/@asemirsk/psh/lib/psh-url-replacer.js deploy
   #processing sitemap.xml
   export PSH_URL_REPLACER_TMP_FILE=$PLATFORM_DOCUMENT_ROOT/../static/sitemap_pshtmp.xml
   export PSH_URL_REPLACER_TARGET_FILE=$APP_VOLUME/sitemap.xml
   export PSH_URL_REPLACER_SRC_URL=$APP_PROD_URL
   export PSH_URL_REPLACER_TARGET_URL=$APP_SITE_URL
   export PSH_URL_REPLACER_PROD_ENV=$APP_PROD_ENV
-  node $PLATFORM_APP_DIR/node_modules/@bodiless/psh/lib/psh-url-replacer.js deploy
+  node $PLATFORM_APP_DIR/node_modules/@asemirsk/psh/lib/psh-url-replacer.js deploy
   # ssi files generation
   export SSI_CONF_PATH=ssi/ssi_conf.json
   export VOLUME_DIR=$APP_VOLUME
-  node $PLATFORM_APP_DIR/node_modules/@bodiless/psh/lib/generate-ssi-files.js deploy
+  node $PLATFORM_APP_DIR/node_modules/@asemirsk/psh/lib/generate-ssi-files.js deploy
 }
 
 invoke () {

@@ -21,7 +21,7 @@ import {
   withContextActivator,
   withLocalContextMenu,
   ifEditable,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import flowRight from 'lodash/flowRight';
 import { DataType as BVNodeDataType, withBVDataHandlers } from './asBodilessBV';
 

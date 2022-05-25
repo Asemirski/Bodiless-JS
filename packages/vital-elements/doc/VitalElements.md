@@ -25,12 +25,12 @@ The Site Builder has the ability to use any of the token Vital elements which ar
 
 #### Usage
 
-Import the required Element tokens from `@bodiless/vital-elements`.
+Import the required Element tokens from `@asemirsk/vital-elements`.
 
 If a singular token is being used, and is directly from a specific Element token:
 
 ```js
-import { vitalColor } from '@bodiless/vital-elements';
+import { vitalColor } from '@asemirsk/vital-elements';
 
 const Foo = {
   Header1: vitalColor.TextPrimaryBodyCopy,
@@ -41,7 +41,7 @@ const Foo = {
 If combining multiple tokens, you can put them within `as()` or `flowHoc()`:
 
 ```js
-import { vitalColor, vitalTextDecoration } from '@bodiless/vital-elements';
+import { vitalColor, vitalTextDecoration } from '@asemirsk/vital-elements';
 
 const Foo = {
   BoldBody: as(

@@ -12,7 +12,7 @@ To enable OIDC on a site you need to wrap your content with the `AuthProvider`. 
 ```js
 import React from 'react';
 // ...
-import { AuthProvider } from '@bodiless/oidc';
+import { AuthProvider } from '@asemirsk/oidc';
 
 // First we create the OIDC config.
 // See `AuthProviderProps` for the full config props list.
@@ -42,8 +42,8 @@ The other way to wrap something with the `AuthProvider` is to use `withOidcProvi
 
 ```js
 import React from 'react';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { withOidcProvider } from '@bodiless/oidc';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { withOidcProvider } from '@asemirsk/oidc';
 import Layout from '../../../components/Layout';
 
 // Create the OIDC config.
@@ -198,7 +198,7 @@ export type AuthProviderProps = {
 To consume `AuthContext` you may use `useBodilessOidc` hook:
 
 ```js
-import { useBodilessOidc } from '@bodiless/oidc';
+import { useBodilessOidc } from '@asemirsk/oidc';
 
 const UserPreview:FC<any> = props => {
     // Get `userData` from the AuthContext.
@@ -272,7 +272,7 @@ export type AuthContextProps = {
 ```
 
 ### Helper HOCs
-There are several HOCs exported from the `@bodiless/oidc` package that may be used to add OIDC functionality to the components:
+There are several HOCs exported from the `@asemirsk/oidc` package that may be used to add OIDC functionality to the components:
 
  - `withSignInOnClick` - HOC that adds an `onClick` event to the underlying component and invokes OIDC `signIn` handler when executed.
  - `withSignOutOnClick` - HOC that adds an `onClick` event to the underlying component and invokes OIDC `signOut` handler when executed.
@@ -280,8 +280,8 @@ There are several HOCs exported from the `@bodiless/oidc` package that may be us
  - `withSignOutRedirectOnClick` - HOC that adds an `onClick` event to the underlying component and invokes OIDC `signOutRedirect` handler when executed.
 
 ```js
-import { Button } from '@bodiless/fclasses';
-import { withSignInOnClick, withSignOutOnClick } from '@bodiless/oidc';
+import { Button } from '@asemirsk/fclasses';
+import { withSignInOnClick, withSignOutOnClick } from '@asemirsk/oidc';
 
 const SignInButton = withSignInOnClick(Button);
 /**
@@ -331,8 +331,8 @@ This component handles OIDC Sign In and Sign Out responses. It reads the OIDC/OA
 When you define OIDC config, `redirectUri` and `postLogoutRedirectUri` should point to the page with `<AuthCallback />` component.
 
 ```js
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { AuthCallback } from '@bodiless/oidc';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { AuthCallback } from '@asemirsk/oidc';
 
 /**
  * In addition to the `onSignIn` and `onSignOut` callbacks
@@ -361,8 +361,8 @@ export default (props: any) => (
 You can wrap any page or component with `withAuthCallback()` HOC. It takes `onSuccess` and `onError` optional params.
 ```js
 import React from 'react';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { withAuthCallback } from '@bodiless/oidc';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { withAuthCallback } from '@asemirsk/oidc';
 import Layout from '../../../components/Layout';
 
 // Create onSuccess handler

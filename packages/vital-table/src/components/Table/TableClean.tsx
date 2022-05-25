@@ -13,12 +13,12 @@
  */
 
 import React from 'react';
-import { withoutHydration } from '@bodiless/hydration';
+import { withoutHydration } from '@asemirsk/hydration';
 import {
   CleanTable,
-} from '@bodiless/table';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import type { TableComponents } from '@bodiless/table';
+} from '@asemirsk/table';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import type { TableComponents } from '@asemirsk/table';
 
 const TableClean = CleanTable;
 

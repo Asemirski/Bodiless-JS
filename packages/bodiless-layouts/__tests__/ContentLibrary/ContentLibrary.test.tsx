@@ -18,7 +18,7 @@ import {
   withNodeKey,
   withNode,
   ContentNode,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import React, { FC } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { mount, ReactWrapper } from 'enzyme';

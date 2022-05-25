@@ -12,13 +12,13 @@
  * limitations under the License.
  */
 
-import { withDesign, flowHoc } from '@bodiless/fclasses';
+import { withDesign, flowHoc } from '@asemirsk/fclasses';
 import {
   withMandatoryCategories,
   ifNotComponentSelector,
   withLibraryComponents,
-} from '@bodiless/layouts';
-import { FlowContainer } from '@bodiless/layouts-ui';
+} from '@asemirsk/layouts';
+import { FlowContainer } from '@asemirsk/layouts-ui';
 import withRichTextVariations from './withRichTextVariations';
 import withImageVariations from './withImageVariations';
 import withFlowContainerVariations, { withLibraryFlowContainerVariations } from './withFlowContainerVariations';

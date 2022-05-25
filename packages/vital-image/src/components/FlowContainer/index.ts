@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-import { asFluidToken, asMetaToken } from '@bodiless/vital-elements';
+import { asFluidToken, asMetaToken } from '@asemirsk/vital-elements';
 import {
   Img, on, as, flowHoc
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { vitalImage } from '../Image';
 
 const imageVariations = {

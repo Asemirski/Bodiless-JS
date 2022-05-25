@@ -18,7 +18,7 @@ import { useFormApi, useFormState } from 'informed';
 import {
   DefaultNormalHref,
   withToolsButton,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 import {
   ContextMenuForm,
   MenuOptionsDefinition,
@@ -29,18 +29,18 @@ import {
   withNode,
   withNodeKey,
   useNode,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import type {
   ContextMenuFormProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   flowHoc,
   withOnlyProps,
   HOC,
   addClasses,
   removeClasses,
-} from '@bodiless/fclasses';
-import { ComponentFormDefaultPanelSize } from '@bodiless/ui';
+} from '@asemirsk/fclasses';
+import { ComponentFormDefaultPanelSize } from '@asemirsk/ui';
 import { useGetRedirectAliases } from './hooks';
 import type { AliasItem } from './types';
 

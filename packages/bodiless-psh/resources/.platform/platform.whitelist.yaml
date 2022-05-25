@@ -13,7 +13,7 @@
  ##
 
 # This file contains only the keys that will be merged
-# with the Site level .yaml files when @bodiless\psh package is installed.
+# with the Site level .yaml files when @asemirsk\psh package is installed.
 # See './resources/static/static.platform.app.yaml' and './resources/edit/edit.platform.app.yaml'
 # for structure guidance. Note: Do not add key values here.
 

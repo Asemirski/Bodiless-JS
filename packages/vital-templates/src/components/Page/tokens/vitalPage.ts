@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { as, Token, withShowDesignKeys } from '@bodiless/fclasses';
-import { asBodilessChameleon } from '@bodiless/components';
-import { asElementToken } from '@bodiless/vital-elements';
+import { as, Token, withShowDesignKeys } from '@asemirsk/fclasses';
+import { asBodilessChameleon } from '@asemirsk/components';
+import { asElementToken } from '@asemirsk/vital-elements';
 import { asBodilessPage } from '../asBodilessPage';
 // import { vitalGenericTemplate, GenericTemplateClean } from '../../Generic';
 // import { vitalStyleGuideTemplate, StyleGuideTemplateClean } from '../../StyleGuideTemplate';

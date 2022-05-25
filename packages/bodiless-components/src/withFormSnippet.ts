@@ -19,12 +19,12 @@ import {
   withNodeDataHandlers,
   withEditFormSnippet as withBaseEditFormSnippet,
   withData,
-} from '@bodiless/core';
-import { withoutProps } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { withoutProps } from '@asemirsk/fclasses';
 import type {
   WithNodeKeyProps,
   EditFormSnippetOptions,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import flowRight from 'lodash/flowRight';
 
 type EditFormSnippet<P, D> = {

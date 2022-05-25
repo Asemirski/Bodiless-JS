@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { asFluidToken } from '@bodiless/vital-elements';
-import { vitalFlowContainerBase } from '@bodiless/vital-flowcontainer';
-import { addProps } from '@bodiless/fclasses';
+import { asFluidToken } from '@asemirsk/vital-elements';
+import { vitalFlowContainerBase } from '@asemirsk/vital-flowcontainer';
+import { addProps } from '@asemirsk/fclasses';
 
 const Default = asFluidToken({
   ...vitalFlowContainerBase.Default,

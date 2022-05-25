@@ -13,13 +13,13 @@
  */
 
 import React from 'react';
-import { withNodeKey } from '@bodiless/core';
+import { withNodeKey } from '@asemirsk/core';
 import {
   flowHoc, replaceWith, as, Div, H2
-} from '@bodiless/fclasses';
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
-import { vitalTypography } from '@bodiless/vital-elements';
-import { asCardToken, CardClean, vitalCard } from '@bodiless/vital-card';
+} from '@asemirsk/fclasses';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
+import { vitalTypography } from '@asemirsk/vital-elements';
+import { asCardToken, CardClean, vitalCard } from '@asemirsk/vital-card';
 
 const Subtitle = as(vitalTypography.H2, 'pt-4')(H2);
 

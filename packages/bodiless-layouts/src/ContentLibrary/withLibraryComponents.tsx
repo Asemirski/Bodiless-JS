@@ -23,12 +23,12 @@ import {
   NodeProvider,
   useEditContext,
   useGetter,
-} from '@bodiless/core';
-import type { OptionGroupDefinition } from '@bodiless/core';
+} from '@asemirsk/core';
+import type { OptionGroupDefinition } from '@asemirsk/core';
 import {
   withDesign, HOC, flowHoc, flowIf,
-} from '@bodiless/fclasses';
-import type { Design } from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
+import type { Design } from '@asemirsk/fclasses';
 import { withFacet, withTitle, withDesc } from '../meta';
 import { childKeys, updateLibData } from '../utils/NodeTools';
 import {

@@ -14,7 +14,7 @@
 
 import {
   ContentNode,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { LinkData } from './types';
 
 const ensureTrailingSlash = (href: string) => (href.endsWith('/') ? href : `${href}/`);

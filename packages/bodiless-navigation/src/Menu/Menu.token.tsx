@@ -13,16 +13,16 @@
  */
 
 import { observer } from 'mobx-react';
-import { useListContext } from '@bodiless/components';
-import { useEditContext } from '@bodiless/core';
-import type { HOC } from '@bodiless/fclasses';
+import { useListContext } from '@asemirsk/components';
+import { useEditContext } from '@asemirsk/core';
+import type { HOC } from '@asemirsk/fclasses';
 import {
   addClasses,
   removeClassesIf,
   addClassesIf,
   withDesign,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import withMenuContext, { useIsMenuOpen, useMenuContext } from './withMenuContext';
 import withMenuDesign from './withMenuDesign';

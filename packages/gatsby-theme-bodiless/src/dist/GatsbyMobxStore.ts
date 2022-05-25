@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { BodilessMobxStore } from '@bodiless/core';
+import { BodilessMobxStore } from '@asemirsk/core';
 
 type GatsbyNode = {
   node: {

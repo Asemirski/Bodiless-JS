@@ -18,11 +18,11 @@ import {
   useMenuOptionUI,
   useNode,
   withSidecarNodes,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import type {
   BodilessOptions,
   AsBodiless,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 
 // Type of the data used by this component.
 export type Data = {

@@ -19,8 +19,8 @@ import {
   designable,
   Fragment,
   A,
-} from '@bodiless/fclasses';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 import { HelmetClean } from '../Helmet';
 import { HeaderClean } from '../Header';
 import { FooterClean } from '../Footer';

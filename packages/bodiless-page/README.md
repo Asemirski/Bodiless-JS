@@ -1,4 +1,4 @@
-# `@bodiless/page`
+# `@asemirsk/page`
 
 Provides menu options for page operations forms.
 

@@ -16,7 +16,7 @@ import {
   addClasses,
   withDesign,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asCardVertical as asBCardVertical,
   asCardHorizontal as asBCardHorizontal,
@@ -26,7 +26,7 @@ import {
   asCardOverlayTitle as asCardOverlayTitle$,
   asCardOverlayCta as asCardOverlayCta$,
   asCardNoBodyNoTitle as asCardNoBodyNoTitle$,
-} from '@bodiless/card';
+} from '@asemirsk/card';
 import {
   asImageRounded,
   asCta,

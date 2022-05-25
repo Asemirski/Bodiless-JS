@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { on } from '@bodiless/fclasses';
-import { asFluidToken } from '@bodiless/vital-elements';
+import { on } from '@asemirsk/fclasses';
+import { asFluidToken } from '@asemirsk/vital-elements';
 import { YouTubeClean, vitalYouTube } from '../YouTube';
 
 /**

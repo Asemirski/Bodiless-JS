@@ -18,11 +18,11 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import {
   NodeViewer,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 import {
   withDesign, addProps, Div, flowHoc,
-} from '@bodiless/fclasses';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/fclasses';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 
 import Layout from '../../../components/Layout';
 import { FlowContainerDefault } from '../../../components/FlowContainer';

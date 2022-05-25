@@ -14,13 +14,13 @@
 
 import { ComponentType } from 'react';
 import pick from 'lodash/pick';
-import { withDesign, replaceWith, flowHoc } from '@bodiless/fclasses';
-import { withResponsiveVariants } from '@bodiless/components';
+import { withDesign, replaceWith, flowHoc } from '@asemirsk/fclasses';
+import { withResponsiveVariants } from '@asemirsk/components';
 import {
   SearchBox as SearchBoxClean,
   SearchResult as SearchResultClean,
   ResponsiveSearchBox as ResponsiveSearchBoxClean,
-} from '@bodiless/search';
+} from '@asemirsk/search';
 
 import { breakpoints as allBreakpoints } from '../Page';
 import { asDesktopOnly, asMobileOnly } from '../Elements.token';

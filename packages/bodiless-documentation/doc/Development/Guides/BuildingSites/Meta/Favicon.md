@@ -13,7 +13,7 @@ For more information on options, please read the documentation for
 [`gatsby-plugin-manifest`](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/).
 
 If desired, you can override this by specifying custom options within your site's `gatsby-config.js`
-file AFTER the plugin '@bodiless/gatsby-theme-bodiless'.
+file AFTER the plugin '@asemirsk/gatsby-theme-bodiless'.
 
 For example:
 

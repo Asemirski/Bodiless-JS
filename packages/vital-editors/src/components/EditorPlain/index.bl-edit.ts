@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { Editable } from '@bodiless/components';
-import { withoutHydrationInline } from '@bodiless/hydration';
+import { Editable } from '@asemirsk/components';
+import { withoutHydrationInline } from '@asemirsk/hydration';
 
 export const EditorPlainClean = withoutHydrationInline()(Editable);
 export { default as vitalEditorPlain } from './tokens';

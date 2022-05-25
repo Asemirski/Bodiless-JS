@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-import { WithNodeKeyProps, withNodeKey } from '@bodiless/core';
+import { WithNodeKeyProps, withNodeKey } from '@asemirsk/core';
 import {
   HOC, addProps, withDesign, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import { withBreadcrumbStartingTrail, withBreadcrumbFinalTrail } from './Breadcrumbs';
 import { asMenuTitle, withDefaultMenuTitleEditors } from '../Menu/MenuTitles';

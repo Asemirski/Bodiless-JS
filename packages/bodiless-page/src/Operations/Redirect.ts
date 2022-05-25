@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { ContentNode } from '@bodiless/core';
+import { ContentNode } from '@asemirsk/core';
 import {
   convertAliasJsonToText,
   convertAliasTextToJson,

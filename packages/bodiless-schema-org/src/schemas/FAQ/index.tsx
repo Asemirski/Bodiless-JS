@@ -15,7 +15,7 @@
 import React, {
   ComponentType, useEffect,
 } from 'react';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 import { useStructuredData } from '../../StructureDataProvider';
 import { getSchemaSourceData } from '../../util';
 import { DataStructureSchemaProps } from '../../types';

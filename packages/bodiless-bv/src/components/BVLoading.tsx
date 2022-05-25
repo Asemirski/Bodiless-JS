@@ -13,7 +13,7 @@
  */
 
 import React, { FC, HTMLProps } from 'react';
-import { Div } from '@bodiless/fclasses';
+import { Div } from '@asemirsk/fclasses';
 import { BVProps, withoutBVProps } from './BVProps';
 
 type DivProps = HTMLProps<HTMLDivElement>;

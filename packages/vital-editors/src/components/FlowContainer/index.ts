@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { asFluidToken } from '@bodiless/vital-elements';
-import { on } from '@bodiless/fclasses';
+import { asFluidToken } from '@asemirsk/vital-elements';
+import { on } from '@asemirsk/fclasses';
 import { vitalRichText, RichTextClean } from '../RichText';
 
 const WithEditorVariations = asFluidToken({

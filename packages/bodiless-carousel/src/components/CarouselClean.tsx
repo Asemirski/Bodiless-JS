@@ -18,8 +18,8 @@ import {
   designable,
   stylable,
   Fragment,
-} from '@bodiless/fclasses';
-import type { DesignableComponentsProps } from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
+import type { DesignableComponentsProps } from '@asemirsk/fclasses';
 import {
   CarouselProvider,
   Slider,

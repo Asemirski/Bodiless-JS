@@ -15,9 +15,9 @@
 import React from 'react';
 import {
   withDesign, addClasses, flowHoc, stylable, startWith, Pre,
-} from '@bodiless/fclasses';
-import { asAccordionWrapper, asAccordionTitle, asAccordionBody } from '@bodiless/accordion';
-import { withChild } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { asAccordionWrapper, asAccordionTitle, asAccordionBody } from '@asemirsk/accordion';
+import { withChild } from '@asemirsk/core';
 import {
   asHeader3, asBold, asTextWhite, asTealBackground,
 } from './Elements.token';

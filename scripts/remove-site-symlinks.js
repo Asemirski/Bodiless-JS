@@ -18,9 +18,9 @@ const path = require('path');
  * This script will remove all symlinks to the folders given as arguments
  * inside the node_modules folder of each site.
  *
- * This means that, if you provide "@bodiless" as an argument for
+ * This means that, if you provide "@asemirsk" as an argument for
  * this script, it will go into each folder inside "<repository root>/sites",
- * and will search for a "@bodiless" symlink inside the node_modules folder
+ * and will search for a "@asemirsk" symlink inside the node_modules folder
  * of each of these sites.
  *
  * If any argument given to this script doesn't exist inside node_modules,

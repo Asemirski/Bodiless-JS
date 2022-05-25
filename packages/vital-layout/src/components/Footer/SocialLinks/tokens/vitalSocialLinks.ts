@@ -15,7 +15,7 @@
 import {
   Div,
   startWith,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { asSocialLinksToken } from '../SocialLinksClean';
 
 const Base = asSocialLinksToken({

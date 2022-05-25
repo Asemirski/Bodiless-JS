@@ -14,9 +14,9 @@
 
 import {
   flowHoc, startWith, as, on
-} from '@bodiless/fclasses';
-import { LinkClean, vitalLink } from '@bodiless/vital-link';
-import { withEditorPlain, withEditorRich } from '@bodiless/vital-editors';
+} from '@asemirsk/fclasses';
+import { LinkClean, vitalLink } from '@asemirsk/vital-link';
+import { withEditorPlain, withEditorRich } from '@asemirsk/vital-editors';
 import { asListToken } from '../ListClean';
 import { TitleInfographicClean, vitalTitleInfographic } from '../../TitleInfographic';
 

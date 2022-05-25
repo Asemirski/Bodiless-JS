@@ -16,11 +16,11 @@ import React, { FC } from 'react';
 import flow from 'lodash/flow';
 import {
   ContextWrapperProps, ContextWrapper as PlainContextWrapper,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   withoutProps,
-} from '@bodiless/fclasses';
-import { Div } from '@bodiless/ui';
+} from '@asemirsk/fclasses';
+import { Div } from '@asemirsk/ui';
 
 type VariantProps = {
   isActive?: boolean;

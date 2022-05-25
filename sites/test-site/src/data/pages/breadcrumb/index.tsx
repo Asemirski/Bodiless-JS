@@ -16,8 +16,8 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { asReadOnly } from '@bodiless/core';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { asReadOnly } from '@asemirsk/core';
 import {
   withBreadcrumbStore,
   BreadcrumbsClean,
@@ -25,11 +25,11 @@ import {
   withEditableStartingTrail,
   withEditableFinalTrail,
   withMenuTitleEditors,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 import {
   addClasses, H1 as H1$, H2 as H2$, P as P$, flowHoc, Fragment,
   addProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import Layout from '../../../components/Layout';
 import Menu from '../../../components/Menu/Menu';

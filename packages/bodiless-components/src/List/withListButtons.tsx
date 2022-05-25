@@ -16,10 +16,10 @@ import { useMemo } from 'react';
 import {
   withMenuOptions, withLocalContextMenu,
   withContextActivator, ifEditable, PageEditContextInterface, TMenuOption, useEditContext,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { v1 } from 'uuid';
 
-import { withFinalDesign, flowHoc } from '@bodiless/fclasses';
+import { withFinalDesign, flowHoc } from '@asemirsk/fclasses';
 import { UseListOverrides } from './types';
 import { useListContext } from './List';
 

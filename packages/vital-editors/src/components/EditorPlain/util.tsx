@@ -15,7 +15,7 @@
 import React, { FC } from 'react';
 import flow from 'lodash/flow';
 import identity from 'lodash/identity';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 
 /**
  * Token that will wrap the <sup> tags around a provided set of chars

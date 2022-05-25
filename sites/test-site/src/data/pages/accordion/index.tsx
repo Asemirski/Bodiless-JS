@@ -14,7 +14,7 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page, PageProps } from '@bodiless/gatsby-theme-bodiless';
+import { Page, PageProps } from '@asemirsk/gatsby-theme-bodiless';
 import Layout from '../../../components/Layout';
 import {
   SingleAccordion,

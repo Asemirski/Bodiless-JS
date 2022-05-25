@@ -23,7 +23,7 @@ import {
   H4,
   H5,
   startWith,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asBlock,
   createLinkDeserializer,
@@ -36,19 +36,19 @@ import {
   withHeader3Meta,
   withHeader4Meta,
   withHeader5Meta,
-} from '@bodiless/richtext';
+} from '@asemirsk/richtext';
 import {
   DefaultNormalHref,
-} from '@bodiless/components';
-import { ifComponentSelector } from '@bodiless/layouts';
+} from '@asemirsk/components';
+import { ifComponentSelector } from '@asemirsk/layouts';
 import {
   asVitalTokenSpec,
   vitalColor,
   vitalFontSize,
   vitalTextDecoration,
   vitalTypography,
-} from '@bodiless/vital-elements';
-import { LinkClean, vitalLink } from '@bodiless/vital-link';
+} from '@asemirsk/vital-elements';
+import { LinkClean, vitalLink } from '@asemirsk/vital-link';
 
 const withLinkDeserializer = withHtmlDeserializer(
   createLinkDeserializer({

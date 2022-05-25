@@ -12,13 +12,13 @@
  * limitations under the License.
  */
 
-import type { EditButtonProps } from '@bodiless/core';
+import type { EditButtonProps } from '@asemirsk/core';
 import type {
   DesignableComponents,
   DesignableProps,
   HOC,
-} from '@bodiless/fclasses';
-import type { ComponentSelectorOptions } from '@bodiless/layouts';
+} from '@asemirsk/fclasses';
+import type { ComponentSelectorOptions } from '@asemirsk/layouts';
 
 export type ChameleonData = {
   component?: string | null;

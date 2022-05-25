@@ -20,7 +20,7 @@ import {
   Label,
   flowHoc,
   removeClasses,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import ShareIcon from './icons/Share';
 
 const providersDesign = {

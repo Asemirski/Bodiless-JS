@@ -18,7 +18,7 @@ import {
   addClasses,
   addProps,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import Card from '../Card';
 import { withEditorSimple } from '../Editors';
 import {

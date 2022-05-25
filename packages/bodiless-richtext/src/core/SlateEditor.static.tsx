@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { StaticBlock, staticHOC } from '@bodiless/hydration';
+import { StaticBlock, staticHOC } from '@asemirsk/hydration';
 
 const withSlateEditor = staticHOC;
 const SlateEditor = StaticBlock;

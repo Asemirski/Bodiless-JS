@@ -20,9 +20,9 @@
  */
 const pathUtil = require('path');
 const fs = require('fs');
-const { getDisabledPages } = require('@bodiless/components/node-api');
+const { getDisabledPages } = require('@asemirsk/components/node-api');
 const { createFilePath } = require('gatsby-source-filesystem');
-const { addStaticReplacementPlugin } = require('@bodiless/webpack');
+const { addStaticReplacementPlugin } = require('@asemirsk/webpack');
 const { onCreateNode, createSlug, createGitInfo } = require('./create-node');
 const createRedirectAlias = require('./create-redirect-alias');
 const Logger = require('./Logger');
@@ -263,7 +263,7 @@ exports.onCreateWebpackConfig = ({
 
     // Add support for static builds where files ending in '.bl-edit'
     // are replaced for a static counterpart file ending in '.static'.
-    // See @bodiless/webpack docs for more info.
+    // See @asemirsk/webpack docs for more info.
     actions.setWebpackConfig(addStaticReplacementPlugin({}, pluginOptions?.static));
   }
   if (stage === 'build-javascript' || stage === 'develop') {

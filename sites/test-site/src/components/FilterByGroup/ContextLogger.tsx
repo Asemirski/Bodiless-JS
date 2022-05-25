@@ -15,13 +15,13 @@
 import React, { useState, useRef } from 'react';
 import {
   Div, Button, addClasses, flowHoc, ComponentOrTag,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   useFilterByGroupContext,
   withTagProps,
   Tag,
-} from '@bodiless/filtering';
-import { BodilessTag, TagType } from '@bodiless/core';
+} from '@asemirsk/filtering';
+import { BodilessTag, TagType } from '@asemirsk/core';
 
 const AddButton = addClasses('px-2 mb-2 mr-2 border border-gray-600')(Button);
 const TagComponent = addClasses('px-3 my-2 mr-2 mb-2 border border-gray-600 inline-block')(Div);

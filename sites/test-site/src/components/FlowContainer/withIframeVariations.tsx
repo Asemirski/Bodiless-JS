@@ -14,13 +14,13 @@
 import {
   withTitle,
   withDesc,
-} from '@bodiless/layouts';
+} from '@asemirsk/layouts';
 import {
   varyDesign,
   replaceWith,
   withDesign,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import { IframeWithResponsiveWidth } from '../Iframe';
 import { withType } from './Categories';

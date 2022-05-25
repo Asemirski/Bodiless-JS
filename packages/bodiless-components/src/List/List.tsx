@@ -19,10 +19,10 @@ import React, {
 } from 'react';
 import flow from 'lodash/flow';
 import { observer } from 'mobx-react';
-import { withNode } from '@bodiless/core';
+import { withNode } from '@asemirsk/core';
 import {
   designable, addProps, withDesign, Fragment,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { useItemsMutators, useItemsAccessors } from './model';
 import {
   ListBaseProps, ListProps, ListComponents, ListContextValue,

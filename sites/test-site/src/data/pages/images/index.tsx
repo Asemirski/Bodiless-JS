@@ -20,8 +20,8 @@ import {
   Page,
   GatsbyImagePresets,
   withGatsbyImagePreset,
-} from '@bodiless/gatsby-theme-bodiless';
-import { withNode, withNodeKey } from '@bodiless/core';
+} from '@asemirsk/gatsby-theme-bodiless';
+import { withNode, withNodeKey } from '@asemirsk/core';
 import {
   A,
   H1,
@@ -33,7 +33,7 @@ import {
   addClasses,
   removeClasses,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import Layout from '../../../components/Layout';
 import {
   asEditableImageWithPlaceholder,

@@ -19,14 +19,14 @@ import {
   and,
   not,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asBodilessTable,
   CleanTable,
   useIsInBody,
   useIsFirstColumn,
   useIsEvenColumn,
-} from '@bodiless/table';
+} from '@asemirsk/table';
 import { withEditorFullFeatured } from '../Editors';
 
 const asEditableTable = flowHoc(

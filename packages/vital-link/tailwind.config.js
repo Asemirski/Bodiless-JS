@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { getPackageTailwindConfig } from '@bodiless/fclasses';
+import { getPackageTailwindConfig } from '@asemirsk/fclasses';
 
 const plugin = require('tailwindcss/plugin');
 
@@ -36,7 +36,7 @@ const twConfig = {
           fontFamily: 'linkicons',
           fontWeight: 400,
           fontStyle: 'normal',
-          src: 'url(\'@bodiless/vital-link/assets/font/linkicons.woff2\')',
+          src: 'url(\'@asemirsk/vital-link/assets/font/linkicons.woff2\')',
         },
       });
     }),

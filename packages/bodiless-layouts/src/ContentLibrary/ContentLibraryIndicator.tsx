@@ -13,7 +13,7 @@
  */
 
 import React, { ComponentType, FC } from 'react';
-import { withPrependChild } from '@bodiless/core';
+import { withPrependChild } from '@asemirsk/core';
 import {
   Div,
   Span,
@@ -23,7 +23,7 @@ import {
   withDesign,
   designable,
   DesignableComponentsProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 /**
  * Type for the Designable LibraryItemIndicator Components.

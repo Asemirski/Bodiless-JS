@@ -17,7 +17,7 @@ Editor Details](/Components/Table#content-editor-details).
 What's shown in the following example can be applied to any Slot.
 
 ```js
-import { vitalTable, TableClean, asTableToken } from '@bodiless/vital-table';
+import { vitalTable, TableClean, asTableToken } from '@asemirsk/vital-table';
 
   // ...within your component
   Components: {
@@ -38,12 +38,12 @@ gives a light gray header and footer.
 
 Define a Shadowing token collection as defined in [Shadow](./VitalElements/Shadow).
 
-File to shadow: `packages/{my-package}/src/shadow/@bodiless/vital-table/Table.ts`
+File to shadow: `packages/{my-package}/src/shadow/@asemirsk/vital-table/Table.ts`
 
 ```js
-import { vitalTableBase } from '@bodiless/vital-table';
-import { asFluidToken } from '@bodiless/vital-elements';
-import { addProps } from '@bodiless/fclasses';
+import { vitalTableBase } from '@asemirsk/vital-table';
+import { asFluidToken } from '@asemirsk/vital-elements';
+import { addProps } from '@asemirsk/fclasses';
 
 const Default = asFluidToken({
   ...vitalTableBase.Default,

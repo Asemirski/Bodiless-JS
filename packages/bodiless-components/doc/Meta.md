@@ -41,7 +41,7 @@ See the code here:
     import Helmet from 'react-helmet';
     import {
       withMeta, withMetaTitle, withMetaHtml, asBodilessHelmet,
-    } from '@bodiless/components';
+    } from '@asemirsk/components';
     import flowRight from 'lodash/flowRight';
 
     const ExampleHelmet = flowRight(
@@ -67,9 +67,9 @@ See the code here:
 The `withMetaForm` provides the ability to insert an SEO form within the editor interface for
 Content Editors to manipulate metadata per page.
 
-01. First, import `withMetaForm` from the `@bodiless/components` package:
+01. First, import `withMetaForm` from the `@asemirsk/components` package:
     ```js
-    import withMetaForm from @bodiless/components;
+    import withMetaForm from @asemirsk/components;
     ```
 01. Prepare your arguments; `withMetaForm` takes 2 parameters:
     01. `useMenuOptions`: Defines SEO form menu button appearance.
@@ -103,13 +103,13 @@ form fields so Content Editors can update the content of the metadata displayed 
 of each page.  
 For example, to add an editable meta description field:
 
-01. Import `withMeta` from `@bodiless/components`.
+01. Import `withMeta` from `@asemirsk/components`.
 01. Create an HOC `withMetaPageDescription`, with meta field name `description`, form field label
     `Description`, and placeholder text.  
     For example:
     ```js
-    import { withMeta } from '@bodiless/components';
-    import { useMenuOptionUI } from '@bodiless/core';
+    import { withMeta } from '@asemirsk/components';
+    import { useMenuOptionUI } from '@asemirsk/core';
 
     const withMetaPageDescription = withMeta({
       name: 'description',

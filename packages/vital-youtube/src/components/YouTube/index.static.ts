@@ -1,5 +1,5 @@
 export {
   staticTokenCollection as vitalYouTube,
   StaticBlock as YouTubeClean
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';
 export { asYouTubeToken } from './YouTubeClean';

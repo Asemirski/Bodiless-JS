@@ -14,8 +14,8 @@
 
 import React, { FC } from 'react';
 import { graphql } from 'gatsby';
-import { PageContextProvider, contextMenuForm, getUI } from '@bodiless/core';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { PageContextProvider, contextMenuForm, getUI } from '@asemirsk/core';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import Layout from '../../../components/Layout';
 
 const ExampleForm = () => contextMenuForm()(

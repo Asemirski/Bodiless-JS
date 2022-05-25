@@ -14,7 +14,7 @@
 
 import React, { FC, useEffect } from 'react';
 import { v4 } from 'uuid';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 import { useContextActivator, useEditContext } from './hooks';
 
 type ActivateOnEffectState = {

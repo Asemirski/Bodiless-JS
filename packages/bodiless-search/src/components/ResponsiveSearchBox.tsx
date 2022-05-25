@@ -25,7 +25,7 @@ import {
   DesignableComponentsProps,
   StylableProps,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import {
   SearchBox,

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { ItemStateEvent } from '@bodiless/core';
+import { ItemStateEvent } from '@asemirsk/core';
 import GatsbyMobxStore from '../src/dist/GatsbyMobxStore';
 
 const flushPromises = () => new Promise(setImmediate);

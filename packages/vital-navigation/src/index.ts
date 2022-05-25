@@ -18,7 +18,7 @@ export {
   useIsBurgerMenuHidden,
   withBurgerMenuProvider,
   withBreadcrumbStore,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 
 // VitalNavigation components and tokens.
 export * from './components/Breadcrumbs';

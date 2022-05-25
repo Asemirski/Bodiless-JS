@@ -16,13 +16,13 @@ import {
   ComponentType,
   HTMLProps,
 } from 'react';
-import { useMenuOptionUI } from '@bodiless/core';
+import { useMenuOptionUI } from '@asemirsk/core';
 import {
   addClasses,
   flowHoc,
   removeClasses,
   StylableProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 const usePageMenuOptionUI = () => {
   const defaultUI = useMenuOptionUI();

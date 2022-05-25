@@ -24,7 +24,7 @@ import {
   Thead,
   Tr,
   Div,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   Section,
   TableProps,

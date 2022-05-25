@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { addProps } from '@bodiless/fclasses';
+import { addProps } from '@asemirsk/fclasses';
 
 enum LanguageDirection {
   LTR = 'ltr',

@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { asBodilessChameleon, useChameleonContext } from '@bodiless/components';
-import { withDesign, flowHoc, Div } from '@bodiless/fclasses';
+import { asBodilessChameleon, useChameleonContext } from '@asemirsk/components';
+import { withDesign, flowHoc, Div } from '@asemirsk/fclasses';
 import {
   asBox, asBlue, asOrange, asTeal, withBlueBorder,
 } from './Box';

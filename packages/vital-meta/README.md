@@ -1,4 +1,4 @@
-# `@bodiless/vital-meta`
+# `@asemirsk/vital-meta`
 
 For documentation on the Vital Meta package, please see:
 

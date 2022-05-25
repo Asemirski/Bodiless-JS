@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-import { WithNodeProps, TMenuOptionGetter } from '@bodiless/core';
+import { WithNodeProps, TMenuOptionGetter } from '@asemirsk/core';
 import {
   DesignableComponents, ComponentOrTag, DesignableProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { HTMLProps } from 'react';
 import { ComponentSelectorUI, ComponentSelectorProps } from '../ComponentSelector/types';
 import { UI as SortableResizableUI, SlateSortableResizableProps } from '../SlateSortableResizable';

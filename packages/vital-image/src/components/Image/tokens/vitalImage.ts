@@ -16,14 +16,14 @@ import {
   withNode,
   withNodeKey,
   withParent,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   GatsbyImagePresets,
   withoutGatsbyImageProps,
   asGatsbyImage,
   withGatsbyImageLogger,
   withGatsbyImageNode,
-} from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/gatsby-theme-bodiless';
 import {
   flowHoc,
   stylable,
@@ -32,11 +32,11 @@ import {
   extendMeta,
   as,
   withDesign,
-} from '@bodiless/fclasses';
-import { withImagePlaceholder } from '@bodiless/components';
-import { asBodilessLink, asBodilessImage } from '@bodiless/components-ui';
-import { asElementToken } from '@bodiless/vital-elements';
-import { withoutHydration } from '@bodiless/hydration';
+} from '@asemirsk/fclasses';
+import { withImagePlaceholder } from '@asemirsk/components';
+import { asBodilessLink, asBodilessImage } from '@asemirsk/components-ui';
+import { asElementToken } from '@asemirsk/vital-elements';
+import { withoutHydration } from '@asemirsk/hydration';
 
 // @ts-ignore Cannot find module
 import landscapeImage from '../../../../assets/landscape_image.png';

@@ -16,7 +16,7 @@ import React, { useState, FC } from 'react';
 import flow from 'lodash/flow';
 import {
   withNode, DefaultContentNode, NodeProvider, TagType,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { mount } from 'enzyme';
 import type { TagsNodeType } from '../src/TagButton/types';

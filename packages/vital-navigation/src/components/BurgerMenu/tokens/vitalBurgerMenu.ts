@@ -12,14 +12,14 @@
  * limitations under the License.
  */
 
-import { asStatic, withChild } from '@bodiless/core';
-import { vitalColor } from '@bodiless/vital-elements';
-import { vitalButtons } from '@bodiless/vital-buttons';
+import { asStatic, withChild } from '@asemirsk/core';
+import { vitalColor } from '@asemirsk/vital-elements';
+import { vitalButtons } from '@asemirsk/vital-buttons';
 import {
   addClassesIf,
   as,
-} from '@bodiless/fclasses';
-import { useIsBurgerMenuHidden, asBurgerMenuToggler } from '@bodiless/navigation';
+} from '@asemirsk/fclasses';
+import { useIsBurgerMenuHidden, asBurgerMenuToggler } from '@asemirsk/navigation';
 import { vitalMenu } from '../../Menu';
 import CloseIcon from '../assets/CloseIcon';
 import { asBurgerMenuToken } from '../BurgerMenuClean';

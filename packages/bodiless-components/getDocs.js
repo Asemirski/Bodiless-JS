@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { getPackageDocs } from '@bodiless/cli';
+import { getPackageDocs } from '@asemirsk/cli';
 
 export const getDocs = (nameSpace) => getPackageDocs({
   resolver: p => require.resolve(p),

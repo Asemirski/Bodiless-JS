@@ -13,7 +13,7 @@
  */
 
 import React, { FC } from 'react';
-import type { Enhancer } from '@bodiless/fclasses';
+import type { Enhancer } from '@asemirsk/fclasses';
 import NodeProvider, { useNode } from '../NodeProvider';
 import ContentfulNode from './ContentfulNode';
 import { DefaultContentNode } from '../ContentNode';

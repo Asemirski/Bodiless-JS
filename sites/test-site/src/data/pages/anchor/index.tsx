@@ -14,12 +14,12 @@
 /* eslint-disable max-len */
 import React, { ComponentType } from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { asBodilessAnchor, asBodilessList } from '@bodiless/components';
-import { withSidecarNodes, withNode } from '@bodiless/core';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { asBodilessAnchor, asBodilessList } from '@asemirsk/components';
+import { withSidecarNodes, withNode } from '@asemirsk/core';
 import {
   A, H1, H2, H4, P, Ul, Li, addClasses, withDesign, replaceWith, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import Layout from '../../../components/Layout';
 import {
   asHeader1, asHeader2, asEditableLink, asEditable, asBold,

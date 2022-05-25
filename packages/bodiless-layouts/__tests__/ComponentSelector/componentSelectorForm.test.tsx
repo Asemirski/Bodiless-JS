@@ -13,7 +13,7 @@
  */
 
 import React, { Fragment } from 'react';
-import { contextMenuForm } from '@bodiless/core';
+import { contextMenuForm } from '@asemirsk/core';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { shallow } from 'enzyme';
 import ComponentSelector from '../../src/ComponentSelector';
@@ -30,7 +30,7 @@ const activateOnEffect = {
   setId: jest.fn(),
 };
 const contextMenuFormInner = jest.fn();
-jest.mock('@bodiless/core', () => ({
+jest.mock('@asemirsk/core', () => ({
   useEditContext: () => editContext,
   useActivateOnEffect: () => activateOnEffect,
   // useNode: jest.fn(),

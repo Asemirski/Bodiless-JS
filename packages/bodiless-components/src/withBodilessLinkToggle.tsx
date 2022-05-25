@@ -15,14 +15,14 @@
 import { Fragment } from 'react';
 import {
   withSidecarNodes, ifReadOnly, ifEditable, withOnlyProps,
-} from '@bodiless/core';
-import type { UseBodilessOverrides, EditButtonProps } from '@bodiless/core';
+} from '@asemirsk/core';
+import type { UseBodilessOverrides, EditButtonProps } from '@asemirsk/core';
 import flowRight from 'lodash/flowRight';
 import identity from 'lodash/identity';
 import {
   replaceWith, withDesign, withoutProps, flowHoc,
-} from '@bodiless/fclasses';
-import type { HOC } from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
+import type { HOC } from '@asemirsk/fclasses';
 import type { AsBodilessLink } from './Link';
 import {
   withChameleonComponentFormControls, applyChameleon, withChameleonContext, useChameleonContext,

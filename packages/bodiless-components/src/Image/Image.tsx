@@ -22,8 +22,8 @@ import {
   asBodilessComponent,
   BodilessOptions,
   AsBodiless,
-} from '@bodiless/core';
-import { addProps } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { addProps } from '@asemirsk/fclasses';
 import { withFieldApi } from 'informed';
 import { FileUpload } from '../FileUpload';
 import type { FileUploadPickerUI } from '../FileUpload';

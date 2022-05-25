@@ -19,8 +19,8 @@ import {
   ifEditable,
   useEditToggle,
   ifToggledOn,
-} from '@bodiless/core';
-import { addProps } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { addProps } from '@asemirsk/fclasses';
 import { Editor, Element } from 'slate';
 import {
   Editable,

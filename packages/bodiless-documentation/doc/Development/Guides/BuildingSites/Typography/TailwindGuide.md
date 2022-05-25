@@ -42,7 +42,7 @@ always have precedence**.
 
 01. Add a `tailwind.config.js` file to the root of the package.
     ```js
-    import { getPackageTailwindConfig } from '@bodiless/fclasses';
+    import { getPackageTailwindConfig } from '@asemirsk/fclasses';
 
     const twConfig = {
       content: [

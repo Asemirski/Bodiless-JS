@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { Span } from '@bodiless/ui';
-import { addClasses } from '@bodiless/fclasses';
+import { Span } from '@asemirsk/ui';
+import { addClasses } from '@asemirsk/fclasses';
 
 const CloseButton = addClasses('bl-block bl-text-right bl-text-white bl-cursor-pointer hover:bl-text-emerald-500')(Span);
 

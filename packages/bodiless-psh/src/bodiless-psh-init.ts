@@ -54,7 +54,7 @@ const mergeByKey = (Source: any, Destination: any, Whitelist: any) => {
           Object.assign(result, { [key]: Destination[key] });
         } else {
           if (!(key in Source)) {
-            console.log(`Key '${key}' is not whitelisted and not found in '@bodiless/psh' defaults. The value of ${Destination[key]} will be used.`);
+            console.log(`Key '${key}' is not whitelisted and not found in '@asemirsk/psh' defaults. The value of ${Destination[key]} will be used.`);
             Object.assign(result, { [key]: Destination[key] });
           } else {
             if (Source[key] !== Destination[key]) {

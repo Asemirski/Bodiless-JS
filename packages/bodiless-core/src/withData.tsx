@@ -13,7 +13,7 @@
  */
 
 import React from 'react';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 
 export type HasDataProp<D> = {
   componentData: D;

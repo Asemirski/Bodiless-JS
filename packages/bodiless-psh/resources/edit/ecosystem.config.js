@@ -12,7 +12,7 @@ module.exports = {
     {
       name: 'backend',
       cwd: `${appVolume()}/root`,
-      script: `${appVolume()}/root/node_modules/@bodiless/backend/src/server.js`,
+      script: `${appVolume()}/root/node_modules/@asemirsk/backend/src/server.js`,
     },
   ],
 };

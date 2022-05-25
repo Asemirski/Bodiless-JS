@@ -123,7 +123,7 @@ The FlowContainer uses the Design API to collect the components to make availabl
 for placement:
 
 ``` js
-import { FlowContainer } from '@bodiless/layouts-ui";
+import { FlowContainer } from '@asemirsk/layouts-ui";
 
 design = {
     Card: flow(startWith(Card), asDefaultCard),
@@ -135,8 +135,8 @@ const SiteFlowContainer = withDesign(design)(FlowContainer);
 Use the `startWith` HOC to declare the base component and 
 then use any other hoc that will add to this specific version.
 
-> Note that we import the flow container from `@bodiless/layouts-ui`, not
-> directly from `@bodiless/layouts`.  All Bodiless components which
+> Note that we import the flow container from `@asemirsk/layouts-ui`, not
+> directly from `@asemirsk/layouts`.  All Bodiless components which
 > have a content-editor facing UI have a corresponding UI package
 > which defines the look and feel of that UI.
 
@@ -217,7 +217,7 @@ const ColoredCardsFC = withDesign({
 })(FlowContainer);
 ```
 
-Often an explicit title is not necessary, and `@bodiless/layouts` provides
+Often an explicit title is not necessary, and `@asemirsk/layouts` provides
 a helper token which causes all the components in the flow container
 to receive a default title based on their metadata:
 ```js
@@ -249,7 +249,7 @@ const FCWithManyCardVariations = withDesign({
 ```
 To simplify this process, you can use the
 [`varyDesign`](../../Development/Architecture/FClasses#design-variants)
-function exported from `@bodiless/fclasses`.
+function exported from `@asemirsk/fclasses`.
 
 ### Constraining Component Widths
 
@@ -265,7 +265,7 @@ fully resolved tailwind configuration, and it returns a function which accepts a
 list of tailwind width classes and returns a token which constrains flow
 container items to those widths:
 ```js
-import resolveConfig from '@bodiless/gatsby-theme-bodiless/src/dist/tailwindcss/resolveConfig';
+import resolveConfig from '@asemirsk/gatsby-theme-bodiless/src/dist/tailwindcss/resolveConfig';
 
 const withWidthConstraints = flow(
   resolveConfig,
@@ -363,7 +363,7 @@ informing each component whether it is being rendered in the component
 selector or on the actual page.  A component can use this to change the
 way it renders in each context.  For example:
 ```js
-import { ifComponentSelector } from '@bodiless/layouts';
+import { ifComponentSelector } from '@asemirsk/layouts';
 
 const withCustomPreview = ifComponentSelector(
   addProps({ children: 'this is a preview' }),
@@ -394,8 +394,8 @@ or four items per row.  By default the initial scale is one item per row,
 but this can be controlled via the `scale` prop.  For example:
 
 ```ts
-import { ComponentSelectorScale } from '@bodiless/layouts`;
-import { FlowContainer } from '@bodiless/layouts-ui`;
+import { ComponentSelectorScale } from '@asemirsk/layouts`;
+import { FlowContainer } from '@asemirsk/layouts-ui`;
 <FlowContainer scale={ComponentSelectorScale.Quarter}>
 ```
 
@@ -410,7 +410,7 @@ page which allows a user to browse all components available in a
 design system:
 
 ```js
-import { ComponentSelector } from '@bodiless/layouts-ui';
+import { ComponentSelector } from '@asemirsk/layouts-ui';
 // Use the same design you would use to populate the flow container.
 import { flowContainerDesign } from 'my-flow-container';
 
@@ -442,11 +442,11 @@ A few things to note when using the component selector independently:
   page containing documentation for the selected component.
 - You must provide a `ui` prop to define the elements used in the
   component selector UI.  You can use the default `ui` by importing
-  the component selector from `@bodiless/layouts-ui`.  You can also
+  the component selector from `@asemirsk/layouts-ui`.  You can also
   customize this UI to meet your needs:
   ```ts
-  import { ComponentSelector } from '@bodiless/layouts';
-  import { componentSelectorUi } from '@bodiless/layouts-ui';
+  import { ComponentSelector } from '@asemirsk/layouts';
+  import { componentSelectorUi } from '@asemirsk/layouts-ui';
 
   const ui = {
     ...componentSelectorUi,
@@ -460,7 +460,7 @@ A few things to note when using the component selector independently:
   instead to display the components normally, as they would appear on a page,
   you can override the default behavior via the `mode` prop:
   ```ts
-  import { ComponentDisplayMode } from '@bodiless/layouts';
+  import { ComponentDisplayMode } from '@asemirsk/layouts';
   ...
   <ComponentSelector mode={ComponentDisplayMode.EditFlowContainer} />;
   ```
@@ -469,7 +469,7 @@ A few things to note when using the component selector independently:
   components are not editable.  One way to defeat this behavior, is to
   modify the default UI `ComponentSelectButton` element:
   ```ts
-  import { componentSelectorUi } from '@bodiless/layouts-ui';
+  import { componentSelectorUi } from '@asemirsk/layouts-ui';
 
   const ui = {
     ...componentSelectorUi,
@@ -480,7 +480,7 @@ A few things to note when using the component selector independently:
   node to each item.  If you want to make the components editable, you may
   want to do so yourself, again by modifying the default UI:
   ```ts
-  import { componentSelectorUi } from '@bodiless/layouts-ui';
+  import { componentSelectorUi } from '@asemirsk/layouts-ui';
 
   const withNodeKeyFromItemId: HOC = Component => {
     const WithNodeKeyFromItemId: FC<any> = props => (
@@ -521,15 +521,15 @@ When the Content Editor adds a component to the Content Library:
 
 #### How to enable the Content Library feature on a Flow Container
 
-The `@bodiless/layouts` package exports a `withLibraryComponents` HOC that adds the Content Library
+The `@asemirsk/layouts` package exports a `withLibraryComponents` HOC that adds the Content Library
 feature to a wrapped Flow Container.
 
 For example, to create a Flow Container with the Content Library enabled:
 
 ```tsx
 ...
-import { FlowContainer } from '@bodiless/layouts-ui';
-import { withLibraryComponents } from '@bodiless/layouts';
+import { FlowContainer } from '@asemirsk/layouts-ui';
+import { withLibraryComponents } from '@asemirsk/layouts';
 
 // Add variant component designs, includes RTE, Image, Card etc, for component selector filtering.
 import withDefaultVariations from './withDefaultVariations';

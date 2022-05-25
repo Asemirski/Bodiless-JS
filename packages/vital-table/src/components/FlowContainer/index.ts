@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { asFluidToken } from '@bodiless/vital-elements';
-import { on, varyDesigns, flowHoc } from '@bodiless/fclasses';
+import { asFluidToken } from '@asemirsk/vital-elements';
+import { on, varyDesigns, flowHoc } from '@asemirsk/fclasses';
 import {
   asTableToken, TableClean, vitalTable,
 } from '../Table';

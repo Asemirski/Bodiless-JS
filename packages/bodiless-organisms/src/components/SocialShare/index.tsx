@@ -24,7 +24,7 @@ import {
   Li,
   designable,
   addClassesIf,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   ProvidersComponents,
   SocialShareProvidersProps,

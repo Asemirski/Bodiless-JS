@@ -14,13 +14,13 @@
 
 import {
   vitalImage
-} from '@bodiless/vital-image';
+} from '@asemirsk/vital-image';
 import {
   withNode,
   withNodeKey,
   withSidecarNodes,
-} from '@bodiless/core';
-import { asBodilessLink } from '@bodiless/components-ui';
+} from '@asemirsk/core';
+import { asBodilessLink } from '@asemirsk/components-ui';
 import { asLogoToken } from '../LogoClean';
 
 const Default = asLogoToken({

@@ -17,8 +17,8 @@ import {
   designable,
   stylable,
   ComponentOrTag,
-} from '@bodiless/fclasses';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 import { HelmetComponents, HelmetProps } from './types';
 
 /**

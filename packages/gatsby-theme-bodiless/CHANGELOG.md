@@ -32,7 +32,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.17](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -40,7 +40,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.16](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -48,7 +48,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.15](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2022-05-10)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -56,7 +56,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.14](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2022-05-05)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -64,7 +64,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.13](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2022-05-05)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -72,7 +72,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.12](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2022-05-02)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -80,7 +80,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.11](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-04-28)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -88,7 +88,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.10](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2022-04-26)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -123,7 +123,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.5](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-04-13)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -131,7 +131,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.4](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-04-12)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -139,7 +139,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.3](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-04-11)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -215,7 +215,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.4](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.3...v0.3.4) (2021-12-16)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -223,7 +223,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.3](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.2...v0.3.3) (2021-12-15)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -248,7 +248,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.1](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.0...v0.3.1) (2021-11-15)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -282,7 +282,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.9](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.8...v0.2.9) (2021-08-20)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -290,7 +290,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.8](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.7...v0.2.8) (2021-07-28)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -298,7 +298,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.7](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.6...v0.2.7) (2021-07-20)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -306,7 +306,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.6](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.5...v0.2.6) (2021-07-20)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -325,7 +325,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.4](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.3...v0.2.4) (2021-07-02)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -360,7 +360,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.1](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.0...v0.2.1) (2021-05-12)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -368,7 +368,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.0](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.72...v0.2.0) (2021-04-28)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -376,7 +376,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.0.72](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.71...v0.0.72) (2021-04-01)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -407,7 +407,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.70](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.69...v0.0.70) (2021-02-24)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -427,7 +427,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.68](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.67...v0.0.68) (2021-01-25)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -435,7 +435,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.67](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.66...v0.0.67) (2021-01-12)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -443,7 +443,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.66](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.65...v0.0.66) (2020-12-29)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -518,7 +518,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.59](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.58...v0.0.59) (2020-11-05)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -526,7 +526,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.58](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.57...v0.0.58) (2020-10-23)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -578,7 +578,7 @@ More Details about the breaking change.
 
 ## [0.0.54](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.53...v0.0.54) (2020-08-24)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -586,7 +586,7 @@ More Details about the breaking change.
 
 ## [0.0.53](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.52...v0.0.53) (2020-08-13)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -664,7 +664,7 @@ More Details about the breaking change.
 
 ## [0.0.46](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.45...v0.0.46) (2020-04-08)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -703,7 +703,7 @@ More Details about the breaking change.
 
 ## [0.0.43](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.42...v0.0.43) (2020-03-11)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -711,7 +711,7 @@ More Details about the breaking change.
 
 ## [0.0.42](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.41...v0.0.42) (2020-02-28)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -719,7 +719,7 @@ More Details about the breaking change.
 
 ## [0.0.41](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.40...v0.0.41) (2020-02-28)
 
-**Note:** Version bump only for package @bodiless/gatsby-theme-bodiless
+**Note:** Version bump only for package @asemirsk/gatsby-theme-bodiless
 
 
 
@@ -767,7 +767,7 @@ More Details about the breaking change.
 
 ### Features
 
-* **@bodiless/gatsby-theme-bodiless:** Initial Commit. ([33ab746](https://github.com/johnsonandjohnson/bodiless-js/commit/33ab746af5044c963d2a1d8a2da5e799db006626))
+* **@asemirsk/gatsby-theme-bodiless:** Initial Commit. ([33ab746](https://github.com/johnsonandjohnson/bodiless-js/commit/33ab746af5044c963d2a1d8a2da5e799db006626))
 * **starter:** Add gatsby-starter-bodiless to monorepo ([#12](https://github.com/johnsonandjohnson/bodiless-js/issues/12)) ([f5d8d2a](https://github.com/johnsonandjohnson/bodiless-js/commit/f5d8d2af25096d5785203cb600af378a5160b33d)), closes [#7](https://github.com/johnsonandjohnson/bodiless-js/issues/7)
 
 

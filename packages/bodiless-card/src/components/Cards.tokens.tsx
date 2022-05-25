@@ -18,7 +18,7 @@ import {
   withDesign,
   remove,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 /**
  * asCardVertical removes unnecessary wrappers from the card

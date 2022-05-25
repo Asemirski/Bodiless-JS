@@ -13,7 +13,7 @@
  */
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import {
   A,
   addClasses,
@@ -21,10 +21,10 @@ import {
   H1,
   Div,
   P,
-} from '@bodiless/fclasses';
-import { FileUploadStatus } from '@bodiless/components';
-import { truncateFileName } from '@bodiless/components-ui';
-import type { UploadStatusProps } from '@bodiless/components';
+} from '@asemirsk/fclasses';
+import { FileUploadStatus } from '@asemirsk/components';
+import { truncateFileName } from '@asemirsk/components-ui';
+import type { UploadStatusProps } from '@asemirsk/components';
 import flow from 'lodash/flow';
 
 import Layout from '../../../components/Layout';

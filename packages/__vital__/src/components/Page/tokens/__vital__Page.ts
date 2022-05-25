@@ -19,15 +19,15 @@ import {
   flowIf,
   on,
   replaceWith
-} from '@bodiless/fclasses';
-import { asFluidToken } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { asFluidToken } from '@asemirsk/vital-elements';
 import {
   vitalPage,
   GenericTemplateClean,
   vitalGenericTemplate,
   asGenericTemplateToken
-} from '@bodiless/vital-templates';
-import { useNode } from '@bodiless/core';
+} from '@asemirsk/vital-templates';
+import { useNode } from '@asemirsk/core';
 
 // @todo remove NoBreadcrumbsGeneric when breadcrumbs is implemented and
 // content editor can choose to use breadcrumb

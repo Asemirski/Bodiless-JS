@@ -30,7 +30,7 @@ remove the type information from the examples below). You can use the following 
 ```tsx
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page, PageProps } from '@bodiless/gatsby-theme-bodiless';
+import { Page, PageProps } from '@asemirsk/gatsby-theme-bodiless';
 
 export default (props: PageProps) => (
   <Page {...props}>
@@ -93,7 +93,7 @@ BodilessJS allows you to style your site using any technique you prefer. However
 ["Functional" or "Atomic" CSS](https://johnpolacek.github.io/the-case-for-atomic-css/
 ':target=\_blank'), and building your UI as a set of composable _Design Tokens_ expressed as React
 higher-order components (HOCs). This is the pattern used in the examples below, and the
-`@bodiless/fclasses` library contains some utilities to make it easier. We also use the
+`@asemirsk/fclasses` library contains some utilities to make it easier. We also use the
 [Tailwind](https://tailwindcss.com ':target=_blank') library to generate our utility classes.
 
 As you can see on your page, everything goes to the edge of the viewport, which isn't ideal. So,
@@ -102,7 +102,7 @@ we'll begin by bringing things in a bit, and creating a [`container <div>`](http
 
 01. First, add the following imports to your `index.tsx` file:
     ```tsx
-    import { addClasses, as, Div } from '@bodiless/fclasses';
+    import { addClasses, as, Div } from '@asemirsk/fclasses';
     ```
 01. Define a couple [Element Tokens](/Design/DesignSystem#element-tokens) for your container:
     ```tsx
@@ -135,9 +135,9 @@ an equivalent to Lodash's [`flow`](https://lodash.com/docs/4.17.15#flow ':target
 
 Now, let's refactor the page title using the same pattern as above:
 
-01. Add the `H1` component to your imports from `@bodiless/fclasses` in your `index.tsx`:
+01. Add the `H1` component to your imports from `@asemirsk/fclasses` in your `index.tsx`:
     ```tsx
-    import { addClasses, as, Div, H1 } from '@bodiless/fclasses';
+    import { addClasses, as, Div, H1 } from '@asemirsk/fclasses';
     ```
 01. Create a reusable primary header token by adding the following above the default export:
     ```tsx
@@ -154,8 +154,8 @@ Now, let's refactor the page title using the same pattern as above:
 01. Refresh your page to view the results.
 
 Note that — like with the `Div` component for the `Container` above — the token is applied to the
-imported `H1` component. This is because the class utilities provided by `@bodiless/fclasses` must
-operate on a `stylable` component. The definition of `H1` (from `@bodiless/fclasses`) should make
+imported `H1` component. This is because the class utilities provided by `@asemirsk/fclasses` must
+operate on a `stylable` component. The definition of `H1` (from `@asemirsk/fclasses`) should make
 this clear:
 
 ```tsx
@@ -166,12 +166,12 @@ We could have defined our token as—
 
 ```tsx
 // We need to also import `as` and `stylable` for this example.
-import { addClasses, H1, as, stylable } from '@bodiless/fclasses';
+import { addClasses, H1, as, stylable } from '@asemirsk/fclasses';
 
 const withPrimaryHeaderStyles = as(stylable, addClasses('text-3xl font-bold'));
 ```
 
-—but, fortunately, you don't have to, since `@bodiless/fclasses` exports a stylable version of every
+—but, fortunately, you don't have to, since `@asemirsk/fclasses` exports a stylable version of every
 HTML element (see:
 [`StyledHTML.tsx`](https://github.com/johnsonandjohnson/Bodiless-JS/blob/main/packages/fclasses/src/StyledHTML.tsx
 ':target=_blank')). If you revisit
@@ -189,7 +189,7 @@ is `asEditable` — a simple, unformatted text field.
 Add `asEditable` to your imports at the top of your `index.tsx` file:
 
 ```tsx
-import { asEditable } from '@bodiless/components';
+import { asEditable } from '@asemirsk/components';
 ```
 
 And then update your `PrimaryHeader` definition to make it editable:
@@ -246,12 +246,12 @@ propagate to the other window in near-realtime. Cool!
 BodilessJS has built-in support for editable images and links, so let's add an image link to our
 page.
 
-Change the imports from `@bodiless/components` and `@bodiless/fclasses`:
+Change the imports from `@asemirsk/components` and `@asemirsk/fclasses`:
 
 ```tsx
-import { addClasses, as, Div, H1, Img, A } from '@bodiless/fclasses';
-import { asEditable, asBodilessLink } from '@bodiless/components';
-import { asBodilessImage } from '@bodiless/components-ui';
+import { addClasses, as, Div, H1, Img, A } from '@asemirsk/fclasses';
+import { asEditable, asBodilessLink } from '@asemirsk/components';
+import { asBodilessImage } from '@asemirsk/components-ui';
 ```
 
 Now define your editable `Image` and `Link` components:
@@ -310,10 +310,10 @@ or on every page? BodilessJS uses "node collections" to manage such content.
 Add the following to your `index.tsx`:
 
 ```tsx
-// Add `Section` to your imports from `@bodiless/fclasses`.
+// Add `Section` to your imports from `@asemirsk/fclasses`.
 import {
   addClasses, as, Div, H1, Img, A, Section,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 const Footer = asEditable(
   { nodeKey: 'footer', nodeCollection: 'site' },
@@ -367,12 +367,12 @@ First, create your configured editor by creating a `withSimpleEditor.tsx` file a
 `index.tsx` file in the new gallery page folder with the following contents:
 
 ```tsx
-import { RichText } from '@bodiless/richtext-ui';
+import { RichText } from '@asemirsk/richtext-ui';
 import {
   addClasses, as, startWith, withDesign, A, Em, Strong,
-} from '@bodiless/fclasses';
-import { asBodilessLink, withPlaceholder } from '@bodiless/components';
-import { withChild, withNodeKey } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { asBodilessLink, withPlaceholder } from '@asemirsk/components';
+import { withChild, withNodeKey } from '@asemirsk/core';
 
 const asBold = as(
   startWith(Strong),
@@ -502,11 +502,11 @@ contents:
 
 ```tsx
 import React, { FC, HTMLProps } from 'react';
-import { asBodilessImage } from '@bodiless/components-ui';
-import { withNode } from '@bodiless/core';
+import { asBodilessImage } from '@asemirsk/components-ui';
+import { withNode } from '@asemirsk/core';
 import {
   Img, Section, Div, addClasses, as, stylable,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import withSimpleEditor from './withSimpleEditor';
 
 const Wrapper = Section;
@@ -540,8 +540,8 @@ Next create a `Gallery.tsx` file as follows:
 import React, { FC, HTMLProps } from 'react';
 import {
   H2, Section, Div, addClasses, as, stylable,
-} from '@bodiless/fclasses';
-import { withNode } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { withNode } from '@asemirsk/core';
 import CaptionedImage from './CaptionedImage';
 
 const asGalleryTile = addClasses('mx-2 border-8');
@@ -594,7 +594,7 @@ of the parent component. As a result, you can add any number of `CaptionedImage`
 same gallery, and any number of `Gallery` components on the same page; as long as each has a
 distinct `nodeKey`, they will not collide.
 
-It's the `withNode()` HOC (imported from `@bodiless/core`) which adds the `nodeKey` prop to your
+It's the `withNode()` HOC (imported from `@asemirsk/core`) which adds the `nodeKey` prop to your
 `CaptionedImage` and `Gallery` components. Anytime you want to create a reusable component which has
 editable children, you must wrap it with `withNode()` to ensure that all its children have a unique
 location to store their data:
@@ -632,11 +632,11 @@ can be found in our [Design System documentation](../../Design/DesignSystem).
 Now we'll use these tokens to define the components which will be available for placement in our
 gallery:
 
-01. Add `replaceWith` and `withMeta` to your imports from `@bodiless/fclasses`:
+01. Add `replaceWith` and `withMeta` to your imports from `@asemirsk/fclasses`:
     ```tsx
     import {
       H2, Section, Div, addClasses, as, stylable, replaceWith, withMeta,
-    } from '@bodiless/fclasses';
+    } from '@asemirsk/fclasses';
     ```
 01. After your styled variations (`withBlueBorder`, etc.), add your component definitions:
     ```tsx
@@ -692,8 +692,8 @@ which makes our three tiles available for placement by a Content Editor:
     ```tsx
     import {
       H2, Section, Div, addClasses, as, stylable, replaceWith, withMeta, withDesign,
-    } from '@bodiless/fclasses';
-    import { FlowContainer } from '@bodiless/layouts-ui';
+    } from '@asemirsk/fclasses';
+    import { FlowContainer } from '@asemirsk/layouts-ui';
     ```
     (And you can remove `Div`, as we'll no longer be using it.)
 01. Replace the definition of `Body` with the following:

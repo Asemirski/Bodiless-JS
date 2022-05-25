@@ -8,7 +8,7 @@ const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const path = require('path');
 const fs = require('fs');
 const glob = require('glob');
-const { addStatoscopePlugin } = require('@bodiless/webpack');
+const { addStatoscopePlugin } = require('@asemirsk/webpack');
 
 // Fix sourcemap issue
 // See: https://github.com/gatsbyjs/gatsby/issues/6278#issuecomment-402540404
@@ -38,12 +38,12 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
       },
       // On development, we want changes on Bodiless packages to trigger
       // new builds. Webpack won't watch packages inside node_modules by
-      // default, so we remove the @bodiless folder from its default list.
+      // default, so we remove the @asemirsk folder from its default list.
       //
       // See: https://webpack.js.org/configuration/other-options/#snapshot
       snapshot: {
         managedPaths: glob.sync(
-          './node_modules/!(@bodiless)*',
+          './node_modules/!(@asemirsk)*',
           { absolute: true },
         ),
       }

@@ -16,10 +16,10 @@ import {
   useNode,
   withNode,
   withNodeKey,
-} from '@bodiless/core';
-import type { ContentNode } from '@bodiless/core';
-import { flowHoc, HOCWithMeta } from '@bodiless/fclasses';
-import { withContentLibrary, ComponentSelector } from '@bodiless/layouts';
+} from '@asemirsk/core';
+import type { ContentNode } from '@asemirsk/core';
+import { flowHoc, HOCWithMeta } from '@asemirsk/fclasses';
+import { withContentLibrary, ComponentSelector } from '@asemirsk/layouts';
 import path from 'path';
 import type { AsBodilessImage } from './Image';
 

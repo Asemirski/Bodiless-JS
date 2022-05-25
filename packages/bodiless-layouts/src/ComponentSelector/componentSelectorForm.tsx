@@ -13,8 +13,8 @@
  */
 
 import React from 'react';
-import { contextMenuForm } from '@bodiless/core';
-import { DesignableComponents } from '@bodiless/fclasses';
+import { contextMenuForm } from '@asemirsk/core';
+import { DesignableComponents } from '@asemirsk/fclasses';
 import { ComponentSelectorProps, ComponentSelectorUI, ComponentWithMeta } from './types';
 import ComponentSelector from '.';
 

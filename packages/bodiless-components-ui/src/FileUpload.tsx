@@ -14,15 +14,15 @@
 
 import React, { ComponentType } from 'react';
 import flowRight from 'lodash/flowRight';
-import { FileUploadStatus, FileUploadStrings } from '@bodiless/components';
-import type { UploadStatusProps } from '@bodiless/components';
-import type { HOC } from '@bodiless/fclasses';
+import { FileUploadStatus, FileUploadStrings } from '@asemirsk/components';
+import type { UploadStatusProps } from '@asemirsk/components';
+import type { HOC } from '@asemirsk/fclasses';
 import {
   addClasses,
   stylable,
   Section,
-} from '@bodiless/fclasses';
-import { Spinner } from '@bodiless/ui';
+} from '@asemirsk/fclasses';
+import { Spinner } from '@asemirsk/ui';
 import merge from 'lodash/merge';
 
 const withForwardedRefStart = (Component: ComponentType<any>) => {

@@ -29,8 +29,8 @@ import {
 import {
   Li, Ul, stylable, addClasses, StylableProps, withoutProps, flowIf, hasProp, addProps,
   removeClasses, addClassesIf, removeClassesIf, flowHoc,
-} from '@bodiless/fclasses';
-import { ButtonVariantProps, withChild } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { ButtonVariantProps, withChild } from '@asemirsk/core';
 
 import './bodiless.index.css';
 import 'rc-tooltip/assets/bootstrap.css';

@@ -96,7 +96,7 @@ module.exports = {
           fontFamily: 'linkicons',
           fontWeight: 400,
           fontStyle: 'normal',
-          src: 'url(\'@bodiless/cx-link/assets/font/linkicons.woff2\')',
+          src: 'url(\'@asemirsk/cx-link/assets/font/linkicons.woff2\')',
         },
       });
     }),

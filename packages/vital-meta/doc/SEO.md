@@ -39,7 +39,7 @@ E.g.:
 
 ## Default Organization SEO Meta Tags
 
-For the homepage — if you're also using the Bodiless Schema.org (`@bodiless/schema-org`) package —
+For the homepage — if you're also using the Bodiless Schema.org (`@asemirsk/schema-org`) package —
 Vital Meta will provide some meta tag fields regarding your organization in the _SEO Data
 Management_ form.
 
@@ -98,7 +98,7 @@ Management_ form.
 - For every page, you can set the page _Title_ and the page _Description_.
 - For the homepage — in addition to the _Title_ and _Description_ — you'll be able to provide meta
   information related to your organization.
-  - **Note:** You must be using the Bodiless Schema.org (`@bodiless/schema-org`) package to activate
+  - **Note:** You must be using the Bodiless Schema.org (`@asemirsk/schema-org`) package to activate
     these fields.
 
 | Homepage | Non-Homepage |
@@ -132,4 +132,4 @@ described below.
 
 Define a Shadowing token collection as defined in [Shadow](../VitalElements/Shadow).
 
-File to shadow: `packages/{my-package}/src/shadow/@bodiless/vital-meta/MetaHelmet.ts`
+File to shadow: `packages/{my-package}/src/shadow/@asemirsk/vital-meta/MetaHelmet.ts`

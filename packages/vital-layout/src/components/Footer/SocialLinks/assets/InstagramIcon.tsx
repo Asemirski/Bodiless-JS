@@ -13,7 +13,7 @@
  */
 
 import React from 'react';
-import { stylable } from '@bodiless/fclasses';
+import { stylable } from '@asemirsk/fclasses';
 
 const Instagram = (props: React.SVGProps<SVGSVGElement>) => (
   <svg

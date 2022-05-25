@@ -15,10 +15,10 @@
 import { v1 } from 'uuid';
 import identity from 'lodash/identity';
 import flow from 'lodash/flow';
-import type { EditButtonOptions, UseBodilessOverrides } from '@bodiless/core';
+import type { EditButtonOptions, UseBodilessOverrides } from '@asemirsk/core';
 import {
   withDesign, HOC, Design, withoutProps, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   useChameleonContext, withChameleonContext,
   withChameleonComponentFormControls, applyChameleon, withChameleonButton,

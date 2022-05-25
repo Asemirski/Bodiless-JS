@@ -22,7 +22,7 @@ import {
   contextMenuForm,
   handleBackendResponse,
   useEditContext,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { usePageMenuOptionUI } from '../MenuOptionUI';
 import { verifyPage } from '../Operations';
 import { usePageDataContext } from '../Provider';
@@ -51,7 +51,7 @@ const createPage = async ({ path, client, template } : any) => {
     return Promise.resolve(path);
   }
   // @todo: in case of response `false`, use following msg to cover cases.
-  // refactoring once @bodiless/backend via Gatsby proxy HTTPError issue fixed.
+  // refactoring once @asemirsk/backend via Gatsby proxy HTTPError issue fixed.
   const errorMessage = `Something happened. Please verify page does not already
     exist, and try again. If problem persists, contact a developer.`;
   return Promise.reject(new Error(errorMessage));

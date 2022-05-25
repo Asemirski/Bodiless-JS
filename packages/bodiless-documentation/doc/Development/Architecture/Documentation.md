@@ -131,7 +131,7 @@ documentation. Thus, you can specify an order for the things you care about, and
 let the documentation builder fill in the remaining documentation.
 
 Note that the default ordering is supplied by a `defaultToc` function exported
-by the `@bodiless/documentation` package. You can import this into your
+by the `@asemirsk/documentation` package. You can import this into your
 site-level `bodiless.docs.toc.js` and modify the object at will--making it easy
 to extend existing structure.
 

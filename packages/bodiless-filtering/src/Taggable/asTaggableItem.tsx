@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { withoutProps, flowHoc } from '@bodiless/fclasses';
+import { withoutProps, flowHoc } from '@asemirsk/fclasses';
 import {
   withContextActivator,
   withNode,
@@ -19,7 +19,7 @@ import {
   withLocalContextMenu,
   ifEditable,
   withNodeKey,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { withTagButton, TagsNodeType } from '../TagButton';
 import type { UseTagButtonOverrides } from '../TagButton';
 

@@ -17,16 +17,16 @@ import {
   as,
   withDesign,
   Img,
-} from '@bodiless/fclasses';
-import { asBodilessChameleon } from '@bodiless/components';
-import { LayoutClean, vitalLayout } from '@bodiless/vital-layout';
-import { vitalFlowContainer } from '@bodiless/vital-flowcontainer';
-import { withNode, withNodeKey } from '@bodiless/core';
-import { vitalSpacing, vitalTypography } from '@bodiless/vital-elements';
-import { vitalBreadcrumbs } from '@bodiless/vital-navigation';
-import { vitalImage } from '@bodiless/vital-image';
-import { YouTubeClean, vitalYouTube } from '@bodiless/vital-youtube';
-import { CardClean, vitalCard } from '@bodiless/vital-card';
+} from '@asemirsk/fclasses';
+import { asBodilessChameleon } from '@asemirsk/components';
+import { LayoutClean, vitalLayout } from '@asemirsk/vital-layout';
+import { vitalFlowContainer } from '@asemirsk/vital-flowcontainer';
+import { withNode, withNodeKey } from '@asemirsk/core';
+import { vitalSpacing, vitalTypography } from '@asemirsk/vital-elements';
+import { vitalBreadcrumbs } from '@asemirsk/vital-navigation';
+import { vitalImage } from '@asemirsk/vital-image';
+import { YouTubeClean, vitalYouTube } from '@asemirsk/vital-youtube';
+import { CardClean, vitalCard } from '@asemirsk/vital-card';
 import { asGenericTemplateToken } from '../GenericTemplateClean';
 import { GenericTemplateNodeKeys } from '../constants';
 

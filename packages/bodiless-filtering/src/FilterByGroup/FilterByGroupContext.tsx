@@ -24,7 +24,7 @@ import React, {
 } from 'react';
 import { v1 } from 'uuid';
 import uniqBy from 'lodash/uniqBy';
-import { Injector, Enhancer } from '@bodiless/fclasses';
+import { Injector, Enhancer } from '@asemirsk/fclasses';
 import {
   FBGContextOptions,
   SuggestionsRefType,

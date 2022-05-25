@@ -22,7 +22,7 @@ import {
   addClasses,
   addProps,
   DesignableComponentsProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import flow from 'lodash/flow';
 import withChild from '../src/withChild';
 

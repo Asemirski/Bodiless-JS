@@ -12,6 +12,6 @@
  * limitations under the License.
  */
 
-import { staticTokenCollection as vitalRichText, StaticBlock as RichTextClean } from '@bodiless/hydration';
+import { staticTokenCollection as vitalRichText, StaticBlock as RichTextClean } from '@asemirsk/hydration';
 
 export { vitalRichText, RichTextClean };

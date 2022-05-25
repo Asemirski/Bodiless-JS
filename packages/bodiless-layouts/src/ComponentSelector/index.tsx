@@ -15,7 +15,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import pickBy from 'lodash/pickBy';
-import { useMenuOptionUI, useLocalStorage } from '@bodiless/core';
+import { useMenuOptionUI, useLocalStorage } from '@asemirsk/core';
 import FilterWrapper from './FilterWrapper';
 import SearchWrapper from './SearchWrapper';
 import ItemList from './ItemList';

@@ -23,14 +23,14 @@ import {
   withNodeDataHandlers,
   withNodeKey,
   WithNodeProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   withoutProps,
   HOC,
   flowIf,
   flowHoc,
   withFinalDesign,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { v1 } from 'uuid';
 import {
   TableBaseProps,

@@ -1,4 +1,4 @@
-# `@bodiless/vital-elements`
+# `@asemirsk/vital-elements`
 
 For documentation on the Vital Elements package, please see:
 

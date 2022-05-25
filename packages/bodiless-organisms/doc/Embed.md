@@ -9,8 +9,8 @@ scales on any device.
 ### Usage
 
 ```js
-import { Embed, asResponsive16By9Embed } from '@bodiless/organisms';
-import { withDesign, replaceWith, addProps, Video } from '@bodiless/fclasses';
+import { Embed, asResponsive16By9Embed } from '@asemirsk/organisms';
+import { withDesign, replaceWith, addProps, Video } from '@asemirsk/fclasses';
 
 const Responsive16By9Embed = flowRight(
   asResponsive16By9Embed,

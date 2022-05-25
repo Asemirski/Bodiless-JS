@@ -14,12 +14,12 @@
 
 import { ComponentType } from 'react';
 import isEmpty from 'lodash/isEmpty';
-import { useNode, withDefaultContent } from '@bodiless/core';
-import { asAccordionWrapper, asAccordionTitle, asAccordionBody } from '@bodiless/accordion';
+import { useNode, withDefaultContent } from '@asemirsk/core';
+import { asAccordionWrapper, asAccordionTitle, asAccordionBody } from '@asemirsk/accordion';
 import {
   Fragment, withDesign, replaceWith, flowHoc, addProps, HOC, flowIf, startWith,
-} from '@bodiless/fclasses';
-import { LinkData } from '@bodiless/components';
+} from '@asemirsk/fclasses';
+import { LinkData } from '@asemirsk/components';
 import BurgerMenuClean from './BurgerMenuClean';
 
 import { withDisabledTitleLink } from './BurgerMenu.token';

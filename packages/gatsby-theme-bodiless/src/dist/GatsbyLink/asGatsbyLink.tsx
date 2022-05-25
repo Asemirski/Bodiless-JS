@@ -25,9 +25,9 @@ import {
   ComponentOrTag,
   DesignableProps,
   flowHoc,
-} from '@bodiless/fclasses';
-import { ifReadOnly } from '@bodiless/core';
-import type { BodilessLinkProps } from '@bodiless/components';
+} from '@asemirsk/fclasses';
+import { ifReadOnly } from '@asemirsk/core';
+import type { BodilessLinkProps } from '@asemirsk/components';
 
 type Components = {
   GatsbyLink: ComponentOrTag<GatsbyLinkProps<any>>,

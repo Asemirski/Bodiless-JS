@@ -14,7 +14,7 @@
 
 import React, { FC, HTMLProps } from 'react';
 import { observer } from 'mobx-react';
-import { withoutProps } from '@bodiless/fclasses';
+import { withoutProps } from '@asemirsk/fclasses';
 import { useContextActivator, useEditContext } from '../hooks';
 import { Props } from '../Types/ContextWrapperTypes';
 

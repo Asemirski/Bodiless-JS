@@ -35,7 +35,7 @@ import {
   withMenuOptions,
   ifToggledOn,
   useUUID,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   designable,
   H1,
@@ -54,7 +54,7 @@ import {
   withDisplayName,
   Fragment,
   HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { withHistory } from 'slate-history';
 import {
   withSlateEditor,

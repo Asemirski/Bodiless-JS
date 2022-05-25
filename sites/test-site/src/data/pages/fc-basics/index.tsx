@@ -14,8 +14,8 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { FlowContainer } from '@bodiless/layouts-ui';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { FlowContainer } from '@asemirsk/layouts-ui';
 import Layout from '../../../components/Layout';
 import withBasicVariations from './Basic';
 import ChameleonBox from './ChameleonBox';

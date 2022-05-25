@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-import { asFluidToken } from '@bodiless/vital-elements';
+import { asFluidToken } from '@asemirsk/vital-elements';
 import {
   vitalPage,
-} from '@bodiless/vital-templates';
+} from '@asemirsk/vital-templates';
 import { __vital__StyleGuideTemplate } from './StyleGuideTemplate';
 
 const {

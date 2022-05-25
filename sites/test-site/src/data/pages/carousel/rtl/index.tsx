@@ -16,7 +16,7 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page as BasePage } from '@bodiless/gatsby-theme-bodiless';
+import { Page as BasePage } from '@asemirsk/gatsby-theme-bodiless';
 import Layout from '../../../../components/Layout';
 import { CarouselExamples } from '..';
 import { asRtlPage } from '../../../../components/Page';

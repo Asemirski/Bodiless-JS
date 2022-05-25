@@ -14,10 +14,10 @@
 
 import {
   flowHoc, withDesign, addClasses, flowIf, addProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asTopNav, useIsActiveTrail, withMenuDesign, withMenuTitleEditors,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 
 import {
   asBold, asLightTealBackground, asAlignLeft,

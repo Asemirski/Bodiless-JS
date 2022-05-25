@@ -15,16 +15,16 @@
 import React, { ComponentType } from 'react';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import {
   withDesign, flowHoc, addClasses, H1 as H1$, H2 as H2$, Ul, Div,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { observer } from 'mobx-react';
-import { useNode, withNode, withNodeKey } from '@bodiless/core';
+import { useNode, withNode, withNodeKey } from '@asemirsk/core';
 import {
   withBurgerMenuProvider, withOverviewLink, withMenuDesign,
   asBodilessMenu, asTopNav, withListSubMenu, withColumnSubMenu,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 
 import Layout from '../../../components/Layout';
 import { asHeader2, asHeader1, asTealBackground } from '../../../components/Elements.token';

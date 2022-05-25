@@ -15,7 +15,7 @@
 import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { mount } from 'enzyme';
-import { PageEditContext } from '@bodiless/core';
+import { PageEditContext } from '@asemirsk/core';
 import defaultValue from '../src/default-value';
 import type { Value as SlateEditorValue } from '../src/Type';
 

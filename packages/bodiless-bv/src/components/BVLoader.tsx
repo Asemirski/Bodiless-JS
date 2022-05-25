@@ -16,7 +16,7 @@ import React, {
   FC, useEffect, useContext, useState,
 } from 'react';
 
-import { Enhancer } from '@bodiless/fclasses';
+import { Enhancer } from '@asemirsk/fclasses';
 import getBVScriptUrl from '../getBVScriptUrl';
 
 type BVConfig = {

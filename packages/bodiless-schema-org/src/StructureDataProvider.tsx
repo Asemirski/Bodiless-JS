@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 import React, {
   ComponentType, createContext, useContext, useState, FC,
 } from 'react';

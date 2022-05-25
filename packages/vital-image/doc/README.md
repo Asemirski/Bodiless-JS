@@ -52,8 +52,8 @@ with a BlurUp. Its functionality is essentially the same as combining the `Defau
 `WithLandscapePlaceholder` tokens. Example usage:
 
 ```js
-import { vitalImage } from '@bodiless/vital-image';
-import { as, Img } from '@bodiless/fclasses';
+import { vitalImage } from '@asemirsk/vital-image';
+import { as, Img } from '@asemirsk/fclasses';
 
 const ImageHero = as(vitalImage.Hero)(Img);
 

@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { asStatic } from '@bodiless/core';
-import { flowHoc } from '@bodiless/fclasses';
-import { withBurgerMenuWrapper, BurgerMenuDefaultToggler } from '@bodiless/navigation';
+import { asStatic } from '@asemirsk/core';
+import { flowHoc } from '@asemirsk/fclasses';
+import { withBurgerMenuWrapper, BurgerMenuDefaultToggler } from '@asemirsk/navigation';
 
 import { $withBurgerMenuStyles, $withTogglerStyles } from './BurgerMenu.token';
 import { $asMenuBase } from './Menu';

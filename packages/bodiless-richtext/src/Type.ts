@@ -19,9 +19,9 @@ import type {
   RenderLeafProps,
   RenderElementProps,
 } from 'slate-react/dist/components/editable';
-import type { DesignableComponents, DesignableProps } from '@bodiless/fclasses';
-import { WithNodeProps } from '@bodiless/core';
-import { WithoutHydrationProps } from '@bodiless/hydration';
+import type { DesignableComponents, DesignableProps } from '@asemirsk/fclasses';
+import { WithNodeProps } from '@asemirsk/core';
+import { WithoutHydrationProps } from '@asemirsk/hydration';
 import type { UI } from './RichTextContext';
 import type { Deserializer } from './serializers';
 

@@ -17,7 +17,7 @@ import { Editor } from 'slate';
 import { useSlate } from 'slate-react';
 import {
   flowHoc, ComponentOrTag, HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { ToggleProps } from '../Type';
 import PluginButton from '../components/PluginButton';
 import { withReturnFocusBackOnClick } from '../withReturnFocusBack';

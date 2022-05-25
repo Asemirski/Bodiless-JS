@@ -13,7 +13,7 @@
  */
 
 import React, { createContext, useContext } from 'react';
-import type { HOC } from '@bodiless/fclasses';
+import type { HOC } from '@asemirsk/fclasses';
 import flowRight from 'lodash/flowRight';
 import { NodeContext } from './NodeProvider';
 import type { NodeMap } from './NodeProvider';

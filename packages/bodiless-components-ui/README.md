@@ -1,3 +1,3 @@
-# `@bodiless/components-ui`
+# `@asemirsk/components-ui`
 
 Default UI for bodiless components.

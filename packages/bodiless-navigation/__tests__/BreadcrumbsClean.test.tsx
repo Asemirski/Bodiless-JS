@@ -14,10 +14,10 @@
 
 import React, { ComponentType } from 'react';
 import { mount } from 'enzyme';
-import { asReadOnly } from '@bodiless/core';
+import { asReadOnly } from '@asemirsk/core';
 import {
   withDesign, addProps, withoutProps, HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import flowRight from 'lodash/flowRight';
 import { BreadcrumbsClean, withBreadcrumbStartingTrail, withoutBreadcrumbFinalTrail } from '../src/Breadcrumbs';
 import { withMenuTitleEditors } from '../src';

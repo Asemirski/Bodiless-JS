@@ -16,7 +16,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.18](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.17...v1.0.0-beta.18) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -24,7 +24,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.17](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -32,7 +32,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.16](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -40,7 +40,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.15](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2022-05-10)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -48,7 +48,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.14](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2022-05-05)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -56,7 +56,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.13](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2022-05-05)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -64,7 +64,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.12](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2022-05-02)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -72,7 +72,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.11](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-04-28)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -80,7 +80,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.10](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2022-04-26)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -104,7 +104,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.7](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.5...v1.0.0-beta.7) (2022-04-13)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -112,7 +112,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.5](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-04-13)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -120,7 +120,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.4](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-04-12)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -139,7 +139,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.2](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2022-04-05)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -147,7 +147,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.1](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.7...v1.0.0-beta.1) (2022-03-14)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -216,7 +216,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.3.4](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.3...v0.3.4) (2021-12-16)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -287,7 +287,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.9](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.8...v0.2.9) (2021-08-20)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -295,7 +295,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.8](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.7...v0.2.8) (2021-07-28)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -303,7 +303,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.7](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.6...v0.2.7) (2021-07-20)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -311,7 +311,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.6](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.5...v0.2.6) (2021-07-20)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -364,7 +364,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.2.1](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.2.0...v0.2.1) (2021-05-12)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -381,15 +381,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### BREAKING CHANGES
 
-* **navigation, organisms, components:**  - There is now a new `@bodiless/navigation` package for the new menu API.
- - All menu-related code is removed from `@bodiless/organisms`.
- - `withSimpleMenuDesign` and `withMegaMenuDesign` were deprecated. Use `withMenuDesign` from `@bodiless/organisms`  instead.
- - `asSimpleMenuTopNav` and `asMegaMenuTopNav` were depricated. Use `asTopNav()` from `@bodiless/organisms` instead.
+* **navigation, organisms, components:**  - There is now a new `@asemirsk/navigation` package for the new menu API.
+ - All menu-related code is removed from `@asemirsk/organisms`.
+ - `withSimpleMenuDesign` and `withMegaMenuDesign` were deprecated. Use `withMenuDesign` from `@asemirsk/organisms`  instead.
+ - `asSimpleMenuTopNav` and `asMegaMenuTopNav` were depricated. Use `asTopNav()` from `@asemirsk/organisms` instead.
  - Breadcrumbs are now configured by default for each menu item. No need for `asBreadcrumbSource`.
  - List and Menu design keys have changed. Removed extra `Wrapper` component from submenus.
  - Breadcrumb design keys have changed. Breadcrumb `Title` is now the same component as `MenuTitle` by default. The `BreadcrumbLink` design key has been deprecated. `Link` is available in `MenuTitle`. Renamed `BreadcrumbWrapper` and `BreadcrumbItem` to `Wrapper` and `Item` respectively.
-- Please refer to the Upgrade Guide in `@bodiless/organisms` readme file.
-* **components, youtube:** YouTube and ResponsiveYouTube components were moved to the `@bodiless/YouTube`
+- Please refer to the Upgrade Guide in `@asemirsk/organisms` readme file.
+* **components, youtube:** YouTube and ResponsiveYouTube components were moved to the `@asemirsk/YouTube`
 
 
 
@@ -397,7 +397,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.0.72](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.71...v0.0.72) (2021-04-01)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -486,7 +486,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.65](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.64...v0.0.65) (2020-12-23)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -494,7 +494,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.64](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.63...v0.0.64) (2020-12-16)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -502,7 +502,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.63](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.62...v0.0.63) (2020-12-08)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -547,7 +547,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.59](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.58...v0.0.59) (2020-11-05)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -590,7 +590,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.55](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.54...v0.0.55) (2020-08-28)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -598,7 +598,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.54](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.53...v0.0.54) (2020-08-24)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -655,7 +655,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.49](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.48...v0.0.49) (2020-06-08)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -676,7 +676,7 @@ compound forms, this change affects them as well.
 
 ### BREAKING CHANGES
 
-* **components, components-ui:** * Styles of @bodiless/components image picker changed. Functionality of image picker is not impacted, just visual appearance changed. If a site uses Image or asBodilessImage from @bodiless/components, then the site is impacted. The recommended migration path is to change Image and asBodilessImage import from "@bodiless/components" into "@bodiless/components-ui". Example of the migration can be found in test site.
+* **components, components-ui:** * Styles of @asemirsk/components image picker changed. Functionality of image picker is not impacted, just visual appearance changed. If a site uses Image or asBodilessImage from @asemirsk/components, then the site is impacted. The recommended migration path is to change Image and asBodilessImage import from "@asemirsk/components" into "@asemirsk/components-ui". Example of the migration can be found in test site.
 
 
 
@@ -684,7 +684,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.47](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.46...v0.0.47) (2020-04-22)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -692,7 +692,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.46](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.45...v0.0.46) (2020-04-08)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 
@@ -764,7 +764,7 @@ compound forms, this change affects them as well.
 
 ## [0.0.40](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.0.39...v0.0.40) (2020-02-21)
 
-**Note:** Version bump only for package @bodiless/components
+**Note:** Version bump only for package @asemirsk/components
 
 
 

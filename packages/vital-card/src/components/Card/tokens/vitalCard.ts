@@ -12,18 +12,18 @@
  * limitations under the License.
  */
 
-import { withNodeKey } from '@bodiless/core';
+import { withNodeKey } from '@asemirsk/core';
 import {
   flowHoc, replaceWith, on, Div, extendMeta, H1, H4, as
-} from '@bodiless/fclasses';
-import { withPlaceholder } from '@bodiless/components';
-import { asBodilessLink } from '@bodiless/components-ui';
-import { vitalImage } from '@bodiless/vital-image';
-import { vitalLink } from '@bodiless/vital-link';
-import { vitalTypography, vitalColor } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { withPlaceholder } from '@asemirsk/components';
+import { asBodilessLink } from '@asemirsk/components-ui';
+import { vitalImage } from '@asemirsk/vital-image';
+import { vitalLink } from '@asemirsk/vital-link';
+import { vitalTypography, vitalColor } from '@asemirsk/vital-elements';
 import {
   EditorPlainClean, vitalEditorPlain, RichTextClean, vitalRichText,
-} from '@bodiless/vital-editors';
+} from '@asemirsk/vital-editors';
 import { asCardToken } from '../CardClean';
 import { CardNodeKeys } from './constants';
 

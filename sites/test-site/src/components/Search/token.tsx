@@ -18,8 +18,8 @@ import {
   addClassesIf,
   flowHoc,
   Design,
-} from '@bodiless/fclasses';
-import { withSearchIconSvg, withSearchToggleIconSvg } from '@bodiless/search';
+} from '@asemirsk/fclasses';
+import { withSearchIconSvg, withSearchToggleIconSvg } from '@asemirsk/search';
 import { asPageContainer, asDesktopOnly, asTextWhite } from '../Elements.token';
 
 const withSearchButtonIcon = flowHoc(

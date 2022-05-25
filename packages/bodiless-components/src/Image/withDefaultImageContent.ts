@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { withDefaultContent, withResetButton } from '@bodiless/core';
-import type { DefaultNodeContent } from '@bodiless/core';
-import { flowHoc, HOCWithMeta } from '@bodiless/fclasses';
+import { withDefaultContent, withResetButton } from '@asemirsk/core';
+import type { DefaultNodeContent } from '@asemirsk/core';
+import { flowHoc, HOCWithMeta } from '@asemirsk/fclasses';
 import identity from 'lodash/identity';
 import type { AsBodilessImage, Data } from './Image';
 

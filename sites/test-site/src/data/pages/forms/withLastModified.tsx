@@ -13,11 +13,11 @@
  */
 
 import React, { ComponentType } from 'react';
-import { withoutProps } from '@bodiless/fclasses';
+import { withoutProps } from '@asemirsk/fclasses';
 import {
   useMenuOptionUI, withEditFormSnippet, withNodeDataHandlers,
   WithNodeKeyProps, ifEditable, withNode, withNodeKey, ifReadOnly, withData,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { flowRight } from 'lodash';
 
 type Props = {

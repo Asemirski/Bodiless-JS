@@ -13,7 +13,7 @@
  */
 
 import React from 'react';
-import { stylable } from '@bodiless/fclasses';
+import { stylable } from '@asemirsk/fclasses';
 
 // Source: https://fonts.google.com/icons?selected=Material%20Icons%3Aclose%3A
 const Close = (props: React.SVGProps<SVGSVGElement>) => (

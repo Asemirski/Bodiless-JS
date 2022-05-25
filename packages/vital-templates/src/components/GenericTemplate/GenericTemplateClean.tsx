@@ -16,11 +16,11 @@ import React from 'react';
 import {
   designable,
   Div,
-} from '@bodiless/fclasses';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import { LayoutClean } from '@bodiless/vital-layout';
-import { FlowContainerClean } from '@bodiless/vital-flowcontainer';
-import { BreadcrumbsClean } from '@bodiless/vital-navigation';
+} from '@asemirsk/fclasses';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import { LayoutClean } from '@asemirsk/vital-layout';
+import { FlowContainerClean } from '@asemirsk/vital-flowcontainer';
+import { BreadcrumbsClean } from '@asemirsk/vital-navigation';
 import { GenericTemplateComponents, BaseGenericTemplateProps } from './types';
 
 const genericTemplateComponents: GenericTemplateComponents = {

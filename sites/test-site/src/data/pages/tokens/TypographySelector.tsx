@@ -12,14 +12,14 @@
  * limitations under the License.
  */
 
-import { WithNodeKeyProps } from '@bodiless/core';
-import { addProps, flowHoc } from '@bodiless/fclasses';
-import type { HOC } from '@bodiless/fclasses';
+import { WithNodeKeyProps } from '@asemirsk/core';
+import { addProps, flowHoc } from '@asemirsk/fclasses';
+import type { HOC } from '@asemirsk/fclasses';
 import React, { FC } from 'react';
 import {
   withTokenPanelPane, useTokenLibrary, withTokensFromProps,
-} from '@bodiless/tokens';
-import type { TokenSelectorProps } from '@bodiless/tokens';
+} from '@asemirsk/tokens';
+import type { TokenSelectorProps } from '@asemirsk/tokens';
 import {
   asBold,
   asItalic,

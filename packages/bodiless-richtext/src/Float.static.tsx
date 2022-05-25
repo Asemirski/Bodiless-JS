@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { staticToken } from '@bodiless/hydration';
+import { staticToken } from '@asemirsk/hydration';
 
 const asFloat = staticToken;
 

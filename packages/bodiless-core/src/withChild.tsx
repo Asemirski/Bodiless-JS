@@ -15,8 +15,8 @@
 import React, {
   Fragment, ComponentType as CT, PropsWithChildren, FC, ComponentType
 } from 'react';
-import { extendDesignable } from '@bodiless/fclasses';
-import type { DesignableComponentsProps, HOC } from '@bodiless/fclasses';
+import { extendDesignable } from '@asemirsk/fclasses';
+import type { DesignableComponentsProps, HOC } from '@asemirsk/fclasses';
 import omit from 'lodash/omit';
 
 type InsertChildOptions = {

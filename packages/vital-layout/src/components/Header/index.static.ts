@@ -15,4 +15,4 @@
 export {
   StaticBlock as HeaderStatic,
   staticTokenCollection as vitalHeaderStatic,
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';

@@ -21,7 +21,7 @@ import {
   addPropsIf,
   HOC,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import flow from 'lodash/flow';
 import negate from 'lodash/negate';
 import {
@@ -29,14 +29,14 @@ import {
   withChild,
   ifReadOnly,
   ifToggledOff,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   useIsCarouselItemActive,
   useCarouselIsPlaying,
   asAccessibleCarousel as asBaseAccessibleCarousel,
   useCarouselSlideIndex,
-} from '@bodiless/carousel';
-import { asBodilessChameleon } from '@bodiless/components';
+} from '@asemirsk/carousel';
+import { asBodilessChameleon } from '@asemirsk/components';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 /**
  * overrides some styles defined in the contrib library

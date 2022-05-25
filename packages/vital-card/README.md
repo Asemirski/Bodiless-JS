@@ -1,4 +1,4 @@
-# `@bodiless/vital-card`
+# `@asemirsk/vital-card`
 
 For documentation on the Vital Card package, please see:
 

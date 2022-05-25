@@ -19,7 +19,7 @@ import {
   FieldProps, ChildFieldProps, SelectFieldProps,
 } from 'informed';
 import Tooltip from 'rc-tooltip';
-import type { StylableProps } from '@bodiless/fclasses';
+import type { StylableProps } from '@asemirsk/fclasses';
 import { ReactTagsFieldProps } from '../components/ReactTagsField';
 import { PageEditContextInterface } from '../PageEditContext/types';
 

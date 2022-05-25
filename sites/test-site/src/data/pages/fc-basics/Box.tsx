@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { flowHoc, addClasses } from '@bodiless/fclasses';
+import { flowHoc, addClasses } from '@asemirsk/fclasses';
 
 export const asBox = flowHoc(
   addClasses('w-full h-36'),

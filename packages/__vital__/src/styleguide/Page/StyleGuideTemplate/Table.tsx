@@ -14,14 +14,14 @@
  */
 
 import React from 'react';
-import { withNodeKey } from '@bodiless/core';
+import { withNodeKey } from '@asemirsk/core';
 import {
   flowHoc,
   as,
   replaceWith,
-} from '@bodiless/fclasses';
-import { vitalTable, TableClean } from '@bodiless/vital-table';
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
+} from '@asemirsk/fclasses';
+import { vitalTable, TableClean } from '@asemirsk/vital-table';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
 
 const DefaultTable = as(
   vitalTable.Default,

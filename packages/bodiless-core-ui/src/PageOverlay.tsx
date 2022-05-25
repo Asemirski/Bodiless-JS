@@ -15,9 +15,9 @@
 import React, { ComponentType, HTMLProps } from 'react';
 import flow from 'lodash/flow';
 
-import { Div, Spinner, ComponentFormCloseButton } from '@bodiless/ui';
-import { PageOverlay as CleanPageOverlay } from '@bodiless/core';
-import { addClasses, removeClasses, addProps } from '@bodiless/fclasses';
+import { Div, Spinner, ComponentFormCloseButton } from '@asemirsk/ui';
+import { PageOverlay as CleanPageOverlay } from '@asemirsk/core';
+import { addClasses, removeClasses, addProps } from '@asemirsk/fclasses';
 
 const OverlayWrapper = flow(
   addClasses([

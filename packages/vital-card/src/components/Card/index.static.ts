@@ -15,6 +15,6 @@
 import {
   StaticBlock as CardClean,
   staticTokenCollection as vitalCard,
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';
 
 export { CardClean, vitalCard };

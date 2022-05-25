@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { useEditContext } from '@bodiless/core';
+import { useEditContext } from '@asemirsk/core';
 import React, { ComponentType, useEffect, useState } from 'react';
 import CuratorContext from './CuratorContext';
 

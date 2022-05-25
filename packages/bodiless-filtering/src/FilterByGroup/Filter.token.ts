@@ -15,7 +15,7 @@
 import {
   withDesign,
   addProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { TAG_ANY_KEY } from './FilterByGroupStore';
 
 /* eslint-disable import/prefer-default-export */

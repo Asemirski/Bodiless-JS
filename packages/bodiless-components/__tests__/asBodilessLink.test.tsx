@@ -14,8 +14,8 @@
 
 import React from 'react';
 import { mount } from 'enzyme';
-import { PageEditContext } from '@bodiless/core';
-import type { ComponentWithMeta } from '@bodiless/fclasses';
+import { PageEditContext } from '@asemirsk/core';
+import type { ComponentWithMeta } from '@asemirsk/fclasses';
 import flow from 'lodash/flow';
 import { asBodilessLink } from '../src/Link';
 import { HrefNormalizer } from '../src/Link/NormalHref';

@@ -17,12 +17,12 @@ import {
   asBodilessComponent,
   ifEditable,
   useMenuOptionUI,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import type {
   BodilessOptions,
   AsBodiless,
-} from '@bodiless/core';
-import { addProps } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { addProps } from '@asemirsk/fclasses';
 
 import flowRight from 'lodash/flowRight';
 import withFormSnippet from './withFormSnippet';

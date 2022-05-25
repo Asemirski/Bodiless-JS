@@ -23,7 +23,7 @@ import {
 import {
   ifEditable,
   withActivatorWrapper,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   addClasses,
   DesignableComponentsProps,
@@ -33,8 +33,8 @@ import {
   designable,
   HOC,
   flowHoc,
-} from '@bodiless/fclasses';
-import type { ImageData } from '@bodiless/components';
+} from '@asemirsk/fclasses';
+import type { ImageData } from '@asemirsk/components';
 import type {
   FluidObject,
   FixedObject,

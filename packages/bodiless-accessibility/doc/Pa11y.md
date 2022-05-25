@@ -13,10 +13,10 @@ For more information, see:
 To install, from your command line, run:
 
 ```shell-session
-npm i @bodiless/accessibility
+npm i @asemirsk/accessibility
 ```
 
-With `@bodiless/accessibility` installed, the `pa11y-audit` command will be added into your bin
+With `@asemirsk/accessibility` installed, the `pa11y-audit` command will be added into your bin
 folder.
 
 ## Usage

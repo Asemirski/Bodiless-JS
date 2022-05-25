@@ -20,9 +20,9 @@ import {
   as,
   flowIf,
   on,
-} from '@bodiless/fclasses';
-import { withSidecarNodes, withNodeKey } from '@bodiless/core';
-import { vitalTypography } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { withSidecarNodes, withNodeKey } from '@asemirsk/core';
+import { vitalTypography } from '@asemirsk/vital-elements';
 import { asLinkToken } from '../LinkClean';
 import { useExternalLinkToggle, asEditableLink, useIsDownloadLink } from '../util';
 

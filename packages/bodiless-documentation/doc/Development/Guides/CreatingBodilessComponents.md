@@ -24,7 +24,7 @@ const PageBody = ({ title, markdownContent }) => (
 As you've seen, it's dead simple to make the title editable:
 
 ```
-import { asEditable } from '@bodiless/components'
+import { asEditable } from '@asemirsk/components'
 
 const H1 = asEditable('title')('h1');
 
@@ -44,8 +44,8 @@ so is to use the `asBodilessComponent` utility.
 ```js
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Editable } from '@bodiless/components';
-import { asBodilessComponent } from '@bodiless/core';
+import { Editable } from '@asemirsk/components';
+import { asBodilessComponent } from '@asemirsk/core';
 
 const asBodilessMarkdown = asBodilessComponent(options); // "options" will be described below.
 
@@ -223,7 +223,7 @@ Putting it all together, our final, editable `PageBody` would look like this:
 
 ```ts
 import React from 'react';
-import { asBodilessComponent, useMenuOptionUI } from '@bodiless/core';
+import { asBodilessComponent, useMenuOptionUI } from '@asemirsk/core';
 import type { ReactMarkdownProps as Props } from 'react-markdown';
 
 import MarkdownField from './InformedMarkdown';

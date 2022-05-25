@@ -20,7 +20,7 @@ import {
   ifEditable,
   useNode,
   withMenuOptions,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { observer } from 'mobx-react';
 
 type Data = {

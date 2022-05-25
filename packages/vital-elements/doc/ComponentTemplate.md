@@ -46,10 +46,10 @@ For example:
 
 ```tsx
 import React from 'react';
-import type { ComponentOrTag, DesignableComponentsProps } from '@bodiless/fclasses';
-import { Div, Fragment, designable } from '@bodiless/fclasses';
+import type { ComponentOrTag, DesignableComponentsProps } from '@asemirsk/fclasses';
+import { Div, Fragment, designable } from '@asemirsk/fclasses';
 import type { FC } from 'react';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 
 export type FooComponents = {
   Wrapper: ComponentOrTag<any>,
@@ -153,7 +153,7 @@ If your token is always static, export empty versions of the token and clean com
 import {
   StaticBlock as FooClean,  // Use `StaticInline` if your component renders inline elements.
   staticTokenCollection as mybrandFoo,
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';
 
 export { FooClean, mybrandFoo };
 ```
@@ -164,7 +164,7 @@ If you have both static and dynamic versions of your token collection:
 import {
   StaticBlock as FooStatic,  // Use `StaticInline` if your component renders inline elements.
   staticTokenCollection  as mybrandFooStatic,
-  } from '@bodiless/hydration';
+  } from '@asemirsk/hydration';
 
 export { FooStatic, mybrandFooStatic };
 ```
@@ -201,7 +201,7 @@ export { default as vitalFoo } from './tokens';
 
 This should include, at a minimum, the following keys:
 
-- `name`: Should be namespaced to `@bodiless` for Vital packages.
+- `name`: Should be namespaced to `@asemirsk` for Vital packages.
 - `version`: This field is managed by Lerna. Currently, all Bodiless packages.
 - `license`: Set to `Apache 2.0` for all Bodiless packages. maintain a common version line.
 - `description`

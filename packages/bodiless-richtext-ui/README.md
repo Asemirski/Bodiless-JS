@@ -1,3 +1,3 @@
-# `@bodiless/richtext-ui`
+# `@asemirsk/richtext-ui`
 
 Default UI for bodiless richtext components.

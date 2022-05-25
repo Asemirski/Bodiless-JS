@@ -1,9 +1,9 @@
 import React, { FC, HTMLProps } from 'react';
 import {
   H2, Section, addClasses, as, stylable, replaceWith, withMeta, withDesign,
-} from '@bodiless/fclasses';
-import { FlowContainer } from '@bodiless/layouts-ui';
-import { withNode } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { FlowContainer } from '@asemirsk/layouts-ui';
+import { withNode } from '@asemirsk/core';
 import CaptionedImage from './CaptionedImage';
 
 const asGalleryTile = addClasses('mx-2 border-8');

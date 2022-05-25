@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-import { vitalRichText } from '@bodiless/vital-editors';
-import { vitalImage } from '@bodiless/vital-image';
-import { addProps } from '@bodiless/fclasses';
-import { withNodeKey } from '@bodiless/core';
+import { vitalRichText } from '@asemirsk/vital-editors';
+import { vitalImage } from '@asemirsk/vital-image';
+import { addProps } from '@asemirsk/fclasses';
+import { withNodeKey } from '@asemirsk/core';
 import { asTitleInfographicToken } from '../TitleInfographicClean';
 
 const Default = asTitleInfographicToken({

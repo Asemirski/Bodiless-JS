@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { LinkClean as ButtonClean } from '@bodiless/vital-link';
-import type { LinkComponents as ButtonComponent, LinkBaseProps as ButtonBaseProps } from '@bodiless/vital-link';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+import { LinkClean as ButtonClean } from '@asemirsk/vital-link';
+import type { LinkComponents as ButtonComponent, LinkBaseProps as ButtonBaseProps } from '@asemirsk/vital-link';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 
 export const asButtonToken = asVitalTokenSpec<ButtonComponent>();
 

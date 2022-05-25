@@ -15,17 +15,17 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { withNodeKey } from '@bodiless/core';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { withNodeKey } from '@asemirsk/core';
 import {
   H1 as BaseH1,
   H2 as BaseH2,
   addClasses,
   flowHoc,
-} from '@bodiless/fclasses';
-import { getSnapFrom, withTailwindClasses } from '@bodiless/layouts';
+} from '@asemirsk/fclasses';
+import { getSnapFrom, withTailwindClasses } from '@asemirsk/layouts';
 import resolvedConfigs from
-  '@bodiless/fclasses/src/tailwindcss/resolveConfig';
+  '@asemirsk/fclasses/src/tailwindcss/resolveConfig';
 // @ts-ignore Could not find a declaration file...
 import Layout from '../../../components/Layout';
 import {

@@ -1,4 +1,4 @@
-# `@bodiless/cli`
+# `@asemirsk/cli`
 
 For documentation on the Bodiless CLI package, please see:
 

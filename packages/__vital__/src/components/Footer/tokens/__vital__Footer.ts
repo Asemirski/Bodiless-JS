@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { vitalFooter, asFooterToken } from '@bodiless/vital-layout';
+import { vitalFooter, asFooterToken } from '@asemirsk/vital-layout';
 
 const Default = asFooterToken({
   ...vitalFooter.Default,

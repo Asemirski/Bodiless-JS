@@ -15,19 +15,19 @@
 import React from 'react';
 import { flow } from 'lodash';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { BVRatingsSummary, BVReviews } from '@bodiless/bv';
-import { withNode } from '@bodiless/core';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { BVRatingsSummary, BVReviews } from '@asemirsk/bv';
+import { withNode } from '@asemirsk/core';
 import {
   addProps,
   withDesign,
   replaceWith,
   removeClasses,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   AccordionClean,
   asTestableAccordion,
-} from '@bodiless/accordion';
+} from '@asemirsk/accordion';
 import Layout from '../components/Layout';
 import {
   ProductTitle,

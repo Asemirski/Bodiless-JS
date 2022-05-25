@@ -1,4 +1,4 @@
-# `@bodiless/vital-flowcontainer`
+# `@asemirsk/vital-flowcontainer`
 
 For documentation on the Vital Flow Container package, please see:
 

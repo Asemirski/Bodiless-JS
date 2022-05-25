@@ -16,11 +16,11 @@ import React, { FC, ComponentType } from 'react';
 import {
   Div, H2, designable, H3, flowHoc,
   withDesign, addProps, flowIf, replaceWith, HOC,
-} from '@bodiless/fclasses';
-import { FlowContainer } from '@bodiless/layouts-ui';
+} from '@asemirsk/fclasses';
+import { FlowContainer } from '@asemirsk/layouts-ui';
 import {
   useNode, WithNodeKeyProps, withNodeKey, withNodeDataHandlers, withNode, WithNodeProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import flow from 'lodash/flow';
 import TokenPrinter, { TokenPrinterProps } from '../TokenPrinter';
 import { withTokenNamesFromData } from '../withTokenSelector';

@@ -13,15 +13,15 @@
  */
 import {
   WithNodeKeyProps, withNode,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   asBodilessList, asStylableList, asChameleonSubList,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 import {
   withDesign, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
-import type { UseListOverrides, ListData } from '@bodiless/components';
+import type { UseListOverrides, ListData } from '@asemirsk/components';
 
 import { withMenuEditContext } from './withMenuContext';
 import { asMenuTitle, DEFAULT_NODE_KEYS } from './MenuTitles';

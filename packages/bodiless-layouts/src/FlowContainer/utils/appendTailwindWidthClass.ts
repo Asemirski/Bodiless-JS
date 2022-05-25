@@ -13,7 +13,7 @@
  */
 
 import flowRight from 'lodash/flowRight';
-import { addProps } from '@bodiless/fclasses';
+import { addProps } from '@asemirsk/fclasses';
 
 export type Tuple = {
   width: number,

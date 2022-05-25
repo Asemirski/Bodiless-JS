@@ -13,7 +13,7 @@
  */
 
 import React from 'react';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 import { withoutHydration } from './withoutHydration';
 
 const staticWarning = () => {

@@ -14,7 +14,7 @@
 
 import React from 'react';
 import nextId from 'react-id-generator';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 import { AccordionProvider } from './AccordionContext';
 
 const asAccordionWrapper: HOC = Component => {

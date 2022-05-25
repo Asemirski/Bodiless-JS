@@ -15,7 +15,7 @@
 /**
  * This file might move to live in a package some where
  */
-import { addClasses } from '@bodiless/fclasses';
+import { addClasses } from '@asemirsk/fclasses';
 
 export const asAlignLeft = addClasses('text-left');
 export const asAlignRight = addClasses('text-right');

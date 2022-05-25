@@ -14,11 +14,11 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page, PageProps } from '@bodiless/gatsby-theme-bodiless';
+import { Page, PageProps } from '@asemirsk/gatsby-theme-bodiless';
 import {
   H1, addClasses, Div, flowHoc,
-} from '@bodiless/fclasses';
-import { asEditable } from '@bodiless/components';
+} from '@asemirsk/fclasses';
+import { asEditable } from '@asemirsk/components';
 import { LandscapeLinkableImage } from '../../../components/Image';
 import Layout from '../../../components/Layout';
 import withSimpleEditor from './withSimpleEditor';

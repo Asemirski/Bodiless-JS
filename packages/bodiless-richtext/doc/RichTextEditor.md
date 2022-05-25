@@ -67,7 +67,7 @@ editor related data and callbacks to nested components.
 import React, { useMemo, useState } from 'react';
 import { createEditor } from 'slate';
 import { withReact, Slate } from 'slate-react';
-import { SlateEditor, Content } from '@bodiless/richtext/lib/core';
+import { SlateEditor, Content } from '@asemirsk/richtext/lib/core';
 
 const defaultValue = [{
   type: 'paragraph',
@@ -114,7 +114,7 @@ const MyEditor = () => {
 import React, { useMemo, useState } from 'react';
 import { createEditor } from 'slate';
 import { withReact, Slate } from 'slate-react';
-import { Content } from '@bodiless/richtext/lib/core';
+import { Content } from '@asemirsk/richtext/lib/core';
 
 const defaultValue = [{
   type: 'paragraph',
@@ -157,7 +157,7 @@ See `EditableProps` type from `slate-react/dist/editable.d.ts`.
 import React, { useMemo, useState, useContext } from 'react';
 import { createEditor } from 'slate';
 import { withReact, Slate } from 'slate-react';
-import { SlateEditor, Content, SlateEditorContext } from '@bodiless/richtext/lib/core';
+import { SlateEditor, Content, SlateEditorContext } from '@asemirsk/richtext/lib/core';
 
 const defaultValue = [{
   type: 'paragraph',
@@ -209,7 +209,7 @@ const MyEditor = () => {
 **Basic usage:**
 ```js
 import React from "react";
-import { SlateEditor, Content, HoverMenu } from "@bodiless/richtext/lib/core";
+import { SlateEditor, Content, HoverMenu } from "@asemirsk/richtext/lib/core";
 
 const Content = (props) => {
   return (
@@ -233,7 +233,7 @@ export default Content;
 #### RichText Component
 
 The RichText Component is built on the [SlateJS](https://docs.slatejs.org/) framework. It takes design object 
-(see @bodiless/Design System) that contain HOC to build out the component that are 
+(see @asemirsk/Design System) that contain HOC to build out the component that are 
 available in the RichText Editor. Those are then presented to the user using both a 
 contextual hover menu as well as the standard menu. These items can be used by using 
 a set of HOC's. 
@@ -292,7 +292,7 @@ const EditorFullFeatured = <P extends object> (props:P) => (
 
 ### Plugin Factories
 
-In order to minify boilerplate creating a slate plugin `@bodiless/richtext` provides factories.
+In order to minify boilerplate creating a slate plugin `@asemirsk/richtext` provides factories.
 There are 3 types of plugins that can be created:
 - **Mark plugin** - renders provided component wrapping a piece of text. Doesn't have any 
 data and component is togglable.
@@ -348,7 +348,7 @@ with other marks.
 **Mark Plugin Factory usage:**
 ```js
 import React from 'react';
-import { createMarkButton } from '@bodiless/richtext/lib/plugin-factory';
+import { createMarkButton } from '@asemirsk/richtext/lib/plugin-factory';
 
 const MARK_TYPE = 'custom_mark';
 const CustomMarkButton = createMarkButton(MARK_TYPE, 'format_underline');
@@ -364,7 +364,7 @@ export {
 **Inline Plugin Factory usage:**
 ```js
 import React from 'react';
-import { createInlineButton } from '@bodiless/richtext/lib/plugin-factory';
+import { createInlineButton } from '@asemirsk/richtext/lib/plugin-factory';
 
 const INLINE_TYPE = 'custom_inline';
 const CustomInlineButton = createInlineButton(INLINE_TYPE, 'link');

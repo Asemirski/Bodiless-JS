@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { StaticBlock } from '@bodiless/hydration';
+import { StaticBlock } from '@asemirsk/hydration';
 
 const Content = StaticBlock;
 

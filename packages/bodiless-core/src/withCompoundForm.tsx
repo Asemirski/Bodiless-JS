@@ -16,7 +16,7 @@ import React, {
   createContext, useRef, useContext, MutableRefObject, FC,
 } from 'react';
 import { useFormState, useFormApi, Scope } from 'informed';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 import { ContextMenuForm, FormBodyProps, FormBodyRenderer } from './contextMenuForm';
 import type { ContextMenuFormProps } from './Types/ContextMenuTypes';
 import type { MenuOptionsDefinition } from './Types/PageContextProviderTypes';

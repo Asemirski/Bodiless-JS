@@ -15,7 +15,7 @@ const fs = require('fs');
 const path = require('path');
 
 const findTwConfig = (root = '', tries = 0) => {
-  const testPath = path.join(root, 'node_modules', '@bodiless', 'ui', 'bodiless.tailwind.config.js');
+  const testPath = path.join(root, 'node_modules', '@asemirsk', 'ui', 'bodiless.tailwind.config.js');
   if (fs.existsSync(testPath)) return testPath;
   if (tries > 10) return 'bodiless.tailwind.config.js';
   return findTwConfig(path.join('..', root), tries + 1);

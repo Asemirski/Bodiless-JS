@@ -15,10 +15,10 @@
 import React, { useRef, ComponentType } from 'react';
 import { Editor } from 'slate';
 import type { Range } from 'slate';
-import { withoutProps } from '@bodiless/fclasses';
+import { withoutProps } from '@asemirsk/fclasses';
 import {
   NodeProvider, DefaultContentNode, useNode,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { useSlate } from 'slate-react';
 import flow from 'lodash/flow';
 import {

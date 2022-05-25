@@ -12,11 +12,11 @@
  * limitations under the License.
  */
 
-import { withNode, withNodeKey } from '@bodiless/core';
-import { vitalRichText } from '@bodiless/vital-editors';
-import { vitalColor, vitalSpacing } from '@bodiless/vital-elements';
-import { vitalMenu } from '@bodiless/vital-navigation';
-import { as } from '@bodiless/fclasses';
+import { withNode, withNodeKey } from '@asemirsk/core';
+import { vitalRichText } from '@asemirsk/vital-editors';
+import { vitalColor, vitalSpacing } from '@asemirsk/vital-elements';
+import { vitalMenu } from '@asemirsk/vital-navigation';
+import { as } from '@asemirsk/fclasses';
 import { vitalRewards } from '../Rewards';
 import { vitalSocialLinks } from '../SocialLinks';
 import { asFooterToken } from '../FooterClean';

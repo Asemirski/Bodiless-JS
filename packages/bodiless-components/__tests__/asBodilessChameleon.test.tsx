@@ -19,13 +19,13 @@ import {
 import {
   DefaultContentNode, NodeProvider, useNode, withNodeKey, withNode,
   PageEditContext, PageContextProvider, ifToggledOff,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import flowRight from 'lodash/flowRight';
 import flow from 'lodash/flow';
 import identity from 'lodash/identity';
 import {
   withDesign, withoutProps, HOC, flowHoc, startWith
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import {
   asBodilessChameleon, withChameleonComponentFormControls,

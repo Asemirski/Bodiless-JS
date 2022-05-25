@@ -13,7 +13,7 @@
  */
 
 import React, { FC } from 'react';
-import { HOC, Injector } from '@bodiless/fclasses';
+import { HOC, Injector } from '@asemirsk/fclasses';
 import NodeProvider, { useNode } from './NodeProvider';
 import { WithNodeProps } from './Types/NodeTypes';
 

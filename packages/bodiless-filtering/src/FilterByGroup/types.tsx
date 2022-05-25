@@ -13,9 +13,9 @@
  */
 
 import { ComponentType, HTMLProps } from 'react';
-import { TagType as BaseTagType, WithNodeProps, ContentNode } from '@bodiless/core';
-import { StylableProps, DesignableComponentsProps, DesignableProps } from '@bodiless/fclasses';
-import { ListProps } from '@bodiless/components';
+import { TagType as BaseTagType, WithNodeProps, ContentNode } from '@asemirsk/core';
+import { StylableProps, DesignableComponentsProps, DesignableProps } from '@asemirsk/fclasses';
+import { ListProps } from '@asemirsk/components';
 
 export type TagType = Omit<BaseTagType, 'id'> & {
   id: string,

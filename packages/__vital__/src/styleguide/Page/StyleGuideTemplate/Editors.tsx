@@ -13,16 +13,16 @@
  */
 
 import React from 'react';
-import { withNodeKey } from '@bodiless/core';
+import { withNodeKey } from '@asemirsk/core';
 import {
   EditorPlainClean, vitalEditorPlain, RichTextClean, vitalRichText
-} from '@bodiless/vital-editors';
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
+} from '@asemirsk/vital-editors';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
 import {
   as, flowHoc, replaceWith,
   H3, Section, Pre, Div,
-} from '@bodiless/fclasses';
-import { vitalColor, vitalTypography } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { vitalColor, vitalTypography } from '@asemirsk/vital-elements';
 
 const C = {
   H3: as(vitalTypography.H3)(H3),

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 import type { SubMenuComponents, SubMenuWrapperComponents } from './types';
 
 export const asSubMenuToken = asVitalTokenSpec<SubMenuComponents>();

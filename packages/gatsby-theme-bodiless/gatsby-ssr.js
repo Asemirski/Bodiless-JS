@@ -30,7 +30,7 @@ exports.onRenderBody = (ref) => {
   } = ref;
 
   if (hasLogs()) {
-    flush(`@bodiless/gatsby-theme: gatsby ssr errors found on pathname: ${pathname}`);
+    flush(`@asemirsk/gatsby-theme: gatsby ssr errors found on pathname: ${pathname}`);
   }
 
   /**

@@ -13,7 +13,7 @@
  */
 
 import React, { ComponentType, HTMLProps } from 'react';
-import { Button } from '@bodiless/fclasses';
+import { Button } from '@asemirsk/fclasses';
 import { useUI } from '../RichTextContext';
 
 const DefaultPluginButton = Button;

@@ -16,11 +16,11 @@ import React, { ComponentType, Fragment, FC } from 'react';
 import {
   Div, designable, addClasses, replaceWith, DesignableComponentsProps, flowHoc, flowIf,
   HOC,
-} from '@bodiless/fclasses';
-import { useNode, withNodeKey } from '@bodiless/core';
-import { withSearchResult } from '@bodiless/search';
-import { withBurgerMenuProvider, withBreadcrumbStore } from '@bodiless/navigation';
-import { withOidcProvider } from '@bodiless/oidc';
+} from '@asemirsk/fclasses';
+import { useNode, withNodeKey } from '@asemirsk/core';
+import { withSearchResult } from '@asemirsk/search';
+import { withBurgerMenuProvider, withBreadcrumbStore } from '@asemirsk/navigation';
+import { withOidcProvider } from '@asemirsk/oidc';
 import Header from './header';
 import Footer from './footer';
 import SeoHelmet from './meta';

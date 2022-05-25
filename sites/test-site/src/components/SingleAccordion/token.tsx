@@ -18,7 +18,7 @@ import {
   addClassesIf,
   removeClasses,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   isAccordionExpanded,
   isAccordionContracted,
@@ -26,7 +26,7 @@ import {
   asAccordionFocus,
   asNonExpandingAccordion,
   asAccordionIconSvg,
-} from '@bodiless/accordion';
+} from '@asemirsk/accordion';
 import {
   asHeader2,
   asBlockItem,

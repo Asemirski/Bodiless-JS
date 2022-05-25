@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-import { withParent } from '@bodiless/core';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import { Nav, Ul, flowHoc } from '@bodiless/fclasses';
-import { asBodilessMenu } from '@bodiless/navigation';
+import { withParent } from '@asemirsk/core';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import { Nav, Ul, flowHoc } from '@asemirsk/fclasses';
+import { asBodilessMenu } from '@asemirsk/navigation';
 import type { MenuComponents } from './types';
 
 /**

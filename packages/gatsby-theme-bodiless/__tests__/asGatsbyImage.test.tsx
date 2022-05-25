@@ -14,7 +14,7 @@
 
 import React from 'react';
 import { GatsbyImage } from 'gatsby-plugin-image';
-import { Img, withDesign, addProps } from '@bodiless/fclasses';
+import { Img, withDesign, addProps } from '@asemirsk/fclasses';
 /* eslint-disable-next-line import/no-extraneous-dependencies */
 import { mount } from 'enzyme';
 import flow from 'lodash/flow';

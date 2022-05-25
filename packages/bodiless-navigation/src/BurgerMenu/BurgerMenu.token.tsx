@@ -14,7 +14,7 @@
 
 import {
   addClasses, addClassesIf, flowHoc, withDesign,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import { useIsBurgerMenuVisible, useIsBurgerTransitionCompleted } from './BurgerMenuContext';
 import {

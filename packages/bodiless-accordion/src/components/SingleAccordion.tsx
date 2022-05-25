@@ -22,11 +22,11 @@ import {
   StylableProps,
   addProps,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asEditable,
-} from '@bodiless/components';
-import { withNode, useEditContext } from '@bodiless/core';
+} from '@asemirsk/components';
+import { withNode, useEditContext } from '@asemirsk/core';
 
 export type SingleAccordionComponents = {
   Wrapper: ComponentType<StylableProps>,

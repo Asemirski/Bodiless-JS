@@ -12,15 +12,15 @@
  * limitations under the License.
  */
 
-import { DefaultNormalHref } from '@bodiless/components';
+import { DefaultNormalHref } from '@asemirsk/components';
 import {
   asBlock,
   withButton,
   withStrikeThroughMeta,
   createLinkDeserializer,
   withHtmlDeserializer,
-} from '@bodiless/richtext';
-import { RichText } from '@bodiless/richtext-ui';
+} from '@asemirsk/richtext';
+import { RichText } from '@asemirsk/richtext-ui';
 import {
   withDesign,
   Blockquote,
@@ -29,8 +29,8 @@ import {
   Div,
   Design,
   flowHoc,
-} from '@bodiless/fclasses';
-import { GatsbyLink } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/fclasses';
+import { GatsbyLink } from '@asemirsk/gatsby-theme-bodiless';
 import {
   asBold,
   asItalic,

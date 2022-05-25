@@ -14,7 +14,7 @@ Ensure you have the following installed locally:
 BodilessJS provides a CLI tool for creating a new site from a template.
 
 ```shell-session
-npx @bodiless/cli new
+npx @asemirsk/cli new
 ```
 
 <!-- Inlining HTML to add multi-line info block with code blocks. -->
@@ -23,16 +23,16 @@ npx @bodiless/cli new
   <code>&lt;1.0.0</code>), instead of the command documented above, please use the following:
 
   ```shell-session
-  npx @bodiless/cli@1.0.0-PRERELEASE.IDENTIFIER new -r REVISION
+  npx @asemirsk/cli@1.0.0-PRERELEASE.IDENTIFIER new -r REVISION
   ```
 
   Where:
 
-  - `PRERELEASE.IDENTIFIER` is the package version of `@bodiless/cli` that you wish to use (e.g.,
+  - `PRERELEASE.IDENTIFIER` is the package version of `@asemirsk/cli` that you wish to use (e.g.,
     `beta.12`).
     - Prior to the official `1.0` release of Bodiless, you _must_ use at least `1.0.0-beta.11`.
-    - You may also use `next` to use the latest pre-release version (i.e., `@bodiless/cli@next`).
-    - Using `@bodiless/cli` without a version specifier will fail.
+    - You may also use `next` to use the latest pre-release version (i.e., `@asemirsk/cli@next`).
+    - Using `@asemirsk/cli` without a version specifier will fail.
   - `REVISION` is the revision of the repository to check out when cloning.
     - Use `next` to check out the latest pre-release version.
     - Use `HEAD` to check out the latest commit on the `main` branch.
@@ -41,7 +41,7 @@ npx @bodiless/cli new
   pre-release version of the Bodiless repository:
 
   ```shell-session
-  npx @bodiless/cli@1.0.0-beta.12 new -r next
+  npx @asemirsk/cli@1.0.0-beta.12 new -r next
   ```
 
 </div>
@@ -90,7 +90,7 @@ When creating a new site, if you'd like to choose a specific revision of the sou
 which the new site will be based, run the `new` command in _interactive_ mode via the `-i` flag:
 
 ```shell-session
-npx @bodiless/cli new -i
+npx @asemirsk/cli new -i
 ```
 
 By default, you will not be prompted for this, and the "latest" revision (i.e., the last tagged
@@ -106,7 +106,7 @@ Cloud](https://support.gatsbyjs.com/hc/en-us/articles/360058874874-What-is-Gatsb
 
 01. Create a new BodilessJS Gatsby starter site:
     ```shell-session
-    npx @bodiless/cli new --setup "npm run setup:gatsby-cloud"
+    npx @asemirsk/cli new --setup "npm run setup:gatsby-cloud"
     ```
     - Answer the prompts, as described above in [Creating a New Site](#creating-a-new-site).
     <!-- Inlining HTML to add multi-line info block with code blocks. -->
@@ -115,18 +115,18 @@ Cloud](https://support.gatsbyjs.com/hc/en-us/articles/360058874874-What-is-Gatsb
       <code>&lt;1.0.0</code>), instead of the command documented above, please use the following:
 
       ```shell-session
-      npx @bodiless/cli@1.0.0-PRERELEASE.IDENTIFIER new -r REVISION \
+      npx @asemirsk/cli@1.0.0-PRERELEASE.IDENTIFIER new -r REVISION \
         --setup "npm run setup:gatsby-cloud"
       ```
 
       Where:
 
-      - `PRERELEASE.IDENTIFIER` is the package version of `@bodiless/cli` that you wish to use
+      - `PRERELEASE.IDENTIFIER` is the package version of `@asemirsk/cli` that you wish to use
         (e.g., `beta.12`).
         - Prior to the official `1.0` release of Bodiless, you _must_ use at least `1.0.0-beta.11`.
         - You may also use `next` to use the latest pre-release version (i.e.,
-          `@bodiless/cli@next`).
-        - Using `@bodiless/cli` without a version specifier will fail.
+          `@asemirsk/cli@next`).
+        - Using `@asemirsk/cli` without a version specifier will fail.
       - `REVISION` is the revision of the repository to check out when cloning.
         - Use `next` to check out the latest pre-release version.
         - Use `HEAD` to check out the latest commit on the `main` branch.
@@ -135,7 +135,7 @@ Cloud](https://support.gatsbyjs.com/hc/en-us/articles/360058874874-What-is-Gatsb
       latest commit on `main`:
 
       ```shell-session
-      npx @bodiless/cli@1.0.0-beta.12 new -r HEAD \
+      npx @asemirsk/cli@1.0.0-beta.12 new -r HEAD \
         --setup "npm run setup:gatsby-cloud"
       ```
 

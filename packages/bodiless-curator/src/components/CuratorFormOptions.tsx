@@ -13,8 +13,8 @@
  */
 
 import React from 'react';
-import { withFormSnippet } from '@bodiless/components';
-import { BodilessOptions, useMenuOptionUI } from '@bodiless/core';
+import { withFormSnippet } from '@asemirsk/components';
+import { BodilessOptions, useMenuOptionUI } from '@asemirsk/core';
 import { CuratorData, CuratorProps } from './types';
 
 // Options used to create an edit button.

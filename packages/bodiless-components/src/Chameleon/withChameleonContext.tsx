@@ -16,12 +16,12 @@
 import React, {
   createContext, useContext, FC, useRef,
 } from 'react';
-import { WithNodeKeyProps, withSidecarNodes, withBodilessData } from '@bodiless/core';
+import { WithNodeKeyProps, withSidecarNodes, withBodilessData } from '@asemirsk/core';
 import {
   ComponentOrTag, Fragment, DesignableComponents, Design, HOC, flowHoc, replaceWith, as,
   replaceable,
-} from '@bodiless/fclasses';
-import { SelectorComponents, SelectorComponentsProps } from '@bodiless/layouts';
+} from '@asemirsk/fclasses';
+import { SelectorComponents, SelectorComponentsProps } from '@asemirsk/layouts';
 
 import omit from 'lodash/omit';
 import identity from 'lodash/identity';

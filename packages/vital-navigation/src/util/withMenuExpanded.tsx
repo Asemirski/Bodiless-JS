@@ -13,7 +13,7 @@
  */
 
 import React from 'react';
-import { HOC, withDesign } from '@bodiless/fclasses';
+import { HOC, withDesign } from '@asemirsk/fclasses';
 
 /**
  * withExpandedAttr adds expanded prop to a component.

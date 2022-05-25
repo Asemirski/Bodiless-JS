@@ -59,7 +59,7 @@ export default Layout;
 
 Define a Shadowing token collection as defined in [Shadow](../VitalElements/Shadow).
 
-File to shadow: `packages/{my-package}/src/shadow/@bodiless/vital-layout/Header.ts`
+File to shadow: `packages/{my-package}/src/shadow/@asemirsk/vital-layout/Header.ts`
 
 #### Via Extending
 

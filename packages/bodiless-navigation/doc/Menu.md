@@ -3,7 +3,7 @@
 # Bodiless Navigation Menu
 
 ### Exported HOCs
-There are several menu-specific HOCs provided by `@bodiless/navigation` that can be composed together to build a Menu.
+There are several menu-specific HOCs provided by `@asemirsk/navigation` that can be composed together to build a Menu.
 
  - `asBodilessMenu` - Bodiless HOC generator which creates the basic structure of the Bodiless Menu. This serves as a base for various views on the Menu data, including a site's main menu, a burger menu, and breadcrumbs.
  - `withListSubMenu` - Helper, which can be used to add a List submenu option to the menu.
@@ -18,7 +18,7 @@ There are several menu-specific HOCs provided by `@bodiless/navigation` that can
 ### Bodiless Menu Structure
 Bodiless Menu is based on the List API. At its simplest, the menu structure can be defined as follows:
 ```js
-import { asBodilessMenu, withMenuTitleEditors, withMenuDesign } from '@bodiless/navigation';
+import { asBodilessMenu, withMenuTitleEditors, withMenuDesign } from '@asemirsk/navigation';
 
 // Menu doesn't provide any default editors so we need to configure one.
 // We can use the `withMenuTitleEditors` helper to add editors.
@@ -36,10 +36,10 @@ export const DemoMenu = flow(
 #### Menu Sublists
 The `DemoMenu` above will create a simple one-level **unstyled** list with Editable menu titles by default. This menu may be extended with different types of submenus:
 ```js
-import { flowHoc } from '@bodiless/fclasses';
+import { flowHoc } from '@asemirsk/fclasses';
 import {
   asBodilessMenu, withListSubMenu, withColumnSubMenu, withCardsSubMenu,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 
 export const DemoMenu = flowHoc(
   asBodilessMenu('menu-demo'),
@@ -108,7 +108,7 @@ const $withListSubMenuStyles = flowHoc(
 Note the usage of this new `OuterWrapper` Design key. It targets the **outer menu Item** (`<li>`) to which this submenu is added. 
 
 #### Using `asTopNav` to add default menu styles:
-There is a `asTopNav` helper exported by the `@bodiless/navigation` that may be used to add default menu styles. It is responsible for menu/submenu position and interaction styles such as displaying on hover, keeping it open when editing a submenu title, etc.
+There is a `asTopNav` helper exported by the `@asemirsk/navigation` that may be used to add default menu styles. It is responsible for menu/submenu position and interaction styles such as displaying on hover, keeping it open when editing a submenu title, etc.
 
 It accepts an optional list of submenu keys to which default styling has to be applied to:
 ```js
@@ -119,7 +119,7 @@ const $asSiteNavStyles = flowHoc(
 ```
 
 #### Styling menu with `withMenuDesign`:
-To make it easier to work on menu styling, there is a `withMenuDesign` helper exported from the `@bodiless/navigation` package. It is a helper, which makes it easier to target a particular type of submenu.
+To make it easier to work on menu styling, there is a `withMenuDesign` helper exported from the `@asemirsk/navigation` package. It is a helper, which makes it easier to target a particular type of submenu.
 
 There are two arguments that `withMenuDesign(keys, depths)(...tokenDefs)` accepts. The first parameter is a **list of the submenu key(s)** and the second param is the **design keys depth** to which the tokens provided as a second argument should be applied. It also accepts the special key `Main` to apply the design to the top-level menu. All arguments are optional. If you do not specify `keys` or `depths` -- it will apply token to all submenus as well as the top menu.
 
@@ -153,8 +153,8 @@ withMenuDesign(undefined, [0, 1]) // Applies tokens to top menu and all submenus
 #### Adding active menu styles:
 There might be a case where you would want to add some additional styles to the menu Item or Title based on whether it is a part of the current active breadcrumb trail ( Active page ). There is a `useIsActiveTrail` hook that can be used to accomplish that:
 ```js
-import { ifToggledOn } from '@bodiless/core';
-import { useIsActiveTrail } from '@bodiless/navigation';
+import { ifToggledOn } from '@asemirsk/core';
+import { useIsActiveTrail } from '@asemirsk/navigation';
 import { withActiveMenuBackground, asBold, asUnderline } from './DemoMenu.token';
 
 const withActiveTitleStyles = ifToggledOn(useIsActiveTrail)(
@@ -165,11 +165,11 @@ const withActiveTitleStyles = ifToggledOn(useIsActiveTrail)(
 ### Bodiless Menu Example
 Here is the complete example of the demo bodiless menu:
 ```js
-import { flowHoc } from '@bodiless/fclasses';
+import { flowHoc } from '@asemirsk/fclasses';
 import {
   asTopNav, withMenuDesign, asBodilessMenu, withColumnSubMenu, withCardsSubMenu,
   withMenuTitleEditors,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 import {
   $withTitleStyles,
   $withBaseMenuStyles,

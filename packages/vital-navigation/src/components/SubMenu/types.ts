@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import type { ListComponents } from '@bodiless/components';
-import { ComponentOrTag } from '@bodiless/fclasses';
+import type { ListComponents } from '@asemirsk/components';
+import { ComponentOrTag } from '@asemirsk/fclasses';
 
 export type SubMenuComponents = {
   OuterWrapper: ComponentOrTag<any>,

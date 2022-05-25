@@ -19,13 +19,13 @@ import flowRight from 'lodash/flowRight';
 import { mount, ReactWrapper } from 'enzyme';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import cheerio from 'cheerio';
-import { withDefaultContent, asReadOnly } from '@bodiless/core';
+import { withDefaultContent, asReadOnly } from '@asemirsk/core';
 import {
   asBodilessMenu, withListSubMenu, withColumnSubMenu, withCardsSubMenu,
   withBreadcrumbStore, asBreadcrumbs, BreadcrumbsClean, withMenuTitleEditors,
 } from '../src';
 
-const { DefaultContentNode } = require('@bodiless/core');
+const { DefaultContentNode } = require('@asemirsk/core');
 
 const Breadcrumbs = flow(
   asBreadcrumbs,

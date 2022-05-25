@@ -17,8 +17,8 @@ import React, {
 } from 'react';
 import {
   withParent, withAppendChild, useNode, useClickOutside, withChild,
-} from '@bodiless/core';
-import { LinkData, useListContext } from '@bodiless/components';
+} from '@asemirsk/core';
+import { LinkData, useListContext } from '@asemirsk/components';
 import {
   addProps,
   addClasses,
@@ -33,7 +33,7 @@ import {
   startWith,
   Button,
   withFinalDesign,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import { useMenuContext } from './withMenuContext';
 import { useSubmenuContext } from './withMenuItemContext';

@@ -16,7 +16,7 @@ import {
   withMenuOptions,
   useNode,
   TMenuOption,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 
 import type { LinkData, ExtraLinkOptions } from './types';
 

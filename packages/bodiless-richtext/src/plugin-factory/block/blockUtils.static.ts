@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { staticFunction } from '@bodiless/hydration';
+import { staticFunction } from '@asemirsk/hydration';
 
 export const hasBlock = staticFunction(() => undefined);
 export const createIsActive = staticFunction(() => () => undefined);

@@ -14,12 +14,12 @@
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { ComponentType } from 'react';
-import { withNode, useNode } from '@bodiless/core';
-import { LinkData } from '@bodiless/components';
-import type { WithNodeProps } from '@bodiless/core';
+import { withNode, useNode } from '@asemirsk/core';
+import { LinkData } from '@asemirsk/components';
+import type { WithNodeProps } from '@asemirsk/core';
 import {
   designable, addProps, Fragment, withDesign, replaceWith, withoutProps, ComponentOrTag, flowIf,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { observer } from 'mobx-react';
 import flowRight from 'lodash/flowRight';
 import { asStylableBreadcrumbs } from './Breadcrumb.token';

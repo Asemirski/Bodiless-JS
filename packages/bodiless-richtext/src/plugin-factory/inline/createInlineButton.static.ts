@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { StaticBlock, staticFunction } from '@bodiless/hydration';
+import { StaticBlock, staticFunction } from '@asemirsk/hydration';
 
 const createInlineButton = staticFunction(() => StaticBlock);
 

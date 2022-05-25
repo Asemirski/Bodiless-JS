@@ -21,7 +21,7 @@ using `asSchemaSource`. For instance, in the [Product Schema](./Product) section
 following example:
 
 ```tsx
-import { asSchemaSource } from '@bodiless/schema-org';
+import { asSchemaSource } from '@asemirsk/schema-org';
 
   SEO: {
     TitleRow: withDesign({

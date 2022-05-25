@@ -14,10 +14,10 @@
 
 import React from 'react';
 import { observer } from 'mobx-react';
-import { flowHoc } from '@bodiless/fclasses';
+import { flowHoc } from '@asemirsk/fclasses';
 import type {
   Condition, FlowHoc, ComponentWithMeta, ComponentOrTag,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 /**
  * Allow components to be toggled on/off based on the value of useToggle function
@@ -35,7 +35,7 @@ export const withFlowToggle = (useToggle: Condition) => <P extends object, Q ext
 /**
  * Utility to apply a list of tokens conditionally.
  *
- * Similar to `flowIf` from `@bodiless/fclasses` except:
+ * Similar to `flowIf` from `@asemirsk/fclasses` except:
  * - The tokens are applied in reverse order (like lodash `flowRight`)
  * - The condition hook is evaluated in the context of a mobx observer, so that
  *   changes to Bodiless application state will trigger a re-render.

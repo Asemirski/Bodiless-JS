@@ -15,11 +15,11 @@
 import React, { FC } from 'react';
 import {
   useMenuOptionUI, ContextMenuForm, ifEditable, withMenuOptions, useNode,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import type {
   ContextMenuFormProps,
-} from '@bodiless/core';
-import { ContextMenuPropsType } from '@bodiless/core/lib/contextMenuForm';
+} from '@asemirsk/core';
+import { ContextMenuPropsType } from '@asemirsk/core/lib/contextMenuForm';
 
 type Data = {
   url: string,

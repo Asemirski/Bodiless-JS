@@ -13,7 +13,7 @@
  */
 
 import React, { ComponentType, useEffect } from 'react';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 import { useStructuredData } from '../../StructureDataProvider';
 import { DataStructureSchemaProps } from '../../types';
 import { getYouTubeSchema } from './util';

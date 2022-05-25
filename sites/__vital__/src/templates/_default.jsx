@@ -14,7 +14,7 @@
 
 import { Fragment } from 'react';
 import { graphql } from 'gatsby';
-import { as } from '@bodiless/fclasses';
+import { as } from '@asemirsk/fclasses';
 import { __vital__Page } from '--vital--';
 
 const DefaultPage = as(__vital__Page.Default)(Fragment);

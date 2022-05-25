@@ -141,7 +141,7 @@ of the component.
 
 ```
 import flow from 'lodash/flow';
-import { CardClean } from '@bodiless/card';
+import { CardClean } from '@asemirsk/card';
 import { asContentfulCard } from '../../../Card';
 import { asCardDefaultStyle, asCardHorizontal } from '../../../Card/token';
 
@@ -193,11 +193,11 @@ import flow from 'lodash/flow';
 import {
   withTitle,
   withDesc,
-} from '@bodiless/layouts';
+} from '@asemirsk/layouts';
 import {
   replaceWith,
   withDesign,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { withType } from './Categories';
 import { GivingBackToCommunity } from '../Contentful/Card';
 import { withOrientationFacet, withStructureFacet } from './withCardVariations';

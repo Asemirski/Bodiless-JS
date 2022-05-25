@@ -14,11 +14,11 @@
 
 import React from 'react';
 import type { FC } from 'react';
-import type { ComponentOrTag, DesignableComponentsProps } from '@bodiless/fclasses';
+import type { ComponentOrTag, DesignableComponentsProps } from '@asemirsk/fclasses';
 import {
   Div, Fragment, H1, Section, designable,
-} from '@bodiless/fclasses';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 
 type StyleGuideTemplateComponents = {
   Wrapper: ComponentOrTag<any>,

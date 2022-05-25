@@ -13,7 +13,7 @@
  */
 
 import { ComponentType, HTMLProps } from 'react';
-import { StylableProps, DesignableComponentsProps } from '@bodiless/fclasses';
+import { StylableProps, DesignableComponentsProps } from '@asemirsk/fclasses';
 
 type CuratorComponents = {
   Container: ComponentType<StylableProps & HTMLProps<HTMLDivElement>>,

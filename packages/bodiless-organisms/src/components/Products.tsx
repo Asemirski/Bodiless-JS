@@ -24,14 +24,14 @@ import {
   Img,
   H2,
   StylableProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asBodilessLink,
   asEditable,
-} from '@bodiless/components';
-import { asBodilessImage } from '@bodiless/components-ui';
-import { withNode } from '@bodiless/core';
-import { BVInlineRatings } from '@bodiless/bv';
+} from '@asemirsk/components';
+import { asBodilessImage } from '@asemirsk/components-ui';
+import { withNode } from '@asemirsk/core';
+import { BVInlineRatings } from '@asemirsk/bv';
 
 export type ProductComponents = {
   Wrapper: ComponentType<StylableProps>,

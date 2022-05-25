@@ -1,9 +1,9 @@
-import { RichText } from '@bodiless/richtext-ui';
+import { RichText } from '@asemirsk/richtext-ui';
 import {
   addClasses, as, startWith, withDesign, A, Em, Strong,
-} from '@bodiless/fclasses';
-import { asBodilessLink, withPlaceholder } from '@bodiless/components';
-import { withChild, withNodeKey } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { asBodilessLink, withPlaceholder } from '@asemirsk/components';
+import { withChild, withNodeKey } from '@asemirsk/core';
 
 const asBold = as(
   startWith(Strong),

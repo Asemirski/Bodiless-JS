@@ -18,28 +18,28 @@ import { ComponentType } from 'react';
 import {
   withChild,
   withSidecarNodes,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import flowRight from 'lodash/flowRight';
 import {
   withImagePlaceholder,
   withDefaultImageContent,
   AsBodilessImage,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 import {
   asBodilessLink,
   asBodilessImage,
-} from '@bodiless/components-ui';
+} from '@asemirsk/components-ui';
 import {
   GatsbyImagePresets,
   withGatsbyImagePreset,
   withoutGatsbyImageProps,
-} from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/gatsby-theme-bodiless';
 import {
   flowHoc,
   stylable,
   A,
   Img,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 // @ts-ignore Cannotfind module
 import landscapeImage from './landscape_image.png';
 

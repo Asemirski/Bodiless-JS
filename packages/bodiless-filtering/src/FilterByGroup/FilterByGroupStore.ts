@@ -15,7 +15,7 @@
 import {
   useState, useEffect, useRef, useCallback,
 } from 'react';
-import { TagType } from '@bodiless/core';
+import { TagType } from '@asemirsk/core';
 import { FilterTagType } from './types';
 
 const TAG_ANY_KEY = 'any';

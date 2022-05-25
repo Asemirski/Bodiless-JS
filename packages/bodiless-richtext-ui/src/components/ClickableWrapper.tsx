@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { Button } from '@bodiless/ui';
-import { addClasses } from '@bodiless/fclasses';
+import { Button } from '@asemirsk/ui';
+import { addClasses } from '@asemirsk/fclasses';
 
 const ClickableWrapper = addClasses(
   'bl-block bl-highlighted bl-border bl-border-solid bl-border-gray-700 hover:bl-border-white bl-text-initial bl-cursor-pointer bl-bg-white bl-p-2 bl-my-2',

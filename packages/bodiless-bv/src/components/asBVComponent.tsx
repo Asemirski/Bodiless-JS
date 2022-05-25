@@ -13,9 +13,9 @@
  */
 
 import React, { ComponentType, FC } from 'react';
-import { useEditContext } from '@bodiless/core';
+import { useEditContext } from '@asemirsk/core';
 import flowRight from 'lodash/flowRight';
-import { DesignableComponentsProps, designable } from '@bodiless/fclasses';
+import { DesignableComponentsProps, designable } from '@asemirsk/fclasses';
 import { useBVLoader } from './BVLoader';
 import DefaultBVLoading, { Props as BVLoadingProps } from './BVLoading';
 import { BVProps } from './BVProps';

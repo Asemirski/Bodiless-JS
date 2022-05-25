@@ -16,7 +16,7 @@ import {
   addClasses,
   withDesign,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asPageContainer,
   asPrimaryColorBackground,

@@ -23,8 +23,8 @@ import {
   useEditContext,
   useNode,
   ContentNode,
-} from '@bodiless/core';
-import type { BodilessOptions } from '@bodiless/core';
+} from '@asemirsk/core';
+import type { BodilessOptions } from '@asemirsk/core';
 import flowRight from 'lodash/flowRight';
 import identity from 'lodash/identity';
 import {
@@ -35,7 +35,7 @@ import {
   flowHoc,
   flowIf,
   addClassesIf,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { withFieldApi } from 'informed';
 import { useGetDisabledPages } from '../PageDisable';
 import DefaultNormalHref from './NormalHref';

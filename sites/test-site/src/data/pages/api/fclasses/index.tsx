@@ -14,14 +14,14 @@
 
 import React, { useContext, useState, FC } from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import {
   addClasses,
   addClassesIf,
   Button as BaseButton,
   H3,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import Layout from '../../../../components/Layout';
 import { asHeader3 } from '../../../../components/Elements.token';
 

@@ -21,7 +21,7 @@ import {
   Span,
   withDesign,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { asEditable } from '../Elements.token';
 
 const today = new Date();

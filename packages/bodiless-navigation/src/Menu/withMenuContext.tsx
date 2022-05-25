@@ -18,8 +18,8 @@ import React, {
   useContext,
   useState,
 } from 'react';
-import { PageContextProvider, useEditContext, useUUID } from '@bodiless/core';
-import { HOC } from '@bodiless/fclasses';
+import { PageContextProvider, useEditContext, useUUID } from '@asemirsk/core';
+import { HOC } from '@asemirsk/fclasses';
 
 type MenuContextType = {
   activeSubmenu?: string,

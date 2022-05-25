@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 
-import { flowHoc, HOCWithMeta } from '@bodiless/fclasses';
-import { withNodeKey } from '@bodiless/core';
-import { withImageLibrary } from '@bodiless/components-ui';
-import type { AsBodilessImage } from '@bodiless/components';
+import { flowHoc, HOCWithMeta } from '@asemirsk/fclasses';
+import { withNodeKey } from '@asemirsk/core';
+import { withImageLibrary } from '@asemirsk/components-ui';
+import type { AsBodilessImage } from '@asemirsk/components';
 import withGatsbyImageNode from './withGatsbyImageNode';
 import GatsbyImagePresets from './GatsbyImagePresets';
 

@@ -12,12 +12,12 @@
  * limitations under the License.
  */
 
-import { EditorPlainClean } from '@bodiless/vital-editors';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import { LinkClean } from '@bodiless/vital-link';
-import { replaceable, replaceWith, withDesign } from '@bodiless/fclasses';
-import { MenuTitle } from '@bodiless/navigation';
-import type { MenuTitleComponents } from '@bodiless/navigation';
+import { EditorPlainClean } from '@asemirsk/vital-editors';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import { LinkClean } from '@asemirsk/vital-link';
+import { replaceable, replaceWith, withDesign } from '@asemirsk/fclasses';
+import { MenuTitle } from '@asemirsk/navigation';
+import type { MenuTitleComponents } from '@asemirsk/navigation';
 
 const MenuTitleClean = withDesign({
   Link: replaceWith(LinkClean),

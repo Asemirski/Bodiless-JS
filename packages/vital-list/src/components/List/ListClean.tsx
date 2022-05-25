@@ -14,14 +14,14 @@
 
 import {
   asBodilessList, ListComponents, asStylableList, ListProps,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 
 import {
   flowHoc,
-} from '@bodiless/fclasses';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+} from '@asemirsk/fclasses';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 import { ComponentType } from 'react';
-import { withoutHydration } from '@bodiless/hydration';
+import { withoutHydration } from '@asemirsk/hydration';
 
 export type SubListComponents = {
   OuterWrapper: ComponentType<any>,

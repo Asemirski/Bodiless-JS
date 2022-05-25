@@ -15,9 +15,9 @@
 import React from 'react';
 import {
   HOC, Div, Fragment, replaceWith
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { mount } from 'enzyme';
-import { DesignableComponents } from '@bodiless/fclasses/src';
+import { DesignableComponents } from '@asemirsk/fclasses/src';
 import {
   SelectorComponents, withDirection, useSelectorComponents, SelectorComponentsProps
 } from '../../src';

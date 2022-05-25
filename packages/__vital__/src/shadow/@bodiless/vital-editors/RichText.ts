@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { asFluidToken } from '@bodiless/vital-elements';
-import { vitalRichTextBase } from '@bodiless/vital-editors';
-import { addProps } from '@bodiless/fclasses';
+import { asFluidToken } from '@asemirsk/vital-elements';
+import { vitalRichTextBase } from '@asemirsk/vital-editors';
+import { addProps } from '@asemirsk/fclasses';
 
 const Default = asFluidToken({
   ...vitalRichTextBase.Default,

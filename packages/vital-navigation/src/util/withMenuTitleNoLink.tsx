@@ -13,8 +13,8 @@
  */
 
 import React from 'react';
-import { useNode } from '@bodiless/core';
-import { HOC } from '@bodiless/fclasses';
+import { useNode } from '@asemirsk/core';
+import { HOC } from '@asemirsk/fclasses';
 
 /**
  * withMenuTitleNoLink removes link from given title.

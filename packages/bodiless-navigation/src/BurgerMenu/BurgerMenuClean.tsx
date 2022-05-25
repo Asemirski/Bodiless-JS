@@ -15,7 +15,7 @@
 import React, { FC, ComponentType } from 'react';
 import {
   Div, designable, DesignableProps, DesignableComponentsProps, Nav as NavBase, Fragment,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 export type BurgerMenuComponents = {
   Wrapper: ComponentType<any>,

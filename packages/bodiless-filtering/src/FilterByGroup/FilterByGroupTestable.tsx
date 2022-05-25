@@ -16,7 +16,7 @@ import flow from 'lodash/flow';
 import {
   withDesign,
   addProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import FilterByGroupClean from './FilterByGroupClean';
 
 const asTestableFilterByGroup = withDesign({

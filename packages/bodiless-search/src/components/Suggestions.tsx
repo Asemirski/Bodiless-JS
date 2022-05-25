@@ -24,7 +24,7 @@ import {
   withDesign,
   withoutProps,
   HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { useSearchResultContext } from './SearchContextProvider';
 import type { Suggestion } from '../types';
 import getSearchPagePath from './getSearchPagePath';

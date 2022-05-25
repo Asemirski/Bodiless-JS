@@ -14,8 +14,8 @@
 
 import {
   withNode,
-} from '@bodiless/core';
-import { flowHoc } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { flowHoc } from '@asemirsk/fclasses';
 import {
   CarouselClean,
   asEditableCarousel,
@@ -23,7 +23,7 @@ import {
   withNavigationButtons,
   withAutoPlayInterval,
   withAutoPlayButton,
-} from '@bodiless/carousel';
+} from '@asemirsk/carousel';
 import {
   withImageSlide,
   withChameleonSlide,

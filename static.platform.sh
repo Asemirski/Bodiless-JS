@@ -37,10 +37,10 @@ default_build () {
 }
 
 set_bodiless_psh_dir() {
-  if [ -d "$PLATFORM_APP_DIR/sites/$APP_SITE_DIR_NAME/node_modules/@bodiless" ]; then
-    BODILESS_PSH_DIR="$PLATFORM_APP_DIR/sites/$APP_SITE_DIR_NAME/node_modules/@bodiless/psh/lib"
+  if [ -d "$PLATFORM_APP_DIR/sites/$APP_SITE_DIR_NAME/node_modules/@asemirsk" ]; then
+    BODILESS_PSH_DIR="$PLATFORM_APP_DIR/sites/$APP_SITE_DIR_NAME/node_modules/@asemirsk/psh/lib"
   else
-    BODILESS_PSH_DIR="$PLATFORM_APP_DIR/node_modules/@bodiless/psh/lib"
+    BODILESS_PSH_DIR="$PLATFORM_APP_DIR/node_modules/@asemirsk/psh/lib"
   fi
 }
 

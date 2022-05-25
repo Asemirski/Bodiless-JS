@@ -13,7 +13,7 @@
  */
 
 import React from 'react';
-import { stylable } from '@bodiless/fclasses';
+import { stylable } from '@asemirsk/fclasses';
 
 // Source: https://fonts.google.com/icons?selected=Material%20Icons%3Apause%3A
 const Pause = (props: React.SVGProps<SVGSVGElement>) => (

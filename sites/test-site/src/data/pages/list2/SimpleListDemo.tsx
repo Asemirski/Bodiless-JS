@@ -14,10 +14,10 @@
 
 import {
   asSubList, asBodilessList, asEditable, withSimpleSubListDesign,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 import {
   withDesign, addClasses, stylable, replaceWith, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 export const withSimpleTitle = withDesign({
   Title: flowHoc(

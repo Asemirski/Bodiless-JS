@@ -21,12 +21,12 @@ import {
   Button,
   addProps,
   flowHoc,
-} from '@bodiless/fclasses';
-import { withPlaceholder } from '@bodiless/components';
-import { vitalColor } from '@bodiless/vital-elements';
-import { vitalEditorPlain, EditorPlainClean } from '@bodiless/vital-editors';
-import { asEditableLink, vitalLink } from '@bodiless/vital-link';
-import { withNodeKey } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+import { withPlaceholder } from '@asemirsk/components';
+import { vitalColor } from '@asemirsk/vital-elements';
+import { vitalEditorPlain, EditorPlainClean } from '@asemirsk/vital-editors';
+import { asEditableLink, vitalLink } from '@asemirsk/vital-link';
+import { withNodeKey } from '@asemirsk/core';
 import { asButtonToken } from '../ButtonClean';
 import { WhereToBuy, WhereToBuyWithoutIcon } from './vitalWTB';
 

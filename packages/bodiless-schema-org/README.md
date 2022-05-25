@@ -1,4 +1,4 @@
-# `@bodiless/schema-org`
+# `@asemirsk/schema-org`
 
 For documentation on the Schema.org package, please see:
 

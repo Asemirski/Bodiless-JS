@@ -20,8 +20,8 @@ import {
   EditButtonProps,
   EditButtonOptions,
   UseBodilessOverrides,
-} from '@bodiless/core';
-import type { HOC, ComponentOrTag } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import type { HOC, ComponentOrTag } from '@asemirsk/fclasses';
 import flowRight from 'lodash/flowRight';
 import pick from 'lodash/pick';
 import { v4 } from 'uuid';

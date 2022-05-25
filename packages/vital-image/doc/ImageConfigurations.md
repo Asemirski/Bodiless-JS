@@ -14,8 +14,8 @@ techniques.
       asGatsbyImage as asBaseGatsbyImage,
       withGatsbyImageNode,
       withGatsbyImageLogger,
-    } from '@bodiless/gatsby-theme-bodiless';
-    import { asBodilessImage } from '@bodiless/components-ui';
+    } from '@asemirsk/gatsby-theme-bodiless';
+    import { asBodilessImage } from '@asemirsk/components-ui';
 
     const asGatsbyImg = (preset: string) => flowRight(
       withGatsbyImageNode(preset),
@@ -29,7 +29,7 @@ techniques.
     <div class="warn">
       <strong>Note:</strong> BodilessJS uses <code>asGatsbyImage</code>,
       <code>withGatsbyImageNode</code>, and <code>withGatsbyImageLogger</code> functions provided by
-      <code>@bodiless/gatsby-theme-bodiless</code>.
+      <code>@asemirsk/gatsby-theme-bodiless</code>.
 
       - `asGatsbyImage` is a HOC that either replaces the component with `GatsbyImg`, if the data
         required for `GatsbyImg` is available, or it renders the input component, otherwise.
@@ -44,20 +44,20 @@ techniques.
 01. Create a HOC for each image preset, for instance:
 
     ```ts
-    import { GatsbyImagePresets } from '@bodiless/gatsby-theme-bodiless';
+    import { GatsbyImagePresets } from '@asemirsk/gatsby-theme-bodiless';
 
     const asFluidGatsbyImage = asGatsbyImg(GatsbyImagePresets.Fluid);
     const asFluidWithWebpGatsbyImage = asGatsbyImg(GatsbyImagePresets.FluidWithWebp);
     ```
 
-    ?> **Note:** BodilessJS uses default image presets exposed by `@bodiless/gatsby-theme-bodiless`.
+    ?> **Note:** BodilessJS uses default image presets exposed by `@asemirsk/gatsby-theme-bodiless`.
     See the [Default Image Presets](#default-image-presets) section to get a list of available
     presets.
 
 01. Use the HOCs to compose Gatsby Image components.
 
     ```ts
-    import { Img } from '@bodiless/fclasses';
+    import { Img } from '@asemirsk/fclasses';
 
     const FluidGatsbyImage = asFluidGatsbyImage(Img);
     const FluidWithWebpGatsbyImage = asFluidWithWebpGatsbyImage(Img);
@@ -82,8 +82,8 @@ If you have an image with `GatsbyImagePresets.Fluid` preset, and you want to cha
 01. Compose a new image component with new preset:
 
     ```ts
-    import { GatsbyImagePresets } from '@bodiless/gatsby-theme-bodiless';
-    import { Img } from '@bodiless/fclasses';
+    import { GatsbyImagePresets } from '@asemirsk/gatsby-theme-bodiless';
+    import { Img } from '@asemirsk/fclasses';
 
     const asFluidNoBase64GatsbyImage = asGatsbyImg(GatsbyImagePresets.FluidNoBase64);
     const FluidNoBase64GatsbyImage = asFluidNoBase64GatsbyImage(Img);
@@ -97,11 +97,11 @@ If you have an image with `GatsbyImagePresets.Fluid` preset, and you want to cha
 ### Override Image Processing Arguments
 
 To override the default image processing arguments, use the `gatsbyImage.sharpArgs` option of
-`@bodiless/gatsby-theme-bodiless`. For example, to override the default quality:
+`@asemirsk/gatsby-theme-bodiless`. For example, to override the default quality:
 
 ```js
 {
-  resolve: '@bodiless/gatsby-theme-bodiless',
+  resolve: '@asemirsk/gatsby-theme-bodiless',
   options: {
     gatsbyImage: {
       sharpArgs: {
@@ -173,7 +173,7 @@ See the [`gatsby-plugin-sharp`](https://www.gatsbyjs.com/plugins/gatsby-plugin-s
 
       const {
         createDefaultContentPlugins,
-      } = require('@bodiless/gatsby-theme-bodiless/dist/DefaultContent');
+      } = require('@asemirsk/gatsby-theme-bodiless/dist/DefaultContent');
 
       module.exports = {
         plugins: {
@@ -201,13 +201,13 @@ See the [`gatsby-plugin-sharp`](https://www.gatsbyjs.com/plugins/gatsby-plugin-s
 01. Use helpers to compose Gatsby Image components.
 
     ```jsx
-    import { useContentFrom } from '@bodiless/core';
-    import { asBodilessImage } from '@bodiless/components-ui';
-    import { withDefaultImageContent } from '@bodiless/components';
+    import { useContentFrom } from '@asemirsk/core';
+    import { asBodilessImage } from '@asemirsk/components-ui';
+    import { withDefaultImageContent } from '@asemirsk/components';
     import {
       GatsbyImagePresets,
       withGatsbyImagePreset,
-    } from '@bodiless/gatsby-theme-bodiless';
+    } from '@asemirsk/gatsby-theme-bodiless';
 
     const asEditableImage = withGatsbyImagePreset(GatsbyImagePresets.FluidWithWebp)(asBodilessImage);
     const useDefaultImageNode = useContentFrom(['DefaultContent', 'contentful1']);

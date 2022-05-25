@@ -13,14 +13,14 @@
  */
 
 import React from 'react';
-import { withNodeKey } from '@bodiless/core';
+import { withNodeKey } from '@asemirsk/core';
 import {
   flowHoc,
   as,
   replaceWith,
-} from '@bodiless/fclasses';
-import { vitalList, ListClean } from '@bodiless/vital-list';
-import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@bodiless/vital-templates';
+} from '@asemirsk/fclasses';
+import { vitalList, ListClean } from '@asemirsk/vital-list';
+import { asStyleGuideTemplateToken, vitalStyleGuideTemplate } from '@asemirsk/vital-templates';
 
 const DefaultList = as(
   vitalList.Default,

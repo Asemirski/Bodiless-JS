@@ -1,4 +1,4 @@
-# `@bodiless/organisms`
+# `@asemirsk/organisms`
 
 Basic components for building websites.
 

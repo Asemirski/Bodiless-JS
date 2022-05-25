@@ -1,6 +1,6 @@
 # Vital Layout Components
 
-The Vital Layout (`@bodiless/vital-layout`) package is composed of the following components:
+The Vital Layout (`@asemirsk/vital-layout`) package is composed of the following components:
 
 - [Vital Layout](./Layout)
 - [Vital Helmet](./Helmet)

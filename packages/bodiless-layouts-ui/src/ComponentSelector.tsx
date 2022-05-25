@@ -13,16 +13,16 @@
  */
 
 import React, { FC } from 'react';
-import { addClasses } from '@bodiless/fclasses';
+import { addClasses } from '@asemirsk/fclasses';
 import {
   SubmitButton as SubmitButtonBase, Div, Span, Label, Input,
   Button, Anchor, ComponentFormTitle, ComponentFormLink,
-} from '@bodiless/ui';
+} from '@asemirsk/ui';
 import {
   ComponentSelector as CleanComponentSelector,
   componentSelectorForm as componentSelectorFormClean,
-} from '@bodiless/layouts';
-import type { ComponentSelectorUI, ComponentSelectorProps, ComponentSelectorFormProps } from '@bodiless/layouts';
+} from '@asemirsk/layouts';
+import type { ComponentSelectorUI, ComponentSelectorProps, ComponentSelectorFormProps } from '@asemirsk/layouts';
 
 /**
  * Checkbox component used on flow container.

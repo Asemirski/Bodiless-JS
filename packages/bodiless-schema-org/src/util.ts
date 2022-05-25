@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { useNode } from '@bodiless/core';
-import { addProps } from '@bodiless/fclasses';
+import { useNode } from '@asemirsk/core';
+import { addProps } from '@asemirsk/fclasses';
 import { PageTypeNodeData } from './types';
 
 export const asSchemaSource = (name: String) => addProps({

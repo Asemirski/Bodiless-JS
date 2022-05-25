@@ -13,9 +13,9 @@
  */
 
 import React from 'react';
-import { HOC } from '@bodiless/fclasses';
-import { withMetaForm } from '@bodiless/components';
-import { useMenuOptionUI, useNode } from '@bodiless/core';
+import { HOC } from '@asemirsk/fclasses';
+import { withMetaForm } from '@asemirsk/components';
+import { useMenuOptionUI, useNode } from '@asemirsk/core';
 
 /**
  * isHomePage verify if the page is a home page.

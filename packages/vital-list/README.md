@@ -1,4 +1,4 @@
-# `@bodiless/vital-list`
+# `@asemirsk/vital-list`
 
 For documentation on the Vital List package, please see:
 

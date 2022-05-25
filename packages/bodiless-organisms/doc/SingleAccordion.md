@@ -38,7 +38,7 @@ const SingleAccordion = asSingleAccordion(AccordionClean);
 The accordion component follows the Bodiless Design Pattern and is easy to style. Here is an example demonstrating all possible design components:
 
 ```js
-import { withDesign, addClasses } from '@bodiless/fclasses';
+import { withDesign, addClasses } from '@asemirsk/fclasses';
 
 const asAccordionExampleStyle = withDesign({
   Wrapper: addClasses('p-3'),
@@ -57,8 +57,8 @@ const asAccordionExampleStyle = withDesign({
 Since accordion is a dynamic component with two possible states (expanded, contracted), it is possible to use conditional fClasses to style accordion based on its state:
 
 ```js
-import { withDesign, addClasses, addClassesIf } from '@bodiless/fclasses';
-import { isAccordionExpanded, isAccordionContracted } from '@bodiless/organisms';
+import { withDesign, addClasses, addClassesIf } from '@asemirsk/fclasses';
+import { isAccordionExpanded, isAccordionContracted } from '@asemirsk/organisms';
 
 const asAccordionExampleStyle = withDesign({
   Title: withDesign({
@@ -81,7 +81,7 @@ const asAccordionExampleStyle = withDesign({
 ```
 
 ## Accordion Context
-You can use accordion context to retrieve and manipulate the accordion state: `useAccordionContext` hook is provided by `@bodiless/organisms`:
+You can use accordion context to retrieve and manipulate the accordion state: `useAccordionContext` hook is provided by `@asemirsk/organisms`:
 ```js
 import { useAccordionContext } from './AccordionContext';
 

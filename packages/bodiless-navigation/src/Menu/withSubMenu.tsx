@@ -15,11 +15,11 @@
 import flow from 'lodash/flow';
 import {
   HOC, Design, withDesign, flowHoc, withFinalDesign, flowIf,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asStylableSubList, asSubList, withDeleteNodeOnUnwrap,
   withSubLists, UseListOverrides, useListContext,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 
 import { asBreadcrumb } from '../Breadcrumbs';
 import {

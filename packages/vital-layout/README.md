@@ -1,4 +1,4 @@
-# `@bodiless/vital-layout`
+# `@asemirsk/vital-layout`
 
 For documentation on the Vital Layout package, please see:
 

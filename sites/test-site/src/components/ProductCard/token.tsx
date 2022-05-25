@@ -16,8 +16,8 @@ import {
   addClasses,
   withDesign,
   flowHoc,
-} from '@bodiless/fclasses';
-import { asFilterableByGroup } from '@bodiless/filtering';
+} from '@asemirsk/fclasses';
+import { asFilterableByGroup } from '@asemirsk/filtering';
 import {
   asImageRounded,
   asXMargin,

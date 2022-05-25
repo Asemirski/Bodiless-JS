@@ -2,7 +2,7 @@
 # Bodiless Burger Menu
 
 ### Exported HOCs
-There are several burger-menu specific HOCs provided by `@bodiless/navigation` that can be composed together to build a Burger Menu.
+There are several burger-menu specific HOCs provided by `@asemirsk/navigation` that can be composed together to build a Burger Menu.
 
  - `asBurgerMenu` - Helper, which allows specifying which submenu types are configured by default for the Burger Menu. Transforms selected submenus into accordions.
  - `asBurgerMenuToggler` - HOC that adds an ability to toggle Burger Menu visibility on click. It extends the Component's default onClick handler if it exists. Note that the Component has to be inside a BurgerMenuContext.
@@ -17,11 +17,11 @@ There are several burger-menu specific HOCs provided by `@bodiless/navigation` t
 ### Burger Menu Structure
 The Burger menu, as well as Bodiless Menu, is based on the List API. Burger menu is, in most cases, an extension of the site top menu. `withBurgerMenuWrapper` is used to wrap top-menu schema in the burger menu chrome.
 ```js
-import { flowHoc } from '@bodiless/fclasses';
+import { flowHoc } from '@asemirsk/fclasses';
 import {
   asBodilessMenu, withListSubMenu, withColumnSubMenu, withMenuDesign,
   withCardsSubMenu, withBurgerMenuWrapper, withMenuTitleEditors,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 
 // Define menu schema first
 // Note that $withMenuSchema is the same for the Top Menu and Burger Menu.
@@ -59,8 +59,8 @@ The code above would wrap `DemoMenuBase` in the burger menu chrome. The final co
 #### Burger Menu Header
 You can add a custom burger menu header by targeting the `Header` design key:
 ```js
-import { flowHoc, replaceWith, withDesign } from '@bodiless/fclasses';
-import { withBurgerMenuWrapper } from '@bodiless/navigation';
+import { flowHoc, replaceWith, withDesign } from '@asemirsk/fclasses';
+import { withBurgerMenuWrapper } from '@asemirsk/navigation';
 
 import { DemoMenuBase } from './Menu';
 import Logo from '../Layout/logo';
@@ -85,8 +85,8 @@ Burger Menu transforms submenus into accordions. Any item which has children ren
 
 The default "Overview" item is  `<a href="..." ...>Overview</a>`  however you can provide your Overview Link component if needed.
 ```js
-import { flowHoc, withDesign } from '@bodiless/fclasses';
-import { asBurgerMenu, withMenuDesign, withOverviewLink } from '@bodiless/navigation';
+import { flowHoc, withDesign } from '@asemirsk/fclasses';
+import { asBurgerMenu, withMenuDesign, withOverviewLink } from '@asemirsk/navigation';
 
 import  { DemoMenuBase }  from  './Menu';
 
@@ -115,11 +115,11 @@ export const DemoBurgerMenu = flowHoc(
 ```
 
 #### Burger Menu Context Provider
-In most cases, Burger Menu is hidden by default and can be toggled visible by clicking a Burger Menu toggler button. For toggler to work, the burger menu and toggler button have to be inside a `BurgerMenuContext`. There is an `withBurgerMenuProvider` HOC available in `@bodiless/navigation` that wraps a component with the `BurgerMenuContext`. Usually, one of the top-level elements such as `Page` or `Layout` is wrapped with the `BurgerMenuContext`.
+In most cases, Burger Menu is hidden by default and can be toggled visible by clicking a Burger Menu toggler button. For toggler to work, the burger menu and toggler button have to be inside a `BurgerMenuContext`. There is an `withBurgerMenuProvider` HOC available in `@asemirsk/navigation` that wraps a component with the `BurgerMenuContext`. Usually, one of the top-level elements such as `Page` or `Layout` is wrapped with the `BurgerMenuContext`.
 
 ```js
-import { Fragment } from '@bodiless/fclasses';
-import { withBurgerMenuProvider } from '@bodiless/navigation';
+import { Fragment } from '@asemirsk/fclasses';
+import { withBurgerMenuProvider } from '@asemirsk/navigation';
 
 const BurgerMenuProvider = withBurgerMenuProvider(Fragment);
 
@@ -152,10 +152,10 @@ Its `isVisible` prop determines whether the burger menu is visible or not, and `
 #### Burger Menu Toggler
 Burger Menu Toggler is a button that toggles burger menu visibility. It usually comes as a separate component and can be placed anywhere on the site within a `BurgerMenuContext`. 
 
-There is a `BurgerMenuDefaultToggler` component exported by the `@bodiless/navigation`. It is a stylable component that toggles the burger menu visibility and its icon from `menu` when the burger menu is hidden to `close` when burger menu is visible.
+There is a `BurgerMenuDefaultToggler` component exported by the `@asemirsk/navigation`. It is a stylable component that toggles the burger menu visibility and its icon from `menu` when the burger menu is hidden to `close` when burger menu is visible.
 ```js
-import { flowHoc, withDesign, addClasses } from '@bodiless/fclasses';
-import { BurgerMenuDefaultToggler } from '@bodiless/navigation';
+import { flowHoc, withDesign, addClasses } from '@asemirsk/fclasses';
+import { BurgerMenuDefaultToggler } from '@asemirsk/navigation';
 
 export const BurgerMenuToggler = flowHoc(
   withDesign({
@@ -190,8 +190,8 @@ See [Styling Bodiless Menu](./Menu.md) for more information on styling Menus.
 By default, there are no layout or interaction styles added to the Burger menu, and it is rendered as a plain list. There is a `asBurgerMenu` helper that can be used to transform menu items with submenus into accordions. It accepts a list of submenu keys.
 
 ```js
-import { withDesign, flowHoc } from '@bodiless/fclasses';
-import { asBurgerMenu } from '@bodiless/navigation';
+import { withDesign, flowHoc } from '@asemirsk/fclasses';
+import { asBurgerMenu } from '@asemirsk/navigation';
 
 // Create Menu Token
 const $withBurgerMenuStyles = flowHoc(
@@ -210,8 +210,8 @@ export const $asDemoBurgerMenu = withDesign({
 You can use `withMenuDesign` to style the burger menu list the same way you would [style Bodiless Menu](./Menu.md). It is important to remember that If you transformed burger submenus into accordions with `asBurgerMenu()`, menu `Item`'s will have nested Accordion design keys:
 
 ```js
-import { withDesign, flowHoc, addClasses } from '@bodiless/fclasses';
-import { asBurgerMenu } from '@bodiless/navigation';
+import { withDesign, flowHoc, addClasses } from '@asemirsk/fclasses';
+import { asBurgerMenu } from '@asemirsk/navigation';
 
 // Lets make accordion Labels bold.
 // Note we target OuterWrapper first since this is the parent <li> element
@@ -240,8 +240,8 @@ export const $asDemoBurgerMenu = withDesign({
 #### Burger Menu Animations
 The Burger menu does not have any default animations configured. There is a `asSlideLeft` token exported by the package that adds a slide-in/slide-out transition to the burger menu.
 ```js
-import { withDesign, flowHoc, addClasses } from '@bodiless/fclasses';
-import { asBurgerMenu, withMenuDesign, asSlideLeft } from '@bodiless/navigation';
+import { withDesign, flowHoc, addClasses } from '@asemirsk/fclasses';
+import { asBurgerMenu, withMenuDesign, asSlideLeft } from '@asemirsk/navigation';
 
 const $withBoldAccordionTitle = withDesign({
   OuterWrapper: withDesign({
@@ -268,11 +268,11 @@ export const $asDemoBurgerMenu = flowHoc(
 ### Burger Menu Example
 Here is the complete example of the demo burger menu with custom overview link and bold accordion titles:
 ```js
-import { withDesign, flowHoc, addClasses } from '@bodiless/fclasses';
+import { withDesign, flowHoc, addClasses } from '@asemirsk/fclasses';
 import {
   withOverviewLink, asBurgerMenu, withMenuDesign, asSlideLeft,
   withBurgerMenuWrapper, withMenuTitleEditors,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 
 import  { DemoMenuBase }  from  './Menu';
 

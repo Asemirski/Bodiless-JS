@@ -19,7 +19,7 @@ import React, {
   MouseEvent,
   HTMLProps,
 } from 'react';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 
 type ReturnFocusItem = string | null;
 let RETURN_FOCUS_ITEM: ReturnFocusItem = null;

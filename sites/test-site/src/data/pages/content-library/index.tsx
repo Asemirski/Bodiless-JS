@@ -19,18 +19,18 @@ import {
   withGatsbyImageLibrary,
   GatsbyImagePresets,
   getImageContentFrom,
-} from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/gatsby-theme-bodiless';
 
-import { asEditable } from '@bodiless/components';
+import { asEditable } from '@asemirsk/components';
 import {
   useNode, withContextActivator, withLocalContextMenu, withDefaultContent,
   withNode, withNodeKey,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   H1, H2, addClasses, flowHoc,
-} from '@bodiless/fclasses';
-import { withContentLibrary } from '@bodiless/layouts';
-import { ComponentSelector } from '@bodiless/layouts-ui';
+} from '@asemirsk/fclasses';
+import { withContentLibrary } from '@asemirsk/layouts';
+import { ComponentSelector } from '@asemirsk/layouts-ui';
 import { observer } from 'mobx-react';
 import Layout from '../../../components/Layout';
 import { asEditableImage } from '../../../components/Image';

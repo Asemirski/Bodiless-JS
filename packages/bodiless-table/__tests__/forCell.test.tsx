@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { Fragment } from '@bodiless/fclasses';
+import { Fragment } from '@asemirsk/fclasses';
 import flow from 'lodash/flow';
 import { renderHook } from '@testing-library/react-hooks';
 import {

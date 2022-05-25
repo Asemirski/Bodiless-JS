@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { staticFunction } from '@bodiless/hydration';
+import { staticFunction } from '@asemirsk/hydration';
 
 const getPlugins = staticFunction(() => []);
 const getHoverButtons = staticFunction(() => []);

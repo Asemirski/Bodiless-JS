@@ -43,7 +43,7 @@ const getAppRootDir = () => {
     // Monorepo.
     path.join('packages', 'bodiless-richtext', 'bin'),
     // Starterkit.
-    path.join('node_modules', '@bodiless', 'richtext', 'bin'),
+    path.join('node_modules', '@asemirsk', 'richtext', 'bin'),
   ];
   const staticAppRootDir = staticPaths
     .filter(staticPath => __dirname.endsWith(staticPath))

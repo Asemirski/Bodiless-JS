@@ -20,7 +20,7 @@ import React, {
   useContext,
 } from 'react';
 import throttle from 'lodash/throttle';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 
 type PageDimensions = {
   width: number,

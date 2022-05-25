@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { flowHoc } from '@bodiless/fclasses';
-import { ContentNodePath, withDefaultContent, withResetButton } from '@bodiless/core';
-import { getImageContentFrom } from '@bodiless/gatsby-theme-bodiless';
+import { flowHoc } from '@asemirsk/fclasses';
+import { ContentNodePath, withDefaultContent, withResetButton } from '@asemirsk/core';
+import { getImageContentFrom } from '@asemirsk/gatsby-theme-bodiless';
 
 /**
 * Util function generating an HOC which adds default content from

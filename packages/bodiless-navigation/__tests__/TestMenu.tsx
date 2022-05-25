@@ -14,10 +14,10 @@
 
 /* eslint-disable quote-props */
 import identity from 'lodash/identity';
-import { withDefaultContent, WithNodeKeyProps, WithNodeProps } from '@bodiless/core';
+import { withDefaultContent, WithNodeKeyProps, WithNodeProps } from '@asemirsk/core';
 import {
   withDesign, addProps, flowHoc, Injector
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { asBodilessMenu } from '../src';
 
 const withMainMenuItems = (...items: string[]) => {

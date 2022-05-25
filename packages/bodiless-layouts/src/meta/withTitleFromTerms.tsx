@@ -15,7 +15,7 @@
 import React, { FC } from 'react';
 import {
   flowHoc, ComponentWithMeta, HOC, ComponentOrTag, varyDesign,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 /**
  * Type of the options for `withTitleFromTerms`

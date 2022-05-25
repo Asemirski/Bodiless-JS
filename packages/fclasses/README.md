@@ -678,7 +678,7 @@ the second will properly retain it.
 
 For convenience, Bodiless packages often export a reusable flow toggle which
 encapsulates its condition. One example is the `ifEditable` flow toggle
-exported by `@bodiless/core`, which allows you to apply tokens only when
+exported by `@asemirsk/core`, which allows you to apply tokens only when
 in edit mode.
 
 ## Design Variants
@@ -702,7 +702,7 @@ other designs (essentially a matrix multiplication). It's easiest to explain
 with an example:
 
 ```js
-import { varyDesigns } from '@bodiless/fclasses';
+import { varyDesigns } from '@asemirsk/fclasses';
 const base = {
   Box: flowHoc(startWith(Div), asBox),
 };

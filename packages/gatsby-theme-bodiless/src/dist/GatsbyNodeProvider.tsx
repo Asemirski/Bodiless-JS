@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { BodilessBackendClient, BodilessStoreProvider } from '@bodiless/core';
+import { BodilessBackendClient, BodilessStoreProvider } from '@asemirsk/core';
 import GatsbyMobxStore from './GatsbyMobxStore';
 
 class GatsbyNodeProvider extends BodilessStoreProvider {

@@ -21,14 +21,14 @@ import {
   withNode,
   useNode,
   withDefaultContent,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 
 import {
   flowHoc,
   withDesign,
   startWith,
-} from '@bodiless/fclasses';
-// import type {ContentNode } from '@bodiless/core';
+} from '@asemirsk/fclasses';
+// import type {ContentNode } from '@asemirsk/core';
 import {
   withTitle,
   withDesc,

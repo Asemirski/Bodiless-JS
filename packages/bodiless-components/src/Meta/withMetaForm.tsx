@@ -17,9 +17,9 @@ import { v1 } from 'uuid';
 import {
   ifEditable,
   useMenuOptionUI, useRegisterSnippet, withCompoundForm, withEditFormSnippet,
-} from '@bodiless/core';
-import type { FormSnippet, TMenuOption } from '@bodiless/core';
-import { Div, HOC } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import type { FormSnippet, TMenuOption } from '@asemirsk/core';
+import { Div, HOC } from '@asemirsk/fclasses';
 
 export enum FieldType {
   Text = 'text',

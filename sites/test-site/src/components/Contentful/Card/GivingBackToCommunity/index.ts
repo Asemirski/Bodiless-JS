@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { getImageContentFrom } from '@bodiless/gatsby-theme-bodiless';
-import { flowHoc } from '@bodiless/fclasses';
-import { CardClean } from '@bodiless/card';
+import { getImageContentFrom } from '@asemirsk/gatsby-theme-bodiless';
+import { flowHoc } from '@asemirsk/fclasses';
+import { CardClean } from '@asemirsk/card';
 import { asContentfulCard } from '../../../Card';
 import { asCardDefaultStyle, asCardHorizontal } from '../../../Card/token';
 import title from './title.json';

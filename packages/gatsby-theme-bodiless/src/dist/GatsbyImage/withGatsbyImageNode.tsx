@@ -17,8 +17,8 @@ import {
   NodeProvider,
   useNode,
   WithNodeProps,
-} from '@bodiless/core';
-import { HOC } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { HOC } from '@asemirsk/fclasses';
 import GatsbyImagePresets from './GatsbyImagePresets';
 
 const withGatsbyImageNode = (

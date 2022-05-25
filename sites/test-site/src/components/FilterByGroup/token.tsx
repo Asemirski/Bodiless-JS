@@ -17,7 +17,7 @@ import {
   addClasses,
   addProps,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { asTextColorPrimary } from '../Elements.token';
 
 const asFilterByGroupResponsive = withDesign({

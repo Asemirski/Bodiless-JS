@@ -95,7 +95,7 @@ To export a shadowed version of a token collection:
     site's `gatsby-node.js`:
 
     ```js
-    const { addTokenShadowPlugin } = require('@bodiless/webpack');
+    const { addTokenShadowPlugin } = require('@asemirsk/webpack');
     const shadow = require('shadowing-package/shadow');
     const shadow2 = require('lower-priority-shadowing-package/shadow');
 

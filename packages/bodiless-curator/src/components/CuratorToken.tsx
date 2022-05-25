@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { withoutPointerEvents } from '@bodiless/components';
-import { ifEditable } from '@bodiless/core';
-import { withDesign } from '@bodiless/fclasses';
+import { withoutPointerEvents } from '@asemirsk/components';
+import { ifEditable } from '@asemirsk/core';
+import { withDesign } from '@asemirsk/fclasses';
 
 const asCurator = withDesign({
   Container: ifEditable(withoutPointerEvents),

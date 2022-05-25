@@ -16,8 +16,8 @@ import { useCallback } from 'react';
 import omit from 'lodash/omit';
 import {
   useEditContext, useActivateOnEffect, useGetter, TMenuOption,
-} from '@bodiless/core';
-import { DesignableComponents } from '@bodiless/fclasses';
+} from '@asemirsk/core';
+import { DesignableComponents } from '@asemirsk/fclasses';
 import { EditFlowContainerProps, FlowContainerItem } from './types';
 import type { FlowContainerDataHandlers, FlowContainerItemHandlers } from './model';
 import { useFlowContainerDataHandlers, useItemHandlers } from './model';

@@ -16,7 +16,7 @@ import { useCallback } from 'react';
 import {
   ContextSubMenu,
   useEditContext,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { PageMenuOptions } from '../types';
 
 const usePageMenuOptions = (

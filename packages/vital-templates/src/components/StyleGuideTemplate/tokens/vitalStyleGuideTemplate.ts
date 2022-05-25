@@ -13,15 +13,15 @@
  */
 
 import omit from 'lodash/omit';
-import { vitalSpacing, vitalTypography } from '@bodiless/vital-elements';
+import { vitalSpacing, vitalTypography } from '@asemirsk/vital-elements';
 import {
   EditorPlainClean, vitalEditorPlain, RichTextClean, vitalRichText
-} from '@bodiless/vital-editors';
-import { withNodeKey } from '@bodiless/core';
+} from '@asemirsk/vital-editors';
+import { withNodeKey } from '@asemirsk/core';
 import {
   on, replaceWith, Fragment, as
-} from '@bodiless/fclasses';
-import { vitalLayout, LayoutClean } from '@bodiless/vital-layout';
+} from '@asemirsk/fclasses';
+import { vitalLayout, LayoutClean } from '@asemirsk/vital-layout';
 import { asStyleGuideTemplateToken } from '../StyleGuideTemplateClean';
 
 const Base = asStyleGuideTemplateToken({

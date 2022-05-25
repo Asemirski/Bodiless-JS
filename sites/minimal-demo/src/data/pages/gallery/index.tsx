@@ -1,11 +1,11 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page, PageProps } from '@bodiless/gatsby-theme-bodiless';
+import { Page, PageProps } from '@asemirsk/gatsby-theme-bodiless';
 import {
   addClasses, as, Div, H1, Img, A, Section,
-} from '@bodiless/fclasses';
-import { asEditable, asBodilessLink } from '@bodiless/components';
-import { asBodilessImage } from '@bodiless/components-ui';
+} from '@asemirsk/fclasses';
+import { asEditable, asBodilessLink } from '@asemirsk/components';
+import { asBodilessImage } from '@asemirsk/components-ui';
 import withSimpleEditor from './withSimpleEditor';
 import Gallery from './Gallery';
 

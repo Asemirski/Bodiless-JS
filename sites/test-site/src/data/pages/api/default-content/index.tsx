@@ -18,10 +18,10 @@ import {
   A,
   H3,
   flowHoc,
-} from '@bodiless/fclasses';
-import { withNode, withNodeKey, withDefaultContent } from '@bodiless/core';
-import { asBodilessLink } from '@bodiless/components-ui';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/fclasses';
+import { withNode, withNodeKey, withDefaultContent } from '@asemirsk/core';
+import { asBodilessLink } from '@asemirsk/components-ui';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import Layout from '../../../../components/Layout';
 import { asHeader3, asLink } from '../../../../components/Elements.token';
 

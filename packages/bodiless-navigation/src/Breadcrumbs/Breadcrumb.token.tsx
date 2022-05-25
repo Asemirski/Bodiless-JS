@@ -12,15 +12,15 @@
  * limitations under the License.
  */
 
-import { ifToggledOn } from '@bodiless/core';
+import { ifToggledOn } from '@asemirsk/core';
 import negate from 'lodash/negate';
 import {
   stylable,
   withDesign,
   flowHoc,
   addProps,
-} from '@bodiless/fclasses';
-import type { HOCDef } from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
+import type { HOCDef } from '@asemirsk/fclasses';
 import {
   useIsBreadcrumbItemCurrentPage,
   useIsLastBreadcrumbItemRenderedAsALink,

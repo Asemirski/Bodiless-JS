@@ -14,11 +14,11 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
-import { Editable, asBodilessList } from '@bodiless/components';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
+import { Editable, asBodilessList } from '@asemirsk/components';
 import {
   withDesign, replaceWith, addClasses, stylable, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import Helmet from 'react-helmet';
 import Layout from '../../components/Layout';
 import { asEditableImage } from '../../components/Image';

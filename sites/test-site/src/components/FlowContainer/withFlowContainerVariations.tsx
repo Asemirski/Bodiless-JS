@@ -13,20 +13,20 @@
  */
 
 import React from 'react';
-import { withNodeKey } from '@bodiless/core';
+import { withNodeKey } from '@asemirsk/core';
 import {
   withDesign,
   replaceWith,
   Div,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   withTitle,
   withDesc,
   ifComponentSelector,
   withLibraryComponents,
-} from '@bodiless/layouts';
-import { FlowContainer } from '@bodiless/layouts-ui';
+} from '@asemirsk/layouts';
+import { FlowContainer } from '@asemirsk/layouts-ui';
 import { withType } from './Categories';
 import asDefaultFlowContainer from './asDefaultFlowContainer';
 

@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { vitalTableBase } from '@bodiless/vital-table';
-import { asFluidToken } from '@bodiless/vital-elements';
-import { addProps } from '@bodiless/fclasses';
+import { vitalTableBase } from '@asemirsk/vital-table';
+import { asFluidToken } from '@asemirsk/vital-elements';
+import { addProps } from '@asemirsk/fclasses';
 
 const Default = asFluidToken({
   ...vitalTableBase.Default,

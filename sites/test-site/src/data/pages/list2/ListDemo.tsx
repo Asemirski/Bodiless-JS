@@ -14,11 +14,11 @@
 
 import {
   withDesign, addClasses, removeClasses, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asSubList, withDeleteNodeOnUnwrap, asBodilessList,
   withSubListDesign, withSubLists,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 import { ComponentType } from 'react';
 import { withItemMargin, withSimpleTitle } from './SimpleListDemo';
 

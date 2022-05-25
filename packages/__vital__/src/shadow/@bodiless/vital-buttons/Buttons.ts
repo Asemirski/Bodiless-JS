@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { vitalButtonsBase, asButtonToken } from '@bodiless/vital-buttons';
-import { addProps } from '@bodiless/fclasses';
+import { vitalButtonsBase, asButtonToken } from '@asemirsk/vital-buttons';
+import { addProps } from '@asemirsk/fclasses';
 
 const Default = asButtonToken(vitalButtonsBase.Default, {
   Behavior: {

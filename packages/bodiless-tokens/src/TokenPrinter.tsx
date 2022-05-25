@@ -13,7 +13,7 @@
  */
 
 import React, { FC } from 'react';
-import { DesignableComponents, designable } from '@bodiless/fclasses';
+import { DesignableComponents, designable } from '@asemirsk/fclasses';
 
 export type TokenPrinterProps = {
   designKey?: string;

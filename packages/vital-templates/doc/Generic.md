@@ -44,15 +44,15 @@ const Default = asFluidToken({
 
 Define a Shadowing token collection as defined in [Shadow](../VitalElements/Shadow).
 
-File to shadow: `packages/{my-package}/src/shadow/@bodiless/vital-templates/GenericTemplate.ts`
+File to shadow: `packages/{my-package}/src/shadow/@asemirsk/vital-templates/GenericTemplate.ts`
 
 Example:
 
-**File: `packages/{my-package}/src/shadow/@bodiless/vital-templates/GenericTemplate.ts`**
+**File: `packages/{my-package}/src/shadow/@asemirsk/vital-templates/GenericTemplate.ts`**
 
 ```js
 // Import the base collection.
-import { vitalGenericTemplateBase } from '@bodiless/vital-templates';
+import { vitalGenericTemplateBase } from '@asemirsk/vital-templates';
 import omit from 'lodash/omit';
 
 // Example 1

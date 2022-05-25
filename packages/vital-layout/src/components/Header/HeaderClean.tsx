@@ -19,14 +19,14 @@ import {
   Fragment,
   Header,
   designable,
-} from '@bodiless/fclasses';
-import { withoutHydration } from '@bodiless/hydration';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import { ButtonClean } from '@bodiless/vital-buttons';
+} from '@asemirsk/fclasses';
+import { withoutHydration } from '@asemirsk/hydration';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import { ButtonClean } from '@asemirsk/vital-buttons';
 import {
   BurgerMenuClean,
   MenuClean,
-} from '@bodiless/vital-navigation';
+} from '@asemirsk/vital-navigation';
 import { LogoClean } from '../Logo';
 import { SearchTogglerClean, DesktopSearchClean } from '../Search';
 import type { HeaderComponents, HeaderProps } from './types';

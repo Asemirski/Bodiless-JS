@@ -13,10 +13,10 @@
  */
 
 import { ComponentType } from 'react';
-import { flowHoc } from '@bodiless/fclasses';
+import { flowHoc } from '@asemirsk/fclasses';
 import {
   asBodilessMenu, withListSubMenu, withColumnSubMenu, withCardsSubMenu,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 
 import $asNavStyles from './Menu.token';
 

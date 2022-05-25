@@ -11,7 +11,7 @@ the Vital Design System.
 - Please read and understand the introduction to the [Bodiless Design System](/Design/DesignSystem),
   along with other prerequisites listed there.
 - Work through the [Design Element Concepts Guide](/Development/Guides/DesignElementConcepts).
-- Read through the full documentation for the [`@bodiless/fclasses`
+- Read through the full documentation for the [`@asemirsk/fclasses`
   package](/Development/Architecture/FClasses).
 
 The Vital Design System builds on the core BodilessJS token system to facilitate reuse and
@@ -50,7 +50,7 @@ styling or behavior for individual elements. More on this below.
 
 The starting/default components for design elements in the design of a clean component should be
 [stylable HTML elements exported from
-`@bodiless/fclasses`](https://github.com/johnsonandjohnson/Bodiless-JS/blob/main/packages/fclasses/src/StyledHTML.tsx
+`@asemirsk/fclasses`](https://github.com/johnsonandjohnson/Bodiless-JS/blob/main/packages/fclasses/src/StyledHTML.tsx
 ':target=_blank'), except:
 
 - Other clean components may be used where appropriate (e.g., a `CleanLayout` might have a
@@ -312,8 +312,8 @@ design element within the component.
 Vital provides the `as` utility for creating a token HOC from such a specification:
 
 ```ts
-import { as } from '@bodiless/vital-elements';
-import { LinkClean, brandLink } from '@bodiless/brand';
+import { as } from '@asemirsk/vital-elements';
+import { LinkClean, brandLink } from '@asemirsk/brand';
 const DefaultLink = as(brandLink.Default)(LinkClean);
 ```
 
@@ -323,7 +323,7 @@ our site's design system calls for links to be purple and not underlined. We cou
 behavior of the brand link and change its styling:
 
 ```ts
-import { brandLink } from '@bodiless/brand';
+import { brandLink } from '@asemirsk/brand';
 const Base = {
   ...brandLink.Base,
   Theme: {
@@ -344,8 +344,8 @@ non-editable link as:
 
 ```ts
 import omit from 'lodash/omit';
-import { LinkClean } from '@bodiless/vital-link';
-import { brandLink } from '@bodiless/brand';
+import { LinkClean } from '@asemirsk/vital-link';
+import { brandLink } from '@asemirsk/brand';
 
 const NonEditableLink = as(omit(brandLink.Base, 'Editors'))(LinkClean);
 ```
@@ -391,7 +391,7 @@ const Sticky = asHeaderToken({
 Vital provides the `extend` utility to make this a bit less verbose:
 
 ```ts
-import { extend } from '@bodiless/vital-elements';
+import { extend } from '@asemirsk/vital-elements';
 
 const Sticky = extend(Base, WithSticky);
 ```

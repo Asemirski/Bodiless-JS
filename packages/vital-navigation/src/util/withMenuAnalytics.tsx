@@ -13,8 +13,8 @@
  */
 
 import React from 'react';
-import { useNode } from '@bodiless/core';
-import { HOC, withDesign } from '@bodiless/fclasses';
+import { useNode } from '@asemirsk/core';
+import { HOC, withDesign } from '@asemirsk/fclasses';
 
 const withAnalyticsAttr: HOC = Component => props => {
   const { node } = useNode();

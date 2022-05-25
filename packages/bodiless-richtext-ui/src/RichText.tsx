@@ -16,8 +16,8 @@ import React from 'react';
 import {
   RichText as PlainRichText,
   RichTextProps,
-} from '@bodiless/richtext';
-import { Button } from '@bodiless/ui';
+} from '@asemirsk/richtext';
+import { Button } from '@asemirsk/ui';
 import StyledHoverMenu from './HoverMenu';
 import {
   CloseButton,

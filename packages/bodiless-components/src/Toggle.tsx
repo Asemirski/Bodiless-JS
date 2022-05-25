@@ -15,9 +15,9 @@
 import React, { Fragment, ComponentType, useMemo } from 'react';
 import {
   useNode, TMenuOption, withMenuOptions, withOnlyProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import { observer } from 'mobx-react';
-import { ComponentOrTag, HOC } from '@bodiless/fclasses';
+import { ComponentOrTag, HOC } from '@asemirsk/fclasses';
 
 type Data = {
   on: boolean,

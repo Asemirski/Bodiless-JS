@@ -13,12 +13,12 @@
  */
 
 import React, { FC } from 'react';
-import { withNode } from '@bodiless/core';
+import { withNode } from '@asemirsk/core';
 import {
   Div,
   withoutProps,
   DesignableProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { observer } from 'mobx-react';
 import { useItemHandlers } from './model';
 import { FlowContainerItem, FlowContainerComponents } from './types';

@@ -137,8 +137,8 @@ configured with additional Hero variants.
 ## Site Builder Details
 
 ```js
-import { as } from '@bodiless/fclasses'
-import { asCardToken, CardClean, vitalCard } from '@bodiless/vital-card';
+import { as } from '@asemirsk/fclasses'
+import { asCardToken, CardClean, vitalCard } from '@asemirsk/vital-card';
 
 const MyDefaultCard = as(
   vitalCard.Default,
@@ -193,4 +193,4 @@ const VerticalCard = as(asCardToken({
 
 Define a Shadowing token collection as defined in [Shadow](../VitalElements/Shadow).
 
-File to shadow: `packages/{my-package}/src/shadow/@bodiless/vital-card/Card.ts`
+File to shadow: `packages/{my-package}/src/shadow/@asemirsk/vital-card/Card.ts`

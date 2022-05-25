@@ -23,8 +23,8 @@ import {
   flowIf, hasProp, addClasses, withoutProps, StylableProps,
   removeClasses, flowHoc,
   A,
-} from '@bodiless/fclasses';
-import { Div } from '@bodiless/ui';
+} from '@asemirsk/fclasses';
+import { Div } from '@asemirsk/ui';
 import {
   TMenuOptionGetter,
   PageContextProvider,
@@ -36,10 +36,10 @@ import {
   LocalContextMenu,
   ContextWrapper,
   ContextWrapperProps,
-} from '@bodiless/core';
-import { Editable } from '@bodiless/components';
-import { Image } from '@bodiless/components-ui';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/core';
+import { Editable } from '@asemirsk/components';
+import { Image } from '@asemirsk/components-ui';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 
 import Layout from '../../../components/Layout';
 import { asEditableLink } from '../../../components/Elements.token';

@@ -15,8 +15,8 @@
 import React, { Fragment, FC } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { shallow, mount } from 'enzyme';
-import { useEditContext, TMenuOption } from '@bodiless/core';
-import { DesignableComponents, Design, ComponentWithMeta } from '@bodiless/fclasses';
+import { useEditContext, TMenuOption } from '@asemirsk/core';
+import { DesignableComponents, Design, ComponentWithMeta } from '@asemirsk/fclasses';
 import { EditFlowContainerProps } from '../../src/FlowContainer/types';
 import componentSelectorForm from '../../src/ComponentSelector/componentSelectorForm';
 import { useItemHandlers, useFlowContainerDataHandlers } from '../../src/FlowContainer/model';
@@ -36,7 +36,7 @@ const activateOnEffect = {
   setId: jest.fn(),
 };
 const contextMenuFormInner = jest.fn();
-jest.mock('@bodiless/core', () => ({
+jest.mock('@asemirsk/core', () => ({
   useEditContext: jest.fn(() => editContext),
   withContextActivator: jest.fn(() => (c:any) => c),
   useActivateOnEffect: jest.fn(() => activateOnEffect),

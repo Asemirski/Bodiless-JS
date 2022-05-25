@@ -1,9 +1,9 @@
 import React, { FC, HTMLProps } from 'react';
-import { asBodilessImage } from '@bodiless/components-ui';
-import { withNode } from '@bodiless/core';
+import { asBodilessImage } from '@asemirsk/components-ui';
+import { withNode } from '@asemirsk/core';
 import {
   Img, Section, Div, addClasses, as, stylable,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import withSimpleEditor from './withSimpleEditor';
 
 const Wrapper = Section;

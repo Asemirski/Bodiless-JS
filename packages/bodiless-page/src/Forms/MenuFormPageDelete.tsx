@@ -22,8 +22,8 @@ import {
   handleBackendResponse,
   useEditContext,
   useNode,
-} from '@bodiless/core';
-import { ComponentFormSpinner } from '@bodiless/ui';
+} from '@asemirsk/core';
+import { ComponentFormSpinner } from '@asemirsk/ui';
 import { usePageMenuOptionUI } from '../MenuOptionUI';
 import { createRedirect } from '../Operations';
 import { PATTERN_INSENSITIVE_VALID_PATH_URL } from '../constants';

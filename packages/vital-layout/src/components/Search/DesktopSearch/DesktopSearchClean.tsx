@@ -14,8 +14,8 @@
 
 import React, { FC } from 'react';
 
-import { Div, designable, Span } from '@bodiless/fclasses';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+import { Div, designable, Span } from '@asemirsk/fclasses';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 import { DesktopSearchComponents, DesktopSearchProps } from './types';
 import SearchIcon from '../assets/SearchIcon';
 

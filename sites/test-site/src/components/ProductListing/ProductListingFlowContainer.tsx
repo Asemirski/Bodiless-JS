@@ -11,13 +11,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { flowHoc, addProps } from '@bodiless/fclasses';
-import { withNodeKey } from '@bodiless/core';
+import { flowHoc, addProps } from '@asemirsk/fclasses';
+import { withNodeKey } from '@asemirsk/core';
 // @ts-ignore Could not find a declaration file
 import resolvedConfigs from
-  '@bodiless/fclasses/src/tailwindcss/resolveConfig';
-import { getSnapFrom, withTailwindClasses } from '@bodiless/layouts';
-import { FlowContainer } from '@bodiless/layouts-ui';
+  '@asemirsk/fclasses/src/tailwindcss/resolveConfig';
+import { getSnapFrom, withTailwindClasses } from '@asemirsk/layouts';
+import { FlowContainer } from '@asemirsk/layouts-ui';
 import withProductVariations from './withProductVariations';
 import { asFilterableProductContainer } from '../ProductCard/token';
 import { asFlowContainerWithMargins, asFlowContainerFullWidth } from '../FlowContainer/token';

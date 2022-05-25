@@ -12,9 +12,9 @@
  * limitations under the License.
  */
 
-import { BreadcrumbsClean } from '@bodiless/navigation';
-import type { BreadcrumbsComponents } from '@bodiless/navigation';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
+import { BreadcrumbsClean } from '@asemirsk/navigation';
+import type { BreadcrumbsComponents } from '@asemirsk/navigation';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
 
 export const asBreadcrumbsToken = asVitalTokenSpec<BreadcrumbsComponents>();
 

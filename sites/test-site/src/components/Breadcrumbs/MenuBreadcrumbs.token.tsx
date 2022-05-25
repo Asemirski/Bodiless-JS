@@ -21,15 +21,15 @@ import {
   withChild,
   asReadOnly,
   ifToggledOn,
-} from '@bodiless/core';
-import { withoutLinkWhenLinkDataEmpty } from '@bodiless/components';
+} from '@asemirsk/core';
+import { withoutLinkWhenLinkDataEmpty } from '@asemirsk/components';
 import {
   withBreadcrumbStartingTrail,
   withoutBreadcrumbFinalTrail,
   asAccessibleBreadcrumbs as asBaseAccessibleBreadcrumbs,
   useIsBreadcrumbItemCurrentPage,
   useIsLastBreadcrumbItemRenderedAsALink,
-} from '@bodiless/navigation';
+} from '@asemirsk/navigation';
 import {
   flowIf,
   flowHoc,
@@ -38,8 +38,8 @@ import {
   withDesign,
   replaceWith,
   remove,
-} from '@bodiless/fclasses';
-import { GatsbyLink } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/fclasses';
+import { GatsbyLink } from '@asemirsk/gatsby-theme-bodiless';
 import {
   asBold,
   asEditableLink,

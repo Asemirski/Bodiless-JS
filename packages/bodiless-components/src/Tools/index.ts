@@ -17,7 +17,7 @@ import {
   withMenuOptions,
   ContextSubMenu,
   useEditContext,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 
 const withToolsButton = withMenuOptions({
   useMenuOptions: () => [{

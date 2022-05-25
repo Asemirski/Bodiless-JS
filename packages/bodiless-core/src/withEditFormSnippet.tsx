@@ -17,7 +17,7 @@ import React, {
 } from 'react';
 import { v1 } from 'uuid';
 import flowRight from 'lodash/flowRight';
-import { Enhancer } from '@bodiless/fclasses';
+import { Enhancer } from '@asemirsk/fclasses';
 import { EditButtonProps, EditButtonOptions } from './Types/EditButtonTypes';
 import type { FormBodyRenderer as Renderer } from './Types/EditButtonTypes';
 import type { FormBodyProps as ContextMenuFormBodyProps } from './contextMenuForm';

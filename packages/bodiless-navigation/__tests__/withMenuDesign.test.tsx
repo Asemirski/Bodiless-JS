@@ -17,7 +17,7 @@ import flow from 'lodash/flow';
 import { mount } from 'enzyme';
 import {
   withDesign, addProps, flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   withListSubMenu, withMenuDesign, withColumnSubMenu, withCardsSubMenu,
   withMenuTitleEditors,

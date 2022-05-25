@@ -13,8 +13,8 @@
  */
 
 import { graphql } from 'gatsby';
-import { StyleGuideTemplateClean } from '@bodiless/vital-templates';
-import { as } from '@bodiless/fclasses';
+import { StyleGuideTemplateClean } from '@asemirsk/vital-templates';
+import { as } from '@asemirsk/fclasses';
 import { __vital__StyleGuidePage } from '--vital--';
 
 const StyleGuidePage = as(__vital__StyleGuidePage.Default)(StyleGuideTemplateClean);

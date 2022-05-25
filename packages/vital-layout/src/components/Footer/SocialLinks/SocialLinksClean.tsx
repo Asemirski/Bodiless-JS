@@ -13,8 +13,8 @@
  */
 
 import React, { FC } from 'react';
-import { asVitalTokenSpec } from '@bodiless/vital-elements';
-import { designable, Div } from '@bodiless/fclasses';
+import { asVitalTokenSpec } from '@asemirsk/vital-elements';
+import { designable, Div } from '@asemirsk/fclasses';
 import { FacebookIcon } from './assets/FacebookIcon';
 import { InstagramIcon } from './assets/InstagramIcon';
 import { YouTubeIcon } from './assets/YouTubeIcon';

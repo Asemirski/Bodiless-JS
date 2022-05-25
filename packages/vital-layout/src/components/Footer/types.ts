@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { ComponentOrTag, DesignableComponentsProps } from '@bodiless/fclasses';
+import { ComponentOrTag, DesignableComponentsProps } from '@asemirsk/fclasses';
 
 type FooterComponents = {
   Wrapper: ComponentOrTag<any>,

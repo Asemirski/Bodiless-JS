@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-rc.1](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.18...v1.0.0-rc.1) (2022-05-20)
 
-**Note:** Version bump only for package @bodiless/vital-elements
+**Note:** Version bump only for package @asemirsk/vital-elements
 
 
 
@@ -24,7 +24,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.17](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/vital-elements
+**Note:** Version bump only for package @asemirsk/vital-elements
 
 
 
@@ -32,7 +32,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.16](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2022-05-11)
 
-**Note:** Version bump only for package @bodiless/vital-elements
+**Note:** Version bump only for package @asemirsk/vital-elements
 
 
 
@@ -40,7 +40,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.15](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2022-05-10)
 
-**Note:** Version bump only for package @bodiless/vital-elements
+**Note:** Version bump only for package @asemirsk/vital-elements
 
 
 
@@ -48,7 +48,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.14](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2022-05-05)
 
-**Note:** Version bump only for package @bodiless/vital-elements
+**Note:** Version bump only for package @asemirsk/vital-elements
 
 
 
@@ -78,7 +78,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.11](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2022-04-28)
 
-**Note:** Version bump only for package @bodiless/vital-elements
+**Note:** Version bump only for package @asemirsk/vital-elements
 
 
 
@@ -114,7 +114,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.7](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.5...v1.0.0-beta.7) (2022-04-13)
 
-**Note:** Version bump only for package @bodiless/vital-elements
+**Note:** Version bump only for package @asemirsk/vital-elements
 
 
 
@@ -122,7 +122,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.5](https://github.com/johnsonandjohnson/bodiless-js/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2022-04-13)
 
-**Note:** Version bump only for package @bodiless/cx-elements
+**Note:** Version bump only for package @asemirsk/cx-elements
 
 
 
@@ -166,4 +166,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.0.0-beta.1](https://github.com/johnsonandjohnson/bodiless-js/compare/v0.3.7...v1.0.0-beta.1) (2022-03-14)
 
-**Note:** Version bump only for package @bodiless/cx-elements
+**Note:** Version bump only for package @asemirsk/cx-elements

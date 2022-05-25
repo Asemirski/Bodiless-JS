@@ -14,7 +14,7 @@
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { ComponentType } from 'react';
-import { useNode } from '@bodiless/core';
+import { useNode } from '@asemirsk/core';
 import { useBreadcrumbStore } from './BreadcrumbStoreProvider';
 
 import type {

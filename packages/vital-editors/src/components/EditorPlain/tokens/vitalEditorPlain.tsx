@@ -15,11 +15,11 @@
 import React from 'react';
 import {
   NodeProvider, useNode,
-} from '@bodiless/core';
-import { HOC } from '@bodiless/fclasses';
-import { asElementToken } from '@bodiless/vital-elements';
-import { withPlaceholder } from '@bodiless/components';
-import type { EditableData } from '@bodiless/components';
+} from '@asemirsk/core';
+import { HOC } from '@asemirsk/fclasses';
+import { asElementToken } from '@asemirsk/vital-elements';
+import { withPlaceholder } from '@asemirsk/components';
+import type { EditableData } from '@asemirsk/components';
 import { withAutoSuperscript } from '../util';
 
 const convertSlateToEditable = (componentData: any): EditableData => {

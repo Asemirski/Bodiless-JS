@@ -24,7 +24,7 @@ import {
   ifEditable,
   withContextActivator,
   withLocalContextMenu,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   designable,
   Div,
@@ -39,13 +39,13 @@ import {
   ComponentOrTag,
   ComponentWithMeta,
   Fieldset,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   asEditable,
   asBodilessList,
   asSubList, withDeleteNodeOnUnwrap,
   withSubLists,
-} from '@bodiless/components';
+} from '@asemirsk/components';
 import { TAG_ANY_KEY } from './FilterByGroupStore';
 import {
   TagTitleProps,

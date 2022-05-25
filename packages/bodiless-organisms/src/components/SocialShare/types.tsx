@@ -19,7 +19,7 @@ import {
 import {
   StylableProps,
   DesignableComponentsProps,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 export type SocialShareProvider = {
   id: string;

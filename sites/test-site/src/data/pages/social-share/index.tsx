@@ -16,8 +16,8 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import {
   Section, addClasses, H3,
-} from '@bodiless/fclasses';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/fclasses';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 import Layout from '../../../components/Layout';
 import SocialShare, { IconOnlySocialShare, EmailOnlySocialShare } from '../../../components/SocialShare';
 

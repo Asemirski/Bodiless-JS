@@ -14,7 +14,7 @@
 
 // Type of the data used by this component.
 import { HTMLProps } from 'react';
-import { AsBodiless, UseBodilessOverrides } from '@bodiless/core';
+import { AsBodiless, UseBodilessOverrides } from '@asemirsk/core';
 import { HrefNormalizer } from './NormalHref';
 import { FileUploadPickerUI } from '../FileUpload';
 

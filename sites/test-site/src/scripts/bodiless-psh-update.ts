@@ -18,7 +18,7 @@ import copyfiles from 'copyfiles';
 import { rename } from 'fs';
 
 // Copying configs for edit environment.
-const pshEditResourcesDir = './node_modules/@bodiless/psh/resources/edit';
+const pshEditResourcesDir = './node_modules/@asemirsk/psh/resources/edit';
 const paths = [
   `${pshEditResourcesDir}/*`,
   './edit',

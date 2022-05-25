@@ -20,10 +20,10 @@ import {
   addClassesIf,
   addProps,
   removeClasses,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import {
   ContextMenu, ContextMenuProps, ContextMenuUI, IContextMenuItemProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   ComponentFormTitle, ComponentFormLabel, ComponentFormText, ComponentFormButton,
   ComponentFormCloseButton, ComponentFormSubmitButton, ToolbarIcon, Div, HorizontalToolbarButton,
@@ -32,7 +32,7 @@ import {
   ComponentFormRadioGroup, ComponentFormSelect, ComponentFormOption, ContextSubMenu,
   ToolbarButtonLabel,
   ComponentFormSpinner,
-} from '@bodiless/ui';
+} from '@asemirsk/ui';
 import ReactTagsField from './ReactTags';
 
 // Stacked toolbar orientation...

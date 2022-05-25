@@ -14,19 +14,19 @@
 
 import React from 'react';
 import { graphql } from 'gatsby';
-import { getSnapFrom, withTailwindClasses, FlowContainerProps } from '@bodiless/layouts';
+import { getSnapFrom, withTailwindClasses, FlowContainerProps } from '@asemirsk/layouts';
 import {
   NodeViewer,
-} from '@bodiless/components';
-import { Page } from '@bodiless/gatsby-theme-bodiless';
+} from '@asemirsk/components';
+import { Page } from '@asemirsk/gatsby-theme-bodiless';
 // @ts-ignore Could not find declaration file.
 import resolvedConfigs from
-  '@bodiless/fclasses/src/tailwindcss/resolveConfig';
-import { withDefaultContent, withNodeKey, withResetButton } from '@bodiless/core';
+  '@asemirsk/fclasses/src/tailwindcss/resolveConfig';
+import { withDefaultContent, withNodeKey, withResetButton } from '@asemirsk/core';
 import {
   H2 as BaseH2, addClasses, flowHoc, addProps, withDesign, startWith,
-} from '@bodiless/fclasses';
-import { FlowContainer } from '@bodiless/layouts-ui';
+} from '@asemirsk/fclasses';
+import { FlowContainer } from '@asemirsk/layouts-ui';
 import Layout from '../../../components/Layout';
 // @ts-ignore Could not find declaration file.
 import {

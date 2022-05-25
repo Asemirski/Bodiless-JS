@@ -13,7 +13,7 @@
  */
 
 import React, { FC, ComponentType, HTMLProps } from 'react';
-import { withSidecarNodes } from '@bodiless/core';
+import { withSidecarNodes } from '@asemirsk/core';
 import {
   designable,
   DesignableComponentsProps,
@@ -24,7 +24,7 @@ import {
   addProps,
   flowHoc,
   A,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { asEditableImagePlain as asEditableImage } from '../Image';
 import { asEditableLink } from '../Elements.token';
 

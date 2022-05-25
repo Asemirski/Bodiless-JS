@@ -16,7 +16,7 @@ import React, { FC, ComponentType, KeyboardEvent } from 'react';
 import flow from 'lodash/flow';
 import {
   Fragment, A, DesignableComponentsProps, designable, HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 
 import { useBurgerMenuContext } from './BurgerMenuContext';
 import { withBurgerMenuTogglerStyles } from './BurgerMenu.token';

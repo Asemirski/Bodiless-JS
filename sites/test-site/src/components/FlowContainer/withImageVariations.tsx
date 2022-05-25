@@ -16,12 +16,12 @@ import {
   withTitle,
   withDesc,
   withFacet,
-} from '@bodiless/layouts';
+} from '@asemirsk/layouts';
 import {
   replaceWith,
   withDesign,
   flowHoc,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import { withType } from './Categories';
 import {
   SquareImage,

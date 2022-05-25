@@ -28,15 +28,15 @@ import {
   useMenuOptionUI,
   ContextMenuForm,
   withNodeKey,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 import {
   flowHoc,
   withOnlyProps,
   HOC,
-} from '@bodiless/fclasses';
+} from '@asemirsk/fclasses';
 import type {
   ContextMenuFormProps,
-} from '@bodiless/core';
+} from '@asemirsk/core';
 
 import { useGetDisabledPages, useIsAnyPageOptionDisabled, getCleanedUpData } from './hooks';
 import type { PageDisabledData, PageDisabledDataItem } from './types';

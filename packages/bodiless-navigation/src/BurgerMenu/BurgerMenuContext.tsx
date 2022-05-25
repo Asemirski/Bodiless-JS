@@ -15,7 +15,7 @@
 import React, {
   createContext, useContext, useState,
 } from 'react';
-import { HOC } from '@bodiless/fclasses';
+import { HOC } from '@asemirsk/fclasses';
 
 /**
  * Type of a Burger Menu Context.

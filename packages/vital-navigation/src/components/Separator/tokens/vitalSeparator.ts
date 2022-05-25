@@ -12,8 +12,8 @@
  * limitations under the License.
  */
 
-import { asElementToken, vitalColor } from '@bodiless/vital-elements';
-import { as } from '@bodiless/fclasses';
+import { asElementToken, vitalColor } from '@asemirsk/vital-elements';
+import { as } from '@asemirsk/fclasses';
 
 /**
  * An element token which adds a separator border to a footer menu item.

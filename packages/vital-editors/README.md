@@ -1,4 +1,4 @@
-# `@bodiless/vital-editors`
+# `@asemirsk/vital-editors`
 
 For documentation on the Vital Editors package, please see:
 

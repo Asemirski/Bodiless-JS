@@ -131,7 +131,7 @@ export const startWith = (ReplacementComponent: ComponentType<any>): HOC => Comp
  *
  * @example
  * ```js
- * import { Div, replaceWith } from `@bodiless/fclasses`;
+ * import { Div, replaceWith } from `@asemirsk/fclasses`;
  * const StartBase = Div; // <div />
  * const Start = addClasses('text-blue')(Start); // <div className="text-blue" />
  * const Replaced = replaceWith('span')(Start); // <span />

@@ -12,17 +12,17 @@
  * limitations under the License.
  */
 
-import { withNodeKey, withSidecarNodes } from '@bodiless/core';
+import { withNodeKey, withSidecarNodes } from '@asemirsk/core';
 import {
   Div,
   as,
   replaceWith,
   startWith,
-} from '@bodiless/fclasses';
-import { withBodilessLinkToggle, withPlaceholder } from '@bodiless/components';
-import { asBodilessLink } from '@bodiless/components-ui';
-import { vitalEditorPlain } from '@bodiless/vital-editors';
-import { vitalLink } from '@bodiless/vital-link';
+} from '@asemirsk/fclasses';
+import { withBodilessLinkToggle, withPlaceholder } from '@asemirsk/components';
+import { asBodilessLink } from '@asemirsk/components-ui';
+import { vitalEditorPlain } from '@asemirsk/vital-editors';
+import { vitalLink } from '@asemirsk/vital-link';
 import { asMenuTitleToken } from '../MenuTitleClean';
 import { withMenuTitleNoLink } from '../../../util';
 

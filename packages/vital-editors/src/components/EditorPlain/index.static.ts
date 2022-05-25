@@ -15,6 +15,6 @@
 import {
   StaticInline as EditorPlainClean,
   staticTokenCollection as vitalEditorPlain,
-} from '@bodiless/hydration';
+} from '@asemirsk/hydration';
 
 export { EditorPlainClean, vitalEditorPlain };

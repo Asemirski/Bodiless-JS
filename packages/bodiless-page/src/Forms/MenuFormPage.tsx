@@ -15,8 +15,8 @@
 import React from 'react';
 import {
   ContextMenuProvider,
-} from '@bodiless/core';
-import { ComponentFormSpinner } from '@bodiless/ui';
+} from '@asemirsk/core';
+import { ComponentFormSpinner } from '@asemirsk/ui';
 import { usePageMenuOptionUI } from '../MenuOptionUI';
 import {
   PageStatus,

@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-import { ComponentOrTag } from '@bodiless/fclasses';
+import { ComponentOrTag } from '@asemirsk/fclasses';
 import React, {
   useState, useRef, useLayoutEffect, FC
 } from 'react';

@@ -14,7 +14,7 @@
 
 import { useContext, useState, useEffect } from 'react';
 import { CarouselContext } from 'pure-react-carousel';
-import { useListContext } from '@bodiless/components';
+import { useListContext } from '@asemirsk/components';
 
 /**
  * implemented per pure-react-carousel doc
