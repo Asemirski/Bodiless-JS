@@ -113,7 +113,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.4.0",
-    "@asemirsk/webpack": "^1.0.0-rc.1",
+    
     "@types/react-helmet": "^6.1.0",
     "copyfiles": "^2.1.1",
     "cross-env": "^5.2.0",

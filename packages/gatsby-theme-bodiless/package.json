@@ -62,7 +62,7 @@
     "@asemirsk/organisms": "^1.0.0-rc.1",
     "@asemirsk/page": "^1.0.0-rc.1",
     "@asemirsk/ui": "^1.0.0-rc.1",
-    "@asemirsk/webpack": "^1.0.0-rc.1",
+    
     "@types/walk": "^2.3.0",
     "autoprefixer": "^10.4.2",
     "axios": "^0.21.0",
