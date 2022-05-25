@@ -13,7 +13,7 @@
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.4.0",
     "@asemirsk/backend": "^1.0.0-rc.1",
-    "@asemirsk/cli": "^1.0.0-rc.1",
+    
     "@asemirsk/components": "^1.0.0-rc.1",
     "@asemirsk/components-ui": "^1.0.0-rc.1",
     "@asemirsk/core": "^1.0.0-rc.1",

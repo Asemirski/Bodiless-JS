@@ -27,7 +27,7 @@
     "audit": "node ./index.js $*"
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0-rc.1",
+    
     "arg": "^4.1.1",
     "chalk": "^2.4.2",
     "esm": "^3.2.25",

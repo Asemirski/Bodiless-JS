@@ -26,7 +26,7 @@
     "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0-rc.1",
+    
     "@asemirsk/components": "^1.0.0-rc.1",
     "@asemirsk/core": "^1.0.0-rc.1",
     "@asemirsk/fclasses": "^1.0.0-rc.1",

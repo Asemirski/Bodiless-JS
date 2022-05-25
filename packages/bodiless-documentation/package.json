@@ -37,7 +37,7 @@
     "clean": "rimraf \"lib/*\" && rimraf tsconfig.tsbuildinfo && rimraf \"doc/api\""
   },
   "dependencies": {
-    "@asemirsk/cli": "^1.0.0-rc.1",
+    
     "@types/fs-extra": "^8.0.0",
     "@types/lodash": "^4.14.158",
     "@types/lodash.flow": "^3.5.6",
