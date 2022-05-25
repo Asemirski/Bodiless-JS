@@ -19,8 +19,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        #with:
-          #ref: refs/pull/${{ github.event.pull_request.number }}/merge
+        with:
+          ref: refs/pull/${{ github.event.pull_request.number }}/merge
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
