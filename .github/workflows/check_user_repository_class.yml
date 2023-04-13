@@ -12,7 +12,9 @@ jobs:
       - name: Check for UserRepository class use
         run: |
           diff=$(git diff origin/main origin/${GITHUB_HEAD_REF})
-          if $(echo "$diff" | (grep -q -E '^\+') | (grep -q -E '(^|\s|\.|\+)UserRepository(\s|$|\(|;)')); then
-            echo 'UserRepo usage found'
+          if $(echo "$diff" | (grep -E '^\+') | (grep -E -q '(^|\s|\.|\+)UserRepository(\s|$|\(|;)')); then
+            echo 'Class usage found'
             exit 1
+          esle
+            echo 'No restricted class, good to go'
           fi
