@@ -11,7 +11,7 @@ jobs:
           fetch-depth: 0
       - name: Check for UserRepository class use
         run: |
-          diff=$(origin/master origin/${GITHUB_HEAD_REF})
+          diff=$(git diff origin/master origin/${GITHUB_HEAD_REF})
           if (echo "$diff" | (grep -E '^\+') | (grep -q -E '(^|\s|\.|\+)UserRepository(\s|$|\(|;)')); then
               echo 'found'
               exit 1
