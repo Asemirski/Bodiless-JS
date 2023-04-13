@@ -13,8 +13,8 @@ jobs:
         run: |
           diff=$(git diff origin/main origin/${GITHUB_HEAD_REF})
           if $(echo "$diff" | (grep -E '^\+') | (grep -E -q '(^|\s|\.|\+)UserRepository(\s|$|\(|;)')); then
-            echo 'Class usage found'
+            echo 'UserRepository class is used in new code.'
             exit 1
           else
-            echo 'No restricted class, good to go'
+            echo 'No UserRepository class, good to go'
           fi
