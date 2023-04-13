@@ -12,6 +12,8 @@ jobs:
       - name: Check for UserRepository class use
         run: |
           diff=$(git diff origin/master origin/${GITHUB_HEAD_REF})
-          echo $diff
           a=$(echo "$diff" | (grep -E '^\+'))
+          b=$(echo "$a" | (grep -q -E '(^|\s|\.|\+)UserRepository(\s|$|\(|;)'))
           echo $a
+          ================
+          echo $b
