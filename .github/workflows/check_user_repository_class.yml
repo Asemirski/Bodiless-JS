@@ -15,6 +15,6 @@ jobs:
           if $(echo "$diff" | (grep -E '^\+') | (grep -E -q '(^|\s|\.|\+)UserRepository(\s|$|\(|;)')); then
             echo 'Class usage found'
             exit 1
-          esle
+          else
             echo 'No restricted class, good to go'
           fi
