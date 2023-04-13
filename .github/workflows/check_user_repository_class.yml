@@ -12,7 +12,7 @@ jobs:
       - name: Check for UserRepository class use
         run: |
           diff=$(git diff origin/master origin/${GITHUB_HEAD_REF})
-          if (echo "$diff" | (grep -E '^\+') | (grep -q -E '(^|\s|\.|\+)UserRepository(\s|$|\(|;)')); then
+          if $(echo "$diff" | (grep -E '^\+') | (grep -q -E '(^|\s|\.|\+)UserRepository(\s|$|\(|;)')); then
               echo 'found'
               exit 1
           fi
