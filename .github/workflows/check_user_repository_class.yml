@@ -13,7 +13,7 @@ jobs:
         run: |
           diff=$(git diff origin/main origin/${GITHUB_HEAD_REF})
           a=$(echo "$diff" | (grep -E '^\+'))
-          b=$(echo "$a" | (grep -E '(^|\s|\.|\+)UserRepository(\s|$|;))'))
+          b=$(echo "$a" | (grep -E '(^|\s|\.|\+)UserRepository(\s|$|\()'))
           echo $a
           echo '================'
           echo $b
